@@ -1,0 +1,138 @@
+{
+  "title": "Assinaturas de {name}",
+  "loadFailed": "Não foi possível carregar",
+  "theme": {
+    "title": "Tema: {mode} (clique para alternar)",
+    "aria": "Tema: {mode}, clique para alternar"
+  },
+  "currency": "Moeda de exibição",
+  "hero": {
+    "monthly": "Gasto mensal com assinaturas",
+    "flat": "Igual ao mesmo mês do ano passado",
+    "more": "{amount} a mais que no mesmo mês do ano passado",
+    "less": "{amount} a menos que no mesmo mês do ano passado",
+    "yearly": "Por ano",
+    "paid": "Pago desde {year}"
+  },
+  "timeline": {
+    "title": "Linha do tempo",
+    "upcoming": {
+      "one": "{count} cobrança nos próximos 30 dias\n{amount}",
+      "other": "{count} cobranças nos próximos 30 dias\n{amount}"
+    }
+  },
+  "chart": {
+    "title": "Cobranças mensais",
+    "desc": "Últimos 12 meses e próximos 3; barras hachuradas são previsões",
+    "paid": "Pago",
+    "mrr": "Custo mensal",
+    "charge": "Cobrado",
+    "thisMonth": "Este mês",
+    "projected": "{month}\nPrevisto"
+  },
+  "ended": {
+    "title": "Canceladas"
+  },
+  "perMonth": "{amount}/mês",
+  "lifetime": {
+    "title": "Vitalícias",
+    "desc": "Pagas uma vez, sem novas cobranças"
+  },
+  "composition": {
+    "title": "Composição",
+    "desc": "Custo mensal por categoria",
+    "other": "Outros"
+  },
+  "count": "{count}",
+  "fx": {
+    "title": "Câmbio",
+    "flat": "O câmbio quase não alterou os custos no último ano",
+    "less": "Pelo câmbio de hoje, você paga {amount} a menos por mês que há um ano",
+    "more": "Pelo câmbio de hoje, você paga {amount} a mais por mês que há um ano",
+    "share": "{pct}%"
+  },
+  "list": {
+    "title": "Assinaturas",
+    "summary": {
+      "one": "{count}\n{amount}/mês",
+      "other": "{count}\n{amount}/mês"
+    },
+    "all": "Todas"
+  },
+  "row": {
+    "ends": "\nTermina em {date}",
+    "renews": "\nRenova em {date}",
+    "perMonthEq": "Equiv. mensal"
+  },
+  "titleAnon": "Assinaturas",
+  "pile": {
+    "label": "Suas assinaturas empilhadas — quanto maior, mais custa"
+  },
+  "calendar": {
+    "title": "Calendário"
+  },
+  "years": {
+    "title": "Linha do tempo de assinaturas"
+  },
+  "tenure": {
+    "title": "Tempo de assinatura",
+    "avg": "Tempo médio das assinaturas ativas",
+    "longest": "Mantida por mais tempo"
+  },
+  "treemap": {
+    "title": "Mapa de gastos",
+    "missing": {
+      "one": "{count} assinatura sem taxa de câmbio não foi incluída",
+      "other": "{count} assinaturas sem taxa de câmbio não foram incluídas"
+    }
+  },
+  "changes": {
+    "title": "Alterações",
+    "more": "Mostrar tudo ({n})",
+    "less": "Mostrar menos",
+    "kind": {
+      "added": "Nova",
+      "resumed": "Retomada",
+      "buy": "Compra única",
+      "up": "Aumento de preço",
+      "down": "Redução de preço",
+      "switch": "Troca de região ou plano",
+      "stopped": "Encerrada",
+      "paused": "Pausada"
+    }
+  },
+  "waterfall": {
+    "title": "Variação mensal",
+    "prev": "Mês anterior",
+    "next": "Próximo mês",
+    "from": "Início",
+    "added": "Novas",
+    "expansion": "Aumento de preço",
+    "contraction": "Redução de preço",
+    "churned": "Encerradas",
+    "fx": "Câmbio",
+    "to": "Agora",
+    "monthEnd": "Fim do mês",
+    "incomplete": "Faltam taxas de câmbio, não é possível desenhar o gráfico"
+  },
+  "metric": {
+    "monthly": "Gasto mensal",
+    "yearly": "Por ano",
+    "active": "Assinaturas ativas",
+    "avgPerSub": "Média por assinatura",
+    "paidTotal": "Total pago",
+    "paidYear": "Pago este ano",
+    "paidMonth": "Pago este mês",
+    "next30": "Próximos 30 dias",
+    "topSub": "Mais cara",
+    "topCategory": "Maior categoria",
+    "endedCount": "Canceladas",
+    "lifetimeCount": "Compra única",
+    "fxEffect": "Efeito cambial (mensal)",
+    "vsPrev": "vs. ano passado",
+    "shareOf": "Participação no gasto mensal"
+  },
+  "globe": {
+    "title": "Regiões das assinaturas"
+  }
+}

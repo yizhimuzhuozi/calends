@@ -1,0 +1,252 @@
+{
+  "currency": {
+    "SLE": "Sierra-leonischer Leone",
+    "XCG": "Karibischer Gulden",
+    "ZWG": "Zimbabwe Gold"
+  },
+  "bill": {
+    "m1": "Monatlich",
+    "m3": "Vierteljährlich",
+    "m6": "Halbjährlich",
+    "m12": "Jährlich",
+    "custom": {
+      "one": "Jeden Monat",
+      "other": "Alle {count} Monate"
+    },
+    "once": "Einmalig"
+  },
+  "cycle": {
+    "lifetime": "Lebenslang",
+    "once": "einmalig",
+    "every": {
+      "day": "Täglich",
+      "week": "Wöchentlich",
+      "month": "Monatlich",
+      "year": "Jährlich"
+    },
+    "quarterly": "Vierteljährlich",
+    "halfYearly": "Halbjährlich",
+    "biennial": "Alle 2 Jahre",
+    "everyN": {
+      "day": {
+        "one": "Jeden Tag",
+        "other": "Alle {count} Tage"
+      },
+      "week": {
+        "one": "Jede Woche",
+        "other": "Alle {count} Wochen"
+      },
+      "month": {
+        "one": "Jeden Monat",
+        "other": "Alle {count} Monate"
+      },
+      "year": {
+        "one": "Jedes Jahr",
+        "other": "Alle {count} Jahre"
+      }
+    }
+  },
+  "subError": {
+    "name": "Name ist erforderlich",
+    "price": "Ungültiger Preis",
+    "paymentCurrency": "Die Zahlungswährung muss der Währung des Tarifs entsprechen",
+    "start": "Ungültiges Startdatum",
+    "cycle": "Ungültiger Abrechnungszeitraum",
+    "refundAmount": "Positiven Erstattungsbetrag und gültige Währung eingeben",
+    "refundDate": "Austrittsdatum angeben; Erstattung nicht vor dem Beitritt",
+    "funding": "Ungültige Aufteilung: Mindestens zwei verschiedene Zahlungsmethoden mit Beträgen ungleich null angeben und keine einzelne Zahlungsmethode für dieselbe Zahlung setzen",
+    "fundingSum": "Die aufgeteilten Beträge müssen den Zahlungsbetrag ergeben",
+    "transfer": "Ungültige Übertragung: Art, Datum, positiver Betrag und Währung sind erforderlich",
+    "meter": "Ungültige Messgröße: eindeutige id und Name erforderlich",
+    "reading": "Ungültiger Nutzungseintrag: eindeutige id, gültiges Datum und Zahlenwerte erforderlich",
+    "meterLink": "Die verknüpfte Messgröße existiert nicht oder ist selbst eine Verknüpfung",
+    "meterLinkUsed": "„{meter}“ ist mit „{name}“ verknüpft; entferne zuerst dort die Verknüpfung",
+    "readingMeter": "Ein Nutzungseintrag verweist auf eine nicht definierte Messgröße"
+  },
+  "phase": {
+    "switchTooEarly": "Das Gültigkeitsdatum muss nach dem Beginn der aktuellen Phase liegen",
+    "resumeNeedsStopDate": "Gib vor dem Fortsetzen das tatsächliche Stoppdatum ein und speichere es",
+    "resumeTooEarly": "Das Fortsetzungsdatum darf nicht vor dem letzten Enddatum liegen",
+    "prependTooLate": "Die frühere Phase muss vor dem Abo-Beginn starten",
+    "prependUntil": "Die frühere Phase muss nach ihrem Beginn und vor dem ursprünglichen Startdatum enden",
+    "priceOutOfRange": "Das Datum der Preisänderung liegt in keiner Phase",
+    "keepTooEarly": "Das Weiterlaufen-bis-Datum muss nach dem Wechseldatum liegen",
+    "endTooEarly": "Das Enddatum muss nach dem Beginn dieser Phase liegen",
+    "endOnNextStart": "Das Enddatum ist der letzte Leistungstag und darf nicht auf den Beginn der nächsten Phase fallen; zum nahtlosen Übergang leer lassen oder den Vortag wählen",
+    "startOrder": "Der Beginn muss nach dem Beginn der vorherigen und vor dem der nächsten Phase liegen.",
+    "priceDuplicate": "An diesem Datum gibt es bereits einen Preis",
+    "priceInitial": "Der Anfangspreis kann nicht gelöscht werden",
+    "upgradeUnavailable": "Dieser Wechsel kann das alte Abo nicht anrechnen: Er muss bereits gelten, dieselbe Währung und Vorauszahlung nutzen, und im alten Abo müssen ungenutzte Tage übrig sein. Für das alte Abrechnungsdatum muss auch der Zyklus gleich bleiben."
+  },
+  "event": {
+    "label": "{region}{price}/{per}",
+    "region": "{region} ",
+    "per": {
+      "year": "J.",
+      "month": "Mon.",
+      "months": "{count} Mon.",
+      "week": "Wo.",
+      "day": "Tag"
+    }
+  },
+  "listSep": ", ",
+  "insight": {
+    "yearly": {
+      "title": {
+        "one": "{count} langfristiges Abo verlängert sich in den nächsten 60 Tagen",
+        "other": "{count} langfristige Abos verlängern sich in den nächsten 60 Tagen"
+      },
+      "body": "Insgesamt etwa {sum}. Jahresabbuchungen lassen sich schwer erstatten – jetzt ist der Moment, zu entscheiden, was bleibt."
+    },
+    "dup": {
+      "title": "{names} sind vielleicht doppelt",
+      "body": {
+        "one": "Dieses Abo kostet etwa {sum} im Monat. Prüfe, ob du es noch brauchst.",
+        "other": "Diese {count} Abos kosten zusammen etwa {sum} im Monat. Prüfe, ob du noch alle brauchst."
+      }
+    },
+    "hikes": {
+      "title": {
+        "one": "{count} Abo hat im letzten Jahr den Preis erhöht",
+        "other": "{count} Abos haben im letzten Jahr die Preise erhöht"
+      }
+    },
+    "intro": {
+      "title": {
+        "one": "Das Angebot für {name} endet in {count} Tag",
+        "other": "Das Angebot für {name} endet in {count} Tagen"
+      },
+      "body": "Danach steigt der Preis von {from} wieder auf {to}."
+    },
+    "balance": {
+      "title": "{name} reicht nicht bis {date}",
+      "body": "{sub} kostet {need}, bis dahin bleiben nur {current}.",
+      "bodyOver": "{sub} kostet {need}, das Guthaben liegt bereits bei {current}.",
+      "bodyToday": "Nach dem heutigen {sub} ({need}) beträgt das Guthaben {current}."
+    },
+    "fx": {
+      "title": "{pct} % der Ausgaben sind in Fremdwährungen",
+      "body": "Am größten ist {ccy} ({share} %). Dieser Teil wird günstiger, wenn {ccy} schwächer wird, und teurer, wenn sie stärker wird."
+    },
+    "noMethod": {
+      "title": {
+        "one": "{count} Abo hat keine Zahlungsmethode",
+        "other": "{count} Abos haben keine Zahlungsmethode"
+      },
+      "body": "Füge eine hinzu, damit Guthabenprognosen und Statistiken pro Zahlungsmethode vollständig sind."
+    },
+    "top": {
+      "title": "{name} ist dein teuerstes Abo",
+      "body": "Etwa {perDay} pro Tag, {pct} % der monatlichen Ausgaben."
+    }
+  },
+  "methodKind": {
+    "debit": "Bankkarte",
+    "credit": "Kreditkarte",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "paypal": "PayPal",
+    "appstore": "App Store",
+    "googleplay": "Google Play",
+    "giftcard": "Geschenkkarte",
+    "prepaid": "Store-Guthaben",
+    "phone": "Mobilfunkguthaben",
+    "crypto": "Kryptokarte",
+    "other": "Sonstiges"
+  },
+  "publicMethod": "{kind}\n{region}",
+  "channel": {
+    "email": "E-Mail"
+  },
+  "csv": {
+    "appStoreBalance": "App Store-Guthaben {region}",
+    "otherCategory": "Sonstiges"
+  },
+  "category": {
+    "ai": "KI",
+    "tools": "Tools",
+    "productivity": "Produktivität",
+    "media": "Video",
+    "music": "Musik",
+    "games": "Spiele",
+    "cloud": "Cloud & Server",
+    "storage": "Speicher",
+    "domains": "Domains",
+    "vpn": "VPN & Netzwerk",
+    "developer": "Entwicklung",
+    "design": "Design",
+    "education": "Bildung",
+    "news": "News & Lesen",
+    "social": "Social Media",
+    "shopping": "Shopping",
+    "finance": "Finanzen",
+    "insurance": "Versicherung",
+    "health": "Gesundheit & Fitness",
+    "phone": "Mobilfunk",
+    "daily": "Alltag"
+  },
+  "stop": {
+    "title": "Dienst beenden",
+    "nonrenew": "Nicht verlängern",
+    "cancel": "Sofort beenden",
+    "terminate": "Vom Anbieter gesperrt",
+    "date": "Enddatum",
+    "paidThrough": "Bezahlt bis {date}",
+    "refundYes": "Erstattet",
+    "refundNo": "Nicht erstattet",
+    "refundAmount": "Erstattungsbetrag",
+    "refundDate": "Erstattungsdatum",
+    "reason": "Grund (optional)",
+    "refunded": "Erstattet {money}",
+    "partial": "Teilerstattung {money}",
+    "unrefunded": "Keine Erstattung\nVerlust {money}",
+    "unused": "Nicht erstatteter Verlust: {money} ({days})",
+    "unusedTitle": "Nicht erstattet",
+    "terminated": "Gesperrt",
+    "restore": "Reaktivieren",
+    "fxMissing": "Einige Verluste können wegen fehlender Wechselkurse nicht umgerechnet werden. Die Originalbeträge bleiben in den Details erhalten.",
+    "lossTitle": "Nicht erstatteter Verlust",
+    "lossDays": {
+      "one": "{count} Tag",
+      "other": "{count} Tage"
+    },
+    "fullyRefunded": "Vollständig erstattet",
+    "chargeOnEnd": "An diesem Tag wird noch verlängert. Wähle den Vortag, um das zu vermeiden.",
+    "nonrenewDone": "Keine Verlängerung. Nach dem {date} keine Abbuchungen mehr.",
+    "stoppedDone": "Dienst beendet",
+    "method": "Art der Beendigung",
+    "latestRefundHint": "Diese Felder bearbeiten die letzte Erstattung. Frühere Erstattungen bleiben im Zahlungsverlauf."
+  },
+  "renewal": {
+    "title": "Verlängerungsregeln",
+    "chargeLeadDays": "Tage vorab abbuchen",
+    "cancelLeadDays": "Tage vorher kündigen",
+    "nextDue": "Nächste Abbuchung",
+    "hint": "Abbuchung vor der Verlängerung, Kündigung vor der Abbuchung. Tage eingeben; 0 bedeutet keine. Leistungszeiträume bleiben gleich.",
+    "cancelBy": "Kündigungsfrist",
+    "invalid": "Ganze Zahlen von 0 bis 3660 Tagen eingeben.",
+    "tooLate": "Die Kündigungsfrist ist abgelaufen. Der nächste Zeitraum wird noch berechnet.",
+    "cancelReminder": "Bis {date} kündigen, um die nächste Abbuchung zu vermeiden.",
+    "none": "Keine"
+  },
+  "import": {
+    "invalid": "Diese Datei konnte nicht als Abonnementdaten gelesen werden.",
+    "tooLarge": "Wähle eine Datei mit höchstens 32 MB.",
+    "pending": "Dieses Backup enthält ausstehende Änderungen. Erstelle zuerst ein konsistentes Datenbank-Backup.",
+    "currency": "Wähle die Währung; das Quellsymbol ist mehrdeutig oder nicht unterstützt.",
+    "cycle": "Wähle einen gültigen Abrechnungszyklus.",
+    "price": "Gib einen gültigen Betrag ab null ein.",
+    "date": "Gib ein gültiges Datum ein.",
+    "selectUser": "Wähle ein Konto aus diesem Backup.",
+    "payers": "Bezahlt von",
+    "unknownStart": "Das ursprüngliche Startdatum ist unbekannt; die Erfassung beginnt am gewählten Datum.",
+    "manual": "Manuelle Verlängerung in der Quelle; als pausiert importiert.",
+    "reviewRequired": "Öffne diese Datei über Daten importieren und prüfe die Felder.",
+    "badDate": "Ursprüngliches {field} „{value}“ nicht erkannt, nicht importiert",
+    "nextDue": "nächstes Zahlungsdatum",
+    "end": "Enddatum"
+  },
+  "fxIncomplete": "Einige Beträge lassen sich mangels Wechselkurs nicht umrechnen; das Ergebnis ist unvollständig.",
+  "fxUnconverted": "Nicht umgerechnet: {amount}",
+  "fxOther": "und {count} weitere Währungen"
+}

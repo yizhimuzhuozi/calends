@@ -1,0 +1,275 @@
+{
+  "note": {
+    "more": "Alles anzeigen"
+  },
+  "renewal": {
+    "afterTrial": "Erste Abbuchung nach dem Test",
+    "elapsed": "{pct} % dieses Zeitraums vergangen"
+  },
+  "overlap": {
+    "title": "Läuft parallel",
+    "previous": "Vorheriger Tarif",
+    "until": "Bis {date}\n{rel}"
+  },
+  "action": {
+    "edit": "Bearbeiten",
+    "pause": "Pausieren",
+    "resume": "Fortsetzen",
+    "manage": "Verwalten",
+    "share": "Teilen",
+    "copyImage": "Als Bild kopieren"
+  },
+  "toast": {
+    "resumed": "Abrechnung fortgesetzt",
+    "paused": "Pausiert. Künftige Abbuchungen werden nicht mehr prognostiziert",
+    "imageCopied": "Bild kopiert"
+  },
+  "snapshotRest": "{count} weitere",
+  "history": "Verlauf",
+  "field": {
+    "amount": "Betrag",
+    "cycle": "Abrechnungszeitraum",
+    "category": "Kategorie",
+    "method": "Zahlungsmethode",
+    "next": "Nächste Fälligkeit",
+    "expiresHint": "Die automatische Verlängerung bucht vor diesem Datum ab",
+    "endedOn": "Beendet am",
+    "trialEnd": "Testphase endet",
+    "region": "Region",
+    "period": "Zeitraum",
+    "present": "heute",
+    "endedUnknown": "Beendet; Datum unbekannt"
+  },
+  "up": {
+    "planned": "Geplante Änderung\nnicht bestätigt",
+    "starting": "Beginnt bald",
+    "changing": "Anstehende Änderung",
+    "effective": "Gültig ab"
+  },
+  "plan": {
+    "drop": "Nicht wechseln",
+    "droppedToast": "Kein Wechsel. Endet nach dem {date}",
+    "confirm": "Wechsel bestätigen",
+    "confirmedToast": "Wechsel bestätigt"
+  },
+  "intro": {
+    "title": "Einführungsangebot",
+    "price": "Einführungspreis",
+    "until": "Angebot endet",
+    "then": "Danach"
+  },
+  "share": {
+    "open": "Gruppe öffnen",
+    "owner": "Geteilt\nich organisiere ({count}/{seats})",
+    "member": "Geteilt\nich bin dabei",
+    "payTo": "Zahlen an",
+    "host": "Organisator",
+    "unnamed": "Ohne Namen",
+    "me": "Ich"
+  },
+  "charges": {
+    "recentN": {
+      "one": "Nur die letzten {count}",
+      "other": "Nur die letzten {count}"
+    },
+    "addShort": "Erfassen",
+    "title": "Abbuchungen",
+    "paidOn": "Bezahlt am {date}",
+    "kind": {
+      "refund": "Erstattung",
+      "adjust": "Korrektur",
+      "failed": "Fehlgeschlagen"
+    },
+    "add": "Eintrag hinzufügen (Erstattung, Korrektur, fehlgeschlagene Abbuchung, Kartenbetrag …)"
+  },
+  "stats": {
+    "spent": "Gesamtausgaben",
+    "count": {
+      "one": "{count} Abbuchung",
+      "other": "{count} Abbuchungen"
+    },
+    "owned": "Im Besitz seit",
+    "subscribed": "Abonniert seit",
+    "yearsMonths": "{years} J. {months} Mon.",
+    "years": {
+      "one": "{count} Jahr",
+      "other": "{count} Jahre"
+    },
+    "months": {
+      "one": "{count} Monat",
+      "other": "{count} Monate"
+    },
+    "days": {
+      "one": "{count} Tag",
+      "other": "{count} Tage"
+    },
+    "gaps": {
+      "one": "Einmal unterbrochen",
+      "other": "{count}-mal unterbrochen"
+    },
+    "perMonth": "Tatsächlich pro Monat",
+    "spentThisYear": "Dieses Jahr ausgegeben",
+    "allTime": "Gesamt {amount}"
+  },
+  "tab": {
+    "charges": "Abbuchungen\n{count}",
+    "details": "Details"
+  },
+  "kpi": {
+    "noGaps": "Keine Unterbrechung",
+    "startedToday": "Heute begonnen",
+    "expectedMonthly": "Voraussichtlich pro Monat",
+    "amortizedCost": "Umgelegte Kosten",
+    "perMonthValue": "{amount}/Monat",
+    "perDay": "{amount} pro Tag",
+    "thisYearMonthly": "Dieses Jahr pro Monat",
+    "averageMonthly": "Schnitt {amount}/Monat",
+    "dailyAmount": "{amount}/Tag"
+  },
+  "chart": {
+    "title": "Pro Abbuchung\n{ccy}",
+    "all": "Alle",
+    "y1": "1 J.",
+    "m6": "6 M.",
+    "period": "Zeitraum",
+    "converted": "Umgerechnet",
+    "average": "Durchschnitt",
+    "method": "Zahlung",
+    "paidOn": "Bezahlt",
+    "bucket": {
+      "m1": "Jeder Balken ist eine Monatssumme",
+      "m3": "Jeder Balken ist eine Quartalssumme",
+      "m12": "Jeder Balken ist eine Jahressumme"
+    },
+    "regular": "Normalpreis",
+    "saved": "Einführungsrabatt",
+    "unknownEnd": "Enddatum unbekannt; Diagramm auf bekannte Zahlungszeiträume begrenzt"
+  },
+  "ev": {
+    "next": "Nächste Abbuchung",
+    "gap": "Unterbrochen",
+    "start": "Abonniert",
+    "switch": "Tarif gewechselt",
+    "price": "Preisänderung",
+    "introEnd": "Wieder regulärer Preis",
+    "paused": "Pausiert",
+    "ended": "Beendet",
+    "ending": "Endet",
+    "phases": {
+      "one": "{count} Phase",
+      "other": "{count} Phasen"
+    },
+    "more": {
+      "one": "{count} frühere anzeigen",
+      "other": "{count} frühere anzeigen"
+    },
+    "shareStart": "Teilen begonnen"
+  },
+  "stop": {
+    "title": "Beendigung & Erstattung",
+    "type": "Art der Beendigung",
+    "paidThrough": "Ursprünglich bezahlt bis",
+    "loss": "−{money} ({days})"
+  },
+  "timeline": {
+    "planned": "Erwartet"
+  },
+  "period": {
+    "paid": "Aktuelle Periode",
+    "trial": "Testphase",
+    "bonus": "Bonuszeitraum",
+    "since": "Seit {date}",
+    "sub": "Abo",
+    "collect": "Einzug"
+  },
+  "transfer": {
+    "title": "Übertragungen",
+    "held": "Besessen",
+    "net": "Nettokosten",
+    "included": "Inkl. Übertragungen",
+    "kind": {
+      "label": "Art",
+      "buy": "Gekauft",
+      "sell": "Verkauft"
+    },
+    "hint": {
+      "buy": "Bargeld an den Vorbesitzer bei der Übernahme (inkl. Aufpreis). Gib den tatsächlich gezahlten Betrag ein.",
+      "sell": "Bei der Weitergabe erhaltenes Geld. Gib den tatsächlich erhaltenen Betrag ein; die Restlaufzeit gilt nicht mehr als bezahlt, aber ungenutzt."
+    },
+    "paid": "Gezahlter Betrag",
+    "received": "Erhaltener Betrag",
+    "addTitle": "Übertragung erfassen",
+    "editTitle": "Übertragung bearbeiten",
+    "saved": "Übertragung gespeichert",
+    "deleted": "Diese Übertragung löschen",
+    "foot": "Tatsächlich gezahltes oder erhaltenes Geld bei Übernahme oder Weitergabe aus zweiter Hand. Zählt zu Nettokosten und Cashflow, nicht zu Monatskosten, Verlängerungsprognosen oder Abbuchungen.",
+    "add": "Erfassen",
+    "none": "Noch keine Übertragungen",
+    "netGain": "Nettogewinn",
+    "head": {
+      "date": "Datum",
+      "amount": "Betrag",
+      "base": "In {ccy}"
+    }
+  },
+  "billing": {
+    "postpaid": "Nachträglich",
+    "nextBill": "Nächste Rechnung"
+  },
+  "meters": {
+    "title": "Nutzungsdetails",
+    "add": "Nutzungsdaten hinzufügen",
+    "manage": "Messgrößen",
+    "manageTitle": "Messgrößen für Nutzungsdaten",
+    "addTitle": "Werte erfassen",
+    "editTitle": "Eintrag bearbeiten",
+    "name": "Name",
+    "unit": "Einheit",
+    "namePh": "z. B. Strom, Kilometer, Datenvolumen",
+    "unitPh": "z. B. kWh, km, GB",
+    "usage": "Verbrauch pro Zeitraum",
+    "reading": "Zählerstand",
+    "kindFoot": "Verbrauch pro Zeitraum: jedes Mal die verbrauchte Menge eingeben. Zählerstand: den Zählerwert eingeben (z. B. Kilometerstand); der Verbrauch ist die Differenz zweier Stände.",
+    "linkGroup": "Messgröße aus einem anderen Abo verknüpfen",
+    "linkFoot": "Die Werte werden nur einmal gespeichert, egal in welchem Abo du sie erfasst. Beim Entfernen der Verknüpfung bleiben die Daten erhalten.",
+    "linkFrom": "Aus „{name}“",
+    "linkGone": "Das ursprüngliche Abo oder die Messgröße wurde gelöscht. Daher gibt es nichts anzuzeigen.",
+    "unlink": "Verknüpfung entfernen",
+    "asOf": "Stand: {date}",
+    "newMeter": "Messgröße hinzufügen",
+    "suggest": "In anderen Abos verwendet",
+    "removeConfirm": "Beim Löschen von {names} werden auch die erfassten Werte entfernt. Fortfahren?",
+    "dupName": "Namen von Messgrößen müssen eindeutig sein",
+    "valuesFoot": "Stückpreis = tatsächliche Kosten des Zeitraums ÷ Verbrauch. Nachträgliche Rechnungen zählen zum abgerechneten Zeitraum.",
+    "saved": "Nutzungsdaten gespeichert",
+    "readingValue": "Stand {v}",
+    "head": {
+      "date": "Datum",
+      "usage": "Verbrauch"
+    },
+    "readingsCount": "{n} Einträge",
+    "deleteReadings": "{n} Einträge löschen",
+    "removeMeters": "Messgrößen und ihre Werte löschen",
+    "latest": "Zuletzt",
+    "latestOf": "{name}, zuletzt",
+    "average": "Ø pro Zeitraum",
+    "avgPrice": "Ø Stückpreis",
+    "totalLabel": "Gesamt",
+    "periods": "{n} Zeiträume",
+    "noTrend": "Zu wenige Zeiträume für einen Verlauf",
+    "latestPrice": "Zuletzt {v}",
+    "since": "Seit {date}"
+  },
+  "settlement": {
+    "due": "Fällig",
+    "overdue": "Überfällig",
+    "partial": "Teilweise bezahlt",
+    "prepaid": "Vorausbezahlt",
+    "this": "Diese Zahlung",
+    "earliest": "Älteste offene",
+    "owed": {
+      "one": "{count} Rechnung offen",
+      "other": "{count} Rechnungen offen"
+    }
+  }
+}

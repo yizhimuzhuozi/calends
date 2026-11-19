@@ -1,0 +1,134 @@
+{
+  "filter": {
+    "all": "Todos",
+    "live": "Ativos",
+    "owe": "A receber",
+    "ended": "Encerrados",
+    "none": "Nenhum pagamento por terceiros corresponde"
+  },
+  "title": "Pagamentos para outros",
+  "status": {
+    "active": "Ativo",
+    "ending": "Terminando",
+    "ended": "Encerrado"
+  },
+  "owedPeriods": {
+    "one": "{count} pagamento pendente",
+    "other": "{count} pagamentos pendentes"
+  },
+  "viewSub": "Ver assinatura",
+  "stoppedOn": "\nencerrado em {date}",
+  "nextOn": "\npróximo em {date}",
+  "payFor": "Para {name}",
+  "unset": "não definido",
+  "paidPeriods": {
+    "one": "{count} cobrança paga",
+    "other": "{count} cobranças pagas"
+  },
+  "received": "Recebido",
+  "owed": "Pendente",
+  "settled": "Quitado",
+  "detailTitle": "Pagamento para outros",
+  "cardCcy": "\ncartão liquida em {ccy}",
+  "forWhom": "Pago para",
+  "method": "Forma de pagamento",
+  "stoppedAt": "Encerrado em",
+  "nextCharge": "Próxima cobrança",
+  "note": "Nota",
+  "table": {
+    "cost": "Custo na época",
+    "total": "Total\n{count}",
+    "receivedOn": "Recebido {date}",
+    "date": "Data da cobrança",
+    "charged": "Cobrado",
+    "received": "Recebido",
+    "diff": "Lucro/prejuízo",
+    "record": "Registrar",
+    "even": "Zerado",
+    "none": "Nenhuma cobrança ainda.",
+    "title": "Pagamentos",
+    "notCharged": "Ainda não cobrado"
+  },
+  "entry": {
+    "markedDue": "Marcado como pendente",
+    "saved": "Salvo",
+    "title": "Cobrança de {date}",
+    "markDue": "Marcar como pendente",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "chargedRate": "Cerca de {amount} pelo câmbio da data da cobrança",
+    "chargedBlank": "Deixe em branco para usar o preço de tabela de {list}",
+    "amount": "Valor",
+    "currency": "Moeda",
+    "paidBack": "{name} me reembolsou",
+    "paidBackAnon": "Reembolsado para mim",
+    "receivedEmpty": "Deixe em branco se ainda não recebeu.",
+    "receivedEven": "{amount} pelo câmbio da data de recebimento, igual à cobrança.",
+    "receivedMore": "{amount} pelo câmbio da data de recebimento, {diff} a mais que o cobrado.",
+    "receivedLess": "{amount} pelo câmbio da data de recebimento, {diff} a menos que o cobrado.",
+    "notReceived": "Não recebido",
+    "receivedOn": "Recebido em",
+    "notePlaceholder": "Opcional, ex.: transferência bancária"
+  },
+  "page": {
+    "owedSub": {
+      "one": "{count} pendente, pelo câmbio da data da cobrança",
+      "other": "{count} pendentes, pelo câmbio da data da cobrança"
+    },
+    "subs": {
+      "one": "{count} assinatura",
+      "other": "{count} assinaturas"
+    },
+    "diffSub": "Lucro/prejuízo por câmbio e tarifas nos pagamentos recebidos",
+    "emptyTitle": "Nenhum pagamento para outros ainda",
+    "emptyBody": "Crie ou edite uma assinatura, escolha “Pago para outra pessoa” em “Quem usa” e informe para quem é.",
+    "liveNext": "Ativos: {count}, próxima cobrança {date}",
+    "lastIn": "Último recebido {date}",
+    "noneIn": "Nenhum pagamento recebido ainda",
+    "diffAvg": "{count} devolvidos, média de {amount} por período",
+    "perPeriod": "Média de {amount} por período",
+    "owedRate": "Pela cotação do dia da cobrança",
+    "prepaid": {
+      "one": "Mais {amount} antecipado para {count} pagamento futuro",
+      "other": "Mais {amount} antecipado para {count} pagamentos futuros"
+    }
+  },
+  "paid": "Adiantado",
+  "periods": {
+    "one": "{count} período",
+    "other": "{count} períodos"
+  },
+  "lastIn": "Último {date}",
+  "prepaidTo": "Pago antecipado até {date}",
+  "receipt": {
+    "add": "Registrar recebimento",
+    "title": "Registrar recebimento",
+    "covers": "Cobre",
+    "from": "A partir de",
+    "periods": "Pagamentos cobertos",
+    "owedTag": "cobrado, pendente",
+    "coversFootOne": "Cobre o pagamento de {from}.",
+    "coversFootMany": {
+      "one": "Cobre {count} pagamento de {from} a {to}.",
+      "other": "Cobre {count} pagamentos de {from} a {to}, ignorando os já recebidos. O valor é dividido igualmente e o lucro/prejuízo calculado por pagamento."
+    },
+    "total": "Valor recebido",
+    "perFoot": "{per} por pagamento.",
+    "baseFoot": "{amount} pela cotação do dia do recebimento.",
+    "none": "Nenhum pagamento pendente ou futuro.",
+    "undo": "Desfazer este recebimento",
+    "batchFoot": "Faz parte de um recebimento que cobre vários períodos. Para alterar valor ou períodos, desfaça e registre novamente.",
+    "perPeriod": {
+      "one": "{count} pagamento, {amount}",
+      "other": "{count} pagamentos, {amount} cada"
+    }
+  },
+  "convert": {
+    "maybeGroup": "Possíveis pagamentos por terceiros",
+    "submit": "Converter em pagamento por outra pessoa",
+    "title": "Converter {name} em pagamento por outra pessoa",
+    "saved": "Convertido em pagamento por outra pessoa",
+    "changed": "Esta assinatura foi alterada ou excluída. Abra-a novamente e tente outra vez."
+  },
+  "stop": "Parar de pagar por essa pessoa"
+}

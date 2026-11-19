@@ -1,0 +1,135 @@
+{
+  "title": "Gói đăng ký của {name}",
+  "loadFailed": "Không tải được",
+  "theme": {
+    "title": "Giao diện: {mode} (nhấn để chuyển)",
+    "aria": "Giao diện: {mode}, nhấn để chuyển"
+  },
+  "currency": "Tiền tệ hiển thị",
+  "hero": {
+    "monthly": "Chi tiêu gói đăng ký hằng tháng",
+    "flat": "Bằng tháng này năm ngoái",
+    "more": "Nhiều hơn {amount} so với tháng này năm ngoái",
+    "less": "Ít hơn {amount} so với tháng này năm ngoái",
+    "yearly": "Mỗi năm",
+    "paid": "Đã trả từ {year}"
+  },
+  "timeline": {
+    "title": "Dòng thời gian",
+    "upcoming": {
+      "other": "{count} khoản phí trong 30 ngày tới\n{amount}"
+    }
+  },
+  "chart": {
+    "title": "Khoản phí hằng tháng",
+    "desc": "12 tháng qua và 3 tháng tới; cột sọc chéo là dự kiến",
+    "paid": "Đã trả",
+    "mrr": "Chi phí hằng tháng",
+    "charge": "Đã trừ tiền",
+    "thisMonth": "Tháng này",
+    "projected": "{month}\nDự kiến"
+  },
+  "ended": {
+    "title": "Đã hủy"
+  },
+  "perMonth": "{amount}/tháng",
+  "lifetime": {
+    "title": "Trọn đời",
+    "desc": "Trả một lần, không còn bị trừ tiền"
+  },
+  "composition": {
+    "title": "Cơ cấu",
+    "desc": "Chi phí hằng tháng theo danh mục",
+    "other": "Khác"
+  },
+  "count": "{count}",
+  "fx": {
+    "title": "Tỷ giá",
+    "flat": "Tỷ giá hầu như không ảnh hưởng đến chi phí trong năm qua",
+    "less": "Theo tỷ giá hôm nay, bạn trả ít hơn {amount} mỗi tháng so với một năm trước",
+    "more": "Theo tỷ giá hôm nay, bạn trả nhiều hơn {amount} mỗi tháng so với một năm trước",
+    "share": "{pct}%"
+  },
+  "list": {
+    "title": "Gói đăng ký",
+    "summary": {
+      "other": "{count}\n{amount}/tháng"
+    },
+    "all": "Tất cả"
+  },
+  "row": {
+    "ends": "\nKết thúc {date}",
+    "renews": "\nGia hạn {date}",
+    "perMonthEq": "Quy đổi mỗi tháng"
+  },
+  "titleAnon": "Gói đăng ký",
+  "pile": {
+    "label": "Đống gói đăng ký: biểu tượng càng lớn, mỗi tháng càng tốn"
+  },
+  "calendar": {
+    "title": "Lịch"
+  },
+  "years": {
+    "title": "Dòng thời gian gói đăng ký"
+  },
+  "tenure": {
+    "title": "Thời gian đăng ký",
+    "avg": "Thời gian trung bình của các gói đang dùng",
+    "longest": "Giữ lâu nhất"
+  },
+  "treemap": {
+    "title": "Bản đồ chi tiêu",
+    "missing": {
+      "other": "{count} gói đăng ký chưa có tỷ giá nên không được tính"
+    }
+  },
+  "changes": {
+    "title": "Thay đổi",
+    "more": "Xem tất cả ({n})",
+    "less": "Thu gọn",
+    "kind": {
+      "added": "Mới",
+      "resumed": "Tiếp tục",
+      "buy": "Mua đứt",
+      "up": "Tăng giá",
+      "down": "Giảm giá",
+      "switch": "Đổi khu vực hoặc gói",
+      "stopped": "Đã dừng",
+      "paused": "Tạm dừng"
+    }
+  },
+  "waterfall": {
+    "title": "Biến động theo tháng",
+    "prev": "Tháng trước",
+    "next": "Tháng sau",
+    "from": "Đầu kỳ",
+    "added": "Mới",
+    "expansion": "Tăng giá",
+    "contraction": "Giảm giá",
+    "churned": "Đã dừng",
+    "fx": "Tỷ giá",
+    "to": "Hiện tại",
+    "monthEnd": "Cuối tháng",
+    "incomplete": "Thiếu tỷ giá, không thể vẽ biểu đồ"
+  },
+  "metric": {
+    "monthly": "Chi tiêu hằng tháng",
+    "yearly": "Mỗi năm",
+    "active": "Gói đang dùng",
+    "avgPerSub": "Trung bình mỗi gói",
+    "paidTotal": "Tổng đã trả",
+    "paidYear": "Đã trả năm nay",
+    "paidMonth": "Đã trả tháng này",
+    "next30": "30 ngày tới",
+    "topSub": "Đắt nhất",
+    "topCategory": "Danh mục lớn nhất",
+    "endedCount": "Đã hủy",
+    "lifetimeCount": "Mua đứt",
+    "fxEffect": "Ảnh hưởng tỷ giá (hằng tháng)",
+    "vsPrev": "so với năm ngoái",
+    "shareOf": "Tỷ trọng trong chi tiêu hằng tháng"
+  },
+  "globe": {
+    "title": "Khu vực đăng ký"
+  }
+}

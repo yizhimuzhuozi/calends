@@ -1,0 +1,428 @@
+import { DAYS_PER_MONTH } from '../../../shared/billing.ts';
+import type { ReactNode } from 'react';
+import { useEffect, useId, useLayoutEffect, useRef, useState } from 'react';
+import { addMonths, diffDays } from '../../../shared/billing.ts';
+import { cnDate, monthLabel } from '../../../shared/format.ts';
+import { useWidth } from '../components/inputs.tsx';
+import { BAR, GlidePath, niceTicks } from '../components/charts.tsx';
+import { HatchPattern } from '../components/hatch.tsx';
+
+export interface ChartBar {
+  date: string;
+  /** 折合记账货币的金额；缺汇率时为 NaN，画成占位的短柱 */
+  v: number;
+  /** 今天之后的预测扣款 */
+  future?: boolean;
+  /** 参照值（如用量图的平均每期），画成虚线；柱子汇总后取各柱合计的均值 */
+  ref?: number;
+  /** 属于哪一段方案：只有不同方案的扣款挨在一起时才叠成一根，同一方案的相邻扣款各自一根 */
+  phase?: string;
+  /** 首期优惠期间这一笔的原价（同单位）：实际扣的是实色，原价比实际多出的部分画成柱顶的斜纹 */
+  full?: number;
+}
+
+export interface ChartLane {
+  key: string;
+  from: string;
+  to: string;
+  lane: number;
+  color: string;
+  label: ReactNode;
+  /** 色带窄时只写价格，不写周期 */
+  short?: ReactNode;
+  aside?: ReactNode;
+}
+
+/** 窄屏没有纵轴刻度，左右留白相同；够宽时左边留出定宽的刻度列，扣款图和用量图的月份才能对齐 */
+const PAD_L = 14;
+const PAD_AXIS = 60;
+const PAD_R = 14;
+/** 图宽到这个值才画纵轴刻度 */
+const AXIS_MIN_W = 560;
+const LANE = 24;
+/** 柱区高度与顶部留白（留给「今天」标签） */
+const H = 150;
+const T = 18;
+/** 窄屏最高柱顶上标数值的一行 */
+const PEAK = 14;
+
+/** 柱形：顶部圆角，底边是直角贴着横轴 */
+function barPath(x: number, y: number, w: number, h: number) {
+  // 窄柱不做成半圆头，圆角跟着柱宽收
+  const r = Math.min(BAR.radius, w * 0.35, h);
+  return `M${x},${y + h}V${y + r}A${r},${r} 0 0 1 ${x + r},${y}H${x + w - r}A${r},${r} 0 0 1 ${x + w},${y + r}V${y + h}Z`;
+}
+
+/**
+ * 扣款时间轴：横轴是真实日期，每笔扣款一根柱。今天之前是实际扣款，之后是预测，中间一条「今天」虚线；
+ * 下面是各段方案的轨道。够宽时画纵轴刻度和网格线，窄屏只在最高的柱顶标数值。悬停、点按或手指按住左右滑动时高亮最近的一根并出现明细卡片。
+ */
+export function ChargeBars({
+  bars,
+  from,
+  to,
+  today,
+  todayLabel,
+  fmt,
+  tick,
+  lanes,
+  tip,
+  onBucket,
+  onPick,
+  midMonth,
+  line,
+}: {
+  bars: ChartBar[];
+  from: string;
+  to: string;
+  today: string;
+  todayLabel: string;
+  /** 窄屏最高柱顶的数值标签，带货币符号或单位 */
+  fmt: (v: number) => string;
+  /** 纵轴刻度标签：要放进定宽的刻度列，比 fmt 更短 */
+  tick: (v: number, ticks: number[]) => string;
+  lanes: ChartLane[];
+  tip: (indices: number[], summed: boolean) => ReactNode;
+  /** 柱子太密改为按月（1）、季（3）、年（12）汇总时，告诉调用方写一句说明 */
+  onBucket?: (months: number) => void;
+  /** 点一根柱：给出它包含的下标（如用量图点柱修改那条记录） */
+  onPick?: (indices: number[]) => void;
+  /** 柱子画在周期中间（后付费）：月份标签写在 15 日 */
+  midMonth?: boolean;
+  /** 叠一条折线（另一个指标）：同一条日期横轴、自己的高度比例，只看走势，具体数在提示框里；与柱子同样按月、季、年汇总 */
+  line?: Array<{ date: string; v: number }>;
+}) {
+  const [box, w] = useWidth();
+  const [hover, setHover] = useState<number | null>(null);
+
+  const hatch = `cc-hatch-${useId().replace(/[^a-z0-9]/gi, '')}`;
+  const axis = w >= AXIS_MIN_W;
+  const padL = axis ? PAD_AXIS : PAD_L;
+  const span = Math.max(1, diffDays(from, to));
+  const iw = Math.max(1, w - padL - PAD_R);
+  const x = (d: string) => padL + (Math.min(span, Math.max(0, diffDays(from, d))) / span) * iw;
+  type Group = { x: number; idx: number[]; future: boolean; stack: boolean };
+  // 1) 换方案、换卡、并行方案时，不同方案的两笔相隔 10 天以内：叠成同一位置的一根柱，悬停时逐笔列出；
+  //    同一方案同一天的几笔（同一天记的几条用量）合成一根实心柱，与提示框、扣款记录按期合计一致，不叠画在一起
+  const near: Group[] = [];
+  bars.forEach((b, i) => {
+    const last = near[near.length - 1];
+    const prev = last && bars[last.idx[last.idx.length - 1]];
+    const same = last && prev && !!b.future === last.future;
+    if (same && last.stack && prev.phase !== b.phase && diffDays(prev.date, b.date) <= 10) last.idx.push(i);
+    else if (same && prev.phase === b.phase && prev.date === b.date && (last.idx.length === 1 || !last.stack)) {
+      last.idx.push(i);
+      last.stack = false;
+    } else near.push({ x: 0, idx: [i], future: !!b.future, stack: true });
+  });
+  // 2) 太密时（柱距不到 7px）按月、季、年汇总成一根实心柱，柱子代表那段时间的合计，不再分段
+  const fit = Math.max(4, Math.floor(iw / 7));
+  const bucketOf = (d: string, by: number) => {
+    const m = Number(d.slice(5, 7)) - 1;
+    return `${d.slice(0, 4)}-${by === 12 ? 0 : Math.floor(m / by)}`;
+  };
+  let groups: Group[] = near;
+  let bucket = 0;
+  for (const by of [1, 3, 12]) {
+    if (groups.length <= fit) break;
+    bucket = by;
+    const merged: Group[] = [];
+    for (const g of near) {
+      const k = bucketOf(bars[g.idx[0]].date, by) + (g.future ? '+' : '');
+      const last = merged[merged.length - 1];
+      const lk = last && bucketOf(bars[last.idx[0]].date, by) + (last.future ? '+' : '');
+      if (last && lk === k) last.idx.push(...g.idx);
+      else merged.push({ x: 0, idx: [...g.idx], future: g.future, stack: false });
+    }
+    groups = merged;
+  }
+  useEffect(() => onBucket?.(bucket), [bucket, onBucket]);
+  // 柱子放在组内各笔日期的平均位置
+  for (const g of groups) g.x = g.idx.reduce((a, i) => a + x(bars[i].date), 0) / g.idx.length;
+  // 柱宽随密度变：按相邻柱的典型间距（中位数）算，同一横轴上同样疏密的两张图柱宽一致；密时 3px，稀疏的年付最宽 BAR.max
+  // 同一天的几组间距为 0，不计入
+  const gaps = groups
+    .slice(1)
+    .map((g, i) => g.x - groups[i].x)
+    .filter((d) => d > 0)
+    .sort((a, b) => a - b);
+  const gap = gaps.length ? gaps[Math.floor(gaps.length / 2)] : iw;
+  const bw = Math.max(3, Math.min(BAR.max, gap * BAR.ratio));
+  const val = (i: number) => (Number.isFinite(bars[i].v) ? Math.max(0, bars[i].v) : 0);
+  const hasRef = (g: Group) => g.idx.every((i) => bars[i].ref != null);
+  // 汇总后柱子是一段时间的合计，平均线取各柱合计的均值，是一条平线；不汇总时就是每笔的均值
+  const totals = bucket
+    ? groups.filter((g) => hasRef(g) && g.idx.every((i) => Number.isFinite(bars[i].v))).map((g) => g.idx.reduce((a, i) => a + val(i), 0))
+    : [];
+  const bucketRef = totals.length ? totals.reduce((a, b) => a + b, 0) / totals.length : undefined;
+  const refOf = (g: Group) => (hasRef(g) ? (bucket ? bucketRef : Math.max(...g.idx.map((i) => bars[i].ref!))) : undefined);
+  // 柱高：汇总柱、叠在一起的几笔都是合计
+  const peakOf = (g: Group) => g.idx.reduce((a, i) => a + val(i), 0);
+  // 首期优惠的原价柱也要放得下
+  const fullOf = (g: Group) => (g.idx.length === 1 ? (bars[g.idx[0]].full ?? 0) : 0);
+  const maxV = Math.max(0, ...groups.map((g) => Math.max(peakOf(g), fullOf(g), refOf(g) ?? 0))) || 1;
+  // 有纵轴时顶端取整齐的刻度，最高一条线有数可读
+  // 全是 0 或都缺汇率时不画刻度，不给没有数据的图造一把尺
+  const ticks = axis && groups.some((g) => peakOf(g) > 0) ? niceTicks(maxV, 3) : [];
+  const top = ticks.length ? ticks[ticks.length - 1] : maxV;
+  const headroom = axis ? 0 : PEAK;
+  const y = (v: number) => T + headroom + (1 - v / top) * (H - T - headroom - 6);
+  // 只标已发生的最高一根（缺汇率的不算；全是预测时才标预测）；并列时标最早的一根，离「今天」线远，不挤在一起
+  let peak = -1;
+  const peakFrom = groups.some((g) => !g.future) ? groups.filter((g) => !g.future) : groups;
+  groups.forEach((g, gi) => {
+    if (peakFrom.includes(g) && g.idx.every((i) => Number.isFinite(bars[i].v)) && peakOf(g) > 0 && (peak < 0 || peakOf(g) > peakOf(groups[peak]))) peak = gi;
+  });
+  const cx = groups.map((g) => g.x);
+  // 折线：汇总时同一段合计成一个点；记录断档（间距超过中位数两倍）时断开，不画成连续的走势，也不当成 0
+  const linePts = (() => {
+    const pts: Array<{ date: string; v: number; n: number; sum: number }> = [];
+    for (const p of [...(line ?? [])].sort((a, b) => a.date.localeCompare(b.date))) {
+      const last = pts[pts.length - 1];
+      if (last && (bucket ? bucketOf(last.date, bucket) === bucketOf(p.date, bucket) : last.date === p.date)) {
+        last.v += p.v;
+        last.n++;
+        last.sum += x(p.date);
+      } else pts.push({ ...p, n: 1, sum: x(p.date) });
+    }
+    return pts.map((p) => ({ date: p.date, v: p.v, x: p.sum / p.n }));
+  })();
+  const lineD = (() => {
+    if (!linePts.length) return '';
+    const spans = linePts
+      .slice(1)
+      .map((p, i) => diffDays(linePts[i].date, p.date))
+      .sort((a, b) => a - b);
+    const limit = (spans[Math.floor(spans.length / 2)] ?? 0) * 2;
+    const top = Math.max(...linePts.map((p) => p.v)) || 1;
+    const ly = (v: number) => T + headroom + (1 - v / top) * (H - T - headroom - 6);
+    return linePts
+      .map(
+        (p, i) =>
+          `${i && diffDays(linePts[i - 1].date, p.date) <= limit ? 'L' : 'M'}${p.x},${ly(p.v)}${i && diffDays(linePts[i - 1].date, p.date) <= limit ? '' : 'h0'}`,
+      )
+      .join('');
+  })();
+
+  // 月份刻度：间隔按宽度挑，最多约每 90px 一个。后付费的柱子画在所属周期中间，标签也写在那个月中间（15 日），
+  // 柱子正好落在自己的月份上，不被误读成下个月；预付费在 1 日扣款，标签留在月初
+  const months = Math.max(1, Math.round(span / DAYS_PER_MONTH));
+  const every = [1, 2, 3, 6, 12, 24, 36].find((m) => (months / m) * 90 <= iw) ?? 48;
+  const xt: Array<{ d: string; label: string }> = [];
+  for (let d = `${from.slice(0, 7)}-${midMonth ? '15' : '01'}`; d <= to; d = addMonths(d, 1)) {
+    if (d <= from) continue;
+    const m = Number(d.slice(5, 7)) - 1;
+    if (every >= 12 ? m !== 0 || Number(d.slice(0, 4)) % (every / 12) : m % every) continue;
+    xt.push({ d, label: m === 0 ? d.slice(0, 4) : monthLabel(d.slice(0, 7), { year: false }) });
+  }
+  // 首末两个刻度同名（一年范围两头都是「11月」）时，第一个带上年份
+  if (xt.length > 1 && xt[0].label === xt[xt.length - 1].label) xt[0].label = monthLabel(xt[0].d.slice(0, 7));
+  // 范围不到两个月（新订阅的几次读数）时月份标签不够定位，改写首末两根柱的日期，挨得太近只写最后一根
+  if (xt.length < 2 && bars.length) {
+    xt.length = 0;
+    const a = bars[groups[0].idx[0]].date;
+    const b = bars[groups[groups.length - 1].idx[0]].date;
+    if (x(b) - x(a) >= 80) xt.push({ d: a, label: cnDate(a) });
+    xt.push({ d: b, label: cnDate(b) });
+  }
+
+  const nLanes = lanes.reduce((m, l) => Math.max(m, l.lane + 1), 0);
+  const nearest = (e: React.PointerEvent) => {
+    const px = e.clientX - box.current!.getBoundingClientRect().left;
+    let best = 0;
+    for (let i = 1; i < cx.length; i++) if (Math.abs(cx[i] - px) < Math.abs(cx[best] - px)) best = i;
+    return best;
+  };
+  // 鼠标移动、手指按住左右滑动都换到最近的一根
+  const onMove = (e: React.PointerEvent) => {
+    if (!bars.length) return;
+    const i = nearest(e);
+    // 滑到别的柱子后抬手不算点那一根
+    if (i !== hover) ready.current = false;
+    setHover(i);
+  };
+  // 与 BarLine 一致：鼠标点一下就触发；触屏第一下先看浮窗，按住的还是同一根再点才触发
+  const ready = useRef(false);
+  const onDown = (e: React.PointerEvent) => {
+    if (!bars.length) return;
+    const i = nearest(e);
+    ready.current = e.pointerType === 'mouse' || hover === i;
+    setHover(i);
+  };
+  // 触屏抬手后浮窗留着，点图表以外的地方才收起
+  useEffect(() => {
+    if (hover == null) return;
+    const off = (e: PointerEvent) => {
+      if (!box.current?.contains(e.target as Node)) setHover(null);
+    };
+    document.addEventListener('pointerdown', off);
+    return () => document.removeEventListener('pointerdown', off);
+  }, [hover != null]);
+  const hx = hover != null ? cx[hover] : 0;
+  // 提示框放在悬停柱的另一侧；窄屏两侧都放不下时贴着图表边缘，不越出卡片
+  const tipRef = useRef<HTMLDivElement>(null);
+  useLayoutEffect(() => {
+    const el = tipRef.current;
+    if (!el) return;
+    const tw = el.offsetWidth;
+    el.style.left = `${Math.max(0, Math.min(hx > w / 2 ? hx - 14 - tw : hx + 14, w - tw))}px`;
+  });
+  const tx = x(today);
+  const showToday = today >= from && today <= to;
+
+  return (
+    <div
+      className={`cc ${onPick ? 'cc-pick' : ''}`}
+      ref={box}
+      onPointerMove={onMove}
+      onPointerDown={onDown}
+      onPointerLeave={(e) => e.pointerType === 'mouse' && setHover(null)}
+      onClick={onPick && (() => ready.current && hover != null && onPick(groups[hover].idx))}
+    >
+      {w > 0 && (
+        <>
+          <svg className="cc-plot" width={w} height={H}>
+            <defs>
+              <HatchPattern id={hatch} />
+            </defs>
+            {ticks.map((v) => (
+              <g key={v}>
+                {v > 0 && <line className="cc-grid dash" x1={padL} x2={w - PAD_R} y1={y(v)} y2={y(v)} />}
+                <text className="cc-tk" x={padL - 8} y={y(v) + 4} textAnchor="end">
+                  {tick(v, ticks)}
+                </text>
+              </g>
+            ))}
+            <line className="cc-grid" x1={padL} x2={w - PAD_R} y1={y(0)} y2={y(0)} />
+            {groups.map((g, gi) => {
+              const on = hover === gi ? 'on' : '';
+              // 汇总柱：一根实心柱，高度是这段时间的合计；有一笔缺汇率就画成浅色短块
+              if (!g.stack || g.idx.length === 1) {
+                const ok = g.idx.every((i) => Number.isFinite(bars[i].v));
+                const sum = g.idx.reduce((a, i) => a + val(i), 0);
+                const by = ok ? Math.min(y(sum), y(0) - 2) : y(0) - 4;
+                const full = g.idx.length === 1 ? bars[g.idx[0]].full : undefined;
+                return (
+                  <g key={gi}>
+                    {/* 首期优惠：先画一整根原价高度的未扣柱（与预测同一种斜纹），实际扣的实色柱从底部涨到它的金额为止 */}
+                    {ok && full != null && full > sum && (
+                      <GlidePath className={`cc-bar future ${on}`} style={{ fill: `url(#${hatch})` }} d={barPath(g.x - bw / 2, y(full), bw, y(0) - y(full))} />
+                    )}
+                    <GlidePath
+                      className={`cc-bar ${g.future ? 'future' : ''} ${ok ? '' : 'unknown'} ${on}`}
+                      style={g.future && ok ? { fill: `url(#${hatch})` } : undefined}
+                      d={barPath(g.x - bw / 2, by, bw, y(0) - by)}
+                    />
+                  </g>
+                );
+              }
+              // 挨在一起的几笔（不同方案）：同一位置上下叠成一根柱，柱高是合计，每笔一段，段间留 1px 缝；只有最上面一段是圆头
+              // 整根柱顶在合计的位置，段间的缝从柱内扣；缺汇率的段画成 4px 浅色块
+              const n = g.idx.length;
+              const known = g.idx.filter((i) => Number.isFinite(bars[i].v));
+              const sum = known.reduce((a, i) => a + val(i), 0);
+              const total = Math.max(y(0) - y(sum), n * 3 - 1);
+              const room = total - (n - 1) - (n - known.length) * 4;
+              let base = y(0);
+              return g.idx.map((i, k) => {
+                const ok = Number.isFinite(bars[i].v);
+                const h = ok ? Math.max(2, sum > 0 ? (val(i) / sum) * room : room / known.length) : 4;
+                const top = base - h;
+                const d = k === n - 1 ? barPath(g.x - bw / 2, top, bw, h) : `M${g.x - bw / 2},${base}V${top}H${g.x + bw / 2}V${base}Z`;
+                base = top - 1;
+                return (
+                  <GlidePath
+                    key={i}
+                    className={`cc-bar ${g.future ? 'future' : ''} ${ok ? '' : 'unknown'} ${on}`}
+                    style={g.future && ok ? { fill: `url(#${hatch})` } : undefined}
+                    d={d}
+                  />
+                );
+              });
+            })}
+            {/* 参照线：每根柱上一段虚线，相邻相同时连成台阶 */}
+            {(() => {
+              let d = '';
+              let prev: number | undefined;
+              groups.forEach((g) => {
+                const rv = refOf(g);
+                if (rv == null) {
+                  prev = undefined;
+                  return;
+                }
+                const ry = y(rv);
+                const x0 = g.x - bw / 2 - 2;
+                const x1 = g.x + bw / 2 + 2;
+                d += prev == null ? `M${x0},${ry}H${x1}` : `L${x0},${prev}L${x0},${ry}H${x1}`;
+                prev = ry;
+              });
+              return d && <GlidePath className="cc-ref" d={d} />;
+            })()}
+            {lineD && <GlidePath className="cc-line" d={lineD} />}
+            {!axis && peak >= 0 && (
+              <PeakLabel
+                x={groups[peak].x}
+                y={Math.min(y(peakOf(groups[peak])), y(refOf(groups[peak]) ?? 0)) - 5}
+                w={w}
+                avoid={showToday ? tx : undefined}
+                text={fmt(peakOf(groups[peak]))}
+              />
+            )}
+            {showToday && (
+              <text className="cc-today-l" x={tx} y={T - 8} textAnchor={tx > w - PAD_R - 24 ? 'end' : tx < padL + 24 ? 'start' : 'middle'}>
+                {todayLabel}
+              </text>
+            )}
+          </svg>
+          {nLanes > 0 && (
+            <div className="cc-lanes" style={{ height: nLanes * LANE + 4, marginLeft: padL, marginRight: PAD_R }}>
+              {lanes.map((l) => {
+                const a = Math.max(padL, x(l.from));
+                const b = Math.min(w - PAD_R, x(l.to > to ? to : l.to));
+                return (
+                  <div
+                    key={l.key}
+                    className="cc-lane"
+                    style={{ left: a - padL, width: Math.max(6, b - a), top: l.lane * LANE + 4, '--tint': l.color } as Record<string, string | number>}
+                  >
+                    {b - a > 56 && <b>{b - a > 120 ? l.label : (l.short ?? l.label)}</b>}
+                    {l.aside && b - a > 260 && <span>{l.aside}</span>}
+                  </div>
+                );
+              })}
+            </div>
+          )}
+          {/* 「今天」一条线从柱区贯穿到方案轨道底部，不分 SVG 与轨道两段画 */}
+          {showToday && <i className="cc-today" style={{ left: tx, top: T - 4, height: H - T + 4 + (nLanes > 0 ? nLanes * LANE + 4 : 0) }} />}
+          <div className="cc-xt" style={{ marginLeft: padL, marginRight: PAD_R }}>
+            {xt.map((t) => (
+              <span key={t.d} style={{ left: x(t.d) - padL }}>
+                {t.label}
+              </span>
+            ))}
+          </div>
+          {hover != null && (
+            <div className="cc-tip" ref={tipRef}>
+              {tip(groups[hover].idx, !groups[hover].stack)}
+            </div>
+          )}
+        </>
+      )}
+    </div>
+  );
+}
+
+/** 最高柱顶的数值：居中在柱子上方，靠边时按实际宽度收回画布内；压到「今天」线时挪到线的柱子那一侧 */
+function PeakLabel({ x, y, w, text, avoid }: { x: number; y: number; w: number; text: string; avoid?: number }) {
+  const ref = useRef<SVGTextElement>(null);
+  const [half, setHalf] = useState(0);
+  useLayoutEffect(() => setHalf((ref.current?.getComputedTextLength() ?? 0) / 2), [text]);
+  const clamp = (v: number) => Math.min(w - half, Math.max(half, v));
+  let cx = clamp(x);
+  if (avoid != null && half > 0 && Math.abs(cx - avoid) < half + 4) cx = clamp(x <= avoid ? avoid - 4 - half : avoid + 4 + half);
+  return (
+    <text ref={ref} className="cc-tk" x={cx} y={y} textAnchor="middle">
+      {text}
+    </text>
+  );
+}

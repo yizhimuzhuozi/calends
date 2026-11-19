@@ -1,0 +1,27 @@
+# 从源码构建并启动：在 docker/ 目录执行 docker compose up -d --build，然后打开 http://localhost:8787
+# 首次设置密码需要的初始化令牌：docker compose logs calends
+# 固定项目名，数据卷始终叫 calends_calends-data，不随所在目录名变化
+name: calends
+services:
+  calends:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: calends:local
+    restart: unless-stopped
+    # 正常占用约 100–150MB；超限只重启这个容器，不拖累整台机器
+    mem_limit: 512m
+    ports:
+      - '8787:8787'
+    volumes:
+      - calends-data:/data
+    environment:
+      # 对外访问地址（提醒、日历订阅里的链接），可选
+      # SITE_URL: https://calends.example.com
+      # 访客 IP 自动判断，经反向代理访问时把上面的端口改成 127.0.0.1:8787:8787，别让人绕过代理直连
+      # 其他 CDN 和内网直连的情况见 docs/self-hosting.zh-CN.md
+      # TRUST_PROXY: "off"
+      TZ: UTC
+
+volumes:
+  calends-data:

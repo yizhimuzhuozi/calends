@@ -1,0 +1,82 @@
+{
+  "title": "Tổng quan",
+  "add": "Gói đăng ký mới",
+  "footer": {
+    "other": "{count} gói đăng ký đang hoạt động\n{amount}/tháng\n"
+  },
+  "fullReport": "Xem báo cáo đầy đủ",
+  "listSep": ", ",
+  "n": {
+    "subs": {
+      "other": "{count} gói đăng ký"
+    },
+    "charges": {
+      "other": "{count} khoản phí"
+    }
+  },
+  "axis": {
+    "yearMonth": "{mon} '{yy}"
+  },
+  "timeline": {
+    "title": "Dòng thời gian",
+    "sub": "{past} đã trừ trong 30 ngày qua\n{next} đến hạn trong 30 ngày tới",
+    "past": "30 ngày qua\n{amount}"
+  },
+  "spending": {
+    "title": "Chi tiêu hằng tháng",
+    "sub": "Cột nhạt hơn là dự kiến",
+    "month": "Theo tháng",
+    "yearly": "Theo năm",
+    "year": "{year}",
+    "projected": "\nDự kiến",
+    "inProgress": "\nĐang diễn ra",
+    "paid": "\nđã trừ {amount}",
+    "empty": "Không có khoản phí trong kỳ này",
+    "range": "{from} – {to}",
+    "period": {
+      "label": "Khoảng thời gian",
+      "extended": "18 tháng",
+      "year": "Năm nay",
+      "past12": "12 tháng qua",
+      "next12": "12 tháng tới",
+      "lastYear": "Năm ngoái",
+      "nextYear": "Năm sau"
+    },
+    "view": {
+      "bars": "Biểu đồ cột",
+      "stream": "Biểu đồ dòng chảy"
+    }
+  },
+  "due": {
+    "title": "Khoản trừ sắp tới",
+    "empty": "Không có gì đến hạn trong 30 ngày tới",
+    "thisWeek": "Tuần này",
+    "later": "Sau đó",
+    "noMethod": "Chưa có phương thức thanh toán"
+  },
+  "wallet": {
+    "title": "Ví",
+    "manage": "Quản lý",
+    "balance": "Số dư {amount}\n{status}",
+    "covered": {
+      "other": "đủ cho {count} khoản phí nữa, nạp tiền trước {date}"
+    },
+    "mustTopUp": "nạp tiền trước {date}",
+    "enough": "đủ dùng hơn 3 năm",
+    "noBalance": "Thêm số dư để xem dùng được bao lâu",
+    "others": "Ngoài ra: {list}"
+  },
+  "tips": {
+    "warn": "Lưu ý",
+    "info": "Mẹo",
+    "good": "Thú vị"
+  },
+  "stmt": {
+    "kicker": "Chi tiêu gói đăng ký tháng này",
+    "hint": "Các khoản trừ tiền từ ngày 1 đến cuối tháng này, gồm đã trừ và sắp trừ; so với cả tháng trước.",
+    "perDay": "Mỗi ngày",
+    "active": "Đang hoạt động",
+    "share": "{amount}/tháng\n{pct}%",
+    "aria": "{name}, {amount} mỗi tháng"
+  }
+}

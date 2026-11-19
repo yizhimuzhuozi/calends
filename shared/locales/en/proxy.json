@@ -1,0 +1,134 @@
+{
+  "filter": {
+    "all": "All",
+    "live": "Active",
+    "owe": "Owed",
+    "ended": "Ended",
+    "none": "No proxy payments match"
+  },
+  "title": "Paid for others",
+  "status": {
+    "active": "Active",
+    "ending": "Ending",
+    "ended": "Stopped"
+  },
+  "owedPeriods": {
+    "one": "{count} payment due",
+    "other": "{count} payments due"
+  },
+  "viewSub": "View subscription",
+  "stoppedOn": "\nstopped {date}",
+  "nextOn": "\nnext {date}",
+  "payFor": "For {name}",
+  "unset": "not set",
+  "paidPeriods": {
+    "one": "Paid {count} charge",
+    "other": "Paid {count} charges"
+  },
+  "received": "Received",
+  "owed": "Due",
+  "settled": "Settled",
+  "detailTitle": "Paid for others",
+  "cardCcy": "\ncard settles in {ccy}",
+  "forWhom": "Paid for",
+  "method": "Payment method",
+  "stoppedAt": "Stopped on",
+  "nextCharge": "Next charge",
+  "note": "Note",
+  "table": {
+    "cost": "Cost then",
+    "total": "Total\n{count}",
+    "receivedOn": "Received {date}",
+    "date": "Charge date",
+    "charged": "Charged",
+    "received": "Received",
+    "diff": "Profit",
+    "record": "Record",
+    "even": "Even",
+    "none": "No charges yet.",
+    "title": "Payments",
+    "notCharged": "Not charged yet"
+  },
+  "entry": {
+    "markedDue": "Marked as due",
+    "saved": "Saved",
+    "title": "Charge on {date}",
+    "markDue": "Mark as due",
+    "cancel": "Cancel",
+    "save": "Save",
+    "chargedRate": "About {amount} at the charge-date rate",
+    "chargedBlank": "Leave blank to use the list price of {list}",
+    "amount": "Amount",
+    "currency": "Currency",
+    "paidBack": "{name} paid me back",
+    "paidBackAnon": "Paid back to me",
+    "receivedEmpty": "Leave blank if not received yet.",
+    "receivedEven": "{amount} at the receipt-date rate, even with the charge.",
+    "receivedMore": "{amount} at the receipt-date rate, {diff} more than charged.",
+    "receivedLess": "{amount} at the receipt-date rate, {diff} less than charged.",
+    "notReceived": "Not received",
+    "receivedOn": "Received on",
+    "notePlaceholder": "Optional, e.g. bank transfer"
+  },
+  "page": {
+    "owedSub": {
+      "one": "{count} unpaid, at charge-date rates",
+      "other": "{count} unpaid, at charge-date rates"
+    },
+    "subs": {
+      "one": "{count} subscription",
+      "other": "{count} subscriptions"
+    },
+    "diffSub": "Profit from exchange rates and fees on received payments",
+    "emptyTitle": "Nothing paid for others yet",
+    "emptyBody": "Create or edit a subscription, choose “Paying for” under “Who uses it”, and enter who it’s for.",
+    "liveNext": "Active: {count}, next charge {date}",
+    "lastIn": "Last received {date}",
+    "noneIn": "No payments received yet",
+    "diffAvg": "Over {count} paid back: {amount} each on average",
+    "perPeriod": "{amount} per period on average",
+    "owedRate": "At charge-date rates",
+    "prepaid": {
+      "one": "Plus {amount} prepaid for {count} upcoming payment",
+      "other": "Plus {amount} prepaid for {count} upcoming payments"
+    }
+  },
+  "paid": "Paid on behalf",
+  "periods": {
+    "one": "{count} period",
+    "other": "{count} periods"
+  },
+  "lastIn": "Last {date}",
+  "prepaidTo": "Prepaid to {date}",
+  "receipt": {
+    "add": "Record payment",
+    "title": "Record payment",
+    "covers": "Covers",
+    "from": "Starting with",
+    "periods": "Payments covered",
+    "owedTag": "charged, unpaid",
+    "coversFootOne": "Covers the {from} payment.",
+    "coversFootMany": {
+      "one": "Covers {count} payment from {from} to {to}.",
+      "other": "Covers {count} payments from {from} to {to}, skipping ones already received. The amount is split evenly and profit is counted per payment."
+    },
+    "total": "Amount received",
+    "perFoot": "{per} per payment.",
+    "baseFoot": "{amount} at the rate on the day received.",
+    "none": "Nothing due or upcoming to record.",
+    "undo": "Undo this payment",
+    "batchFoot": "Part of one payment covering several periods. To change the amount or periods, undo it and record it again.",
+    "perPeriod": {
+      "one": "{count} payment, {amount}",
+      "other": "{count} payments, {amount} each"
+    }
+  },
+  "convert": {
+    "maybeGroup": "Possibly paid for others",
+    "submit": "Convert to proxy payment",
+    "title": "Convert {name} to proxy payment",
+    "saved": "Converted to proxy payment",
+    "changed": "This subscription was changed or deleted. Reopen it and try again."
+  },
+  "stop": "Stop paying for them"
+}

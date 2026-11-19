@@ -1,0 +1,120 @@
+{
+  "previewEmpty": "Hoy no hay recordatorios que enviar.",
+  "appName": "Calends",
+  "trial": {
+    "sub": "La prueba termina {when} ({date}); después, {price}",
+    "headline": "La prueba de {name} termina {when}"
+  },
+  "renew": {
+    "introEnds": "Termina el precio inicial y vuelve al precio normal",
+    "headline": "{name} se renueva {when} por {price}",
+    "billHeadline": "{name} factura {when}: {price}"
+  },
+  "ending": {
+    "sub": "Termina {when}, no se renovará",
+    "headline": "{name} termina {when}"
+  },
+  "carpool": {
+    "dueIn": "Vence {when} ({date})",
+    "dueToday": "Vence hoy",
+    "overdue": {
+      "one": "{count} día de retraso",
+      "other": "{count} días de retraso"
+    },
+    "sub": "{status}\npróximo periodo: {bill}",
+    "headline": "Toca cobrar a {member} por {name}"
+  },
+  "proxy": {
+    "someone": "Alguien",
+    "chargedToday": "Cobrado hoy en su nombre",
+    "chargedAgo": {
+      "one": "Cobrado el {date}, hace {count} día",
+      "other": "Cobrado el {date}, hace {count} días"
+    },
+    "sub": "{status}, aún sin devolver",
+    "headlineToday": "Pagaste {sub} por {name}",
+    "headlineUnpaid": "{name} aún no te ha devuelto {sub}"
+  },
+  "balance": {
+    "sub": "Solo quedarán {left} para {date}, no alcanza para {sub} ({amount})",
+    "subSince": "Fijado en {calibrated} el {asOf}, {spent} cobrados desde entonces. Solo quedarán {left} para {date}, no alcanza para {sub} ({amount})",
+    "subOver": "El saldo ya está en {left}, no alcanza para {sub} ({amount}) el {date}",
+    "subForfeit": "{forfeit} vencidos el {expires}; solo quedarán {left} el {date}, no alcanza para {sub} ({amount})",
+    "headline": "Saldo bajo en {name}",
+    "expiring": "Vence el {date}; se perderán unos {amount}",
+    "expiringHeadline": "El saldo de {name} vence pronto"
+  },
+  "section": {
+    "renew": "Próximos cobros",
+    "trials": "Pruebas que terminan",
+    "balance": "Saldo bajo",
+    "carpool": "Cobros de planes compartidos",
+    "proxy": "Pendiente por pagos por otros",
+    "ending": "Terminan pronto",
+    "month": "Cobros de este mes"
+  },
+  "daily": {
+    "subject": "Recordatorio de suscripción: {title}",
+    "title": "{headline}",
+    "titleMore": "{headline} y {more} más",
+    "intro": "Gastas {mrr} al mes en suscripciones, con {count} activas."
+  },
+  "monthly": {
+    "title": "Unos {sum} en cargos en {month}",
+    "subject": {
+      "one": "Factura de {month}: unos {sum}, {count} cobro",
+      "other": "Factura de {month}: unos {sum}, {count} cobros"
+    },
+    "intro": "Con tus suscripciones actuales, son unos {arr} al año."
+  },
+  "email": {
+    "open": "Abrir Calends",
+    "footer": "Puedes cambiar la hora del recordatorio y los días de antelación en Ajustes.",
+    "why": "Recibes este correo porque activaste los recordatorios por correo en {app}.",
+    "off": "Para dejar de recibirlos, desactiva el canal de correo en Ajustes → Canales de notificación.",
+    "settings": "Ajustes de recordatorios",
+    "total": "Total del mes",
+    "testNote": "Este es un correo de prueba que confirma que el canal de correo funciona. Los recordatorios reales mostrarán aquí los próximos cargos.",
+    "noCharges": "No hay cargos previstos este mes.",
+    "kind": {
+      "daily": "Recordatorio",
+      "monthly": "Factura mensual",
+      "test": "Prueba"
+    },
+    "stat": {
+      "sum": "Previsto",
+      "count": "Cargos",
+      "mrr": "Gasto mensual"
+    }
+  },
+  "text": {
+    "heading": "[{heading}]"
+  },
+  "send": {
+    "noChannel": "No se encontró el canal",
+    "noneEnabled": "No hay canales de notificación activados",
+    "alreadySent": "Ya se envió hoy",
+    "failure": "{channel}: {error}",
+    "failureSep": "; "
+  },
+  "test": {
+    "subject": "[Prueba] {subject}",
+    "sampleSubject": "[Prueba] Los recordatorios de suscripciones están listos",
+    "sampleIntro": "Tu canal de notificación funciona."
+  },
+  "channel": {
+    "missing": "A «{channel}» le falta {field}",
+    "field": {
+      "to": "un correo de destino",
+      "botToken": "un token de bot",
+      "chatId": "un ID de chat",
+      "webhook": "una URL de webhook",
+      "deviceKey": "una clave de dispositivo",
+      "topic": "un tema",
+      "sendKey": "una SendKey",
+      "url": "una URL"
+    },
+    "emailNotConfigured": "El correo no está configurado en este servidor (requiere el binding EMAIL y MAIL_FROM). Usa otro canal o consulta el README."
+  },
+  "sender": "Calends"
+}

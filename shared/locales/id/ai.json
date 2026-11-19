@@ -1,0 +1,97 @@
+{
+  "title": "Akses AI",
+  "newToken": "Token baru",
+  "mcpUrl": "URL MCP",
+  "urlCopied": "URL disalin",
+  "copy": "Salin",
+  "copied": "Disalin",
+  "copyFailed": "Gagal menyalin",
+  "neverUsed": "Belum pernah dipakai",
+  "tokenPlaceholder": "<token-anda>",
+  "tokens": {
+    "other": "Token\n{count}"
+  },
+  "noTokens": "Belum ada token. Buat satu, lalu berikan ke asisten AI yang ingin Anda hubungkan.",
+  "lastUsed": "Terakhir dipakai {time}",
+  "confirmRevoke": "Cabut “{name}”? Asisten AI yang memakainya akan langsung kehilangan akses.",
+  "revoke": "Cabut",
+  "revoked": "Dicabut",
+  "setup": "Penyiapan",
+  "tools": {
+    "other": "Alat tersedia\n{count}"
+  },
+  "clientOther": "Lainnya",
+  "scope": {
+    "write": "Baca & tulis",
+    "read": "Hanya baca",
+    "label": "Izin",
+    "writeDesc": "Lihat dan kelola langganan, pembayaran, penerimaan, dompet, orang, kategori, dan pengaturan buku catatan.",
+    "readDesc": "Hanya lihat. Tidak bisa mengubah apa pun."
+  },
+  "created": {
+    "title": "Token dibuat",
+    "saved": "Sudah saya simpan",
+    "foot": "Token ini hanya ditampilkan sekali dan tidak bisa dilihat lagi setelah ditutup. Jika hilang, cabut lalu buat yang baru.",
+    "tokenCopied": "Token disalin"
+  },
+  "cancel": "Batal",
+  "generate": "Buat",
+  "name": "Nama",
+  "namePlaceholder": "Untuk AI yang mana?",
+  "pickClient": "Pilih asisten AI Anda",
+  "tokensHint": "Sebaiknya tiap asisten punya token sendiri agar bisa dicabut secara terpisah.",
+  "toolsHint": "Hal yang bisa dilakukan asisten pada catatan Anda. Token hanya baca hanya melihat alat baca.",
+  "toolsRead": "Baca",
+  "toolsWrite": "Tulis",
+  "experimental": "Eksperimental",
+  "copiedWithToken": "Disalin, termasuk token",
+  "installIn": "Tambahkan ke {name}",
+  "createdAt": "Dibuat {time}",
+  "where": {
+    "terminal": "Jalankan ini di terminal Anda.",
+    "codex": "Jalankan ini di terminal Anda. Tambahkan baris export ke profil shell agar token tetap berlaku setelah restart.",
+    "file": "Tambahkan ini ke {path}.",
+    "grokbot": "Di Grok Bot, buka Pengaturan → Plugins, tambahkan server MCP, lalu isi nama, URL, dan header di bawah. Grok Bot berjalan di cloud, jadi alamatnya harus bisa diakses publik.",
+    "http": "Klien MCP apa pun yang mendukung Streamable HTTP. Ini permintaan uji singkat."
+  },
+  "via": {
+    "command": "Perintah terminal",
+    "install": "Pasang sekali klik",
+    "file": "File konfigurasi",
+    "settings": "Pengaturan aplikasi",
+    "http": "Klien MCP apa pun"
+  },
+  "step": {
+    "token": "Token",
+    "tokenReady": "Memakai “{name}”, sudah ada di cuplikan di bawah",
+    "tokenNeeded": "Token hanya ditampilkan sekali.",
+    "createFor": "Buat token untuk {name}",
+    "send": "Kirim ke {name}"
+  },
+  "status": {
+    "on": "Akses AI aktif",
+    "off": "Akses AI nonaktif",
+    "onHint": "Token yang valid memungkinkan asisten AI mengakses buku catatan sesuai izin yang diberikan.",
+    "offHint": "Semua permintaan MCP ditolak hingga Anda mengaktifkannya kembali."
+  },
+  "promptLabel": "Prompt",
+  "copyConfigOnly": "Salin konfigurasi saja",
+  "configCopied": "Konfigurasi disalin",
+  "agentPrompt": "Hubungkan buku langganan Calends saya sebagai server MCP bernama \"calends\". {where}\n\n{code}\n\nSetelah siap, panggil alat {verify} untuk memastikan berfungsi, lalu beri tahu berapa langganan aktif yang saya punya.",
+  "col": {
+    "name": "Nama",
+    "key": "Kunci",
+    "created": "Dibuat",
+    "lastUsed": "Terakhir dipakai"
+  },
+  "domain": {
+    "overview": "Ringkasan & statistik",
+    "subs": "Langganan & paket",
+    "charges": "Tagihan",
+    "wallet": "Dompet & metode pembayaran",
+    "people": "Patungan & bayar untuk orang lain",
+    "categories": "Kategori",
+    "settings": "Pengaturan",
+    "other": "Lainnya"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "close": "关闭",
+  "error": {
+    "loginRequired": "请先登录",
+    "requestFailed": "请求失败 {status}",
+    "wholeCurrency": "{currency} 金额只能输入整数",
+    "deletedElsewhere": "这一项已在别处删除，修改未保存。"
+  },
+  "theme": {
+    "light": "亮色",
+    "dark": "暗色",
+    "system": "跟随系统"
+  },
+  "method": {
+    "none": "未指定"
+  },
+  "toolbar": {
+    "add": "添加订阅"
+  },
+  "working": "处理中…",
+  "undo": "撤销",
+  "restored": "已恢复",
+  "loadFailed": "加载失败",
+  "retry": "重试"
+}

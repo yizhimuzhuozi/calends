@@ -1,0 +1,97 @@
+{
+  "title": "AI 連携",
+  "newToken": "新規トークン",
+  "mcpUrl": "MCP URL",
+  "urlCopied": "URL をコピーしました",
+  "copy": "コピー",
+  "copied": "コピーしました",
+  "copyFailed": "コピーできませんでした",
+  "neverUsed": "未使用",
+  "tokenPlaceholder": "<your-token>",
+  "tokens": {
+    "other": "トークン\n{count}"
+  },
+  "noTokens": "トークンはまだありません。作成して、接続したい AI アシスタントに渡してください。",
+  "lastUsed": "最終使用 {time}",
+  "confirmRevoke": "「{name}」を無効にしますか？このトークンを使っている AI アシスタントはすぐにアクセスできなくなります。",
+  "revoke": "無効にする",
+  "revoked": "無効にしました",
+  "setup": "設定方法",
+  "tools": {
+    "other": "利用可能なツール\n{count}"
+  },
+  "clientOther": "その他",
+  "scope": {
+    "write": "読み書き",
+    "read": "読み取り専用",
+    "label": "権限",
+    "writeDesc": "サブスク、支払い、入金、ウォレット、相手、カテゴリ、台帳設定を確認・管理できます。",
+    "readDesc": "照会のみ。データは変更できません。"
+  },
+  "created": {
+    "title": "トークンを作成しました",
+    "saved": "保存しました",
+    "foot": "このトークンは一度しか表示されず、閉じると再表示できません。紛失した場合は無効にして新しく作成してください。",
+    "tokenCopied": "トークンをコピーしました"
+  },
+  "cancel": "キャンセル",
+  "generate": "作成",
+  "name": "名前",
+  "namePlaceholder": "どの AI に使いますか？",
+  "pickClient": "AI アシスタントを選択",
+  "tokensHint": "アシスタントごとに別のトークンを使うと、個別に無効にできます。",
+  "toolsHint": "アシスタントが台帳でできること。読み取り専用トークンには読み取り系ツールだけが表示されます。",
+  "toolsRead": "読み取り",
+  "toolsWrite": "書き込み",
+  "experimental": "試験運用",
+  "copiedWithToken": "トークン込みでコピーしました",
+  "installIn": "{name} に追加",
+  "createdAt": "{time}に作成",
+  "where": {
+    "terminal": "ターミナルで実行してください。",
+    "codex": "ターミナルで実行してください。再起動後もトークンが有効になるよう、export の行をシェルの設定ファイルに追加してください。",
+    "file": "{path} に追加してください。",
+    "grokbot": "Grok Bot の 設定 → Plugins で MCP サーバーを追加し、下の名前・URL・ヘッダーを入力します。Grok Bot はクラウドで動くため、公開アドレスが必要です。",
+    "http": "Streamable HTTP に対応した MCP クライアントならどれでも使えます。以下はテスト用リクエストです。"
+  },
+  "via": {
+    "command": "ターミナルコマンド",
+    "install": "ワンクリックで追加",
+    "file": "設定ファイル",
+    "settings": "アプリの設定",
+    "http": "任意の MCP クライアント"
+  },
+  "step": {
+    "token": "トークン",
+    "tokenReady": "「{name}」を使用中。下のスニペットに含まれています",
+    "tokenNeeded": "トークンは一度しか表示されません。",
+    "createFor": "{name} 用のトークンを作成",
+    "send": "{name} に送る"
+  },
+  "status": {
+    "on": "AI 連携はオンです",
+    "off": "AI 連携はオフです",
+    "onHint": "有効なトークンを持つ AI アシスタントは、付与された権限の範囲で台帳にアクセスできます。",
+    "offHint": "再びオンにするまで、すべての MCP リクエストは拒否されます。"
+  },
+  "promptLabel": "プロンプト",
+  "copyConfigOnly": "設定だけコピー",
+  "configCopied": "設定をコピーしました",
+  "agentPrompt": "私の Calends サブスク台帳を「calends」という名前の MCP サーバーとして接続してください。{where}\n\n{code}\n\n設定できたら {verify} ツールを呼び出して動作を確認し、利用中のサブスクがいくつあるか教えてください。",
+  "col": {
+    "name": "名前",
+    "key": "キー",
+    "created": "作成",
+    "lastUsed": "最終使用"
+  },
+  "domain": {
+    "overview": "概要と統計",
+    "subs": "サブスクとプラン",
+    "charges": "支払い記録",
+    "wallet": "ウォレットと支払い方法",
+    "people": "共有プランと立て替え",
+    "categories": "カテゴリ",
+    "settings": "設定",
+    "other": "その他"
+  }
+}

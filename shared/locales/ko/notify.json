@@ -1,0 +1,117 @@
+{
+  "previewEmpty": "오늘 보낼 알림이 없습니다",
+  "appName": "Calends",
+  "trial": {
+    "sub": "체험이 {when}({date}) 종료되며, 이후 {price}",
+    "headline": "{name} 체험이 {when} 종료됩니다"
+  },
+  "renew": {
+    "introEnds": "프로모션 가격이 끝나고 정가로 돌아갑니다",
+    "headline": "{name}이(가) {when} {price}에 갱신됩니다",
+    "billHeadline": "{name} {when} 청구 {price}"
+  },
+  "ending": {
+    "sub": "{when} 종료, 갱신되지 않음",
+    "headline": "{name}이(가) {when} 종료됩니다"
+  },
+  "carpool": {
+    "dueIn": "기한 {when}({date})",
+    "dueToday": "오늘 기한",
+    "overdue": {
+      "other": "{count}일 연체"
+    },
+    "sub": "{status}\n다음 주기: {bill}",
+    "headline": "{member}에게서 {name} 요금을 받을 때입니다"
+  },
+  "proxy": {
+    "someone": "누군가",
+    "chargedToday": "오늘 대신 결제되었습니다",
+    "chargedAgo": {
+      "other": "{date} 결제, {count}일 전"
+    },
+    "sub": "{status}, 아직 돌려받지 못함",
+    "headlineToday": "{name} 대신 {sub} 결제",
+    "headlineUnpaid": "{name}이(가) {sub}을(를) 아직 갚지 않았습니다"
+  },
+  "balance": {
+    "sub": "{date}까지 {left}만 남아 {sub}({amount})에 부족합니다",
+    "subSince": "{asOf}에 {calibrated}(으)로 설정, 이후 {spent} 결제됨. {date}까지 {left}만 남아 {sub}({amount})에 부족합니다",
+    "subOver": "잔액이 이미 {left}(으)로 {date}의 {sub}({amount})에 부족합니다",
+    "subForfeit": "{expires}에 {forfeit} 소멸, {date}에는 {left}만 남아 {sub}({amount})에 부족합니다",
+    "headline": "{name} 잔액 부족",
+    "expiring": "{date} 만료, 약 {amount} 소멸 예정",
+    "expiringHeadline": "{name} 잔액 만료 예정"
+  },
+  "section": {
+    "renew": "예정된 결제",
+    "trials": "종료 예정 체험",
+    "balance": "잔액 부족",
+    "carpool": "공유 플랜 납부",
+    "proxy": "대신 결제 미수금",
+    "ending": "곧 종료",
+    "month": "이번 달 결제"
+  },
+  "daily": {
+    "subject": "구독 알림: {title}",
+    "title": "{headline}",
+    "titleMore": "{headline} 외 {more}건",
+    "intro": "현재 구독 {count}개를 이용 중이며, 매달 {mrr}을(를) 지출하고 있습니다."
+  },
+  "monthly": {
+    "title": "{m}월 예상 결제 {sum}",
+    "subject": {
+      "other": "{month} 청구: 약 {sum}, 결제 {count}건"
+    },
+    "intro": "지금 구독대로라면 1년에 약 {arr}입니다."
+  },
+  "email": {
+    "open": "Calends 열기",
+    "footer": "알림 시간과 사전 알림 일수는 설정에서 바꿀 수 있습니다.",
+    "why": "{app}에서 이메일 알림을 켜 두셨기 때문에 이 메일을 받으셨습니다.",
+    "off": "더 이상 받지 않으려면 설정 → 알림 채널에서 이메일을 끄세요.",
+    "settings": "알림 설정",
+    "total": "이번 달 합계",
+    "testNote": "이메일 채널이 정상적으로 전달되는지 확인하는 테스트 메일입니다. 실제 알림에는 다가오는 결제가 여기에 표시됩니다.",
+    "noCharges": "이번 달에는 예정된 결제가 없습니다.",
+    "kind": {
+      "daily": "구독 알림",
+      "monthly": "월간 청구서",
+      "test": "테스트"
+    },
+    "stat": {
+      "sum": "이번 달 예상",
+      "count": "결제 건수",
+      "mrr": "월 지출"
+    }
+  },
+  "text": {
+    "heading": "[{heading}]"
+  },
+  "send": {
+    "noChannel": "채널을 찾을 수 없습니다",
+    "noneEnabled": "켜져 있는 알림 채널이 없습니다",
+    "alreadySent": "오늘 이미 보냈습니다",
+    "failure": "{channel}: {error}",
+    "failureSep": "; "
+  },
+  "test": {
+    "subject": "[테스트] {subject}",
+    "sampleSubject": "[테스트] 구독 알림이 준비되었습니다",
+    "sampleIntro": "알림 채널이 정상적으로 작동합니다."
+  },
+  "channel": {
+    "missing": "‘{channel}’에 {field}이(가) 없습니다",
+    "field": {
+      "to": "받는 사람 이메일",
+      "botToken": "봇 토큰",
+      "chatId": "채팅 ID",
+      "webhook": "Webhook URL",
+      "deviceKey": "기기 키",
+      "topic": "토픽",
+      "sendKey": "SendKey",
+      "url": "URL"
+    },
+    "emailNotConfigured": "이 서버에는 이메일 발송이 설정되어 있지 않습니다(EMAIL 바인딩과 MAIL_FROM 필요). 다른 채널을 사용하거나 README를 참고하세요."
+  },
+  "sender": "Calends"
+}

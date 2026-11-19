@@ -1,0 +1,500 @@
+{
+  "title": "設定",
+  "days": {
+    "other": "{count}日"
+  },
+  "logout": "ログアウト",
+  "toast": {
+    "saved": "保存しました",
+    "deleted": "削除しました",
+    "csvEmpty": "この CSV にはインポートできるサブスクがありません",
+    "badBackup": "有効なバックアップファイルではありません"
+  },
+  "general": {
+    "title": "一般",
+    "language": "言語",
+    "followSystem": "システムに合わせる",
+    "name": "名前",
+    "namePlaceholder": "共有画像と公開ページに表示されます",
+    "avatar": "アイコン",
+    "avatarDefault": "デフォルトのアイコン",
+    "startPage": "起動時に開く",
+    "startPageAria": "開始ページ",
+    "baseCurrency": "基準通貨",
+    "signedAmounts": "収支の符号",
+    "gainColor": "損益の色",
+    "gainGreen": "緑が利益・赤が損失",
+    "gainRed": "赤が利益・緑が損失",
+    "timezone": "タイムゾーン",
+    "weekStart": "週の始まり",
+    "weekStartAria": "週の最初の曜日",
+    "monday": "月曜日",
+    "sunday": "日曜日",
+    "telemetry": "匿名の利用統計",
+    "telemetryForcedOff": "このデプロイでは無効",
+    "telemetryNote": "利用状況とバージョン情報のみを集計します。サブスクリプション、金額、台帳のデータは一切収集しません。"
+  },
+  "sidebar": {
+    "thisMonth": "今月",
+    "dragFoot": "左のハンドルをドラッグして並べ替えると、サイドバーもこの順になります。",
+    "title": "サイドバー",
+    "upcoming": "今後の請求",
+    "lookAhead": "表示期間",
+    "lookAheadAria": "今後の請求の表示期間"
+  },
+  "remind": {
+    "title": "リマインダー",
+    "lead": "通知",
+    "sameDay": "当日",
+    "never": "しない",
+    "hour": "送信時刻",
+    "monthly": "毎月1日に月間プレビュー",
+    "test": "すべてのチャネルにテスト通知を送信",
+    "testFailed": "送信できませんでした",
+    "channelError": "{channel}：{error}",
+    "errorSep": "；",
+    "testSent": "テスト通知を送信しました",
+    "preview": "今日の通知をプレビュー",
+    "log": "送信履歴"
+  },
+  "today": {
+    "recent": "最近の送信",
+    "title": "今日（{day}）",
+    "items": {
+      "other": "{count}件"
+    }
+  },
+  "books": {
+    "title": "記帳",
+    "defaultMethod": "デフォルトの支払い方法",
+    "unassigned": {
+      "other": "{count}件のサブスクに支払い方法がありません"
+    },
+    "assignAllDone": {
+      "other": "{count}件のサブスクをデフォルトの支払い方法に設定しました"
+    },
+    "assignAll": "すべてにデフォルトを使用",
+    "collectCurrency": "共有プランの通貨"
+  },
+  "fx": {
+    "title": "為替レート",
+    "current": "現在のレート",
+    "updatedAt": "{time}に更新",
+    "updated": "為替レートを更新しました",
+    "history": "過去のレート",
+    "earliest": "{date}から",
+    "coverage": {
+      "other": "{covered} / {count}日"
+    },
+    "fill": "不足しているレートを補完",
+    "historyUpdated": "過去のレートを更新しました"
+  },
+  "open": {
+    "publicSubs": "公開するサブスク",
+    "publicSubsHint": "立て替え払いの契約は非公開です。新規契約は初期設定で公開されます。",
+    "publicShown": "表示中\n{count}",
+    "publicOff2": "非表示\n{count}",
+    "publicShowAll": "すべて表示",
+    "publicHideAll": "すべて非表示",
+    "publicHideOne": "{name} を非表示",
+    "publicShowOne": "{name} を表示",
+    "publicNone": "何も表示されていません。公開ページは空になります",
+    "title": "共有とアクセス",
+    "ics": "システムのカレンダーで購読",
+    "on": "オン",
+    "off": "オフ",
+    "public": "公開ページ",
+    "publicOn": "公開ページをオンにしました",
+    "publicOff": "公開ページをオフにしました",
+    "publicTitle": "ページのタイトル",
+    "previewPublic": "公開ページをプレビュー",
+    "ai": "AI 連携（MCP）",
+    "aiOn": "AI 連携をオンにしました",
+    "aiOff": "AI 連携をオフにしました。AI アシスタントは接続できなくなります。",
+    "manageAi": "トークンと設定を管理"
+  },
+  "data": {
+    "title": "データ",
+    "importCsv": "データを取り込む",
+    "restore": "バックアップから復元",
+    "exportCsv": "CSV をエクスポート",
+    "backup": "完全バックアップをエクスポート"
+  },
+  "restore": {
+    "cancel": "キャンセル",
+    "replace": "現在の台帳を置き換える",
+    "done": "復元しました",
+    "warning": "現在の台帳はバックアップで完全に置き換えられます。元に戻せないため、先にバックアップをエクスポートすることをおすすめします。",
+    "subs": "サブスク",
+    "methods": "支払い方法",
+    "count": {
+      "other": "{count}件"
+    },
+    "time": "バックアップ日時",
+    "format": "形式",
+    "legacy": "旧形式のバックアップ：サブスクと支払い方法のみ",
+    "unlock": "ロック解除",
+    "wrongPassphrase": "パスフレーズが違います"
+  },
+  "import": {
+    "title": {
+      "other": "{count}件のサブスクをインポート"
+    },
+    "confirmReplace": "置き換えると、既存のサブスクと支払い方法はすべて消去されます。続けますか？",
+    "replaceDone": "インポートしました（置き換え）",
+    "replaceAll": "すべて置き換える",
+    "mergeDone": "インポートしました（統合）",
+    "merge": "既存に追加",
+    "newMethods": "新しい支払い方法が作成されます：{names}",
+    "sep": "、",
+    "history": "取込日以降のみ支払いを推定します。それ以前の支払い履歴は再構成しません。",
+    "owner": "バックアップ内のアカウント",
+    "choose": "選択…",
+    "independent": "同名の購読は別々に保持します。",
+    "include": "取り込む",
+    "every": "間隔",
+    "next": "次回支払い",
+    "paused": "一時停止として取り込みます。再開前に確認してください。",
+    "reading": "ファイルを読込中…",
+    "formats": "CSV、ZIP バックアップ、SQLite データベース"
+  },
+  "channels": {
+    "title": {
+      "other": "通知チャネル\n{count}件オン"
+    },
+    "empty": "チャネルがありません。通知は送信されません。",
+    "test": "テスト",
+    "testFailed": "送信できませんでした",
+    "testSent": "テストメッセージを送信しました",
+    "add": "チャネルを追加",
+    "addKind": "{name}を追加",
+    "delete": "削除",
+    "save": "保存",
+    "fillField": "{field}を入力してください",
+    "name": "名前",
+    "optional": "任意",
+    "enabled": "有効",
+    "field": {
+      "to": "メールアドレス",
+      "webhook": "Webhook URL",
+      "server": "サーバー",
+      "token": "アクセストークン"
+    },
+    "kind": {
+      "email": {
+        "name": "メール",
+        "help": "Cloudflare Email Sending で送信します。ドメインを Cloudflare で認証しておく必要があります"
+      },
+      "telegram": {
+        "chatIdPlaceholder": "ユーザー ID またはグループ ID",
+        "help": "@BotFather でボットを作成してトークンを取得します。先にボットへメッセージを送り、@userinfobot で自分の ID を確認してください"
+      },
+      "lark": {
+        "name": "Lark（Feishu）",
+        "secret": "署名シークレット",
+        "secretPlaceholder": "署名検証がオンの場合は必須",
+        "help": "グループ設定 → ボット → カスタムボットを追加"
+      },
+      "dingtalk": {
+        "name": "DingTalk",
+        "secret": "署名シークレット",
+        "secretPlaceholder": "SEC…（署名がオンの場合は必須）",
+        "help": "グループ設定 → ボット → カスタムボット"
+      },
+      "wecom": {
+        "name": "WeCom",
+        "help": "グループチャット → グループボットを追加"
+      },
+      "bark": {
+        "keyPlaceholder": "アプリからコピーしたキー",
+        "help": "iPhone のプッシュ通知。App Store で Bark を検索してください"
+      },
+      "ntfy": {
+        "topicPlaceholder": "推測されにくい名前を付けてください",
+        "help": "スマートフォンに ntfy アプリを入れて、同じトピックを購読してください"
+      },
+      "serverchan": {
+        "name": "ServerChan",
+        "keyPlaceholder": "SCT… または sctp…",
+        "help": "WeChat にプッシュ（ServerChan Turbo / ³）"
+      },
+      "discord": {
+        "help": "チャンネル設定 → 連携サービス → ウェブフック"
+      },
+      "webhook": {
+        "name": "カスタム Webhook",
+        "header": "追加ヘッダー",
+        "help": "POST JSON：subject、intro、sections、text、markdown、url"
+      }
+    }
+  },
+  "security": {
+    "title": "セキュリティ",
+    "unknownBrowser": "不明なブラウザ",
+    "ago": {
+      "justNow": "たった今アクティブ",
+      "minutes": {
+        "other": "{count}分前"
+      },
+      "hours": {
+        "other": "{count}時間前"
+      },
+      "days": {
+        "other": "{count}日前"
+      }
+    },
+    "thisDevice": "このデバイス",
+    "signedInPasskey": "{time}にパスキーでログイン",
+    "signedInPassword": "{time}にパスワードでログイン",
+    "revoke": "ログアウト",
+    "revoked": "ログアウトしました",
+    "lastUsed": "最終使用 {time}",
+    "addedAt": "{time}に追加",
+    "remove": "削除",
+    "rename": "名前を変更",
+    "removed": "削除しました",
+    "addPasskey": "パスキーを追加",
+    "alreadyBound": "このデバイスにはすでにパスキーがあります",
+    "changePassword": "パスワードを変更",
+    "devices": "ログイン中のデバイス",
+    "devicesCount": {
+      "other": "ログイン中のデバイス\n{count}"
+    },
+    "maxSessions": "ログインできるデバイスの上限",
+    "maxSessionsSaved": {
+      "other": "最大{count}台"
+    },
+    "deviceCount": {
+      "other": "{count}台"
+    },
+    "confirmLogoutOthers": "ほかのすべてのデバイスからログアウトしますか？",
+    "loggedOutOthers": "ほかのデバイスからログアウトしました",
+    "logoutOthers": "ほかのすべてのデバイスからログアウト",
+    "passwordChanged": "パスワードを変更しました。ほかのデバイスはログアウトされました。",
+    "save": "保存",
+    "mismatch": "パスワードが一致しません",
+    "passwordFoot": "8文字以上。変更すると、このデバイス以外はすべてログアウトされます。",
+    "currentPassword": "現在のパスワード",
+    "newPassword": "新しいパスワード",
+    "confirmPassword": "新しいパスワードを確認"
+  },
+  "cat": {
+    "title": "カテゴリ",
+    "manage": "カテゴリを管理",
+    "count": {
+      "other": "{count} 個のカテゴリ"
+    },
+    "subs": {
+      "other": "{count} 件のサブスク"
+    },
+    "unused": "未使用",
+    "foot": "ドラッグで並べ替えできます。名前を変えると、そのカテゴリのサブスクすべてに反映されます。",
+    "add": "新しいカテゴリ",
+    "edit": "カテゴリを編集",
+    "name": "名前",
+    "namePlaceholder": "カテゴリ名",
+    "color": "カラー",
+    "icon": "アイコン",
+    "search": "アイコンを検索",
+    "noMatch": "一致するアイコンがありません",
+    "delete": "カテゴリを削除",
+    "moveTo": {
+      "other": "含まれる {count} 件のサブスクの移動先"
+    },
+    "dragHandle": "ドラッグで並べ替え",
+    "toast": {
+      "created": "カテゴリを追加しました",
+      "saved": "カテゴリを保存しました",
+      "renamed": {
+        "other": "カテゴリを保存し、{count} 件のサブスクを更新しました"
+      },
+      "deleted": "カテゴリを削除しました",
+      "order": "並び順を保存しました"
+    },
+    "error": {
+      "empty": "名前を入力してください",
+      "duplicate": "「{name}」という名前のカテゴリはすでにあります"
+    },
+    "group": {
+      "common": "よく使う",
+      "tech": "テクノロジー",
+      "media": "エンタメ",
+      "work": "仕事",
+      "money": "買い物・お金",
+      "life": "暮らし",
+      "food": "食べ物",
+      "health": "健康・スポーツ",
+      "travel": "移動・旅行",
+      "people": "人・学び"
+    }
+  },
+  "publicPage": {
+    "title": "公開ページを編集",
+    "access": "公開アクセス",
+    "back": "設定に戻る",
+    "reset": "デフォルトに戻す",
+    "leave": "未保存の変更があります。移動しますか？",
+    "leaveOk": "移動",
+    "head": "ヘッダー",
+    "browserTitle": "ブラウザのタイトル",
+    "avatarFollow": "全体のアバターを使う",
+    "avatarLinkHint": "訪問者のブラウザがこのアドレスに直接アクセスするため、接続先に訪問者の IP が見えます。",
+    "bio": "本文",
+    "bioPlaceholder": "タイトルの下に表示されます。改行できます。言語による切り替えはありません。",
+    "sections": "セクション",
+    "remove": "削除",
+    "emptyCard": "データがありません。訪問者にはこのカードは表示されません。",
+    "editTab": "設定",
+    "previewTab": "プレビュー",
+    "desktop": "デスクトップ",
+    "phone": "スマホ",
+    "library": {
+      "metrics": "数値",
+      "charts": "グラフ",
+      "lists": "リストと期間",
+      "bottom": "ページ下部"
+    },
+    "hintDrag": "コンポーネントをページにドラッグするか、クリックして下部に追加します。",
+    "hintTap": "タップしてページ下部に追加します。",
+    "backToLibrary": "コンポーネントに戻る",
+    "headHint": "ページ上のタイトル、本文、アイコンをクリックして編集します。テーマボタンをクリックすると表示を切り替えられます。",
+    "autoSnap": "自動スナップ",
+    "freePlace": "自由配置",
+    "themeButton": "テーマボタン",
+    "themeHide": "テーマボタンを隠す",
+    "themeShow": "テーマボタンを表示（現在は訪問者に見えません）",
+    "metricCard": "指標カード",
+    "template": "スタイル",
+    "metricData": "表示するデータ",
+    "addMetric": "値をもう1つ追加",
+    "widget": {
+      "stats": {
+        "name": "概要",
+        "desc": "毎月の支出と主な数値"
+      },
+      "number": {
+        "name": "数値",
+        "desc": "1つの数値を大きく表示"
+      },
+      "trend": {
+        "name": "推移",
+        "desc": "数値とスパークライン"
+      },
+      "compare": {
+        "name": "比較",
+        "desc": "前年同期との比較"
+      },
+      "share": {
+        "name": "割合",
+        "desc": "毎月の支出に占める割合"
+      },
+      "rows": {
+        "name": "複数行",
+        "desc": "最大4つの数値をまとめて表示"
+      },
+      "chart": {
+        "name": "棒グラフ",
+        "desc": "毎月の請求額と支出の推移"
+      },
+      "composition": {
+        "name": "内訳",
+        "desc": "カテゴリ別の支出"
+      },
+      "treemap": {
+        "name": "ツリーマップ",
+        "desc": "面積で支出額を表示"
+      },
+      "waterfall": {
+        "name": "月ごとの変動",
+        "desc": "追加・値上げ・解約の増減"
+      },
+      "fx": {
+        "name": "通貨",
+        "desc": "通貨の割合とレートの変動"
+      },
+      "timeline": {
+        "name": "タイムライン",
+        "desc": "日ごとの請求"
+      },
+      "calendar": {
+        "name": "カレンダー",
+        "desc": "請求される日"
+      },
+      "years": {
+        "name": "サブスク年表",
+        "desc": "各サブスクの利用期間"
+      },
+      "list": {
+        "name": "サブスク一覧",
+        "desc": "利用中のすべて"
+      },
+      "tenure": {
+        "name": "契約期間",
+        "desc": "平均と最長"
+      },
+      "changes": {
+        "name": "変更履歴",
+        "desc": "追加・値上げ・停止"
+      },
+      "ended": {
+        "name": "解約済み",
+        "desc": "解約したものと元の価格"
+      },
+      "lifetime": {
+        "name": "買い切り",
+        "desc": "一括払いのソフト"
+      },
+      "footer": {
+        "name": "フッター",
+        "desc": "プロジェクト名とバージョン"
+      },
+      "pile": {
+        "name": "アイコンの山",
+        "desc": "ページ下部に落ちるアイコン"
+      },
+      "globe": {
+        "name": "地球儀",
+        "desc": "利用中のサブスクの地域"
+      }
+    }
+  },
+  "update": {
+    "current": "現在のバージョン",
+    "available": "アップデートあり",
+    "check": "アップデートを確認",
+    "failed": "確認できませんでした",
+    "upToDate": "最新",
+    "title": "v{version} にアップグレード",
+    "copy": "コマンドをコピー",
+    "copied": "コマンドをコピーしました",
+    "guide": "アップグレード手順",
+    "notes": "リリースノート"
+  },
+  "autobackup": {
+    "title": "自動バックアップ",
+    "off": "オフ",
+    "failed": "バックアップ失敗",
+    "last": "前回のバックアップ",
+    "never": "まだバックアップがありません",
+    "runNow": "今すぐバックアップ",
+    "storage": "ストレージ",
+    "kind": "保存先",
+    "endpoint": "エンドポイント",
+    "bucket": "バケット",
+    "folder": "フォルダ",
+    "kept": "保存済み",
+    "encryption": "暗号化",
+    "passphrase": "パスフレーズ",
+    "confirm": "パスフレーズ（確認）",
+    "mismatch": "パスフレーズが一致しません",
+    "keep": "保持数",
+    "copies": {
+      "other": "件"
+    },
+    "save": "保存",
+    "switchTo": "{kind} に切り替え",
+    "remove": "削除",
+    "removed": "自動バックアップを削除しました",
+    "done": "バックアップしました"
+  }
+}

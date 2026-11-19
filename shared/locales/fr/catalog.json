@@ -1,0 +1,12 @@
+{
+  "name": {
+    "qwen": "Qwen",
+    "doubao": "Doubao",
+    "yuanbao": "Tencent Yuanbao",
+    "zhipu": "ChatGLM",
+    "coze": "Coze",
+    "kling": "Kling AI",
+    "hailuo": "Hailuo AI",
+    "hunyuan": "Tencent Hunyuan"
+  }
+}

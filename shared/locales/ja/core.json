@@ -1,0 +1,241 @@
+{
+  "currency": {
+    "SLE": "シエラレオネ レオン",
+    "XCG": "カリブ・ギルダー",
+    "ZWG": "ジンバブエ・ゴールド"
+  },
+  "bill": {
+    "m1": "毎月",
+    "m3": "3か月ごと",
+    "m6": "6か月ごと",
+    "m12": "毎年",
+    "custom": {
+      "other": "{count}か月ごと"
+    },
+    "once": "一括"
+  },
+  "cycle": {
+    "lifetime": "買い切り",
+    "once": "1回",
+    "every": {
+      "day": "毎日",
+      "week": "毎週",
+      "month": "毎月",
+      "year": "毎年"
+    },
+    "quarterly": "3か月ごと",
+    "halfYearly": "6か月ごと",
+    "biennial": "2年ごと",
+    "everyN": {
+      "day": {
+        "other": "{count}日ごと"
+      },
+      "week": {
+        "other": "{count}週ごと"
+      },
+      "month": {
+        "other": "{count}か月ごと"
+      },
+      "year": {
+        "other": "{count}年ごと"
+      }
+    }
+  },
+  "subError": {
+    "name": "名前を入力してください",
+    "price": "価格が正しくありません",
+    "paymentCurrency": "支払いの通貨はプランの通貨と同じにしてください",
+    "start": "開始日が正しくありません",
+    "cycle": "請求サイクルが正しくありません",
+    "refundAmount": "正の返金額と有効な通貨を入力してください",
+    "refundDate": "退出日を設定してください。返金日は参加日以降にしてください",
+    "funding": "分割払いが無効です：0 以外の金額で 2 つ以上の異なる支払い方法を指定し、同じ支払いに単独の支払い方法を併記しないでください",
+    "fundingSum": "分割した金額の合計は支払い金額と一致する必要があります",
+    "transfer": "譲渡が無効です：種類、日付、0 より大きい金額、通貨が必要です",
+    "meter": "指標が無効です：一意の id と名前が必要です",
+    "reading": "使用量の記録が無効です：一意の id、正しい日付、数値が必要です",
+    "meterLink": "リンク先の指標が存在しないか、その指標自体が別の指標にリンクされています",
+    "meterLinkUsed": "「{meter}」は「{name}」からリンクされています。先にそちらでリンクを解除してください",
+    "readingMeter": "使用量の記録が未定義の指標を参照しています"
+  },
+  "phase": {
+    "switchTooEarly": "適用日は現在の期間の開始日より後にしてください",
+    "resumeNeedsStopDate": "再開する前に実際の停止日を入力して保存してください",
+    "resumeTooEarly": "再開日は前回の終了日より前にできません",
+    "prependTooLate": "追加する期間は購読の開始日より前にしてください",
+    "prependUntil": "追加する期間の終了日は、その開始日より後、元の開始日より前にしてください",
+    "priceOutOfRange": "価格変更日がどの期間にも含まれていません",
+    "keepTooEarly": "継続利用の終了日は切り替え日より後にしてください",
+    "endTooEarly": "終了日はこの期間の開始日より後にしてください",
+    "endOnNextStart": "終了日はサービスの最終日で、次の期間の開始日と同じにはできません。続けて切り替える場合は空欄にするか前日にしてください",
+    "startOrder": "開始日は前の期間の開始日より後、次の期間の開始日より前にしてください。",
+    "priceDuplicate": "この日付の価格は既に登録されています",
+    "priceInitial": "初期価格は削除できません",
+    "upgradeUnavailable": "この切り替えでは旧プランを充当できません。発効済み・同じ通貨・前払いで、旧プランに未使用日数が残っている必要があります。請求日を維持するには周期も同じである必要があります。"
+  },
+  "event": {
+    "label": "{region}{price}/{per}",
+    "region": "{region} ",
+    "per": {
+      "year": "年",
+      "month": "月",
+      "months": "{count}か月",
+      "week": "週",
+      "day": "日"
+    }
+  },
+  "listSep": "、",
+  "insight": {
+    "yearly": {
+      "title": {
+        "other": "長期サブスク{count}件が60日以内に更新されます"
+      },
+      "body": "合計約{sum}。年額の請求は返金が難しいので、続けるものを今のうちに決めましょう。"
+    },
+    "dup": {
+      "title": "{names}は重複しているかもしれません",
+      "body": {
+        "other": "合わせて月約{sum}かかっています（{count}件）。すべて必要か確認しましょう。"
+      }
+    },
+    "hikes": {
+      "title": {
+        "other": "過去1年で{count}件のサブスクが値上げされました"
+      }
+    },
+    "intro": {
+      "title": {
+        "other": "{name}の初回特典はあと{count}日で終了"
+      },
+      "body": "終了後、価格は{from}から{to}に戻ります。"
+    },
+    "balance": {
+      "title": "{name}は{date}まで持ちません",
+      "body": "{sub} に {need} 必要ですが、その時点の残りは {current} です。",
+      "bodyOver": "{sub} に {need} 必要ですが、残高はすでに {current} です。",
+      "bodyToday": "今日の {sub}（{need}）を引くと、残高は {current} です。"
+    },
+    "fx": {
+      "title": "支出の{pct}%が外貨建てです",
+      "body": "最も多いのは{ccy}（{share}%）。{ccy}安になればこの分は安く、{ccy}高になれば高くなります。"
+    },
+    "noMethod": {
+      "title": {
+        "other": "{count}件のサブスクに支払い方法が設定されていません"
+      },
+      "body": "設定すると、残高予測と支払い方法別の集計が正確になります。"
+    },
+    "top": {
+      "title": "{name}がいちばん高いサブスクです",
+      "body": "1日あたり約{perDay}、月間支出の{pct}%です。"
+    }
+  },
+  "methodKind": {
+    "debit": "デビットカード",
+    "credit": "クレジットカード",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "paypal": "PayPal",
+    "appstore": "App Store",
+    "googleplay": "Google Play",
+    "giftcard": "ギフトカード",
+    "prepaid": "ストア残高",
+    "phone": "携帯残高",
+    "crypto": "暗号資産カード",
+    "other": "その他"
+  },
+  "publicMethod": "{kind}\n{region}",
+  "channel": {
+    "email": "メール"
+  },
+  "csv": {
+    "appStoreBalance": "App Store {region} 残高",
+    "otherCategory": "その他"
+  },
+  "category": {
+    "ai": "AI",
+    "tools": "ツール",
+    "productivity": "効率化",
+    "media": "動画",
+    "music": "音楽",
+    "games": "ゲーム",
+    "cloud": "クラウド",
+    "storage": "ストレージ",
+    "domains": "ドメイン",
+    "vpn": "VPN・ネットワーク",
+    "developer": "開発",
+    "design": "デザイン",
+    "education": "教育",
+    "news": "ニュース・読書",
+    "social": "SNS",
+    "shopping": "ショッピング",
+    "finance": "金融",
+    "insurance": "保険",
+    "health": "健康・フィットネス",
+    "phone": "通信",
+    "daily": "ライフスタイル"
+  },
+  "stop": {
+    "title": "サービス停止",
+    "nonrenew": "更新しない",
+    "cancel": "今すぐ停止",
+    "terminate": "提供元による停止",
+    "date": "停止日",
+    "paidThrough": "支払済み期間：{date} まで",
+    "refundYes": "返金あり",
+    "refundNo": "未返金",
+    "refundAmount": "返金額",
+    "refundDate": "返金日",
+    "reason": "理由（任意）",
+    "refunded": "返金済み {money}",
+    "partial": "一部返金 {money}",
+    "unrefunded": "未返金\n損失 {money}",
+    "unused": "未返金損失: {money} ({days})",
+    "unusedTitle": "未返金",
+    "terminated": "利用停止",
+    "restore": "再開",
+    "fxMissing": "一部の損失は為替レートがないため換算できません。明細に元の通貨の金額を表示します。",
+    "lossTitle": "未返金損失",
+    "lossDays": {
+      "other": "{count} 日"
+    },
+    "fullyRefunded": "全額返金済み",
+    "chargeOnEnd": "この日は更新の請求日です。前日にすると請求されません。",
+    "nonrenewDone": "期限で更新しない設定にしました。{date} 以降は請求されません。",
+    "stoppedDone": "サービスを停止しました",
+    "method": "停止方法",
+    "latestRefundHint": "ここでは直近の返金を編集します。それ以前の返金は支払い履歴に残ります。"
+  },
+  "renewal": {
+    "title": "更新ルール",
+    "chargeLeadDays": "前払いの日数",
+    "cancelLeadDays": "解約に必要な日数",
+    "nextDue": "次回の請求日",
+    "hint": "サービス更新前の請求と、その請求前の解約に必要な日数です。0 は設定なし。サービス期間は変わりません。",
+    "cancelBy": "解約期限",
+    "invalid": "0～3660 の整数で日数を入力してください。",
+    "tooLate": "解約期限を過ぎたため、次の期間も請求されます。",
+    "cancelReminder": "次回の請求を避けるには {date} までに解約してください。",
+    "none": "なし"
+  },
+  "import": {
+    "invalid": "このファイルを購読データとして読み込めません。",
+    "tooLarge": "32 MB 以下のファイルを選択してください。",
+    "pending": "未反映の変更があります。整合性のあるデータベースバックアップを作成してください。",
+    "currency": "通貨記号が曖昧か未対応です。通貨を選択してください。",
+    "cycle": "有効な請求周期を選択してください。",
+    "price": "0 以上の有効な金額を入力してください。",
+    "date": "有効な日付を入力してください。",
+    "selectUser": "バックアップ内のアカウントを一つ選択してください。",
+    "payers": "支払者",
+    "unknownStart": "元の開始日は不明です。選択した日から記録します。",
+    "manual": "元データは手動更新です。一時停止として取り込みます。",
+    "reviewRequired": "「データを取り込む」からファイルを開き、項目を確認してください。",
+    "badDate": "元の{field}「{value}」は認識できず、取り込んでいません",
+    "nextDue": "次回支払日",
+    "end": "終了日"
+  },
+  "fxIncomplete": "為替レートがないため一部の金額を換算できず、この結果は不完全です。",
+  "fxUnconverted": "未換算：{amount}",
+  "fxOther": "ほか {count} 通貨"
+}

@@ -1,0 +1,31 @@
+{
+  "yearTitle": "{year}",
+  "summary": {
+    "one": "{count} prélèvement\n{amount}",
+    "other": "{count} prélèvements\n{amount}"
+  },
+  "mode": {
+    "month": "Mois",
+    "year": "Année"
+  },
+  "prev": "Précédent",
+  "next": "Suivant",
+  "today": "Aujourd’hui",
+  "ics": "S’abonner dans Calendrier",
+  "noneDay": "Aucun prélèvement ce jour-là",
+  "projected": "Prévu",
+  "charged": "Prélevé",
+  "monthTotal": "Prélèvements de {month}",
+  "count": "{count} prélèvements",
+  "monthAll": "Tous les prélèvements de {month}",
+  "noneMonth": "Aucun prélèvement ce mois-ci",
+  "day": "{day}",
+  "heatCount": {
+    "one": "{count} prélèvement\n",
+    "other": "{count} prélèvements\n"
+  },
+  "pickDay": "Choisissez une date pour voir ses prélèvements",
+  "nextCharge": "Prochain prélèvement\n{date}",
+  "expandReport": "Afficher le rapport complet",
+  "nextBill": "Prochaine facture\n{date}"
+}

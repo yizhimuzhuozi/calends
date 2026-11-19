@@ -1,0 +1,118 @@
+{
+  "filter": {
+    "all": "Tất cả",
+    "live": "Đang chạy",
+    "owe": "Chờ thu",
+    "ended": "Đã dừng",
+    "none": "Không có khoản trả hộ phù hợp"
+  },
+  "title": "Trả hộ",
+  "status": {
+    "active": "Đang hoạt động",
+    "ending": "Sắp kết thúc",
+    "ended": "Đã dừng"
+  },
+  "owedPeriods": {
+    "other": "{count} khoản chưa trả lại"
+  },
+  "viewSub": "Xem gói đăng ký",
+  "stoppedOn": "\ndừng {date}",
+  "nextOn": "\nkỳ tới {date}",
+  "payFor": "Cho {name}",
+  "unset": "chưa đặt",
+  "paidPeriods": {
+    "other": "Đã trả hộ {count} khoản phí"
+  },
+  "received": "Đã nhận",
+  "owed": "Chưa trả lại",
+  "settled": "Đã trả đủ",
+  "detailTitle": "Trả hộ",
+  "cardCcy": "\nthẻ thanh toán bằng {ccy}",
+  "forWhom": "Trả hộ cho",
+  "method": "Phương thức thanh toán",
+  "stoppedAt": "Dừng ngày",
+  "nextCharge": "Lần trừ tiền tới",
+  "note": "Ghi chú",
+  "table": {
+    "cost": "Chi phí lúc đó",
+    "total": "Tổng\n{count}",
+    "receivedOn": "Nhận {date}",
+    "date": "Ngày trừ tiền",
+    "charged": "Đã trừ",
+    "received": "Đã nhận",
+    "diff": "Lãi/lỗ",
+    "record": "Ghi nhận",
+    "even": "Hòa",
+    "none": "Chưa có khoản phí nào.",
+    "title": "Chi tiết từng kỳ",
+    "notCharged": "Chưa trừ tiền"
+  },
+  "entry": {
+    "markedDue": "Đã đánh dấu chưa trả lại",
+    "saved": "Đã lưu",
+    "title": "Khoản phí ngày {date}",
+    "markDue": "Đánh dấu chưa trả lại",
+    "cancel": "Hủy",
+    "save": "Lưu",
+    "chargedRate": "Khoảng {amount} theo tỷ giá ngày trừ tiền",
+    "chargedBlank": "Để trống để dùng giá niêm yết {list}",
+    "amount": "Số tiền",
+    "currency": "Tiền tệ",
+    "paidBack": "{name} đã trả lại tôi",
+    "paidBackAnon": "Đã trả lại cho tôi",
+    "receivedEmpty": "Để trống nếu chưa nhận.",
+    "receivedEven": "{amount} theo tỷ giá ngày nhận, bằng với khoản đã trừ.",
+    "receivedMore": "{amount} theo tỷ giá ngày nhận, nhiều hơn khoản đã trừ {diff}.",
+    "receivedLess": "{amount} theo tỷ giá ngày nhận, ít hơn khoản đã trừ {diff}.",
+    "notReceived": "Chưa nhận",
+    "receivedOn": "Ngày nhận",
+    "notePlaceholder": "Tùy chọn, VD: chuyển khoản ngân hàng"
+  },
+  "page": {
+    "owedSub": {
+      "other": "{count} khoản chưa trả lại, theo tỷ giá ngày trừ tiền"
+    },
+    "subs": {
+      "other": "{count} gói đăng ký"
+    },
+    "diffSub": "Lãi/lỗ do tỷ giá và phí trên các khoản đã nhận",
+    "emptyTitle": "Chưa có khoản trả hộ nào",
+    "emptyBody": "Tạo hoặc sửa gói đăng ký, chọn “Trả hộ” ở mục “Ai sử dụng”, rồi nhập người được trả hộ.",
+    "liveNext": "Đang chạy {count}, lần trừ tiếp theo {date}",
+    "lastIn": "Nhận gần nhất {date}",
+    "noneIn": "Chưa nhận khoản thanh toán nào",
+    "diffAvg": "Đã thu {count} kỳ, trung bình {amount} mỗi kỳ",
+    "perPeriod": "Trung bình {amount} mỗi kỳ",
+    "owedRate": "Theo tỷ giá ngày trừ tiền",
+    "prepaid": "Thêm {amount} trả trước cho {count} kỳ sắp tới"
+  },
+  "paid": "Đã trả hộ",
+  "periods": "{count} kỳ",
+  "lastIn": "Gần nhất {date}",
+  "prepaidTo": "Đã trả trước đến {date}",
+  "receipt": {
+    "add": "Ghi khoản thu",
+    "title": "Ghi khoản thu",
+    "covers": "Áp dụng cho",
+    "from": "Bắt đầu từ kỳ",
+    "periods": "Số kỳ",
+    "owedTag": "đã trừ, chưa nhận",
+    "coversFootOne": "Áp dụng cho kỳ {from}.",
+    "coversFootMany": "Áp dụng {count} kỳ từ {from} đến {to}, bỏ qua các kỳ đã nhận. Số tiền chia đều, lãi/lỗ tính theo từng kỳ.",
+    "total": "Số tiền nhận",
+    "perFoot": "Mỗi kỳ {per}.",
+    "baseFoot": "{amount} theo tỷ giá ngày nhận.",
+    "none": "Không có kỳ chờ nhận hoặc sắp tới.",
+    "undo": "Hủy khoản nhận này",
+    "batchFoot": "Kỳ này thuộc một khoản nhận cho nhiều kỳ. Muốn đổi số tiền hoặc kỳ, hãy hủy rồi ghi lại.",
+    "perPeriod": "{count} kỳ, mỗi kỳ {amount}"
+  },
+  "convert": {
+    "maybeGroup": "Có thể là thanh toán hộ",
+    "submit": "Chuyển sang thanh toán hộ",
+    "title": "Chuyển {name} sang thanh toán hộ",
+    "saved": "Đã chuyển sang thanh toán hộ",
+    "changed": "Gói đăng ký này đã bị thay đổi hoặc xóa. Hãy mở lại và thử lại."
+  },
+  "stop": "Ngừng trả hộ"
+}

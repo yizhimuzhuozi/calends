@@ -1,0 +1,275 @@
+{
+  "imagesSent": "{count} Bild(er) gesendet",
+  "clearChatsHint": "Löscht alle Unterhaltungen auf dem Server und diesem Gerät. Nicht umkehrbar.",
+  "clearChats": "Alle Chats löschen",
+  "clearChatsConfirm": "Alle Chats löschen? Das lässt sich nicht rückgängig machen.",
+  "clearChatsDone": "Alle Chats gelöscht",
+  "title": "KI-Assistent",
+  "new": "Neuer Chat",
+  "settings": "KI-Einstellungen",
+  "toBottom": "Nach unten",
+  "welcome": {
+    "variants": {
+      "v1": {
+        "title": "Rechnungen und Screenshots einfach hier einfügen",
+        "body": "Füge einen Beleg aus dem App Store, eine Abbuchungs-SMS, einen Screenshot deiner Abos oder beliebigen Text ein. Ich erstelle Abo-Entwürfe, die du bestätigen kannst. Frag mich auch nach deinen Ausgaben."
+      },
+      "v2": {
+        "title": "Wohin geht diesen Monat dein Geld?",
+        "body": "Frag mich, was diesen Monat fällig ist, welche Abbuchungen am teuersten sind oder wie viel du dieses Jahr ausgegeben hast. Ich schaue in deinem Haushaltsbuch nach."
+      },
+      "v3": {
+        "title": "Abbuchungsmitteilungen? Her damit",
+        "body": "Füge eine Abbuchungsmitteilung deiner Bank, deines Bezahldienstes oder Mobilfunkanbieters ein. Ich erkenne das Abo und den Betrag und trage die Zahlung ein."
+      },
+      "v4": {
+        "title": "Ein Screenshot für eine ganze Seite Abos",
+        "body": "Schick einen Screenshot deiner Abos im App Store oder einer Mitgliedschaftsseite. Ich erstelle für jedes Abo einen eigenen Entwurf zum Bestätigen."
+      },
+      "v5": {
+        "title": "Preis erhöht? Sag mir, ab wann",
+        "body": "Sag „Netflix kostet ab nächsten Monat 17.99“. Ich ändere den Preis ab diesem Datum. Frühere Abbuchungen bleiben unverändert."
+      },
+      "v6": {
+        "title": "Du willst nicht verlängern? Sag Bescheid",
+        "body": "Nicht verlängern, sofort beenden oder vom Anbieter gesperrt: Ich kenne den Unterschied und kann auch gleich eine Erstattung eintragen."
+      },
+      "v7": {
+        "title": "Ich rechne geteilte Abos für dich ab",
+        "body": "Ihr teilt euch einen Familientarif? Sag mir, wie viel jeder zahlt und wer schon bezahlt hat. Ich erfasse Mitglieder und Zahlungen, damit du siehst, wer noch wie viel schuldet."
+      },
+      "v8": {
+        "title": "Eine Tabelle mit Rechnungen fürs ganze Jahr?",
+        "body": "Füge eine Tabelle mit monatlichen Rechnungen ein. Ich lege für jede Spalte ein Abo an und trage die tatsächlichen Monatsbeträge in den Verlauf ein."
+      },
+      "v9": {
+        "title": "Welche Abos können weg?",
+        "body": "Frag nach ungenutzten oder doppelten Abos oder den größten Preiserhöhungen. Ich suche sie in deinem Haushaltsbuch und stelle eine Liste möglicher Kündigungen zusammen."
+      },
+      "v10": {
+        "title": "Was wird nächste Woche abgebucht?",
+        "body": "Frag nach den Abbuchungen der nächsten Tage oder des restlichen Monats. Ich liste sie nach Datum auf, damit du vorausplanen kannst."
+      },
+      "v11": {
+        "title": "Auch Abos in Fremdwährungen im Blick",
+        "body": "Preise im türkischen oder nigerianischen Store bleiben in der Originalwährung. Ich rechne sie zum Tageskurs in deine Hauptwährung um und kann auch die tatsächliche Kartenbelastung erfassen."
+      },
+      "v12": {
+        "title": "Beleg per E-Mail? Kopiere einfach alles",
+        "body": "Bei Belegen von Apple, Google oder Spotify musst du keine Details heraussuchen. Füge die ganze E-Mail ein, ich finde Betrag, Abrechnungszeitraum und Datum."
+      },
+      "v13": {
+        "title": "Auch langjährige Abos nachtragen",
+        "body": "Sag „Seit 2021, anfangs 8, jetzt 18“. Ich ergänze den Preisverlauf, damit deine Gesamtausgaben stimmen."
+      },
+      "v14": {
+        "title": "Wie viel kosten deine Abos dieses Jahr?",
+        "body": "Frag nach den Abo-Ausgaben dieses Jahr, letztes Jahr oder in einem beliebigen Zeitraum. Ich schlüssle sie nach Kategorie oder Zahlungsmethode auf."
+      },
+      "v15": {
+        "title": "Vergiss nicht, das Probeabo zu kündigen",
+        "body": "Sag mir, wann die Testphase endet. Ich trage das Datum ein, damit du vor dem kostenpflichtigen Beginn eine Erinnerung bekommst."
+      },
+      "v16": {
+        "title": "Für andere bezahlen und den Überblick behalten",
+        "body": "Sag mir, wenn du ein Abo für jemand anderen bezahlst. Ich erfasse deine Auslagen und Rückzahlungen getrennt."
+      },
+      "v17": {
+        "title": "Region oder Tarif gewechselt?",
+        "body": "Vom US-Store in die Türkei gewechselt oder auf einen Familientarif umgestiegen? Sag mir, wann. Ich rechne mit dem neuen Tarif weiter und behalte den bisherigen Verlauf."
+      },
+      "v18": {
+        "title": "Frag einfach drauflos",
+        "body": "„Welches Abo habe ich am längsten?“ „Welche Karte wird am meisten belastet?“ Frag einfach, ich schaue im Haushaltsbuch nach."
+      },
+      "v19": {
+        "title": "Du bestätigst jede Änderung",
+        "body": "Ich erstelle nur Entwürfe. Neue Abos, Preisänderungen und Kündigungen erscheinen als Karten. Erst nach deiner Bestätigung wird etwas gespeichert."
+      },
+      "v20": {
+        "title": "Starte hier dein Haushaltsbuch",
+        "body": "Schick einen Beleg, einen Screenshot oder sag mir einfach, welche Abos du hast. Ich kümmere mich um den Rest."
+      }
+    }
+  },
+  "suggest": {
+    "receipt": {
+      "title": "Quittung einfügen",
+      "hint": "App Store, Google Play oder eine Rechnungs-E-Mail",
+      "text": "Trag diese Quittung als Abo ein:\n"
+    },
+    "screenshot": {
+      "title": "Screenshot senden",
+      "hint": "Abo- oder Abrechnungsseite – einfach einfügen",
+      "text": "Finde die Abos auf diesem Screenshot:"
+    },
+    "month": {
+      "title": "Was wird diesen Monat fällig?",
+      "hint": "Die restlichen Abbuchungen des Monats nach Datum",
+      "text": "Welche Abos werden diesen Monat noch abgebucht, und wie viel ist das insgesamt?"
+    },
+    "hikes": {
+      "title": "Was ist teurer geworden?",
+      "hint": "Abos mit Preiserhöhung im letzten Jahr",
+      "text": "Welche Abos sind im letzten Jahr teurer geworden, und um wie viel?"
+    }
+  },
+  "placeholder": "Text oder Screenshot einfügen oder etwas fragen …",
+  "placeholderSetup": "Richte zuerst deinen DeepSeek-API-Key ein",
+  "addImage": "Bild hinzufügen",
+  "removeImage": "Bild entfernen",
+  "send": "Senden",
+  "stop": "Stoppen",
+  "imageFailed": "Bild konnte nicht gelesen werden",
+  "disclaimer": "Von DeepSeek erstellt. Prüfe Beträge und Daten, bevor du etwas hinzufügst.",
+  "thinking": "Denkt nach …",
+  "thought": {
+    "one": "{count} Sekunde nachgedacht",
+    "other": "{count} Sekunden nachgedacht"
+  },
+  "stopped": "Abgebrochen",
+  "copy": "Kopieren",
+  "copied": "Kopiert",
+  "regenerate": "Neu generieren",
+  "retry": "Erneut versuchen",
+  "applied": "Im Haushaltsbuch eingetragen",
+  "tool": {
+    "running": "Läuft",
+    "done": "Fertig",
+    "error": "Fehler",
+    "input": "Eingabe",
+    "output": "Ausgabe"
+  },
+  "card": {
+    "draft": "Abo-Entwurf",
+    "start": "Startdatum",
+    "today": "Heute",
+    "next": "Nächste Abbuchungen",
+    "add": "Hinzufügen",
+    "confirm": "Bestätigen",
+    "edit": "Erst bearbeiten",
+    "dismiss": "Verwerfen",
+    "dismissed": "Verworfen",
+    "added": "Hinzugefügt",
+    "done": "Erledigt",
+    "view": "Ansehen",
+    "missing": "{fields} nicht erkannt – Standardwerte verwendet, bitte prüfen",
+    "sep": ", ",
+    "filled": "Symbol und Link aus dem App Store ergänzt",
+    "pendingCount": {
+      "one": "{count} Entwurf offen",
+      "other": "{count} Entwürfe offen"
+    },
+    "applyAll": "Alle bestätigen",
+    "history": "Bisherige Abbuchungen",
+    "historyCount": {
+      "one": "{count} Abbuchung",
+      "other": "{count} Abbuchungen"
+    },
+    "changes": "Änderungen und Verweise ansehen",
+    "unverified": "Ergebnis prüfen"
+  },
+  "error": {
+    "auth": "Ungültiger API-Key",
+    "balance": "Dein DeepSeek-Guthaben reicht nicht aus",
+    "rate": "Zu viele Anfragen – versuch es gleich noch einmal",
+    "params": "Die Anfrage wurde abgelehnt",
+    "server": "DeepSeek hat gerade Probleme",
+    "network": "Netzwerkfehler",
+    "config": "Noch kein API-Key eingerichtet"
+  },
+  "setup": {
+    "title": "KI-Assistent einrichten",
+    "intro": "Nutzt deinen eigenen DeepSeek-API-Key; die Kosten werden zu DeepSeek-Preisen deinem Konto belastet. Key erhältst du unter",
+    "keySaved": "Gespeichert ({hint}) – leer lassen, um ihn zu behalten",
+    "baseHint": "Standard ist der offizielle DeepSeek-Endpunkt. Jeder OpenAI-kompatible Dienst funktioniert ebenfalls.",
+    "model": "Modell",
+    "modelHint": "Zum Lesen von Bildern braucht es ein Modell mit Bildverständnis.",
+    "effort": "Nachdenken",
+    "effort_none": "Aus",
+    "effort_noneHint": "Am schnellsten, reicht für einfache Quittungen",
+    "effort_low": "Leicht",
+    "effort_lowHint": "Empfohlen: schnell und genau",
+    "effort_high": "Gründlich",
+    "effort_highHint": "Zuverlässiger bei komplexen Rechnungen, langsamer",
+    "saved": "Gespeichert",
+    "clear": "Key entfernen",
+    "cleared": "API-Key entfernt",
+    "cta": "DeepSeek-API-Key einrichten",
+    "ctaHint": "Nur einmal nötig; der Key bleibt auf deinem eigenen Server",
+    "privacy": "Der Key wird nur auf deinem Server gespeichert – nie an den Browser gesendet und nie in Backups aufgenommen. Texte und Bilder, die du sendest, leitet dein Server an DeepSeek weiter.",
+    "fetching": "Modelle werden geladen…",
+    "fetched": "{count} Modelle verfügbar.",
+    "fetchHint": "Base URL und API-Key eintragen, dann werden die verfügbaren Modelle automatisch geladen.",
+    "noModels": "Der Dienst hat keine Modellliste geliefert. Du kannst den Namen eintippen.",
+    "refresh": "Aktualisieren",
+    "retry": "Erneut versuchen",
+    "manual": "Selbst eingeben",
+    "pickList": "Aus Liste wählen",
+    "notInList": "Nicht in der Liste"
+  },
+  "f": {
+    "member": "Mitglied",
+    "amount": "Betrag",
+    "date": "Datum",
+    "paidUntil": "Bezahlt bis",
+    "fee": "Beitrag",
+    "joined": "Beigetreten",
+    "left": "Ausgetreten",
+    "contact": "Kontakt",
+    "role": "Rolle",
+    "seats": "Plätze (inkl. mir)",
+    "ownerName": "Organisator",
+    "since": "Geteilt seit",
+    "newPrice": "Neuer Preis",
+    "from": "Gültig ab",
+    "action": "Aktion",
+    "kind": "Art",
+    "effect": "Auswirkung",
+    "name": "Name",
+    "category": "Kategorie",
+    "tags": "Tags",
+    "url": "Website",
+    "manage_url": "Verwaltungslink",
+    "notes": "Notizen",
+    "method": "Zahlungsmethode",
+    "region": "Region",
+    "remind_days": "Erinnern (Tage vorher)",
+    "end": "Keine Verlängerung nach",
+    "next_due": "Nächste Abbuchung",
+    "trial_end": "Testphase endet",
+    "expires": "Leistung endet",
+    "price": "Preis",
+    "currency": "Währung",
+    "cycle": "Abrechnungszeitraum",
+    "note": "Notiz",
+    "planned": "Geplant",
+    "phases": "Phasen",
+    "payments": "Erfasste Zahlungen",
+    "spent": "Bisher ausgegeben",
+    "changes": "Geänderte Felder",
+    "funding": "Bezahlt mit"
+  },
+  "v": {
+    "exempt": "Zahlt nicht",
+    "owner": "Ich organisiere",
+    "member": "Ich bin dabei",
+    "unshare": "Nicht mehr teilen",
+    "pause": "Pausieren",
+    "cancel": "Kündigen",
+    "reactivate": "Fortsetzen",
+    "charge": "Abbuchung",
+    "deleteAll": "Löscht das Abo und alle Abbuchungen. Dies kann nicht rückgängig gemacht werden.",
+    "dateUnknown": "Datum unbekannt",
+    "terminate": "Gesperrt"
+  },
+  "interrupted": "Die Antwort wurde unterbrochen, bevor sie fertig war.",
+  "saveUnknown": "Das Speichern konnte nicht bestätigt werden. Prüfe das Buch, bevor du es erneut versuchst.",
+  "savedUnverified": "Gespeichert, aber das Ergebnis konnte nicht geprüft werden. Prüfe das Buch, bevor du fortfährst.",
+  "savedRefreshFailed": "Die Änderung wurde gespeichert, aber die Seite konnte nicht aktualisiert werden. Lade sie neu, bevor du weitere Entwürfe bestätigst.",
+  "outcome": {
+    "partial": "Einige Schritte sind noch offen",
+    "limit": "Das Limit für Werkzeugaufrufe wurde erreicht",
+    "review": "Die Entwürfe wurden noch nicht gespeichert. Prüfe die fertigen Entwürfe und die offenen Schritte, bevor du fortfährst."
+  }
+}

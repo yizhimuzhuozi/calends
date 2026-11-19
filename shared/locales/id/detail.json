@@ -1,0 +1,258 @@
+{
+  "note": {
+    "more": "Tampilkan semua"
+  },
+  "renewal": {
+    "afterTrial": "Tagihan pertama setelah uji coba",
+    "elapsed": "{pct}% periode ini berlalu"
+  },
+  "overlap": {
+    "title": "Juga berjalan",
+    "previous": "Paket sebelumnya",
+    "until": "Sampai {date}\n{rel}"
+  },
+  "action": {
+    "edit": "Edit",
+    "pause": "Jeda",
+    "resume": "Lanjutkan",
+    "manage": "Kelola",
+    "share": "Bagikan",
+    "copyImage": "Salin sebagai gambar"
+  },
+  "toast": {
+    "resumed": "Tagihan dilanjutkan",
+    "paused": "Dijeda. Tagihan mendatang tidak lagi diperkirakan",
+    "imageCopied": "Gambar disalin"
+  },
+  "snapshotRest": "{count} lainnya",
+  "history": "Riwayat",
+  "field": {
+    "amount": "Jumlah",
+    "cycle": "Siklus tagihan",
+    "category": "Kategori",
+    "method": "Metode pembayaran",
+    "next": "Jatuh tempo berikutnya",
+    "expiresHint": "Perpanjangan otomatis ditagih sebelum tanggal ini",
+    "endedOn": "Berakhir pada",
+    "trialEnd": "Uji coba berakhir",
+    "region": "Wilayah",
+    "period": "Periode",
+    "present": "sekarang",
+    "endedUnknown": "Berakhir; tanggal tidak diketahui"
+  },
+  "up": {
+    "planned": "Rencana perubahan\nbelum pasti",
+    "starting": "Segera dimulai",
+    "changing": "Perubahan mendatang",
+    "effective": "Tanggal berlaku"
+  },
+  "plan": {
+    "drop": "Jangan beralih",
+    "droppedToast": "Tidak beralih. Berakhir setelah {date}",
+    "confirm": "Konfirmasi peralihan",
+    "confirmedToast": "Peralihan dikonfirmasi"
+  },
+  "intro": {
+    "title": "Promo awal",
+    "price": "Harga promo",
+    "until": "Promo berakhir",
+    "then": "Setelahnya"
+  },
+  "share": {
+    "open": "Lihat patungan",
+    "owner": "Bersama\nsaya pengelola ({count}/{seats})",
+    "member": "Bersama\nsaya bergabung",
+    "payTo": "Bayar ke",
+    "host": "Pengelola",
+    "unnamed": "Tanpa nama",
+    "me": "Saya"
+  },
+  "charges": {
+    "recentN": "Hanya {count} terakhir",
+    "addShort": "Catat",
+    "title": "Tagihan",
+    "paidOn": "Dibayar {date}",
+    "kind": {
+      "refund": "Refund",
+      "adjust": "Penyesuaian",
+      "failed": "Gagal"
+    },
+    "add": "Tambah catatan (refund, penyesuaian, tagihan gagal, jumlah di kartu…)"
+  },
+  "stats": {
+    "spent": "Total pengeluaran",
+    "count": {
+      "other": "{count} tagihan"
+    },
+    "owned": "Dimiliki selama",
+    "subscribed": "Berlangganan selama",
+    "yearsMonths": "{years} thn {months} bln",
+    "years": {
+      "other": "{count} tahun"
+    },
+    "months": {
+      "other": "{count} bulan"
+    },
+    "days": {
+      "other": "{count} hari"
+    },
+    "gaps": {
+      "other": "Terputus {count} kali"
+    },
+    "perMonth": "Biaya bulanan riil",
+    "spentThisYear": "Pengeluaran tahun ini",
+    "allTime": "Total {amount}"
+  },
+  "tab": {
+    "charges": "Tagihan\n{count}",
+    "details": "Detail"
+  },
+  "kpi": {
+    "noGaps": "Tanpa jeda",
+    "startedToday": "Mulai hari ini",
+    "expectedMonthly": "Perkiraan per bulan",
+    "amortizedCost": "Biaya rata-rata",
+    "perMonthValue": "{amount}/bln",
+    "perDay": "{amount} per hari",
+    "thisYearMonthly": "Per bulan tahun ini",
+    "averageMonthly": "Rata-rata {amount}/bln",
+    "dailyAmount": "{amount}/hari"
+  },
+  "chart": {
+    "title": "Per tagihan\n{ccy}",
+    "all": "Semua",
+    "y1": "1 thn",
+    "m6": "6 bln",
+    "period": "Periode",
+    "converted": "Setara",
+    "average": "Rata-rata",
+    "method": "Bayar",
+    "paidOn": "Dibayar",
+    "bucket": {
+      "m1": "Setiap batang adalah total bulanan",
+      "m3": "Setiap batang adalah total kuartalan",
+      "m12": "Setiap batang adalah total tahunan"
+    },
+    "regular": "Harga normal",
+    "saved": "Diskon awal",
+    "unknownEnd": "Tanggal berakhir tidak diketahui; grafik dibatasi pada cakupan pembayaran yang diketahui"
+  },
+  "ev": {
+    "next": "Tagihan berikutnya",
+    "gap": "Jeda",
+    "start": "Mulai berlangganan",
+    "switch": "Ganti paket",
+    "price": "Perubahan harga",
+    "introEnd": "Kembali ke harga normal",
+    "paused": "Dijeda",
+    "ended": "Berakhir",
+    "ending": "Akan berakhir",
+    "phases": "{count} fase",
+    "more": "Tampilkan {count} sebelumnya",
+    "shareStart": "Mulai patungan"
+  },
+  "stop": {
+    "title": "Penghentian dan pengembalian dana",
+    "type": "Jenis penghentian",
+    "paidThrough": "Awalnya dibayar sampai",
+    "loss": "−{money} ({days})"
+  },
+  "timeline": {
+    "planned": "Perkiraan"
+  },
+  "period": {
+    "paid": "Periode ini",
+    "trial": "Uji coba",
+    "bonus": "Periode bonus",
+    "since": "Sejak {date}",
+    "sub": "Langganan",
+    "collect": "Penagihan"
+  },
+  "transfer": {
+    "title": "Pengalihan",
+    "held": "Dimiliki",
+    "net": "Biaya bersih",
+    "included": "Termasuk pengalihan",
+    "kind": {
+      "label": "Jenis",
+      "buy": "Dibeli",
+      "sell": "Dijual"
+    },
+    "hint": {
+      "buy": "Uang yang dibayar ke pemilik sebelumnya saat mengambil alih (termasuk premi). Masukkan jumlah yang benar-benar dibayar.",
+      "sell": "Uang yang diterima saat mengalihkan. Masukkan jumlah yang benar-benar diterima; sisa layanan tidak lagi dihitung sebagai dibayar tapi tak terpakai."
+    },
+    "paid": "Jumlah dibayar",
+    "received": "Jumlah diterima",
+    "addTitle": "Catat pengalihan",
+    "editTitle": "Edit pengalihan",
+    "saved": "Pengalihan disimpan",
+    "deleted": "Hapus pengalihan ini",
+    "foot": "Uang yang benar-benar dibayar atau diterima saat mengambil alih atau mengalihkan layanan bekas. Masuk ke biaya bersih dan arus kas, bukan biaya bulanan, perkiraan perpanjangan, atau jumlah tagihan.",
+    "add": "Catat",
+    "none": "Belum ada pengalihan",
+    "netGain": "Hasil bersih",
+    "head": {
+      "date": "Tanggal",
+      "amount": "Jumlah",
+      "base": "Dalam {ccy}"
+    }
+  },
+  "billing": {
+    "postpaid": "Pascabayar",
+    "nextBill": "Tagihan berikutnya"
+  },
+  "meters": {
+    "title": "Rincian penggunaan",
+    "add": "Tambah data penggunaan",
+    "manage": "Meteran",
+    "manageTitle": "Meteran data penggunaan",
+    "addTitle": "Catat nilai",
+    "editTitle": "Edit catatan",
+    "name": "Nama",
+    "unit": "Satuan",
+    "namePh": "mis. Listrik, Jarak tempuh, Trafik",
+    "unitPh": "mis. kWh, km, GB",
+    "usage": "Pemakaian per periode",
+    "reading": "Angka meter kumulatif",
+    "kindFoot": "Pemakaian per periode: isi jumlah yang dipakai setiap kali. Angka meter kumulatif: isi angka pada meteran (seperti odometer); pemakaian adalah selisih dua angka.",
+    "linkGroup": "Tautkan meteran dari langganan lain",
+    "linkFoot": "Nilai hanya disimpan satu kali, dari langganan mana pun Anda mencatatnya. Menghapus tautan tidak menghapus data.",
+    "linkFrom": "Dari “{name}”",
+    "linkGone": "Langganan atau meteran sumber telah dihapus, sehingga tidak ada yang bisa ditampilkan.",
+    "unlink": "Hapus tautan",
+    "asOf": "Per {date}",
+    "newMeter": "Tambah meteran",
+    "suggest": "Dipakai di langganan lain",
+    "removeConfirm": "Menghapus {names} juga menghapus nilai yang sudah dicatat. Lanjutkan?",
+    "dupName": "Nama meteran harus unik",
+    "valuesFoot": "Harga satuan = biaya aktual periode ÷ pemakaian. Tagihan pascabayar dihitung ke periode yang dilunasi.",
+    "saved": "Data penggunaan disimpan",
+    "readingValue": "Angka {v}",
+    "head": {
+      "date": "Tanggal",
+      "usage": "Pemakaian"
+    },
+    "readingsCount": "{n} catatan",
+    "deleteReadings": "Hapus {n} catatan",
+    "removeMeters": "Hapus meteran dan nilainya",
+    "latest": "Terakhir",
+    "latestOf": "{name}, terakhir",
+    "average": "Rata-rata per periode",
+    "avgPrice": "Rata-rata harga satuan",
+    "totalLabel": "Total",
+    "periods": "{n} periode",
+    "noTrend": "Periode belum cukup untuk menampilkan tren",
+    "latestPrice": "Terakhir {v}",
+    "since": "Sejak {date}"
+  },
+  "settlement": {
+    "due": "Jatuh tempo",
+    "overdue": "Terlambat",
+    "partial": "Dibayar sebagian",
+    "prepaid": "Dibayar di muka",
+    "this": "Pembayaran ini",
+    "earliest": "Tunggakan terlama",
+    "owed": "{count} tagihan tertunggak"
+  }
+}

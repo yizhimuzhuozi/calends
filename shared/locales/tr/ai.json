@@ -1,0 +1,99 @@
+{
+  "title": "Yapay zekâ erişimi",
+  "newToken": "Yeni token",
+  "mcpUrl": "MCP URL'si",
+  "urlCopied": "URL kopyalandı",
+  "copy": "Kopyala",
+  "copied": "Kopyalandı",
+  "copyFailed": "Kopyalanamadı",
+  "neverUsed": "Hiç kullanılmadı",
+  "tokenPlaceholder": "<token'ınız>",
+  "tokens": {
+    "one": "Token'lar\n{count}",
+    "other": "Token'lar\n{count}"
+  },
+  "noTokens": "Henüz token yok. Bir tane oluşturup bağlamak istediğiniz yapay zekâ asistanına verin.",
+  "lastUsed": "Son kullanım: {time}",
+  "confirmRevoke": "“{name}” iptal edilsin mi? Bunu kullanan yapay zekâ asistanı erişimini hemen kaybeder.",
+  "revoke": "İptal et",
+  "revoked": "İptal edildi",
+  "setup": "Kurulum",
+  "tools": {
+    "one": "Kullanılabilir araçlar\n{count}",
+    "other": "Kullanılabilir araçlar\n{count}"
+  },
+  "clientOther": "Diğer",
+  "scope": {
+    "write": "Okuma ve yazma",
+    "read": "Salt okunur",
+    "label": "İzin",
+    "writeDesc": "Abonelikleri, ödemeleri, tahsilatları, cüzdanları, kişileri, kategorileri ve defter ayarlarını sorgula ve yönet.",
+    "readDesc": "Yalnızca sorgulama. Hiçbir şey değiştirilemez."
+  },
+  "created": {
+    "title": "Token oluşturuldu",
+    "saved": "Kaydettim",
+    "foot": "Bu token yalnızca bir kez gösterilir; bu pencereyi kapattıktan sonra tekrar görüntülenemez. Kaybederseniz iptal edip yenisini oluşturun.",
+    "tokenCopied": "Token kopyalandı"
+  },
+  "cancel": "Vazgeç",
+  "generate": "Oluştur",
+  "name": "Ad",
+  "namePlaceholder": "Hangi yapay zekâ için?",
+  "pickClient": "Yapay zekâ asistanınızı seçin",
+  "tokensHint": "Her asistana ayrı bir token verin; böylece tek tek iptal edebilirsiniz.",
+  "toolsHint": "Asistanların kayıt defterinizle yapabilecekleri. Salt okunur token'lar yalnızca okuma araçlarını görür.",
+  "toolsRead": "Okuma",
+  "toolsWrite": "Yazma",
+  "experimental": "Deneysel",
+  "copiedWithToken": "Kopyalandı, token dahil",
+  "installIn": "{name} uygulamasına ekle",
+  "createdAt": "{time} oluşturuldu",
+  "where": {
+    "terminal": "Bunu terminalinizde çalıştırın.",
+    "codex": "Bunu terminalinizde çalıştırın. Token'ın yeniden başlatmalardan sonra da geçerli kalması için export satırını kabuk profilinize ekleyin.",
+    "file": "Bunu {path} dosyasına ekleyin.",
+    "grokbot": "Grok Bot’ta Ayarlar → Plugins’i açın, bir MCP sunucusu ekleyin ve aşağıdaki ad, URL ve başlığı girin. Grok Bot bulutta çalışır, bu yüzden adres herkese açık olmalı.",
+    "http": "Streamable HTTP destekleyen her MCP istemcisi. Bu kısa bir test isteğidir."
+  },
+  "via": {
+    "command": "Terminal komutu",
+    "install": "Tek tıkla kurulum",
+    "file": "Yapılandırma dosyası",
+    "settings": "Uygulama ayarları",
+    "http": "Herhangi bir MCP istemcisi"
+  },
+  "step": {
+    "token": "Token",
+    "tokenReady": "“{name}” kullanılıyor, aşağıdaki parçaya eklendi",
+    "tokenNeeded": "Token'lar yalnızca bir kez gösterilir.",
+    "createFor": "{name} için token oluştur",
+    "send": "{name} uygulamasına gönder"
+  },
+  "status": {
+    "on": "Yapay zekâ erişimi açık",
+    "off": "Yapay zekâ erişimi kapalı",
+    "onHint": "Geçerli bir token, yapay zekâ asistanının atanan izinler kapsamında deftere erişmesini sağlar.",
+    "offHint": "Yeniden açana kadar tüm MCP istekleri reddedilir."
+  },
+  "promptLabel": "İstem",
+  "copyConfigOnly": "Yalnızca yapılandırmayı kopyala",
+  "configCopied": "Yapılandırma kopyalandı",
+  "agentPrompt": "Calends abonelik defterimi \"calends\" adlı bir MCP sunucusu olarak bağla. {where}\n\n{code}\n\nKurulum bitince çalıştığını doğrulamak için {verify} aracını çağır ve kaç aktif aboneliğim olduğunu söyle.",
+  "col": {
+    "name": "Ad",
+    "key": "Anahtar",
+    "created": "Oluşturuldu",
+    "lastUsed": "Son kullanım"
+  },
+  "domain": {
+    "overview": "Genel bakış ve istatistikler",
+    "subs": "Abonelikler ve planlar",
+    "charges": "Ödemeler",
+    "wallet": "Cüzdan ve ödeme yöntemleri",
+    "people": "Ortak planlar ve başkası adına ödemeler",
+    "categories": "Kategoriler",
+    "settings": "Ayarlar",
+    "other": "Diğer"
+  }
+}

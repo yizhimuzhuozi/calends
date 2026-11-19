@@ -1,0 +1,68 @@
+{
+  "fxApiError": "Layanan kurs mengembalikan galat",
+  "missingId": "id tidak ada",
+  "invalidItem": "{name}: {error}",
+  "notPublic": "Buku catatan ini tidak publik",
+  "idMismatch": "ID tidak cocok",
+  "invalidJson": "Isi permintaan bukan JSON yang valid.",
+  "invalidMethod": "Metode pembayaran tidak valid",
+  "invalidBackup": "File cadangan tidak valid",
+  "refreshFailed": "Gagal memperbarui",
+  "backup": {
+    "notBackup": "Ini bukan file cadangan yang valid",
+    "unknownFormat": "Format cadangan tidak dikenal: {format}",
+    "newerVersion": "Cadangan ini dari versi yang lebih baru (v{version}). Perbarui situs ini terlebih dahulu."
+  },
+  "auth": {
+    "tooMany": "Terlalu banyak percobaan. Coba lagi dalam 15 menit.",
+    "alreadySetup": "Kata sandi sudah diatur",
+    "noSetupToken": "SETUP_TOKEN tidak dikonfigurasi saat deploy, jadi penyiapan tidak bisa dilanjutkan. Atur secret ini terlebih dahulu (wrangler secret put SETUP_TOKEN).",
+    "badSetupToken": "Token penyiapan salah",
+    "passwordTooShort": {
+      "other": "Kata sandi minimal {min} karakter"
+    },
+    "wrongPassword": "Kata sandi salah",
+    "wrongCurrentPassword": "Kata sandi saat ini salah",
+    "newPasswordTooShort": {
+      "other": "Kata sandi baru minimal {min} karakter"
+    },
+    "invalidDevice": "Perangkat tidak valid",
+    "nameRequired": "Nama tidak boleh kosong",
+    "cannotRemoveCurrent": "Perangkat ini tidak bisa dihapus. Gunakan Keluar.",
+    "expired": "Permintaan kedaluwarsa. Silakan coba lagi.",
+    "passkeyFailed": "Verifikasi passkey gagal. Masuk dengan kata sandi, lalu tambahkan lagi di Pengaturan → Keamanan",
+    "passkeyRegisterFailed": "Verifikasi passkey gagal",
+    "passkeyNotBound": "Passkey ini tidak terdaftar di situs ini. Masuk dengan kata sandi, lalu tambahkan lagi di Pengaturan → Keamanan"
+  },
+  "ics": {
+    "calName": "Tagihan langganan",
+    "method": "Pembayaran: {name}",
+    "alarm": "{name} segera diperpanjang"
+  },
+  "invalidPerson": "Nama wajib diisi",
+  "personNotFound": "Orang tidak ditemukan",
+  "personInUse": "Masih terkait dengan {count} paket atau talangan. Gabungkan dulu ke orang lain.",
+  "category": {
+    "invalid": "Daftar kategori tidak valid",
+    "duplicate": "Kategori ganda: {name}"
+  },
+  "assistant": {
+    "noKey": "Kunci API DeepSeek belum diatur.",
+    "badTool": "Tindakan tidak didukung."
+  },
+  "invalidAvatar": "Gambar tidak valid",
+  "avatarInvalid": "Gunakan PNG/WebP persegi tanpa metadata, maksimal 128×128 dan 64 KB. Unggahan: PNG/JPEG/WebP hingga 8 MB dan 40 megapiksel.",
+  "avatarRosterFull": "Daftar orang penuh. Hapus avatar sebelum menambahkan yang baru.",
+  "methodInUse": "Metode pembayaran ini masih dipakai. Pindahkan referensinya ke metode lain atau kosongkan terlebih dahulu.",
+  "autobackup": {
+    "badEndpoint": "Endpoint tidak valid; harus diawali https:// atau http://",
+    "badBucket": "Nama bucket tidak valid",
+    "noCredentials": "Isi Access Key ID dan Secret Access Key",
+    "noLogin": "Masukkan nama pengguna dan kata sandi",
+    "noPassphrase": "Tetapkan frasa sandi enkripsi",
+    "badKeep": "Jumlah simpanan harus 1 sampai 365",
+    "notConfigured": "Cadangan otomatis belum diatur",
+    "interrupted": "Pencadangan terakhir tidak selesai",
+    "beforeRestoreFailed": "Pencadangan sebelum pemulihan gagal; buku tidak berubah: {error}"
+  }
+}

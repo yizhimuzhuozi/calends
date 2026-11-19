@@ -1,0 +1,273 @@
+{
+  "ph": {
+    "account": "ログインメール・電話番号・ユーザー名",
+    "phone": "電話番号"
+  },
+  "overlap": {
+    "keep": "以前のものをしばらく継続",
+    "keepHint": "前払い済みでまだ期限前：2 つを並行し、それぞれ通常どおり課金します",
+    "keepUntil": "以前のものの利用終了日",
+    "endAuto": "次の期間の開始まで",
+    "planned": "予定",
+    "parallel": {
+      "other": "{count} 日間並行"
+    },
+    "payPhase": "記録する期間"
+  },
+  "addTitle": "サブスクを追加",
+  "editTitle": "「{name}」を編集",
+  "confirmDelete": "「{name}」を削除しますか？履歴も削除されます。更新をやめただけなら「停止」を選んでください。",
+  "clearForm": "フォームをクリア",
+  "revert": "変更を元に戻す",
+  "draftRestored": "前回の未保存の内容を復元しました",
+  "toast": {
+    "added": "追加しました",
+    "saved": "保存しました",
+    "deleted": "削除しました"
+  },
+  "cycle": {
+    "w1": "毎週",
+    "m1": "毎月",
+    "m3": "3か月ごと",
+    "m6": "6か月ごと",
+    "y1": "毎年",
+    "y2": "2年ごと",
+    "lt": "買い切り",
+    "custom": "カスタム…"
+  },
+  "unit": {
+    "label": "単位",
+    "every": "毎",
+    "day": {
+      "other": "日"
+    },
+    "week": {
+      "other": "週"
+    },
+    "month": {
+      "other": "か月"
+    },
+    "year": {
+      "other": "年"
+    }
+  },
+  "status": {
+    "active": "利用中",
+    "trial": "トライアル",
+    "paused": "一時停止",
+    "cancelled": "解約済み",
+    "terminated": "利用停止",
+    "stop": "停止"
+  },
+  "category": {
+    "choose": "カテゴリを選択",
+    "new": "新しいカテゴリ…"
+  },
+  "group": {
+    "billing": "請求",
+    "status": "ステータス",
+    "who": "利用者",
+    "links": "リンクと外観",
+    "tags": "タグとメモ"
+  },
+  "field": {
+    "account": "アカウント",
+    "phone": "電話番号",
+    "category": "カテゴリ",
+    "amount": "金額",
+    "currency": "通貨",
+    "cycle": "請求サイクル",
+    "method": "支払い方法",
+    "purchased": "購入日",
+    "start": "開始日",
+    "region": "地域",
+    "trialEnd": "トライアル終了",
+    "end": "終了日",
+    "notSet": "未設定",
+    "notes": "メモ",
+    "optional": "任意",
+    "url": "Web サイト",
+    "manageUrl": "管理ページ",
+    "icon": "アイコン",
+    "auto": "自動",
+    "showDomain": "公開ページにドメインを表示",
+    "showDomainOn": "訪問者に完全なドメインが表示されます",
+    "showDomainOff": "公開ページでは伏せて表示されます",
+    "tagsPlaceholder": "スペースで区切る",
+    "notesPlaceholder": "メモ（任意）",
+    "pausedAt": "一時停止日",
+    "plan": "プラン",
+    "iconImported": "URL か絵文字で置き換え",
+    "iconImage": "画像アイコン",
+    "iconUpload": "アップロード",
+    "iconChange": "アイコンを変更",
+    "iconUploadHelp": "PNG/JPEG/WebP（最大 8 MB）をアップロードすると 128px に縮小されます。ドラッグや貼り付けも可",
+    "iconClear": "削除",
+    "iconUploadInvalid": "この画像は使えません：8 MB 以内の PNG/JPEG/WebP を選んでください",
+    "iconUploadTooLarge": "圧縮しても 64 KB を超えています：透過背景のロゴなど、よりシンプルな画像をお試しください",
+    "billing": "支払い方式",
+    "settlement": "請求と支払いを分けて記録"
+  },
+  "share": {
+    "none": "自分だけ",
+    "owner": "主催",
+    "member": "参加",
+    "proxy": "立て替え",
+    "memberHint": "自分の負担分だけを入力",
+    "perHead": "1人あたり {amount}",
+    "ownerName": "主催者",
+    "ownerPlaceholder": "支払う相手",
+    "perPeriod": "1期間あたりの負担額",
+    "paidUntil": "支払い済み期限",
+    "manageHint": "保存後、「共有プラン」でこのプランを開き、メンバーの追加と入金記録を行います。"
+  },
+  "proxy": {
+    "for": "立て替え先",
+    "forPlaceholder": "相手の名前",
+    "contact": "連絡先",
+    "notePlaceholder": "例：同僚、月末に精算"
+  },
+  "more": {
+    "title": "その他のオプション",
+    "intro": "初回特典",
+    "bonus": "無料期間",
+    "remind": "リマインダー",
+    "links": "リンク",
+    "tags": "タグ",
+    "notes": "メモ",
+    "summary": "初回特典、無料期間、リマインダー、リンク、タグ、メモ",
+    "summaryLt": "リンク、タグ、メモ"
+  },
+  "intro": {
+    "has": "初回特典",
+    "price": "特典価格",
+    "until": "特典終了"
+  },
+  "bonus": {
+    "has": "無料期間",
+    "from": "無料開始",
+    "until": "無料終了",
+    "resume": "{date}に請求再開",
+    "quick": {
+      "d7": "+7日",
+      "m1": "+1か月",
+      "m3": "+3か月",
+      "m6": "+6か月",
+      "y1": "+1年"
+    }
+  },
+  "remind": {
+    "days": "通知",
+    "default": {
+      "other": "デフォルト（{count}日前）"
+    },
+    "defaultSameDay": "デフォルト（請求日当日）",
+    "defaultNever": "デフォルト（しない）",
+    "sameDay": "請求日当日",
+    "before": {
+      "other": "{count}日前"
+    },
+    "never": "しない"
+  },
+  "name": {
+    "placeholder": "名前、または App Store のリンクを貼り付け",
+    "catalog": "人気のサービス\nロゴ・カテゴリ・Web サイトを自動入力"
+  },
+  "change": {
+    "title": "履歴と変更",
+    "needPrice": "価格を入力してください",
+    "toast": {
+      "price": "価格変更を記録しました。「{done}」をタップすると反映されます。",
+      "switch": "新しい期間を追加しました。「{done}」をタップすると反映されます。",
+      "resume": "再登録しました。「{done}」をタップすると反映されます。"
+    },
+    "price": "価格変更を記録",
+    "switch": "地域・プラン・支払い方法を変更",
+    "resume": "再登録",
+    "undo": "最新の期間を取り消す",
+    "priceDate": "新価格の開始日",
+    "switchDate": "変更の適用日",
+    "resumeDate": "再登録日",
+    "newPrice": "新価格（{currency}）",
+    "priceLabel": "価格",
+    "planned": "未確定（予定のみ）",
+    "plannedHint": "予測には含まれ、詳細では「予定」と表示されます。あとでワンタップで確定またはキャンセルできます。",
+    "credit": "旧プランの未使用分 {amount} を充当",
+    "renewal": "次回請求 {date}",
+    "renewalReset": "数え直す",
+    "renewalKeep": "請求日を維持",
+    "firstPay": "初回支払額（{currency}）",
+    "adjustPay": "差額（{currency}）"
+  },
+  "history": {
+    "gapMonths": {
+      "other": "{count}か月中断"
+    },
+    "gapDays": {
+      "other": "{count}日中断"
+    },
+    "plannedRange": "{start} → {end}（予定）",
+    "plannedFrom": "{start}から（予定）",
+    "range": "{start} → {end}",
+    "now": "現在",
+    "initial": "初期",
+    "priceChange": "価格変更 {date}",
+    "outsidePayments": "既存の支払い {count} 件がサービス期間外になります。元の日付、金額、所属期間を保持して続けますか？",
+    "editPrice": "{date} からの価格を編集",
+    "deletePrice": "この価格を削除しますか？次の変更まで直前の価格が適用されます。",
+    "repriceCharges": "保存すると過去の推定請求 {count} 件を再計算します。記録済みの支払いは変更されません。続行しますか？"
+  },
+  "payment": {
+    "addTitle": "支払いを追加",
+    "editTitle": "支払いを編集",
+    "toast": {
+      "added": "支払いを追加しました",
+      "edited": "支払いを更新しました",
+      "deleted": "支払いを削除しました"
+    },
+    "date": "日付",
+    "kind": {
+      "label": "種類",
+      "charge": "請求",
+      "refund": "返金",
+      "adjust": "調整",
+      "failed": "請求失敗"
+    },
+    "amount": "金額（{currency}）",
+    "refundHint": "返金額を入力してください。マイナスとして保存されます",
+    "settledCcy": "カードの通貨",
+    "settledAmount": "カード上の金額",
+    "orderAmount": "注文金額",
+    "usageFoot": "この請求期間（{period}）に記録します",
+    "earlyHint": "早期更新として扱います：{settles} の分を精算し、次回は {next} です。",
+    "earlyExtra": "追加料金として記録",
+    "freezeHint": "この期間の請求は現在、請求サイクルから推定されています。保存すると、まず今日までの推定請求 {amount} 件が記録に変換され、以後は記録が基準になります。今後の請求は変わりません。",
+    "method": "支払い方法",
+    "scopeOne": "この請求のみ",
+    "scopePhase": "このプラン {count} 件",
+    "scope": "変更する範囲",
+    "split": "分割払い",
+    "unsplit": "1 つの支払い方法",
+    "sources": "支払い元",
+    "addSource": "支払い元を追加",
+    "splitOk": "合計 {amount}（金額と一致）",
+    "splitLeft": "未割り当て：{amount}"
+  },
+  "timeline": {
+    "home": "今日に戻る（またはタイムラインをダブルクリック）"
+  },
+  "ai": {
+    "title": "AI で読み取る",
+    "hint": "レシートやスクリーンショット、テキストを貼り付けると自動で整理します",
+    "go": "貼り付け"
+  },
+  "plan": {
+    "choose": {
+      "other": "App Store のプラン {count} 件"
+    }
+  },
+  "billing": {
+    "prepaid": "前払い",
+    "postpaid": "後払い"
+  }
+}

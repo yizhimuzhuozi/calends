@@ -1,0 +1,138 @@
+{
+  "title": "Abonnements de {name}",
+  "loadFailed": "Chargement impossible",
+  "theme": {
+    "title": "Thème : {mode} (cliquez pour changer)",
+    "aria": "Thème : {mode}, cliquez pour changer"
+  },
+  "currency": "Devise d’affichage",
+  "hero": {
+    "monthly": "Dépenses mensuelles en abonnements",
+    "flat": "Identique au même mois l’an dernier",
+    "more": "{amount} de plus qu’au même mois l’an dernier",
+    "less": "{amount} de moins qu’au même mois l’an dernier",
+    "yearly": "Par an",
+    "paid": "Payé depuis {year}"
+  },
+  "timeline": {
+    "title": "Frise",
+    "upcoming": {
+      "one": "{count} prélèvement dans les 30 prochains jours\n{amount}",
+      "other": "{count} prélèvements dans les 30 prochains jours\n{amount}"
+    }
+  },
+  "chart": {
+    "title": "Prélèvements mensuels",
+    "desc": "12 derniers mois et 3 prochains ; les barres hachurées sont des prévisions",
+    "paid": "Payé",
+    "mrr": "Coût mensuel",
+    "charge": "Prélevé",
+    "thisMonth": "Ce mois-ci",
+    "projected": "{month}\nPrévu"
+  },
+  "ended": {
+    "title": "Résiliés"
+  },
+  "perMonth": "{amount}/mois",
+  "lifetime": {
+    "title": "À vie",
+    "desc": "Payé une fois, plus aucun prélèvement"
+  },
+  "composition": {
+    "title": "Répartition",
+    "desc": "Coût mensuel par catégorie",
+    "other": "Autre"
+  },
+  "count": "{count}",
+  "fx": {
+    "title": "Taux de change",
+    "flat": "Les taux de change ont à peine modifié les coûts cette année",
+    "less": "Aux taux actuels, vous payez {amount} de moins par mois qu’il y a un an",
+    "more": "Aux taux actuels, vous payez {amount} de plus par mois qu’il y a un an",
+    "share": "{pct} %"
+  },
+  "list": {
+    "title": "Abonnements",
+    "summary": {
+      "one": "{count}\n{amount}/mois",
+      "other": "{count}\n{amount}/mois"
+    },
+    "all": "Tous"
+  },
+  "row": {
+    "ends": "\nSe termine le {date}",
+    "renews": "\nRenouvellement le {date}",
+    "perMonthEq": "Équiv. mensuel"
+  },
+  "titleAnon": "Abonnements",
+  "pile": {
+    "label": "Tes abonnements en pile — plus l’icône est grande, plus il coûte"
+  },
+  "calendar": {
+    "title": "Calendrier"
+  },
+  "years": {
+    "title": "Frise des abonnements"
+  },
+  "tenure": {
+    "title": "Durée d'abonnement",
+    "avg": "Durée moyenne des abonnements actifs",
+    "longest": "Conservé le plus longtemps"
+  },
+  "treemap": {
+    "title": "Carte des dépenses",
+    "missing": {
+      "one": "{count} abonnement sans taux de change n'est pas inclus",
+      "other": "{count} abonnements sans taux de change ne sont pas inclus"
+    }
+  },
+  "changes": {
+    "title": "Modifications",
+    "more": "Tout afficher ({n})",
+    "less": "Afficher moins",
+    "kind": {
+      "added": "Nouveau",
+      "resumed": "Repris",
+      "buy": "Achat unique",
+      "up": "Hausse de prix",
+      "down": "Baisse de prix",
+      "switch": "Changement de région ou de formule",
+      "stopped": "Arrêté",
+      "paused": "En pause"
+    }
+  },
+  "waterfall": {
+    "title": "Variation mensuelle",
+    "prev": "Mois précédent",
+    "next": "Mois suivant",
+    "from": "Début",
+    "added": "Nouveaux",
+    "expansion": "Hausse de prix",
+    "contraction": "Baisse de prix",
+    "churned": "Arrêtés",
+    "fx": "Change",
+    "to": "Maintenant",
+    "monthEnd": "Fin de mois",
+    "incomplete": "Taux de change manquants, graphique impossible"
+  },
+  "metric": {
+    "monthly": "Dépenses mensuelles",
+    "yearly": "Par an",
+    "active": "Abonnements actifs",
+    "avgPerSub": "Moyenne par abonnement",
+    "paidTotal": "Total payé",
+    "paidYear": "Payé cette année",
+    "paidMonth": "Payé ce mois-ci",
+    "next30": "30 prochains jours",
+    "topSub": "Le plus cher",
+    "topCategory": "Catégorie principale",
+    "endedCount": "Résiliés",
+    "lifetimeCount": "Achat unique",
+    "fxEffect": "Effet de change (mensuel)",
+    "vsPrev": "vs an dernier",
+    "shareOf": "Part des dépenses mensuelles"
+  },
+  "globe": {
+    "title": "Régions d'abonnement"
+  }
+}

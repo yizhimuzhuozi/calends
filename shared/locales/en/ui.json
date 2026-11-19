@@ -1,0 +1,25 @@
+{
+  "close": "Close",
+  "error": {
+    "loginRequired": "Please sign in first",
+    "requestFailed": "Request failed ({status})",
+    "wholeCurrency": "{currency} amounts must be whole numbers",
+    "deletedElsewhere": "This item was deleted elsewhere, so your changes were not saved."
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "method": {
+    "none": "Not set"
+  },
+  "toolbar": {
+    "add": "Add subscription"
+  },
+  "working": "Working…",
+  "undo": "Undo",
+  "restored": "Restored",
+  "loadFailed": "Couldn’t load",
+  "retry": "Retry"
+}

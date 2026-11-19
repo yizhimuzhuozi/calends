@@ -1,0 +1,519 @@
+{
+  "title": "Einstellungen",
+  "days": {
+    "one": "{count} Tag",
+    "other": "{count} Tage"
+  },
+  "logout": "Abmelden",
+  "toast": {
+    "saved": "Gesichert",
+    "deleted": "Gelöscht",
+    "csvEmpty": "Diese CSV enthält keine Abos zum Importieren",
+    "badBackup": "Keine gültige Backup-Datei"
+  },
+  "general": {
+    "title": "Allgemein",
+    "language": "Sprache",
+    "followSystem": "Systemstandard",
+    "name": "Name",
+    "namePlaceholder": "Wird auf geteilten Bildern und der öffentlichen Seite angezeigt",
+    "avatar": "Avatar",
+    "avatarDefault": "Standard-App-Symbol",
+    "startPage": "Öffnen mit",
+    "startPageAria": "Startseite",
+    "baseCurrency": "Basiswährung",
+    "signedAmounts": "Vorzeichen für Geldflüsse",
+    "gainColor": "Farben für Gewinn/Verlust",
+    "gainGreen": "Grün Gewinn, Rot Verlust",
+    "gainRed": "Rot Gewinn, Grün Verlust",
+    "timezone": "Zeitzone",
+    "weekStart": "Woche beginnt am",
+    "weekStartAria": "Erster Wochentag",
+    "monday": "Montag",
+    "sunday": "Sonntag",
+    "telemetry": "Anonyme Nutzungsstatistik",
+    "telemetryForcedOff": "Für diese Installation aus",
+    "telemetryNote": "Erfasst nur Nutzung und Versionsinfo. Deine Abos, Beträge und Kontodaten werden nie erfasst."
+  },
+  "sidebar": {
+    "thisMonth": "Dieser Monat",
+    "dragFoot": "Zum Sortieren an den Griffen ziehen; die Seitenleiste folgt dieser Reihenfolge.",
+    "title": "Seitenleiste",
+    "upcoming": "Anstehende Abbuchungen",
+    "lookAhead": "Vorschau",
+    "lookAheadAria": "Zeitraum für anstehende Abbuchungen"
+  },
+  "remind": {
+    "title": "Erinnerungen",
+    "lead": "Erinnern",
+    "sameDay": "Am selben Tag",
+    "never": "Nie",
+    "hour": "Senden um",
+    "monthly": "Monatsvorschau am 1.",
+    "test": "Test-Erinnerung an alle Kanäle senden",
+    "testFailed": "Senden fehlgeschlagen",
+    "channelError": "{channel}: {error}",
+    "errorSep": "; ",
+    "testSent": "Test-Erinnerung gesendet",
+    "preview": "Heutige Erinnerungen ansehen",
+    "log": "Sendeprotokoll"
+  },
+  "today": {
+    "recent": "Zuletzt gesendet",
+    "title": "Heute ({day})",
+    "items": {
+      "one": "{count} Eintrag",
+      "other": "{count} Einträge"
+    }
+  },
+  "books": {
+    "title": "Buchführung",
+    "defaultMethod": "Standard-Zahlungsmethode",
+    "unassigned": {
+      "one": "{count} Abo hat keine Zahlungsmethode",
+      "other": "{count} Abos haben keine Zahlungsmethode"
+    },
+    "assignAllDone": {
+      "one": "{count} Abo auf Standard-Zahlungsmethode gesetzt",
+      "other": "{count} Abos auf Standard-Zahlungsmethode gesetzt"
+    },
+    "assignAll": "Standard für alle verwenden",
+    "collectCurrency": "Währung für geteilte Abos"
+  },
+  "fx": {
+    "title": "Wechselkurse",
+    "current": "Aktueller Kurs",
+    "updatedAt": "Aktualisiert {time}",
+    "updated": "Wechselkurse aktualisiert",
+    "history": "Historische Kurse",
+    "earliest": "Ab {date}",
+    "coverage": {
+      "one": "{covered} / {count} Tag",
+      "other": "{covered} / {count} Tage"
+    },
+    "fill": "Fehlende Kurse ergänzen",
+    "historyUpdated": "Historische Kurse aktualisiert"
+  },
+  "open": {
+    "publicSubs": "Angezeigte Abos",
+    "publicSubsHint": "Für andere bezahlte Abos bleiben privat. Neue Abos sind standardmäßig öffentlich.",
+    "publicShown": "Angezeigt\n{count}",
+    "publicOff2": "Ausgeblendet\n{count}",
+    "publicShowAll": "Alle anzeigen",
+    "publicHideAll": "Alle ausblenden",
+    "publicHideOne": "{name} ausblenden",
+    "publicShowOne": "{name} anzeigen",
+    "publicNone": "Nichts ausgewählt – die öffentliche Seite bleibt leer",
+    "title": "Teilen & Zugriff",
+    "ics": "Im Systemkalender abonnieren",
+    "on": "Ein",
+    "off": "Aus",
+    "public": "Öffentliche Seite",
+    "publicOn": "Öffentliche Seite ist an",
+    "publicOff": "Öffentliche Seite ist aus",
+    "publicTitle": "Seitentitel",
+    "previewPublic": "Öffentliche Seite ansehen",
+    "ai": "KI-Zugriff (MCP)",
+    "aiOn": "KI-Zugriff ist an",
+    "aiOff": "KI-Zugriff ist aus. KI-Assistenten können sich nicht mehr verbinden.",
+    "manageAi": "Tokens und Einrichtung verwalten"
+  },
+  "data": {
+    "title": "Daten",
+    "importCsv": "Daten importieren",
+    "restore": "Aus Backup wiederherstellen",
+    "exportCsv": "CSV exportieren",
+    "backup": "Vollständiges Backup exportieren"
+  },
+  "restore": {
+    "cancel": "Abbrechen",
+    "replace": "Aktuelles Konto ersetzen",
+    "done": "Wiederhergestellt",
+    "warning": "Dein aktuelles Konto wird vollständig durch das Backup ersetzt. Das lässt sich nicht rückgängig machen – exportiere am besten vorher ein Backup.",
+    "subs": "Abos",
+    "methods": "Zahlungsmethoden",
+    "count": {
+      "one": "{count}",
+      "other": "{count}"
+    },
+    "time": "Gesichert am",
+    "format": "Format",
+    "legacy": "Altes Backup: nur Abos und Zahlungsmethoden",
+    "unlock": "Entsperren",
+    "wrongPassphrase": "Falsche Passphrase"
+  },
+  "import": {
+    "title": {
+      "one": "{count} Abo importieren",
+      "other": "{count} Abos importieren"
+    },
+    "confirmReplace": "Beim Ersetzen werden alle vorhandenen Abos und Zahlungsmethoden gelöscht. Fortfahren?",
+    "replaceDone": "Importiert (ersetzt)",
+    "replaceAll": "Alles ersetzen",
+    "mergeDone": "Importiert (zusammengeführt)",
+    "merge": "Zu Vorhandenem hinzufügen",
+    "newMethods": "Neue Zahlungsmethoden werden angelegt: {names}",
+    "sep": ", ",
+    "history": "Zahlungen werden erst ab dem Importdatum geschätzt. Frühere Zahlungen werden nicht rekonstruiert.",
+    "owner": "Konto im Backup",
+    "choose": "Auswählen…",
+    "independent": "Gleichnamige Abos bleiben getrennt.",
+    "include": "Importieren",
+    "every": "Alle",
+    "next": "Nächste Zahlung",
+    "paused": "Als pausiert importiert; vor dem Fortsetzen prüfen.",
+    "reading": "Datei wird gelesen…",
+    "formats": "CSV, ZIP-Backup oder SQLite-Datenbank"
+  },
+  "channels": {
+    "title": {
+      "one": "Benachrichtigungskanäle\n{count} aktiv",
+      "other": "Benachrichtigungskanäle\n{count} aktiv"
+    },
+    "empty": "Noch keine Kanäle – Erinnerungen werden nicht gesendet.",
+    "test": "Testen",
+    "testFailed": "Senden fehlgeschlagen",
+    "testSent": "Testnachricht gesendet",
+    "add": "Kanal hinzufügen",
+    "addKind": "{name} hinzufügen",
+    "delete": "Löschen",
+    "save": "Sichern",
+    "fillField": "Bitte {field} eingeben",
+    "name": "Name",
+    "optional": "Optional",
+    "enabled": "Aktiviert",
+    "field": {
+      "to": "E-Mail-Adresse",
+      "webhook": "Webhook-URL",
+      "server": "Server",
+      "token": "Zugriffstoken"
+    },
+    "kind": {
+      "email": {
+        "name": "E-Mail",
+        "help": "Versand über Cloudflare Email Sending; deine Domain muss bei Cloudflare verifiziert sein"
+      },
+      "telegram": {
+        "chatIdPlaceholder": "Deine Benutzer- oder Gruppen-ID",
+        "help": "Erstelle mit @BotFather einen Bot, um ein Token zu erhalten. Schick deinem Bot zuerst eine Nachricht und finde dann mit @userinfobot deine ID heraus"
+      },
+      "lark": {
+        "name": "Lark (Feishu)",
+        "secret": "Signatur-Secret",
+        "secretPlaceholder": "Erforderlich, wenn die Signaturprüfung aktiv ist",
+        "help": "Gruppeneinstellungen → Bots → Eigenen Bot hinzufügen"
+      },
+      "dingtalk": {
+        "name": "DingTalk",
+        "secret": "Signatur-Secret",
+        "secretPlaceholder": "SEC…, erforderlich, wenn Signieren aktiv ist",
+        "help": "Gruppeneinstellungen → Bots → Eigener Bot"
+      },
+      "wecom": {
+        "name": "WeCom",
+        "help": "Gruppenchat → Gruppen-Bot hinzufügen"
+      },
+      "bark": {
+        "keyPlaceholder": "Aus der App kopierter Schlüssel",
+        "help": "Push-Mitteilungen fürs iPhone – such im App Store nach Bark"
+      },
+      "ntfy": {
+        "topicPlaceholder": "Wähle einen schwer zu erratenden Namen",
+        "help": "Installiere die ntfy-App auf deinem Handy und abonniere dasselbe Topic"
+      },
+      "serverchan": {
+        "name": "ServerChan",
+        "keyPlaceholder": "SCT… oder sctp…",
+        "help": "Push an WeChat (ServerChan Turbo / ³)"
+      },
+      "discord": {
+        "help": "Kanaleinstellungen → Integrationen → Webhooks"
+      },
+      "webhook": {
+        "name": "Eigener Webhook",
+        "header": "Zusätzlicher Header",
+        "help": "POST JSON: subject, intro, sections, text, markdown, url"
+      }
+    }
+  },
+  "security": {
+    "title": "Sicherheit",
+    "unknownBrowser": "Unbekannter Browser",
+    "ago": {
+      "justNow": "Gerade aktiv",
+      "minutes": {
+        "one": "Vor {count} Minute",
+        "other": "Vor {count} Minuten"
+      },
+      "hours": {
+        "one": "Vor {count} Stunde",
+        "other": "Vor {count} Stunden"
+      },
+      "days": {
+        "one": "Vor {count} Tag",
+        "other": "Vor {count} Tagen"
+      }
+    },
+    "thisDevice": "Dieses Gerät",
+    "signedInPasskey": "Mit Passkey angemeldet am {time}",
+    "signedInPassword": "Mit Passwort angemeldet am {time}",
+    "revoke": "Abmelden",
+    "revoked": "Abgemeldet",
+    "lastUsed": "Zuletzt verwendet {time}",
+    "addedAt": "Hinzugefügt {time}",
+    "remove": "Entfernen",
+    "rename": "Umbenennen",
+    "removed": "Entfernt",
+    "addPasskey": "Passkey hinzufügen",
+    "alreadyBound": "Dieses Gerät hat bereits einen Passkey",
+    "changePassword": "Passwort ändern",
+    "devices": "Angemeldete Geräte",
+    "devicesCount": {
+      "one": "Angemeldetes Gerät\n{count}",
+      "other": "Angemeldete Geräte\n{count}"
+    },
+    "maxSessions": "Max. angemeldete Geräte",
+    "maxSessionsSaved": {
+      "one": "Bis zu {count} Gerät",
+      "other": "Bis zu {count} Geräte"
+    },
+    "deviceCount": {
+      "one": "{count} Gerät",
+      "other": "{count} Geräte"
+    },
+    "confirmLogoutOthers": "Alle anderen Geräte abmelden?",
+    "loggedOutOthers": "Andere Geräte abgemeldet",
+    "logoutOthers": "Alle anderen Geräte abmelden",
+    "passwordChanged": "Passwort geändert. Andere Geräte wurden abgemeldet.",
+    "save": "Sichern",
+    "mismatch": "Passwörter stimmen nicht überein",
+    "passwordFoot": "Mindestens 8 Zeichen. Eine Änderung meldet alle Geräte außer diesem ab.",
+    "currentPassword": "Aktuelles Passwort",
+    "newPassword": "Neues Passwort",
+    "confirmPassword": "Neues Passwort bestätigen"
+  },
+  "cat": {
+    "title": "Kategorien",
+    "manage": "Kategorien verwalten",
+    "count": {
+      "one": "{count} Kategorie",
+      "other": "{count} Kategorien"
+    },
+    "subs": {
+      "one": "{count} Abo",
+      "other": "{count} Abos"
+    },
+    "unused": "Nicht verwendet",
+    "foot": "Zum Sortieren ziehen. Beim Umbenennen werden alle Abos der Kategorie aktualisiert.",
+    "add": "Neue Kategorie",
+    "edit": "Kategorie bearbeiten",
+    "name": "Name",
+    "namePlaceholder": "Name der Kategorie",
+    "color": "Farbe",
+    "icon": "Symbol",
+    "search": "Symbole suchen",
+    "noMatch": "Keine passenden Symbole",
+    "delete": "Kategorie löschen",
+    "moveTo": {
+      "one": "Ihr {count} Abo verschieben nach",
+      "other": "Ihre {count} Abos verschieben nach"
+    },
+    "dragHandle": "Zum Sortieren ziehen",
+    "toast": {
+      "created": "Kategorie hinzugefügt",
+      "saved": "Kategorie gespeichert",
+      "renamed": {
+        "one": "Kategorie gespeichert\n{count} Abo aktualisiert",
+        "other": "Kategorie gespeichert\n{count} Abos aktualisiert"
+      },
+      "deleted": "Kategorie gelöscht",
+      "order": "Reihenfolge gespeichert"
+    },
+    "error": {
+      "empty": "Bitte einen Namen eingeben",
+      "duplicate": "Eine Kategorie „{name}“ gibt es schon"
+    },
+    "group": {
+      "common": "Häufig",
+      "tech": "Technik",
+      "media": "Unterhaltung",
+      "work": "Arbeit",
+      "money": "Einkauf & Geld",
+      "life": "Zuhause & Alltag",
+      "food": "Essen & Trinken",
+      "health": "Gesundheit & Sport",
+      "travel": "Reisen",
+      "people": "Menschen & Lernen"
+    }
+  },
+  "publicPage": {
+    "title": "Öffentliche Seite bearbeiten",
+    "access": "Öffentlicher Zugriff",
+    "back": "Zurück zu den Einstellungen",
+    "reset": "Standard wiederherstellen",
+    "leave": "Es gibt ungespeicherte Änderungen. Trotzdem verlassen?",
+    "leaveOk": "Verlassen",
+    "head": "Kopfbereich",
+    "browserTitle": "Browsertitel",
+    "avatarFollow": "Globalen Avatar verwenden",
+    "avatarLinkHint": "Browser der Besucher rufen diese Adresse direkt auf, der Host sieht also ihre IP.",
+    "bio": "Text",
+    "bioPlaceholder": "Erscheint unter dem Titel. Zeilenumbrüche bleiben erhalten; wird nicht übersetzt.",
+    "sections": "Bereiche",
+    "remove": "Entfernen",
+    "emptyCard": "Noch keine Daten. Besucher sehen diese Karte nicht.",
+    "editTab": "Einstellungen",
+    "previewTab": "Vorschau",
+    "desktop": "Desktop",
+    "phone": "Smartphone",
+    "library": {
+      "metrics": "Zahlen",
+      "charts": "Diagramme",
+      "lists": "Listen und Zeit",
+      "bottom": "Seitenende"
+    },
+    "hintDrag": "Komponente auf die Seite ziehen oder anklicken, um sie unten einzufügen.",
+    "hintTap": "Tippen, um unten auf der Seite einzufügen.",
+    "backToLibrary": "Zurück zu den Komponenten",
+    "headHint": "Klicke auf der Seite auf Titel, Text oder Avatar, um sie zu bearbeiten. Ein Klick auf die Design-Schaltfläche blendet sie aus oder ein.",
+    "autoSnap": "Automatisch andocken",
+    "freePlace": "Frei platzieren",
+    "themeButton": "Design-Schaltfläche",
+    "themeHide": "Design-Schaltfläche ausblenden",
+    "themeShow": "Design-Schaltfläche einblenden (für Besucher ausgeblendet)",
+    "metricCard": "Kennzahlkarte",
+    "template": "Stil",
+    "metricData": "Angezeigte Daten",
+    "addMetric": "Weiteren Wert hinzufügen",
+    "widget": {
+      "stats": {
+        "name": "Übersicht",
+        "desc": "Monatliche Ausgaben und wichtige Zahlen"
+      },
+      "number": {
+        "name": "Zahl",
+        "desc": "Eine Zahl, groß dargestellt"
+      },
+      "trend": {
+        "name": "Trend",
+        "desc": "Eine Zahl mit Sparkline"
+      },
+      "compare": {
+        "name": "Vergleich",
+        "desc": "Gegenüber dem Vorjahreszeitraum"
+      },
+      "share": {
+        "name": "Anteil",
+        "desc": "Anteil an den monatlichen Ausgaben"
+      },
+      "rows": {
+        "name": "Zeilen",
+        "desc": "Bis zu 4 Zahlen zusammen"
+      },
+      "chart": {
+        "name": "Balkendiagramm",
+        "desc": "Monatliche Abbuchungen und Ausgabentrend"
+      },
+      "composition": {
+        "name": "Zusammensetzung",
+        "desc": "Ausgaben nach Kategorie"
+      },
+      "treemap": {
+        "name": "Treemap",
+        "desc": "Die Fläche zeigt die Höhe der Ausgaben"
+      },
+      "waterfall": {
+        "name": "Monatliche Veränderung",
+        "desc": "Was neu, teurer oder gekündigt wurde"
+      },
+      "fx": {
+        "name": "Währungen",
+        "desc": "Währungsanteile und Kursbewegungen"
+      },
+      "timeline": {
+        "name": "Zeitleiste",
+        "desc": "Abbuchungen Tag für Tag"
+      },
+      "calendar": {
+        "name": "Kalender",
+        "desc": "An welchen Tagen abgebucht wird"
+      },
+      "years": {
+        "name": "Abo-Zeitleiste",
+        "desc": "Wann welches Abo lief"
+      },
+      "list": {
+        "name": "Abo-Liste",
+        "desc": "Alles, was in Gebrauch ist"
+      },
+      "tenure": {
+        "name": "Abo-Dauer",
+        "desc": "Durchschnitt und längste Laufzeit"
+      },
+      "changes": {
+        "name": "Änderungen",
+        "desc": "Neu, Preisänderung und beendet"
+      },
+      "ended": {
+        "name": "Gekündigt",
+        "desc": "Was gekündigt wurde und der Preis"
+      },
+      "lifetime": {
+        "name": "Einmalkauf",
+        "desc": "Einmalige Käufe"
+      },
+      "footer": {
+        "name": "Fußzeile",
+        "desc": "Projektname und Version"
+      },
+      "pile": {
+        "name": "Symbolhaufen",
+        "desc": "Symbole, die am Seitenende herabfallen"
+      },
+      "globe": {
+        "name": "Globus",
+        "desc": "Regionen aktiver Abos"
+      }
+    }
+  },
+  "update": {
+    "current": "Version",
+    "available": "Update verfügbar",
+    "check": "Nach Updates suchen",
+    "failed": "Prüfung fehlgeschlagen",
+    "upToDate": "Aktuell",
+    "title": "Auf v{version} aktualisieren",
+    "copy": "Befehl kopieren",
+    "copied": "Befehl kopiert",
+    "guide": "Anleitung",
+    "notes": "Versionshinweise"
+  },
+  "autobackup": {
+    "title": "Automatische Sicherung",
+    "off": "Aus",
+    "failed": "Sicherung fehlgeschlagen",
+    "last": "Letzte Sicherung",
+    "never": "Noch keine Sicherung",
+    "runNow": "Jetzt sichern",
+    "storage": "Speicher",
+    "kind": "Sichern nach",
+    "endpoint": "Endpunkt",
+    "bucket": "Bucket",
+    "folder": "Ordner",
+    "kept": "Gespeichert",
+    "encryption": "Verschlüsselung",
+    "passphrase": "Passphrase",
+    "confirm": "Passphrase bestätigen",
+    "mismatch": "Passphrasen stimmen nicht überein",
+    "keep": "Aufbewahren",
+    "copies": {
+      "one": "Kopie",
+      "other": "Kopien"
+    },
+    "save": "Speichern",
+    "switchTo": "Zu {kind} wechseln",
+    "remove": "Entfernen",
+    "removed": "Automatische Sicherung entfernt",
+    "done": "Gesichert"
+  }
+}

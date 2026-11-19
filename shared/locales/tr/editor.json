@@ -1,0 +1,282 @@
+{
+  "ph": {
+    "account": "Giriş e-postası, telefon veya kullanıcı adı",
+    "phone": "Telefon numarası"
+  },
+  "overlap": {
+    "keep": "Eskisini bir süre daha kullan",
+    "keepHint": "Önceden ödendi ve süresi henüz dolmadı: ikisi birlikte çalışır, her biri normal şekilde ücretlendirilir",
+    "keepUntil": "Eskisi şu tarihe kadar",
+    "endAuto": "Sonraki başlayınca",
+    "planned": "Plan",
+    "parallel": {
+      "one": "{count} gün çakışıyor",
+      "other": "{count} gün çakışıyor"
+    },
+    "payPhase": "Ait olduğu dönem"
+  },
+  "addTitle": "Abonelik ekle",
+  "editTitle": "“{name}” aboneliğini düzenle",
+  "clearForm": "Formu temizle",
+  "revert": "Değişiklikleri geri al",
+  "draftRestored": "Kaydedilmemiş taslak geri yüklendi",
+  "confirmDelete": "“{name}” silinsin mi? Geçmişi de silinir. Yalnızca yenilemeyi bıraktıysanız bunun yerine Durdur seçeneğini kullanın.",
+  "toast": {
+    "added": "Eklendi",
+    "saved": "Kaydedildi",
+    "deleted": "Silindi"
+  },
+  "cycle": {
+    "w1": "Haftalık",
+    "m1": "Aylık",
+    "m3": "Üç aylık",
+    "m6": "Altı aylık",
+    "y1": "Yıllık",
+    "y2": "İki yılda bir",
+    "lt": "Ömür boyu",
+    "custom": "Özel…"
+  },
+  "unit": {
+    "label": "Birim",
+    "every": "Her",
+    "day": {
+      "one": "gün",
+      "other": "gün"
+    },
+    "week": {
+      "one": "hafta",
+      "other": "hafta"
+    },
+    "month": {
+      "one": "ay",
+      "other": "ay"
+    },
+    "year": {
+      "one": "yıl",
+      "other": "yıl"
+    }
+  },
+  "status": {
+    "active": "Etkin",
+    "trial": "Deneme",
+    "paused": "Duraklatıldı",
+    "cancelled": "İptal edildi",
+    "terminated": "Kapatıldı",
+    "stop": "Durdur"
+  },
+  "category": {
+    "choose": "Kategori seçin",
+    "new": "Yeni kategori…"
+  },
+  "group": {
+    "billing": "Ödeme",
+    "status": "Durum",
+    "who": "Kim kullanıyor",
+    "links": "Bağlantılar ve görünüm",
+    "tags": "Etiketler ve notlar"
+  },
+  "field": {
+    "account": "Hesap",
+    "phone": "Telefon",
+    "category": "Kategori",
+    "amount": "Tutar",
+    "currency": "Para birimi",
+    "cycle": "Ödeme dönemi",
+    "method": "Ödeme yöntemi",
+    "purchased": "Satın alma tarihi",
+    "start": "Başlangıç tarihi",
+    "region": "Bölge",
+    "trialEnd": "Deneme bitişi",
+    "end": "Bitiş tarihi",
+    "notSet": "Belirtilmedi",
+    "notes": "Notlar",
+    "optional": "İsteğe bağlı",
+    "url": "Web sitesi",
+    "manageUrl": "Yönetim sayfası",
+    "icon": "Simge",
+    "auto": "Otomatik",
+    "showDomain": "Herkese açık sayfada alan adını göster",
+    "showDomainOn": "Ziyaretçiler alan adının tamamını görür",
+    "showDomainOff": "Herkese açık sayfada gizlenir",
+    "tagsPlaceholder": "Boşlukla ayırın",
+    "notesPlaceholder": "Notlar (isteğe bağlı)",
+    "pausedAt": "Duraklatma tarihi",
+    "plan": "Paket",
+    "iconImported": "Değiştirmek için URL veya emoji",
+    "iconImage": "Görsel simge",
+    "iconUpload": "Yükle",
+    "iconChange": "Simgeyi değiştir",
+    "iconUploadHelp": "PNG/JPEG/WebP yükleyin (en fazla 8 MB), 128 px'e küçültülür; görseli sürükleyip bırakabilir veya yapıştırabilirsiniz",
+    "iconClear": "Temizle",
+    "iconUploadInvalid": "Bu görsel kullanılamıyor: en fazla 8 MB PNG/JPEG/WebP seçin",
+    "iconUploadTooLarge": "Görsel sıkıştırıldıktan sonra hâlâ 64 KB’tan büyük: şeffaf arka planlı bir logo gibi daha sade bir görsel deneyin",
+    "billing": "Ödeme",
+    "settlement": "Faturaları ve ödemeleri ayrı kaydet"
+  },
+  "share": {
+    "none": "Yalnızca ben",
+    "owner": "Yönetici benim",
+    "member": "Katıldım",
+    "proxy": "Başkası için ödüyorum",
+    "memberHint": "Yalnızca kendi payınızı girin",
+    "perHead": "Kişi başı {amount}",
+    "ownerName": "Yönetici",
+    "ownerPlaceholder": "Kime ödüyorsunuz",
+    "perPeriod": "Dönem başına pay",
+    "paidUntil": "Ödendiği tarih",
+    "manageHint": "Kaydettikten sonra bu planı Ortak planlar bölümünde açıp üye ekleyin ve ödemeleri kaydedin."
+  },
+  "proxy": {
+    "for": "Kimin için",
+    "forPlaceholder": "Kişinin adı",
+    "contact": "İletişim",
+    "notePlaceholder": "ör. İş arkadaşı, ay sonunda öder"
+  },
+  "more": {
+    "title": "Diğer seçenekler",
+    "intro": "Tanıtım teklifi",
+    "bonus": "Ücretsiz süre",
+    "remind": "Hatırlatma",
+    "links": "Bağlantılar",
+    "tags": "Etiketler",
+    "notes": "Notlar",
+    "summary": "Tanıtım teklifi, ücretsiz süre, hatırlatma, bağlantılar, etiketler, notlar",
+    "summaryLt": "Bağlantılar, etiketler, notlar"
+  },
+  "intro": {
+    "has": "Tanıtım teklifi",
+    "price": "Tanıtım fiyatı",
+    "until": "Teklif bitişi"
+  },
+  "bonus": {
+    "has": "Ücretsiz süre",
+    "from": "Ücretsiz başlangıcı",
+    "until": "Ücretsiz bitişi",
+    "resume": "Ödemeler {date} tarihinde devam eder",
+    "quick": {
+      "d7": "+7 gün",
+      "m1": "+1 ay",
+      "m3": "+3 ay",
+      "m6": "+6 ay",
+      "y1": "+1 yıl"
+    }
+  },
+  "remind": {
+    "days": "Hatırlat",
+    "default": {
+      "one": "Varsayılan ({count} gün önce)",
+      "other": "Varsayılan ({count} gün önce)"
+    },
+    "defaultSameDay": "Varsayılan (ödeme gününde)",
+    "defaultNever": "Varsayılan (hiçbir zaman)",
+    "sameDay": "Ödeme gününde",
+    "before": {
+      "one": "{count} gün önce",
+      "other": "{count} gün önce"
+    },
+    "never": "Hiçbir zaman"
+  },
+  "name": {
+    "placeholder": "Ad veya App Store bağlantısı yapıştırın",
+    "catalog": "Popüler hizmetler\nlogo, kategori ve web sitesini doldurur"
+  },
+  "change": {
+    "title": "Geçmiş ve değişiklikler",
+    "needPrice": "Bir fiyat girin",
+    "toast": {
+      "price": "Fiyat değişikliği kaydedildi. Uygulamak için “{done}” düğmesine dokunun.",
+      "switch": "Yeni dönem eklendi. Uygulamak için “{done}” düğmesine dokunun.",
+      "resume": "Yeniden abone olundu. Uygulamak için “{done}” düğmesine dokunun."
+    },
+    "price": "Fiyat değişikliğini kaydet",
+    "switch": "Bölge, plan veya ödeme yöntemini değiştir",
+    "resume": "Yeniden abone ol",
+    "undo": "Son dönemi geri al",
+    "priceDate": "Yeni fiyatın başlangıcı",
+    "switchDate": "Değişikliğin geçerlilik tarihi",
+    "resumeDate": "Yeniden abone olma tarihi",
+    "newPrice": "Yeni fiyat ({currency})",
+    "priceLabel": "Fiyat",
+    "planned": "Kesin değil, yalnızca planlanan",
+    "plannedHint": "Tahminlere yine dahil edilir ve ayrıntılarda “Planlandı” olarak işaretlenir. Daha sonra tek dokunuşla onaylayabilir veya iptal edebilirsiniz.",
+    "credit": "Eski planın kullanılmayan {amount} tutarını mahsup et",
+    "renewal": "Sonraki ödeme {date}",
+    "renewalReset": "Yeniden başlat",
+    "renewalKeep": "Tarihi koru",
+    "firstPay": "İlk ödeme ({currency})",
+    "adjustPay": "Fark ({currency})"
+  },
+  "history": {
+    "gapMonths": {
+      "one": "{count} ay ara",
+      "other": "{count} ay ara"
+    },
+    "gapDays": {
+      "one": "{count} gün ara",
+      "other": "{count} gün ara"
+    },
+    "plannedRange": "{start} → {end} (planlandı)",
+    "plannedFrom": "{start} itibarıyla (planlandı)",
+    "range": "{start} → {end}",
+    "now": "şimdi",
+    "initial": "Başlangıç",
+    "priceChange": "Fiyat değişikliği {date}",
+    "outsidePayments": "Mevcut {count} ödeme hizmet dönemi dışında kalacak. Özgün tarihleri, tutarları ve aşamayı koruyarak devam edilsin mi?",
+    "editPrice": "{date} tarihinden itibaren fiyatı düzenle",
+    "deletePrice": "Bu fiyat silinsin mi? Önceki fiyat bir sonraki değişikliğe kadar uygulanır.",
+    "repriceCharges": "Kaydetme, geçmişteki {count} tahmini ödemeyi yeniden hesaplar. Kayıtlı ödemeler değişmez. Devam edilsin mi?"
+  },
+  "payment": {
+    "addTitle": "Ödeme ekle",
+    "editTitle": "Ödemeyi düzenle",
+    "toast": {
+      "added": "Ödeme eklendi",
+      "edited": "Ödeme güncellendi",
+      "deleted": "Ödeme silindi"
+    },
+    "date": "Tarih",
+    "kind": {
+      "label": "Tür",
+      "charge": "Ödeme",
+      "refund": "İade",
+      "adjust": "Düzeltme",
+      "failed": "Başarısız ödeme"
+    },
+    "amount": "Tutar ({currency})",
+    "refundHint": "İade edilen tutarı girin; negatif olarak kaydedilir",
+    "settledCcy": "Kart para birimi",
+    "settledAmount": "Kart tutarı",
+    "orderAmount": "Sipariş tutarı",
+    "usageFoot": "{period} fatura dönemine kaydedilir",
+    "earlyHint": "Erken yenileme sayılır: {settles} dönemini kapatır, sonraki dönem {next}.",
+    "earlyExtra": "Bu ek bir ücret",
+    "freezeHint": "Bu dönemdeki ödemeler şu anda ödeme döneminden tahmin ediliyor. Kaydettiğinizde bugüne kadarki tahmini ödemeler ({amount}) önce kayda dönüştürülür; bundan sonra esas alınan kayıtlardır. Gelecek ödemeler değişmez.",
+    "method": "Ödeme yöntemi",
+    "scopeOne": "Yalnızca bu ödeme",
+    "scopePhase": "Bu plan ({count})",
+    "scope": "Uygula",
+    "split": "Ödemeyi böl",
+    "unsplit": "Tek yöntem",
+    "sources": "Ödeme kaynakları",
+    "addSource": "Kaynak ekle",
+    "splitOk": "Toplam {amount}",
+    "splitLeft": "Dağıtılacak kalan: {amount}"
+  },
+  "timeline": {
+    "home": "Bugüne dön (veya zaman çizelgesine çift tıklayın)"
+  },
+  "ai": {
+    "title": "Yapay zekâ ile doldur",
+    "hint": "Fiş, ekran görüntüsü ya da metin yapıştırın; gerisi otomatik",
+    "go": "Yapıştır"
+  },
+  "plan": {
+    "choose": {
+      "other": "{count} App Store paketi"
+    }
+  },
+  "billing": {
+    "prepaid": "Ön ödemeli",
+    "postpaid": "Sonradan ödemeli"
+  }
+}

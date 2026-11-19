@@ -1,0 +1,123 @@
+@import '@radix-ui/colors/gray.css';
+@import '@radix-ui/colors/gray-dark.css';
+@import '@radix-ui/colors/indigo.css';
+@import '@radix-ui/colors/indigo-dark.css';
+@import '@radix-ui/colors/red.css';
+@import '@radix-ui/colors/red-dark.css';
+@import '@radix-ui/colors/purple.css';
+@import '@radix-ui/colors/purple-dark.css';
+@import '@radix-ui/colors/green.css';
+@import '@radix-ui/colors/green-dark.css';
+@import '@radix-ui/colors/orange.css';
+@import '@radix-ui/colors/orange-dark.css';
+@import '@radix-ui/colors/teal.css';
+@import '@radix-ui/colors/teal-dark.css';
+@import '@radix-ui/colors/pink.css';
+@import '@radix-ui/colors/pink-dark.css';
+@import '@radix-ui/colors/iris.css';
+@import '@radix-ui/colors/iris-dark.css';
+@import '@radix-ui/colors/amber.css';
+@import '@radix-ui/colors/amber-dark.css';
+@import '@radix-ui/colors/slate.css';
+@import '@radix-ui/colors/slate-dark.css';
+@import '@radix-ui/colors/gold.css';
+@import '@radix-ui/colors/gold-dark.css';
+@import '@radix-ui/colors/bronze.css';
+@import '@radix-ui/colors/bronze-dark.css';
+@import '@radix-ui/colors/blue.css';
+@import '@radix-ui/colors/blue-dark.css';
+@import '@radix-ui/colors/cyan.css';
+@import '@radix-ui/colors/cyan-dark.css';
+@import '@radix-ui/colors/black-alpha.css';
+@import '@radix-ui/colors/white-alpha.css';
+
+/* Shared visual scale. Radix 1–2 surfaces, 3–5 interaction states,
+   6–8 borders, 9–10 solid graphics, 11–12 text. */
+:root {
+  --fs-1: 12px;
+  --fs-2: 14px;
+  --fs-3: 17px;
+  --fs-4: 28px;
+  /* 只给桌面端指标卡的主数字用 */
+  --fs-metric: 22px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-pill: 999px;
+  --hairline: 0.5px;
+  --duration: 250ms;
+  --ease: ease-out;
+  --bg: var(--gray-1);
+  --sidebar: var(--gray-2);
+  --card: var(--gray-2);
+  --card-2: var(--gray-3);
+  --line: var(--gray-7);
+  --sep: var(--gray-6);
+  --fill: var(--gray-4);
+  --fill-2: var(--gray-3);
+  --hover: var(--gray-4);
+  --label: var(--gray-12);
+  --label-2: var(--gray-11);
+  --label-3: var(--gray-11);
+  --ink: var(--gray-12);
+  /* 图表统一用 shadcn 式的黑灰单色：单一数据的线、点、面积、柱都用墨色；按分类堆叠的图才用分类色 */
+  --chart-ink: var(--gray-12);
+  /* 双系列图的第二系列（如报告页现金柱） */
+  --chart-ink-2: var(--gray-8);
+  /* 柱状图的柱子：占所在格宽的 50%，最宽 24px，顶部圆角、底边贴横轴；SVG 柱（DetailChart）用 charts.tsx 的 BAR，两处同值 */
+  --bar-ratio: 50%;
+  --bar-max: 24px;
+  --bar-radius: 6px;
+  /*
+   * 预计、未来、还没扣的钱：面状标记（柱、色块）全站同一种斜纹 + 细边框，线状标记（折线未来段、事件节点）仍用虚线。
+   * SVG 柱的同款斜纹见 components/hatch.tsx
+   */
+  --unpaid-fill: var(--gray-2);
+  --unpaid-stripe: var(--gray-7);
+  --unpaid-line: var(--gray-8);
+  --unpaid-hatch: repeating-linear-gradient(135deg, var(--unpaid-stripe) 0 1.5px, transparent 1.5px 5px), var(--unpaid-fill);
+  --unpaid-border: inset 0 0 0 1px var(--unpaid-line);
+  --on-ink: var(--gray-1);
+  --accent: var(--indigo-11);
+  --accent-solid: var(--indigo-9);
+  --accent-solid-hover: var(--indigo-10);
+  --accent-soft: var(--indigo-3);
+  --red: var(--red-11);
+  --green: var(--green-11);
+  /* 盈亏配色：收入、盈余、降价用 gain，亏损、涨价用 loss；设置里选红盈绿亏时对调（html[data-gain='red']） */
+  --gain: var(--green);
+  --gain-3: var(--green-3);
+  --loss: var(--red);
+  --loss-3: var(--red-3);
+  --orange: var(--orange-11);
+  --focus-ring: var(--indigo-8);
+  --glass: color-mix(in srgb, var(--gray-2) 92%, transparent);
+  --shadow: inset 0 0 0 var(--hairline) var(--line);
+  --shadow-lg: 0 16px 48px var(--black-a5), 0 0 0 var(--hairline) var(--line);
+  --c1: var(--indigo-9);
+  --c2: var(--red-9);
+  --c3: var(--purple-9);
+  --c4: var(--green-9);
+  --c5: var(--orange-9);
+  --c6: var(--teal-9);
+  --c7: var(--pink-9);
+  --c8: var(--iris-9);
+  --c9: var(--gray-9);
+  --c10: var(--gold-9);
+  --r: var(--radius-lg);
+  color-scheme: light;
+}
+
+:root[data-gain='red'] {
+  --gain: var(--red);
+  --gain-3: var(--red-3);
+  --loss: var(--green);
+  --loss-3: var(--green-3);
+}
+:root[data-theme='dark'] {
+  color-scheme: dark;
+}
+/* Do not let native small/headings or Tailwind introduce extra text sizes. */
+:where(small) {
+  font-size: var(--fs-1);
+}

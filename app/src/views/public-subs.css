@@ -1,0 +1,110 @@
+/* 设置 · 公开页展示的订阅：胶囊多选 */
+.pubs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 8px;
+}
+.pubs-hint {
+  margin: 0;
+  font-size: var(--fs-2);
+  line-height: 1.5;
+  color: var(--label-2);
+}
+.pubs-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+  font-size: var(--fs-2);
+  font-weight: 600;
+  color: var(--label-2);
+}
+.pubs-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.pubs-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  height: var(--ctl-h-md);
+  max-width: 100%;
+  padding: 0 4px 0 8px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--card);
+  color: var(--label);
+  font: inherit;
+  font-size: var(--fs-2);
+  font-weight: 500;
+  box-shadow: inset 0 0 0 var(--hairline) var(--line);
+}
+.pubs-chip .ico {
+  --s: 20px;
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+/* 移除按钮与胶囊同高，贴在胶囊右端：不再画自己的描边，否则与胶囊描边叠成两圈 */
+.pubs-chip:has(> .pubs-x) {
+  padding-right: 0;
+}
+.icon-btn.pubs-x {
+  box-shadow: none;
+}
+.pubs-name {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pubs-chip.off {
+  padding: 0 14px 0 10px;
+  background: none;
+  color: var(--label-2);
+  box-shadow: inset 0 0 0 var(--hairline) var(--line);
+  border: var(--hairline) dashed transparent;
+  cursor: pointer;
+  transition: background var(--duration) var(--ease);
+}
+.pubs-chip.off:hover {
+  background: var(--fill-2);
+  color: var(--label);
+}
+.pubs-chip.off .ico {
+  opacity: 0.55;
+}
+.pubs-empty {
+  padding: 16px;
+  border-radius: var(--radius-md);
+  background: var(--fill-2);
+  color: var(--label-2);
+  font-size: var(--fs-2);
+  text-align: center;
+}
+@media (max-width: 640px) {
+  .pubs-chips {
+    gap: 6px;
+  }
+  .pubs-chip {
+    gap: 6px;
+    height: var(--ctl-h-md);
+    padding-left: 7px;
+    font-size: var(--fs-2);
+  }
+  .pubs-chip .ico {
+    --s: 18px;
+  }
+
+  .pubs-chip.off {
+    padding: 0 12px 0 8px;
+  }
+}
+
+.pubs-chip {
+  height: var(--ctl-h-md);
+}

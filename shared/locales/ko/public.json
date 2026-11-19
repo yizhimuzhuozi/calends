@@ -1,0 +1,135 @@
+{
+  "title": "{name}의 구독",
+  "loadFailed": "불러오지 못했습니다",
+  "theme": {
+    "title": "테마: {mode}(클릭하여 전환)",
+    "aria": "테마: {mode}, 클릭하여 전환"
+  },
+  "currency": "표시 통화",
+  "hero": {
+    "monthly": "월 구독 지출",
+    "flat": "작년 같은 달과 동일",
+    "more": "작년 같은 달보다 {amount} 많음",
+    "less": "작년 같은 달보다 {amount} 적음",
+    "yearly": "연간",
+    "paid": "{year}년부터 결제한 금액"
+  },
+  "timeline": {
+    "title": "타임라인",
+    "upcoming": {
+      "other": "다음 30일 결제 {count}건\n{amount}"
+    }
+  },
+  "chart": {
+    "title": "월별 결제",
+    "desc": "지난 12개월과 다음 3개월, 빗금 막대는 예측입니다",
+    "paid": "결제됨",
+    "mrr": "월 비용",
+    "charge": "결제 금액",
+    "thisMonth": "이번 달",
+    "projected": "{month}\n예측"
+  },
+  "ended": {
+    "title": "해지됨"
+  },
+  "perMonth": "{amount}/월",
+  "lifetime": {
+    "title": "평생 이용",
+    "desc": "한 번 결제, 추가 결제 없음"
+  },
+  "composition": {
+    "title": "구성",
+    "desc": "카테고리별 월 비용",
+    "other": "기타"
+  },
+  "count": "{count}개",
+  "fx": {
+    "title": "환율",
+    "flat": "지난 1년간 환율로 인한 비용 변화는 거의 없습니다",
+    "less": "오늘 환율로는 1년 전보다 매달 {amount} 덜 냅니다",
+    "more": "오늘 환율로는 1년 전보다 매달 {amount} 더 냅니다",
+    "share": "{pct}%"
+  },
+  "list": {
+    "title": "구독",
+    "summary": {
+      "other": "{count}개\n{amount}/월"
+    },
+    "all": "전체"
+  },
+  "row": {
+    "ends": "\n{date} 종료",
+    "renews": "\n{date} 갱신",
+    "perMonthEq": "월 환산"
+  },
+  "titleAnon": "구독 목록",
+  "pile": {
+    "label": "구독 더미: 아이콘이 클수록 매달 더 많이 씁니다"
+  },
+  "calendar": {
+    "title": "캘린더"
+  },
+  "years": {
+    "title": "구독 연표"
+  },
+  "tenure": {
+    "title": "구독 기간",
+    "avg": "이용 중인 구독의 평균 기간",
+    "longest": "가장 오래 유지"
+  },
+  "treemap": {
+    "title": "지출 지도",
+    "missing": {
+      "other": "환율이 없는 구독 {count}개는 포함되지 않았습니다"
+    }
+  },
+  "changes": {
+    "title": "변경 내역",
+    "more": "모두 보기({n})",
+    "less": "접기",
+    "kind": {
+      "added": "신규",
+      "resumed": "재개",
+      "buy": "일시불 구매",
+      "up": "가격 인상",
+      "down": "가격 인하",
+      "switch": "지역 또는 요금제 변경",
+      "stopped": "중단",
+      "paused": "일시 중지"
+    }
+  },
+  "waterfall": {
+    "title": "월별 변동",
+    "prev": "이전 달",
+    "next": "다음 달",
+    "from": "시작",
+    "added": "신규",
+    "expansion": "가격 인상",
+    "contraction": "가격 인하",
+    "churned": "중단",
+    "fx": "환율",
+    "to": "현재",
+    "monthEnd": "월말",
+    "incomplete": "환율이 없어 차트를 그릴 수 없습니다"
+  },
+  "metric": {
+    "monthly": "월 지출",
+    "yearly": "연간",
+    "active": "이용 중인 구독",
+    "avgPerSub": "구독당 평균",
+    "paidTotal": "총 결제액",
+    "paidYear": "올해 결제액",
+    "paidMonth": "이번 달 결제액",
+    "next30": "앞으로 30일",
+    "topSub": "가장 비싼 구독",
+    "topCategory": "가장 큰 카테고리",
+    "endedCount": "해지됨",
+    "lifetimeCount": "평생 이용",
+    "fxEffect": "환율 영향(월)",
+    "vsPrev": "전년 대비",
+    "shareOf": "월 지출에서 차지하는 비중"
+  },
+  "globe": {
+    "title": "구독 지역"
+  }
+}

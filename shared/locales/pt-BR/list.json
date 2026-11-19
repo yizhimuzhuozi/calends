@@ -1,0 +1,140 @@
+{
+  "overlap": {
+    "note": "{what} segue ativo até {date}"
+  },
+  "search": "Buscar",
+  "title": "Todas as assinaturas",
+  "all": "Todas",
+  "summary": {
+    "one": "{count} item\n{monthly}/mês\n{yearly}/ano",
+    "other": "{count} itens\n{monthly}/mês\n{yearly}/ano"
+  },
+  "status": {
+    "upcoming": "Não iniciada",
+    "active": "Ativa",
+    "trial": "Em teste",
+    "trialShort": "Teste",
+    "paused": "Pausada",
+    "pausedShort": "Pausada",
+    "ending": "Sem renovação",
+    "ended": "Cancelada",
+    "lifetime": "Vitalícia",
+    "terminated": "Desativado"
+  },
+  "proxyExcluded": "Pago para outros\nnão contabilizado",
+  "perMonthApprox": "≈ {amount}/mês",
+  "originalPrice": "Original {amount}",
+  "view": {
+    "grid": "Cartões",
+    "list": "Lista",
+    "gantt": "Linha do tempo"
+  },
+  "sort": {
+    "label": "Ordenar",
+    "next": "Próxima cobrança",
+    "cost": "Custo mensal",
+    "amount": "Valor",
+    "name": "Nome",
+    "category": "Categoria",
+    "method": "Forma de pagamento",
+    "start": "Data de início",
+    "asc": "Crescente",
+    "desc": "Decrescente"
+  },
+  "add": "Adicionar assinatura",
+  "clear": "Limpar",
+  "facet": {
+    "status": "Status",
+    "category": "Categoria",
+    "pay": "Pagamento"
+  },
+  "unassigned": "Sem atribuição",
+  "empty": "Nenhuma assinatura encontrada",
+  "badge": {
+    "share": "Compartilhada",
+    "joined": "Participo",
+    "proxy": "Pago para outros",
+    "proxyFor": "Pago para {name}",
+    "someone": "alguém",
+    "parallel": "Em paralelo"
+  },
+  "col": {
+    "name": "Assinatura",
+    "category": "Categoria",
+    "method": "Forma de pagamento",
+    "amount": "Valor",
+    "monthly": "Mensal",
+    "start": "Início",
+    "next": "Próxima cobrança",
+    "planPrice": "Preço do plano",
+    "inBase": "Em {ccy}"
+  },
+  "notCounted": "Não contabilizada",
+  "endedOn": "Encerrada em {date}",
+  "change": {
+    "noMethod": "Forma de pagamento a definir",
+    "planned": "Planejada\n",
+    "starts": "Começa {when}",
+    "from": "Muda {when}"
+  },
+  "proxyBadge": {
+    "owed": {
+      "one": "Pago para outros\n{count} pendente",
+      "other": "Pago para outros\n{count} pendentes"
+    },
+    "owedFor": {
+      "one": "Pago para {name}\n{count} pendente",
+      "other": "Pago para {name}\n{count} pendentes"
+    },
+    "settled": "Pago para outros\nquitado",
+    "settledFor": "Pago para {name}\nquitado"
+  },
+  "gantt": {
+    "months": {
+      "one": "{count} mês",
+      "other": "{count} meses"
+    },
+    "days": {
+      "one": "{count} dia",
+      "other": "{count} dias"
+    },
+    "noRegion": "Sem região",
+    "zoom3m": "3M",
+    "zoom6m": "6M",
+    "zoom1y": "1A",
+    "zoom3y": "3A",
+    "byMethod": "Por pagamento",
+    "byRegion": "Por região",
+    "gapTitle": "Interrompida por {span}: {from} – {to}",
+    "gapShort": "Interrompida por {span}",
+    "lifetimeSuffix": " vitalícia",
+    "present": "agora",
+    "plannedSuffix": "\nplanejada",
+    "introPrefix": "Oferta inicial\n",
+    "introShort": "Promo ",
+    "planned": "Planejada",
+    "gap": "Interrupção",
+    "earlier": "Anterior",
+    "later": "Próximo",
+    "backToNow": "Voltar para hoje",
+    "resize": "Arraste para ajustar a coluna de nomes\nclique duplo para redefinir"
+  },
+  "kind": {
+    "debit": "Cartão de débito",
+    "credit": "Cartão de crédito",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "paypal": "PayPal",
+    "appstore": "Saldo da App Store",
+    "googleplay": "Saldo do Google Play",
+    "giftcard": "Cartão-presente",
+    "prepaid": "Saldo na loja",
+    "phone": "Crédito de celular",
+    "crypto": "Cartão cripto",
+    "other": "Outro"
+  },
+  "network": {
+    "unionpay": "UnionPay"
+  },
+  "monthlySame": "Igual ao preço"
+}

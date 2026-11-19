@@ -1,0 +1,248 @@
+{
+  "note": {
+    "more": "展开全文"
+  },
+  "renewal": {
+    "afterTrial": "试用结束后首次扣款",
+    "elapsed": "本期已过 {pct}%"
+  },
+  "overlap": {
+    "title": "同时进行中",
+    "previous": "原来的方案",
+    "until": "用到 {date}\n{rel}"
+  },
+  "action": {
+    "edit": "编辑",
+    "pause": "暂停",
+    "resume": "恢复",
+    "manage": "管理",
+    "share": "分享",
+    "copyImage": "复制为图片"
+  },
+  "toast": {
+    "resumed": "已恢复计费",
+    "paused": "已暂停，不再推算后续扣款",
+    "imageCopied": "已复制图片"
+  },
+  "snapshotRest": "其余 {count} 条",
+  "history": "历程",
+  "field": {
+    "amount": "金额",
+    "cycle": "计费周期",
+    "category": "分类",
+    "method": "支付方式",
+    "next": "下次到期",
+    "expiresHint": "自动续费会在到期前扣款",
+    "endedOn": "结束于",
+    "trialEnd": "试用截止",
+    "region": "地区",
+    "period": "订阅期间",
+    "present": "至今",
+    "endedUnknown": "已停用，日期未知"
+  },
+  "up": {
+    "planned": "计划变更\n还没确定",
+    "starting": "即将开始",
+    "changing": "即将变更",
+    "effective": "生效日期"
+  },
+  "plan": {
+    "drop": "不切换了",
+    "droppedToast": "不切换了，{date} 到期后不再续",
+    "confirm": "确认切换",
+    "confirmedToast": "已确认切换"
+  },
+  "intro": {
+    "title": "首期优惠",
+    "price": "优惠价",
+    "until": "优惠截止",
+    "then": "之后恢复"
+  },
+  "share": {
+    "open": "查看合租",
+    "owner": "合租\n我发起（{count}/{seats}）",
+    "member": "合租\n我加入",
+    "payTo": "付给",
+    "host": "发起人",
+    "unnamed": "未命名",
+    "me": "我"
+  },
+  "charges": {
+    "recentN": "只看最近 {count} 笔",
+    "addShort": "记一笔",
+    "title": "扣款记录",
+    "paidOn": "{date} 付款",
+    "kind": {
+      "refund": "退款",
+      "adjust": "补差",
+      "failed": "失败"
+    },
+    "add": "记一笔（退款、补差、扣款失败、卡上实扣…）"
+  },
+  "stats": {
+    "spent": "累计花了",
+    "count": "{count} 笔",
+    "owned": "买了",
+    "subscribed": "订了",
+    "yearsMonths": "{years} 年 {months} 个月",
+    "years": "{count} 年",
+    "months": "{count} 个月",
+    "days": "{count} 天",
+    "gaps": "中间断过 {count} 次",
+    "perMonth": "实际每月",
+    "spentThisYear": "今年花了",
+    "allTime": "累计 {amount}"
+  },
+  "tab": {
+    "charges": "扣款记录\n{count}",
+    "details": "详情"
+  },
+  "kpi": {
+    "noGaps": "无断档",
+    "startedToday": "今天开始",
+    "expectedMonthly": "预计每月",
+    "amortizedCost": "平摊成本",
+    "perMonthValue": "{amount}/月",
+    "perDay": "每天 {amount}",
+    "thisYearMonthly": "今年每月",
+    "averageMonthly": "平均 {amount}/月",
+    "dailyAmount": "{amount}/天"
+  },
+  "chart": {
+    "title": "每笔扣款\n{ccy}",
+    "all": "全部",
+    "y1": "1 年",
+    "m6": "6 个月",
+    "period": "周期",
+    "converted": "折合",
+    "average": "平均",
+    "method": "支付",
+    "paidOn": "付于",
+    "bucket": {
+      "m1": "每根柱为一个月合计",
+      "m3": "每根柱为一季合计",
+      "m12": "每根柱为一年合计"
+    },
+    "regular": "原价",
+    "saved": "首期优惠省下",
+    "unknownEnd": "停用日期未知，图表仅显示已知付款覆盖范围"
+  },
+  "ev": {
+    "next": "下次扣款",
+    "gap": "断更",
+    "start": "开始订阅",
+    "switch": "切换方案",
+    "price": "调价",
+    "introEnd": "恢复原价",
+    "paused": "暂停",
+    "ended": "已结束",
+    "ending": "将结束",
+    "phases": "{count} 段",
+    "more": "显示更早的 {count} 条",
+    "shareStart": "开始合租"
+  },
+  "stop": {
+    "title": "停止与退款",
+    "type": "停止类型",
+    "paidThrough": "本期原本付到日",
+    "loss": "−{money}（{days}）"
+  },
+  "timeline": {
+    "planned": "预计"
+  },
+  "period": {
+    "paid": "本期",
+    "trial": "试用期",
+    "bonus": "赠送期",
+    "since": "{date}起",
+    "sub": "订阅周期",
+    "collect": "收费周期"
+  },
+  "transfer": {
+    "title": "转让收付",
+    "held": "持有",
+    "net": "净花费",
+    "included": "含转让",
+    "kind": {
+      "label": "类型",
+      "buy": "买入",
+      "sell": "卖出"
+    },
+    "hint": {
+      "buy": "买入时付给原主的钱（含溢价），按实际付出的金额填。",
+      "sell": "卖出时收到的钱，按实际收到的金额填；剩下的服务期不再算已付未用。"
+    },
+    "paid": "付出金额",
+    "received": "收到金额",
+    "addTitle": "记一笔转让",
+    "editTitle": "修改转让",
+    "saved": "转让已保存",
+    "deleted": "删除这笔转让",
+    "foot": "二手买入、卖出时实际收付的钱；计入净花费和现金流，不计入每月成本、续费预测和扣款笔数。",
+    "add": "记一笔",
+    "none": "还没有转让记录",
+    "netGain": "净收入",
+    "head": {
+      "date": "日期",
+      "amount": "金额",
+      "base": "折合 {ccy}"
+    }
+  },
+  "billing": {
+    "postpaid": "后付费",
+    "nextBill": "下张账单"
+  },
+  "meters": {
+    "title": "用量详情",
+    "add": "添加用量",
+    "manage": "指标",
+    "manageTitle": "用量指标",
+    "addTitle": "记录用量",
+    "editTitle": "修改记录",
+    "name": "名称",
+    "unit": "单位",
+    "namePh": "如 电量、里程、流量",
+    "unitPh": "如 kWh、km、GB",
+    "usage": "本期用量",
+    "reading": "累计读数",
+    "kindFoot": "本期用量：每次填这一期用了多少。累计读数：填表上的读数（如里程表），用量按相邻两次读数之差计算。",
+    "linkGroup": "关联其他订阅的指标",
+    "linkFoot": "数据只存一份，在哪个订阅上记都一样。取消关联不会删除数据。",
+    "linkFrom": "来自「{name}」",
+    "linkGone": "来源订阅或指标已被删除，没有可显示的数据。",
+    "unlink": "取消关联",
+    "asOf": "截至 {date}",
+    "newMeter": "添加指标",
+    "suggest": "其他订阅用过",
+    "removeConfirm": "删除{names}会一并清除它们的历史数值，确定吗？",
+    "dupName": "指标名称不能重复",
+    "valuesFoot": "单价 = 这一期的实际费用 ÷ 本期用量；后付费的账单按它结清的账期计入。",
+    "saved": "用量已保存",
+    "readingValue": "读数 {v}",
+    "head": {
+      "date": "日期",
+      "usage": "用量"
+    },
+    "readingsCount": "{n} 条记录",
+    "deleteReadings": "删除 {n} 条记录",
+    "removeMeters": "删除指标及其历史数值",
+    "latest": "最近一期",
+    "latestOf": "{name}最近一期",
+    "average": "平均每期",
+    "avgPrice": "平均单价",
+    "totalLabel": "累计",
+    "periods": "{n} 期",
+    "noTrend": "这段时间不足两期，暂无走势",
+    "latestPrice": "最近 {v}",
+    "since": "自 {date}"
+  },
+  "settlement": {
+    "due": "待缴",
+    "overdue": "逾期",
+    "partial": "部分已缴",
+    "prepaid": "已预缴",
+    "this": "本笔",
+    "earliest": "最早未缴",
+    "owed": "欠 {count} 期"
+  }
+}

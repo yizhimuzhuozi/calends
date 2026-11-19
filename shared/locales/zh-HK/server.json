@@ -1,0 +1,64 @@
+{
+  "fxApiError": "匯率 API 異常",
+  "missingId": "缺少 id",
+  "invalidItem": "{name}：{error}",
+  "notPublic": "這個帳本沒有公開",
+  "idMismatch": "id 不一致",
+  "invalidJson": "請求內容不是有效的 JSON。",
+  "invalidMethod": "付款方式無效",
+  "invalidBackup": "備份檔案無效",
+  "refreshFailed": "更新失敗",
+  "backup": {
+    "notBackup": "不是有效的備份檔案",
+    "unknownFormat": "不認識的備份格式：{format}",
+    "newerVersion": "備份來自更新的版本（v{version}），請先升級本站"
+  },
+  "auth": {
+    "tooMany": "嘗試過多，請 15 分鐘後再試",
+    "alreadySetup": "已經設定過密碼",
+    "noSetupToken": "部署時沒有設定 SETUP_TOKEN，無法初始化。請先設定這個密鑰（wrangler secret put SETUP_TOKEN）。",
+    "badSetupToken": "初始化令牌不正確",
+    "passwordTooShort": "密碼至少需要 {min} 個字元",
+    "wrongPassword": "密碼不正確",
+    "wrongCurrentPassword": "目前密碼不正確",
+    "newPasswordTooShort": "新密碼至少需要 {min} 個字元",
+    "invalidDevice": "無效的裝置",
+    "nameRequired": "名稱不能留空",
+    "cannotRemoveCurrent": "無法移除目前裝置，請使用「登出」",
+    "expired": "請求已過期，請重試",
+    "passkeyFailed": "Passkey 驗證失敗；請先用密碼登入，到「設定 → 安全」重新加入",
+    "passkeyRegisterFailed": "Passkey 驗證失敗",
+    "passkeyNotBound": "這個 Passkey 沒有綁定到本站；請先用密碼登入，到「設定 → 安全」重新加入"
+  },
+  "ics": {
+    "calName": "訂閱扣款",
+    "method": "付款：{name}",
+    "alarm": "{name} 即將扣款"
+  },
+  "invalidPerson": "稱呼不能留空",
+  "personNotFound": "搵唔到呢個人",
+  "personInUse": "仲有 {count} 處共享或代付關聯呢個人，請先合併到其他人名下",
+  "category": {
+    "invalid": "分類列表無效",
+    "duplicate": "分類重名：{name}"
+  },
+  "assistant": {
+    "noKey": "尚未設定 DeepSeek API Key。",
+    "badTool": "不支援的操作。"
+  },
+  "invalidAvatar": "圖片無效",
+  "avatarInvalid": "頭像須為不含中繼資料的正方形 PNG/WebP，最大 128×128、64 KB。上傳支援 PNG/JPEG/WebP，最大 8 MB、4000 萬像素。",
+  "avatarRosterFull": "人員名冊空間已滿，請先移除一個頭像。",
+  "methodInUse": "這個支付方式仍在使用。請先把引用遷到其他支付方式，或選擇清空。",
+  "autobackup": {
+    "badEndpoint": "服務地址無效，需以 https:// 或 http:// 開頭",
+    "badBucket": "儲存桶名稱無效",
+    "noCredentials": "請填寫 Access Key ID 同 Secret Access Key",
+    "noLogin": "請填寫用戶名稱和密碼",
+    "noPassphrase": "請設定加密密語",
+    "badKeep": "保留份數需喺 1 至 365 之間",
+    "notConfigured": "仲未設定自動備份",
+    "interrupted": "上次備份未完成",
+    "beforeRestoreFailed": "還原前嘅自動備份失敗，帳本未有改動：{error}"
+  }
+}

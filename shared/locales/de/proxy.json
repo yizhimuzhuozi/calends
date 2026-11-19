@@ -1,0 +1,134 @@
+{
+  "filter": {
+    "all": "Alle",
+    "live": "Aktiv",
+    "owe": "Offen",
+    "ended": "Beendet",
+    "none": "Keine passenden Vorauszahlungen"
+  },
+  "title": "Für andere bezahlt",
+  "status": {
+    "active": "Aktiv",
+    "ending": "Endet",
+    "ended": "Beendet"
+  },
+  "owedPeriods": {
+    "one": "{count} Zahlung offen",
+    "other": "{count} Zahlungen offen"
+  },
+  "viewSub": "Abo ansehen",
+  "stoppedOn": "\nbeendet am {date}",
+  "nextOn": "\nnächste am {date}",
+  "payFor": "Für {name}",
+  "unset": "nicht festgelegt",
+  "paidPeriods": {
+    "one": "{count} Abbuchung bezahlt",
+    "other": "{count} Abbuchungen bezahlt"
+  },
+  "received": "Erhalten",
+  "owed": "Offen",
+  "settled": "Beglichen",
+  "detailTitle": "Für andere bezahlt",
+  "cardCcy": "\nKarte rechnet in {ccy} ab",
+  "forWhom": "Bezahlt für",
+  "method": "Zahlungsmethode",
+  "stoppedAt": "Beendet am",
+  "nextCharge": "Nächste Abbuchung",
+  "note": "Notiz",
+  "table": {
+    "cost": "Kosten damals",
+    "total": "Summe\n{count}",
+    "receivedOn": "Erhalten {date}",
+    "date": "Abbuchungsdatum",
+    "charged": "Abgebucht",
+    "received": "Erhalten",
+    "diff": "Gewinn/Verlust",
+    "record": "Erfassen",
+    "even": "Ausgeglichen",
+    "none": "Noch keine Abbuchungen.",
+    "title": "Zahlungen",
+    "notCharged": "Noch nicht abgebucht"
+  },
+  "entry": {
+    "markedDue": "Als offen markiert",
+    "saved": "Gesichert",
+    "title": "Abbuchung am {date}",
+    "markDue": "Als offen markieren",
+    "cancel": "Abbrechen",
+    "save": "Sichern",
+    "chargedRate": "Etwa {amount} zum Kurs am Abbuchungstag",
+    "chargedBlank": "Leer lassen, um den Listenpreis von {list} zu verwenden",
+    "amount": "Betrag",
+    "currency": "Währung",
+    "paidBack": "{name} hat mir zurückgezahlt",
+    "paidBackAnon": "An mich zurückgezahlt",
+    "receivedEmpty": "Leer lassen, wenn noch nichts eingegangen ist.",
+    "receivedEven": "{amount} zum Kurs am Eingangstag, entspricht der Abbuchung.",
+    "receivedMore": "{amount} zum Kurs am Eingangstag, {diff} mehr als abgebucht.",
+    "receivedLess": "{amount} zum Kurs am Eingangstag, {diff} weniger als abgebucht.",
+    "notReceived": "Nicht erhalten",
+    "receivedOn": "Erhalten am",
+    "notePlaceholder": "Optional, z. B. Banküberweisung"
+  },
+  "page": {
+    "owedSub": {
+      "one": "{count} offen, zu Kursen am Abbuchungstag",
+      "other": "{count} offen, zu Kursen am Abbuchungstag"
+    },
+    "subs": {
+      "one": "{count} Abo",
+      "other": "{count} Abos"
+    },
+    "diffSub": "Gewinn/Verlust durch Wechselkurse und Gebühren bei erhaltenen Zahlungen",
+    "emptyTitle": "Noch nichts für andere bezahlt",
+    "emptyBody": "Erstelle oder bearbeite ein Abo, wähle unter „Wer es nutzt“ die Option „Ich zahle für“ und gib an, für wen.",
+    "liveNext": "Aktiv: {count}, nächste Abbuchung {date}",
+    "lastIn": "Zuletzt erhalten {date}",
+    "noneIn": "Noch keine Zahlungen erhalten",
+    "diffAvg": "{count} zurückgezahlt, im Schnitt {amount} je Zeitraum",
+    "perPeriod": "Im Schnitt {amount} je Zeitraum",
+    "owedRate": "Zum Kurs am Abbuchungstag",
+    "prepaid": {
+      "one": "Zusätzlich {amount} im Voraus für {count} kommende Zahlung",
+      "other": "Zusätzlich {amount} im Voraus für {count} kommende Zahlungen"
+    }
+  },
+  "paid": "Ausgelegt",
+  "periods": {
+    "one": "{count} Zeitraum",
+    "other": "{count} Zeiträume"
+  },
+  "lastIn": "Zuletzt {date}",
+  "prepaidTo": "Vorausbezahlt bis {date}",
+  "receipt": {
+    "add": "Zahlung erfassen",
+    "title": "Zahlung erfassen",
+    "covers": "Deckt ab",
+    "from": "Ab",
+    "periods": "Abgedeckte Zahlungen",
+    "owedTag": "abgebucht, offen",
+    "coversFootOne": "Deckt die Zahlung vom {from} ab.",
+    "coversFootMany": {
+      "one": "Deckt {count} Zahlung von {from} bis {to} ab.",
+      "other": "Deckt {count} Zahlungen von {from} bis {to} ab; bereits erhaltene werden übersprungen. Der Betrag wird gleichmäßig verteilt, Gewinn/Verlust je Zahlung berechnet."
+    },
+    "total": "Erhaltener Betrag",
+    "perFoot": "{per} je Zahlung.",
+    "baseFoot": "{amount} zum Kurs am Eingangstag.",
+    "none": "Nichts offen oder bevorstehend.",
+    "undo": "Diese Zahlung rückgängig machen",
+    "batchFoot": "Teil einer Zahlung über mehrere Perioden. Zum Ändern von Betrag oder Perioden rückgängig machen und neu erfassen.",
+    "perPeriod": {
+      "one": "{count} Zahlung, {amount}",
+      "other": "{count} Zahlungen, je {amount}"
+    }
+  },
+  "convert": {
+    "maybeGroup": "Möglicherweise für andere bezahlt",
+    "submit": "In Zahlung für andere umwandeln",
+    "title": "{name} in Zahlung für andere umwandeln",
+    "saved": "In Zahlung für andere umgewandelt",
+    "changed": "Dieses Abo wurde geändert oder gelöscht. Öffne es erneut und versuche es noch einmal."
+  },
+  "stop": "Stellvertretende Zahlung beenden"
+}

@@ -1,0 +1,56 @@
+paypal.svg, alipay.svg, wechat.svg: Simple Icons (CC0 1.0), https://simpleicons.org
+opencode.svg: OpenCode official favicon, https://opencode.ai/favicon.svg
+115.webp: 115 app icon, App Store 512px (iTunes Search API, cn storefront)
+alipan.webp: Alibaba Cloud Drive app icon, App Store 512px (iTunes Search API, cn storefront)
+appledev.webp: Apple Developer app icon, App Store 512px (iTunes Search API, cn storefront)
+applemusic.webp: Apple Music app icon, App Store 512px (iTunes Search API, cn storefront)
+baidupan.webp: Baidu Netdisk app icon, App Store 512px (iTunes Search API, cn storefront)
+bilibili.webp: Bilibili 大会员, 官方下载中心常规电视标识 (regular brand mark; no temporary campaign artwork), https://i0.hdslb.com/bfs/activity-plat/static/20220518/49ddaeaba3a23f61a6d2695de40d45f0/2nqyzFm9He.jpeg (official page: https://app.bilibili.com/)
+dedao.webp: Dedao app icon, App Store 512px (iTunes Search API, cn storefront)
+duolingo.webp: Duolingo app icon, App Store 512px (iTunes Search API, cn storefront)
+icloud.webp: iCloud+, 官网 apple-touch-icon, https://www.icloud.com/system/icloud.com/2638Build27/favicons/default-favicon-light-180x180.png (official page: https://www.icloud.com/)
+iqiyi.webp: iQIYI app icon, App Store 512px (iTunes Search API, cn storefront)
+jd.webp: 京东 Plus, 官网 Web App manifest 256px 图标 (regular brand mark; no temporary campaign artwork), https://img30.360buyimg.com/img/jfs/t1/399592/30/11314/40198/69a940bbF9a8c59e9/0276100100ae597d.png (official page: https://www.jd.com/manifest.json)
+leigod.webp: Leigod accelerator app icon, App Store 512px (iTunes Search API, cn storefront)
+mgtv.webp: 芒果 TV, 官网页面常规 logo 图片 (regular brand mark; no temporary campaign artwork), https://static.hitv.com/pc2/img/logo.1c1a524.png (official page: https://www.mgtv.com/)
+micloud.webp: 小米云服务, 官网 img[alt="mi cloud logo"] 内嵌 PNG, https://i.mi.com/ (official page: https://cdn.web-global.fds.api.mi-img.com/mcfe--micloud-web-home/static/static/js/header.1d813829.chunk.js)
+microsoft365.webp: Microsoft 365 icon, Wikimedia Commons, File:Microsoft 365 (2022).svg
+mubu.webp: Mubu app icon, App Store 512px (iTunes Search API, cn storefront)
+netease.webp: NetEase Cloud Music app icon, App Store 512px (iTunes Search API, cn storefront)
+netflix.webp: Netflix app icon, App Store 512px (iTunes Search API, us storefront)
+processon.webp: ProcessOn app icon, App Store 512px (iTunes Search API, cn storefront)
+qidian.webp: 起点读书, 阅文官网旗下品牌常规标识 (complete square mark extracted from official 1000x400 brand lockup at x=0, y=83, 234x234; no redraw or enlargement; no campaign artwork), https://imgservices-1252317822.image.myqcloud.com/coco/s08072025/bb2679dd.jp39pc.png (official page: https://www.yuewen.com/about?part=brand)
+qqmusic.webp: QQ Music app icon, App Store 512px (iTunes Search API, cn storefront)
+qqvip.webp: QQ app icon, App Store 512px (iTunes Search API, cn storefront)
+quark.webp: Quark Drive app icon, App Store 512px (iTunes Search API, cn storefront)
+setapp.webp: Setapp, official apple-touch-icon (native 180x180; favicon.svg embeds the same 180px raster), https://setapp.com/apple-touch-icon.png
+shimo.webp: Shimo Docs app icon, App Store 512px (iTunes Search API, cn storefront)
+spotify.webp: Spotify app icon, App Store 512px (iTunes Search API, us storefront)
+taobao.webp: 淘宝 88VIP, 官网 apple-touch-icon-precomposed (regular brand mark; no temporary campaign artwork), https://img.alicdn.com/tps/i3/T1OjaVFl4dXXa.JOZB-114-114.png (official page: https://www.taobao.com/)
+tencentcomic.webp: 腾讯动漫, 官方客户端下载页 logo (regular brand mark; no temporary campaign artwork), https://gtimgcdn.ac.qq.com/h5_hd/downloadForPc/images/logo.3e14a6cd.png?v=daa0cc89ec0fd3e0 (official page: https://m.ac.qq.com/event/downloadForPc/index.html)
+tencentvideo.webp: 腾讯视频, 官网 apple-touch-icon (regular brand mark; no temporary campaign artwork), https://vfiles.gtimg.cn/wuji_dashboard/xy/starter/4ea79867.png (official page: https://v.qq.com/)
+termius.webp: Termius app icon, App Store 512px (iTunes Search API, cn storefront)
+unionpay.webp: UnionPay app icon, App Store 512px (iTunes Search API, cn storefront)
+weiyun.webp: Tencent Weiyun app icon, App Store 512px (iTunes Search API, cn storefront)
+wenku.webp: 百度文库, 官网 favicon SVG, https://edu-wenku.bdimg.com/v1/pc/2026PC/favicon.svg
+weread.webp: WeRead app icon, App Store 512px (iTunes Search API, cn storefront)
+wps.webp: WPS Office app icon, App Store 512px (iTunes Search API, cn storefront)
+yhd.webp: YHD membership store app icon, App Store 512px (iTunes Search API, cn storefront)
+youku.webp: Youku app icon, App Store 512px (iTunes Search API, cn storefront)
+youtube.webp: YouTube app icon, App Store 512px (iTunes Search API, cn storefront)
+zhihu.webp: 知乎盐选, 官方 App Store, https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b2/31/cf/b231cf59-b376-8e23-640d-ee675822e279/AppIcon-0-0-1x_U007emarketing-0-7-0-sRGB-85-220.png/512x512bb.jpg (official page: https://apps.apple.com/cn/app/%E7%9F%A5%E4%B9%8E/id432274380?uo=4)
+kimi.webp: Kimi, 官方 App Store, https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/44/99/d844995d-97a9-ec8a-0800-eceb2296a2c8/AppIcon26-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg (official page: https://apps.apple.com/cn/app/kimi/id6474233312?uo=4)
+qwen.webp: 通义千问, 官方 App Store, https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/5f/aa/b1/5faab19c-0ceb-3506-e365-361a3035a099/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg (official page: https://apps.apple.com/cn/app/%E5%8D%83%E9%97%AE-%E9%98%BF%E9%87%8Cai%E5%8A%A9%E6%89%8B/id6466733523?uo=4)
+doubao.webp: 豆包, 官方 App Store, https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f2/6a/d0/f26ad01b-3df5-723e-5ba6-f8bc0c97774d/AppIcon-0-0-1x_U007epad-0-8-0-sRGB-85-220.png/512x512bb.jpg (official page: https://apps.apple.com/cn/app/%E8%B1%86%E5%8C%85-%E7%94%9F%E6%B4%BB%E5%B7%A5%E4%BD%9C-ai-%E5%8A%A9%E6%89%8B/id6459478672?uo=4)
+zhipu.webp: 智谱清言, 官方 App Store, https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/48/ba/97/48ba9795-e527-f061-c6ed-fd5ef2ad3ace/AppIcon-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg (official page: https://apps.apple.com/cn/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-%E4%B8%80%E7%AB%99%E5%BC%8F%E8%A7%A3%E6%94%BEai%E7%94%9F%E4%BA%A7%E5%8A%9B/id6450893458?uo=4)
+devin.webp: Devin, 官网 favicon SVG, https://devin.ai/favicon.svg
+coze.webp: 扣子, 官方 App Store, https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b9/8c/69/b98c6900-9b40-afb4-60b9-9da52b756cf7/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg (official page: https://apps.apple.com/cn/app/%E6%89%A3%E5%AD%90-%E5%BC%80%E5%90%AF%E5%85%A8%E6%96%B0-agent-%E4%BD%93%E9%AA%8C/id6747420043?uo=4)
+ideogram.webp: Ideogram, 官方 App Store, https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/62/d8/2d/62d82dc9-afcf-53bb-5341-2246a6779f9b/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg (official page: https://apps.apple.com/us/app/ideogram-ai-image-generator/id6476790495?uo=4)
+kling.webp: 可灵, 官方 App Store, https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/c4/e6/66/c4e666a3-d1cd-1392-1f9a-a5f5ab8ae3bc/AppIconKlingapp-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg (official page: https://apps.apple.com/cn/app/%E5%8F%AF%E7%81%B5ai-ai%E5%9B%BE%E7%89%87-%E8%A7%86%E9%A2%91%E5%88%9B%E4%BD%9C%E5%B7%A5%E5%85%B7/id6670396916?uo=4)
+suno.webp: Suno, 官方 App Store, https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3f/8c/86/3f8c86b0-54f7-e247-6bd4-f7e9be6d978c/AppIcon-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/512x512bb.jpg (official page: https://apps.apple.com/cn/app/music-song-creator-suno/id6480136315?uo=4)
+
+Official-source replacements above verified 2026-10-25. Brand artwork and trademarks belong to their respective owners; no open-source license is claimed for these official assets. Rasterized/resized without enlargement, WebP metadata stripped. Original SVG assets in public/ai are retained for saved icon URLs.
+
+Catalog icon policy (2026-10-25): Use regular official brand marks. Exclude temporary event, holiday, tournament, series and promotional variants, even when they are the current App Store icon. Official-source activity replacements verified 2026-10-25; native raster sizes retained when below 256px; WebP metadata stripped.
+
+claude.webp: Claude by Anthropic, official App Store icon (Anthropic PBC), https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/00/7c/eb007c0a-a26e-eb3e-9f89-cb1c37049237/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg (official page: https://apps.apple.com/us/app/claude-by-anthropic/id6473753684?uo=4). Verified 2026-10-26, resized to 256x256 WebP without metadata. Brand artwork and trademarks belong to Anthropic; no open-source license is claimed. Original public/ai/claude.svg retained for saved icon URLs.

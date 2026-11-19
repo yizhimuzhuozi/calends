@@ -1,0 +1,424 @@
+.scope-report {
+  width: 100%;
+  min-width: 0;
+}
+.scope-headline-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 28px;
+}
+.scope-actions {
+  display: flex;
+  flex-shrink: 0;
+  gap: 4px;
+}
+.scope-header {
+  margin: 0 0 10px;
+  min-width: 0;
+  color: var(--label-3);
+  font-size: var(--fs-2);
+  font-weight: 500;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.scope-title,
+.scope-trigger {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 6px 0;
+}
+.scope-title::before,
+.scope-title::after,
+.scope-trigger::before,
+.scope-trigger::after {
+  content: '';
+  flex: 1;
+  border-top: var(--hairline) dashed currentColor;
+}
+.scope-trigger {
+  border: 0;
+  background: none;
+  color: var(--label-3);
+  font: inherit;
+  font-size: var(--fs-2);
+  cursor: pointer;
+}
+.scope-trigger:hover {
+  color: var(--label-2);
+}
+.scope-trigger:focus-visible {
+  outline: var(--hairline) solid var(--focus-ring);
+  outline-offset: 4px;
+  border-radius: var(--radius-sm);
+}
+.scope-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.scope-block {
+  min-width: 0;
+  line-height: 1.4;
+}
+.scope-block .hero-num {
+  font-size: var(--fs-4);
+  line-height: 1.15;
+}
+.scope-block .stat-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.scope-block .card-h {
+  justify-content: flex-start;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.scope-report .mv-row {
+  grid-template-columns: minmax(0, 140px) minmax(24px, 1fr) auto;
+}
+.scope-headline,
+.scope-trend,
+.scope-events,
+.scope-losses,
+.scope-grid > .scope-composition,
+.scope-grid > .scope-alone {
+  grid-column: 1 / -1;
+}
+.scope-compositions,
+.scope-movements {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 24px;
+}
+.scope-movements {
+  margin-top: 8px;
+}
+/* 排行独占整行时两列竖排（左列在前），手机上回到单列 */
+.scope-ranks {
+  grid-auto-flow: column;
+  grid-template-rows: repeat(var(--rank-rows, 3), auto);
+}
+.scope-rank-amount {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+/* 前三名胶囊：金、银、铜 */
+.scope-medal {
+  display: inline-flex;
+  align-items: center;
+  height: 20px;
+  padding: 0 7px;
+  border-radius: var(--radius-pill);
+  font-size: var(--fs-1);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.scope-medal.m1 {
+  background: var(--amber-9);
+  color: var(--amber-12);
+}
+.scope-medal.m2 {
+  background: var(--gray-5);
+  color: var(--gray-12);
+}
+.scope-medal.m3 {
+  background: var(--bronze-5);
+  color: var(--bronze-12);
+}
+.scope-compositions > :only-child {
+  grid-column: 1 / -1;
+}
+.scope-movements .scope-row {
+  align-items: flex-start;
+}
+/* 日期与名称同一行靠右，名称下只留一行说明 */
+.scope-movement-date {
+  flex-shrink: 0;
+  margin-top: 1px;
+  color: var(--label-3);
+  white-space: nowrap;
+}
+.scope-note {
+  margin: 8px 0 12px;
+  color: var(--label-2);
+  font-size: var(--fs-1);
+}
+.scope-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 7px 0;
+  border-bottom: var(--hairline) solid var(--sep);
+  font-size: var(--fs-2);
+}
+.scope-row:last-child {
+  border-bottom: 0;
+}
+.scope-row > * {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.scope-row > :last-child:not(:first-child) {
+  text-align: end;
+}
+.scope-row small {
+  display: block;
+  margin-top: 3px;
+  color: var(--label-2);
+  font-size: var(--fs-1);
+}
+.scope-sub {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  text-align: start;
+}
+.scope-sub > :first-child {
+  flex-shrink: 0;
+}
+.scope-sub > span:last-child {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.scope-name {
+  font-weight: 500;
+}
+.scope-cat {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+.scope-tap {
+  width: 100%;
+  border: 0;
+  border-bottom: var(--hairline) solid var(--sep);
+  background: none;
+  color: inherit;
+  font-family: inherit;
+  text-align: start;
+  cursor: pointer;
+}
+.scope-tap:hover .scope-name {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.scope-tap:focus-visible {
+  outline: var(--hairline) solid var(--focus-ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+.scope-composition h4 {
+  margin: 10px 0 2px;
+  color: var(--label-2);
+  font-size: var(--fs-1);
+  font-weight: 500;
+}
+.scope-share {
+  padding-bottom: 6px;
+}
+.scope-share .scope-row {
+  border: 0;
+}
+.scope-comparison {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.scope-chart-data {
+  margin-top: 12px;
+  font-size: var(--fs-1);
+  color: var(--label-2);
+}
+.scope-chart-data summary {
+  cursor: pointer;
+}
+.scope-animate .scope-block {
+  animation: none;
+}
+
+@media (max-width: 680px) {
+  .scope-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .scope-ranks {
+    grid-auto-flow: row;
+    grid-template-rows: none;
+  }
+  .scope-compositions,
+  .scope-movements {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .scope-report .mv-row {
+    grid-template-columns: minmax(0, 1fr) minmax(24px, 1fr) auto;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .scope-animate .scope-block {
+    animation: none;
+  }
+}
+.cal-mini-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 28px;
+  font-size: var(--fs-1);
+  color: var(--label-2);
+}
+.cal-mini-head > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.cal-expand {
+  opacity: 0;
+  transition: opacity var(--duration) var(--ease);
+}
+.cal-stat:hover .cal-expand,
+.cal-stat:focus-within .cal-expand {
+  opacity: 1;
+}
+.cal-comparisons {
+  display: grid;
+  gap: 6px;
+  margin: 6px 0;
+}
+.cal-comparisons > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: var(--fs-1);
+  color: var(--label-2);
+}
+.cal-mini-chart {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 8px;
+}
+.cal-mini-month {
+  min-width: 0;
+  color: var(--label-3);
+  text-align: center;
+}
+.cal-mini-month.current {
+  color: var(--accent);
+}
+.cal-mini-month small {
+  font-size: var(--fs-1);
+  white-space: nowrap;
+}
+.cal-mini-bars {
+  display: flex;
+  flex-direction: column;
+  height: 76px;
+  margin: 0 3px 4px;
+}
+.cal-mini-positive,
+.cal-mini-negative {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  height: 50%;
+  border-bottom: var(--hairline) solid var(--sep);
+}
+.cal-mini-negative {
+  flex-direction: column;
+  border-bottom: 0;
+}
+.cal-mini-bars i {
+  display: block;
+  width: var(--bar-ratio);
+  max-width: var(--bar-max);
+  background: currentColor;
+  flex-shrink: 0;
+}
+.cal-mini-positive i:last-child {
+  border-radius: var(--bar-radius) var(--bar-radius) 0 0;
+}
+.cal-mini-negative i:last-child {
+  border-radius: 0 0 var(--bar-radius) var(--bar-radius);
+}
+.cal-mini-bars .forecast {
+  background: var(--unpaid-hatch);
+  box-shadow: var(--unpaid-border);
+}
+.cal-dc-meta {
+  min-width: 0;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  font-size: var(--fs-1);
+  color: var(--label-2);
+}
+.cal-dc-main > small {
+  font-size: var(--fs-1);
+  color: var(--label-2);
+  overflow-wrap: anywhere;
+}
+@media (max-width: 900px), (hover: none) {
+  .cal-expand {
+    opacity: 1;
+  }
+}
+@media (max-width: 680px) {
+  .cal-daycards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .cal-daycard {
+    gap: 8px;
+  }
+}
+.cal-mini-bars:not(.signed) .cal-mini-positive {
+  height: 100%;
+}
+.cal-mini-bars:not(.signed) .cal-mini-negative {
+  display: none;
+}
+
+/* Selection-only layout: shared cards, type sizes and timeline capsules. */
+.scope-lifecycle .scope-headline-header {
+  justify-content: flex-end;
+  margin-bottom: 8px;
+}
+.scope-timeline .gt {
+  --rh: 36px;
+  box-shadow: none;
+  border-radius: 0;
+}
+.scope-timeline .gt-label {
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: var(--fs-1);
+}
+
+.scope-lifecycle .scope-headline .metric-grid {
+  grid-auto-rows: 1fr;
+}
+/* 月度变动：名称一行省略，「原价 → 现价」不在中间断开 */
+.scope-movements .scope-name {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.scope-movements small .num {
+  white-space: nowrap;
+}

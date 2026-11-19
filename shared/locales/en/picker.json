@@ -1,0 +1,37 @@
+{
+  "choose": "Choose",
+  "noMatch": "No matches",
+  "common": "Frequently used",
+  "currency": "Currency",
+  "date": {
+    "placeholder": "YYYY-MM-DD",
+    "prev": "Previous month",
+    "next": "Next month",
+    "open": "Open calendar",
+    "year": "Year",
+    "month": "Month",
+    "invalid": "Enter a valid date",
+    "range": "Date is outside the allowed range",
+    "type": "Type the date",
+    "confirm": "Confirm"
+  },
+  "method": {
+    "label": "Payment method",
+    "none": "None"
+  },
+  "region": {
+    "label": "Region",
+    "any": "Any",
+    "none": "Any region",
+    "all": "All regions"
+  },
+  "ccy": {
+    "label": "Currency",
+    "switch": "Change the display currency",
+    "orig": "Original",
+    "origHint": "Each in its own",
+    "all": "All currencies",
+    "search": "Search name, code or symbol",
+    "noMatch": "No matching currencies"
+  }
+}

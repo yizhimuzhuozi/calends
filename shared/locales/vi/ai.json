@@ -1,0 +1,97 @@
+{
+  "title": "Truy cập AI",
+  "newToken": "Token mới",
+  "mcpUrl": "URL MCP",
+  "urlCopied": "Đã sao chép URL",
+  "copy": "Sao chép",
+  "copied": "Đã sao chép",
+  "copyFailed": "Không sao chép được",
+  "neverUsed": "Chưa từng dùng",
+  "tokenPlaceholder": "<token-của-bạn>",
+  "tokens": {
+    "other": "Token\n{count}"
+  },
+  "noTokens": "Chưa có token. Hãy tạo một token và đưa cho trợ lý AI bạn muốn kết nối.",
+  "lastUsed": "Dùng lần cuối {time}",
+  "confirmRevoke": "Thu hồi “{name}”? Trợ lý AI đang dùng token này sẽ mất quyền truy cập ngay lập tức.",
+  "revoke": "Thu hồi",
+  "revoked": "Đã thu hồi",
+  "setup": "Thiết lập",
+  "tools": {
+    "other": "Công cụ khả dụng\n{count}"
+  },
+  "clientOther": "Khác",
+  "scope": {
+    "write": "Đọc & ghi",
+    "read": "Chỉ đọc",
+    "label": "Quyền",
+    "writeDesc": "Tra cứu và quản lý gói đăng ký, thanh toán, tiền đã nhận, ví, người, danh mục và cài đặt sổ.",
+    "readDesc": "Chỉ tra cứu. Không thể thay đổi gì."
+  },
+  "created": {
+    "title": "Đã tạo token",
+    "saved": "Tôi đã lưu",
+    "foot": "Token này chỉ hiển thị một lần và không thể xem lại sau khi đóng. Nếu làm mất, hãy thu hồi và tạo token mới.",
+    "tokenCopied": "Đã sao chép token"
+  },
+  "cancel": "Hủy",
+  "generate": "Tạo",
+  "name": "Tên",
+  "namePlaceholder": "Dành cho AI nào?",
+  "pickClient": "Chọn trợ lý AI của bạn",
+  "tokensHint": "Nên cấp cho mỗi trợ lý một token riêng để có thể thu hồi riêng lẻ.",
+  "toolsHint": "Những gì trợ lý có thể làm với sổ của bạn. Token chỉ đọc chỉ thấy các công cụ đọc.",
+  "toolsRead": "Đọc",
+  "toolsWrite": "Ghi",
+  "experimental": "Thử nghiệm",
+  "copiedWithToken": "Đã sao chép, kèm token",
+  "installIn": "Thêm vào {name}",
+  "createdAt": "Tạo lúc {time}",
+  "where": {
+    "terminal": "Chạy lệnh này trong terminal.",
+    "codex": "Chạy lệnh này trong terminal. Thêm dòng export vào tệp cấu hình shell để token vẫn còn sau khi khởi động lại.",
+    "file": "Thêm đoạn này vào {path}.",
+    "grokbot": "Trong Grok Bot, mở Cài đặt → Plugins, thêm máy chủ MCP rồi điền tên, URL và header bên dưới. Grok Bot chạy trên đám mây nên địa chỉ phải truy cập công khai được.",
+    "http": "Mọi MCP client hỗ trợ Streamable HTTP. Đây là một yêu cầu thử nhanh."
+  },
+  "via": {
+    "command": "Lệnh terminal",
+    "install": "Cài đặt một chạm",
+    "file": "Tệp cấu hình",
+    "settings": "Cài đặt trong ứng dụng",
+    "http": "Mọi ứng dụng MCP"
+  },
+  "step": {
+    "token": "Token",
+    "tokenReady": "Đang dùng “{name}”, đã có trong đoạn bên dưới",
+    "tokenNeeded": "Token chỉ hiển thị một lần.",
+    "createFor": "Tạo token cho {name}",
+    "send": "Gửi cho {name}"
+  },
+  "status": {
+    "on": "Đã bật truy cập AI",
+    "off": "Đã tắt truy cập AI",
+    "onHint": "Token hợp lệ cho phép trợ lý AI truy cập sổ theo quyền đã được cấp.",
+    "offHint": "Mọi yêu cầu MCP đều bị từ chối cho đến khi bạn bật lại."
+  },
+  "promptLabel": "Prompt",
+  "copyConfigOnly": "Chỉ sao chép cấu hình",
+  "configCopied": "Đã sao chép cấu hình",
+  "agentPrompt": "Hãy kết nối sổ gói đăng ký Calends của tôi làm máy chủ MCP tên là \"calends\". {where}\n\n{code}\n\nKhi xong, hãy gọi công cụ {verify} để kiểm tra, rồi cho tôi biết tôi đang có bao nhiêu gói đăng ký đang dùng.",
+  "col": {
+    "name": "Tên",
+    "key": "Khóa",
+    "created": "Tạo lúc",
+    "lastUsed": "Dùng gần nhất"
+  },
+  "domain": {
+    "overview": "Tổng quan và thống kê",
+    "subs": "Gói đăng ký",
+    "charges": "Khoản thanh toán",
+    "wallet": "Ví và phương thức thanh toán",
+    "people": "Gói dùng chung và trả hộ",
+    "categories": "Danh mục",
+    "settings": "Cài đặt",
+    "other": "Khác"
+  }
+}

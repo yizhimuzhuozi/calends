@@ -1,0 +1,500 @@
+{
+  "title": "设置",
+  "days": {
+    "other": "{count} 天"
+  },
+  "logout": "退出登录",
+  "toast": {
+    "saved": "已保存",
+    "deleted": "已删除",
+    "csvEmpty": "CSV 中没有可导入的订阅",
+    "badBackup": "不是有效的备份文件"
+  },
+  "general": {
+    "title": "通用",
+    "language": "语言",
+    "followSystem": "跟随系统",
+    "name": "名字",
+    "namePlaceholder": "分享图、公开页上显示",
+    "avatar": "头像",
+    "avatarDefault": "默认图标",
+    "startPage": "打开后先看",
+    "startPageAria": "启动页",
+    "baseCurrency": "本位币",
+    "signedAmounts": "收支正负号",
+    "gainColor": "盈亏颜色",
+    "gainGreen": "绿盈红亏",
+    "gainRed": "红盈绿亏",
+    "timezone": "时区",
+    "weekStart": "每周从",
+    "weekStartAria": "每周起始日",
+    "monday": "周一开始",
+    "sunday": "周日开始",
+    "telemetry": "匿名使用统计",
+    "telemetryForcedOff": "已在部署中关闭",
+    "telemetryNote": "仅统计使用情况和版本信息，不收集任何订阅、金额或账本信息。"
+  },
+  "sidebar": {
+    "thisMonth": "本月",
+    "dragFoot": "拖动左侧把手调整顺序，侧边栏会按这个顺序显示。",
+    "title": "侧边栏",
+    "upcoming": "即将扣款",
+    "lookAhead": "往后看",
+    "lookAheadAria": "即将扣款天数"
+  },
+  "remind": {
+    "title": "提醒",
+    "lead": "默认提前",
+    "sameDay": "到期当天",
+    "never": "不提醒",
+    "hour": "发送时间",
+    "monthly": "每月 1 日账单预告",
+    "test": "发一条测试提醒到所有渠道",
+    "testFailed": "发送失败",
+    "channelError": "{channel}：{error}",
+    "errorSep": "；",
+    "testSent": "测试提醒已发出",
+    "preview": "预览今天的提醒",
+    "log": "发送记录"
+  },
+  "today": {
+    "recent": "最近发送",
+    "title": "今天（{day}）",
+    "items": {
+      "other": "{count} 项"
+    }
+  },
+  "books": {
+    "title": "记账",
+    "defaultMethod": "默认支付方式",
+    "unassigned": {
+      "other": "{count} 个订阅未指定支付方式"
+    },
+    "assignAllDone": {
+      "other": "已把 {count} 个订阅设为默认支付方式"
+    },
+    "assignAll": "全部设为默认",
+    "collectCurrency": "合租收款币种"
+  },
+  "fx": {
+    "title": "汇率",
+    "current": "当前汇率",
+    "updatedAt": "更新于 {time}",
+    "updated": "汇率已更新",
+    "history": "历史汇率覆盖",
+    "earliest": "最早 {date}",
+    "coverage": {
+      "other": "{covered} / {count} 天"
+    },
+    "fill": "补齐缺失的汇率",
+    "historyUpdated": "历史汇率已更新"
+  },
+  "open": {
+    "publicSubs": "展示的订阅",
+    "publicSubsHint": "代付订阅不公开；新增订阅默认公开。",
+    "publicShown": "展示中\n{count}",
+    "publicOff2": "未展示\n{count}",
+    "publicShowAll": "全部展示",
+    "publicHideAll": "全部隐藏",
+    "publicHideOne": "不展示 {name}",
+    "publicShowOne": "展示 {name}",
+    "publicNone": "一个都没展示，公开页会是空的",
+    "title": "开放",
+    "ics": "订阅到系统日历",
+    "on": "已开启",
+    "off": "未开启",
+    "public": "公开页",
+    "publicOn": "已公开",
+    "publicOff": "已关闭公开页",
+    "publicTitle": "页面标题",
+    "previewPublic": "预览公开页",
+    "ai": "AI 连接（MCP）",
+    "aiOn": "已开启 AI 连接",
+    "aiOff": "已关闭，AI 助手将无法访问",
+    "manageAi": "管理令牌与接入方式"
+  },
+  "data": {
+    "title": "数据",
+    "importCsv": "导入数据",
+    "restore": "从备份恢复",
+    "exportCsv": "导出 CSV",
+    "backup": "导出完整备份"
+  },
+  "restore": {
+    "cancel": "取消",
+    "replace": "替换当前账本",
+    "done": "已恢复",
+    "warning": "当前账本会被备份里的内容整体替换，无法撤销；建议先导出一份当前备份。",
+    "subs": "订阅",
+    "methods": "支付方式",
+    "count": {
+      "other": "{count} 个"
+    },
+    "time": "备份时间",
+    "format": "格式",
+    "legacy": "旧版备份：只含订阅与支付方式",
+    "unlock": "解锁",
+    "wrongPassphrase": "口令不对"
+  },
+  "import": {
+    "title": {
+      "other": "导入 {count} 项订阅"
+    },
+    "confirmReplace": "替换会清空现有订阅与支付方式，确定？",
+    "replaceDone": "已替换导入",
+    "replaceAll": "替换全部",
+    "mergeDone": "已合并导入",
+    "merge": "追加导入",
+    "newMethods": "将新建支付方式：{names}",
+    "sep": "、",
+    "history": "仅从导入日起推算扣款，不补造之前的付款历史。",
+    "owner": "备份中的账号",
+    "choose": "请选择…",
+    "independent": "同名订阅保持独立。",
+    "include": "导入此项",
+    "every": "每隔",
+    "next": "下次付款",
+    "paused": "按暂停状态导入，恢复前请核对。",
+    "reading": "正在读取文件…",
+    "formats": "CSV、ZIP 备份或 SQLite 数据库"
+  },
+  "channels": {
+    "title": {
+      "other": "通知渠道\n{count} 个开启"
+    },
+    "empty": "还没有渠道，提醒不会发出。",
+    "test": "测试",
+    "testFailed": "发送失败",
+    "testSent": "测试消息已发出",
+    "add": "添加渠道",
+    "addKind": "添加 {name}",
+    "delete": "删除",
+    "save": "保存",
+    "fillField": "请填写{field}",
+    "name": "名称",
+    "optional": "可选",
+    "enabled": "启用",
+    "field": {
+      "to": "收件邮箱",
+      "webhook": "Webhook 地址",
+      "server": "服务器",
+      "token": "访问令牌"
+    },
+    "kind": {
+      "email": {
+        "name": "邮件",
+        "help": "经 Cloudflare Email Sending 发出，需要域名已在 Cloudflare 验证"
+      },
+      "telegram": {
+        "chatIdPlaceholder": "你的用户 ID 或群 ID",
+        "help": "找 @BotFather 建机器人拿 Token；先给机器人发一条消息，再用 @userinfobot 查自己的 ID"
+      },
+      "lark": {
+        "name": "飞书 / Lark",
+        "secret": "签名密钥",
+        "secretPlaceholder": "开启「签名校验」时填",
+        "help": "群设置 → 群机器人 → 添加自定义机器人"
+      },
+      "dingtalk": {
+        "name": "钉钉",
+        "secret": "加签密钥",
+        "secretPlaceholder": "SEC…，开启「加签」时填",
+        "help": "群设置 → 机器人 → 自定义机器人"
+      },
+      "wecom": {
+        "name": "企业微信",
+        "help": "群聊 → 添加群机器人"
+      },
+      "bark": {
+        "keyPlaceholder": "App 里复制的 Key",
+        "help": "iPhone 推送，App Store 搜 Bark"
+      },
+      "ntfy": {
+        "topicPlaceholder": "随便起一个不易猜到的名字",
+        "help": "手机装 ntfy App 订阅同一个 Topic"
+      },
+      "serverchan": {
+        "name": "Server酱",
+        "keyPlaceholder": "SCT… 或 sctp…",
+        "help": "推送到微信（Server酱 Turbo / ³）"
+      },
+      "discord": {
+        "help": "频道设置 → 整合 → Webhook"
+      },
+      "webhook": {
+        "name": "自定义 Webhook",
+        "header": "附加请求头",
+        "help": "POST JSON：subject、intro、sections、text、markdown、url"
+      }
+    }
+  },
+  "security": {
+    "title": "安全",
+    "unknownBrowser": "未知浏览器",
+    "ago": {
+      "justNow": "刚刚活跃",
+      "minutes": {
+        "other": "{count} 分钟前"
+      },
+      "hours": {
+        "other": "{count} 小时前"
+      },
+      "days": {
+        "other": "{count} 天前"
+      }
+    },
+    "thisDevice": "本机",
+    "signedInPasskey": "Passkey 登录于 {time}",
+    "signedInPassword": "密码登录于 {time}",
+    "revoke": "移出",
+    "revoked": "已移出",
+    "lastUsed": "上次使用 {time}",
+    "addedAt": "添加于 {time}",
+    "remove": "移除",
+    "rename": "重命名",
+    "removed": "已移除",
+    "addPasskey": "添加 Passkey",
+    "alreadyBound": "这台设备已经绑定过了",
+    "changePassword": "修改密码",
+    "devices": "登录设备",
+    "devicesCount": {
+      "other": "登录设备\n{count}"
+    },
+    "maxSessions": "最多同时登录",
+    "maxSessionsSaved": {
+      "other": "最多 {count} 台设备"
+    },
+    "deviceCount": {
+      "other": "{count} 台"
+    },
+    "confirmLogoutOthers": "退出除本机外的所有设备？",
+    "loggedOutOthers": "其他设备已退出",
+    "logoutOthers": "退出其他所有设备",
+    "passwordChanged": "密码已修改，其他设备已退出",
+    "save": "保存",
+    "mismatch": "两次输入不一致",
+    "passwordFoot": "至少 8 位。修改后，除当前设备外的登录都会失效。",
+    "currentPassword": "当前密码",
+    "newPassword": "新密码",
+    "confirmPassword": "确认新密码"
+  },
+  "cat": {
+    "title": "分类",
+    "manage": "管理分类",
+    "count": {
+      "other": "{count} 个分类"
+    },
+    "subs": {
+      "other": "{count} 个订阅"
+    },
+    "unused": "未使用",
+    "foot": "拖动调整顺序；改名会同步到该分类下的所有订阅。",
+    "add": "新建分类",
+    "edit": "编辑分类",
+    "name": "名称",
+    "namePlaceholder": "分类名称",
+    "color": "颜色",
+    "icon": "图标",
+    "search": "搜索图标",
+    "noMatch": "没有匹配的图标",
+    "delete": "删除分类",
+    "moveTo": {
+      "other": "其中 {count} 个订阅移到"
+    },
+    "dragHandle": "拖动排序",
+    "toast": {
+      "created": "已新建分类",
+      "saved": "已保存分类",
+      "renamed": {
+        "other": "已保存分类，更新了 {count} 个订阅"
+      },
+      "deleted": "已删除分类",
+      "order": "已保存顺序"
+    },
+    "error": {
+      "empty": "请填写名称",
+      "duplicate": "已有名为「{name}」的分类"
+    },
+    "group": {
+      "common": "常用",
+      "tech": "科技",
+      "media": "影音娱乐",
+      "work": "办公",
+      "money": "购物理财",
+      "life": "居家生活",
+      "food": "美食",
+      "health": "健康运动",
+      "travel": "出行",
+      "people": "社交学习"
+    }
+  },
+  "publicPage": {
+    "title": "编辑公开页",
+    "access": "公开访问",
+    "back": "返回设置",
+    "reset": "恢复默认",
+    "leave": "有未保存的改动，确定离开？",
+    "leaveOk": "离开",
+    "head": "页头",
+    "browserTitle": "浏览器标题",
+    "avatarFollow": "跟随全局头像",
+    "avatarLinkHint": "访客浏览器会直接请求这个地址，对方能看到访客的 IP。",
+    "bio": "正文",
+    "bioPlaceholder": "显示在标题下方，可换行，不随语言切换",
+    "sections": "组件",
+    "remove": "移除",
+    "emptyCard": "暂无数据，访客看不到这张卡片",
+    "editTab": "设置",
+    "previewTab": "预览",
+    "desktop": "桌面",
+    "phone": "手机",
+    "library": {
+      "metrics": "数字",
+      "charts": "图表",
+      "lists": "列表与时间",
+      "bottom": "页面底部"
+    },
+    "hintDrag": "把组件拖到页面上，或点一下放到最下面。",
+    "hintTap": "点一下添加到页面最下面。",
+    "backToLibrary": "返回组件库",
+    "headHint": "点击页面上的标题、正文或头像即可修改，点主题按钮可隐藏或显示。",
+    "autoSnap": "自动吸附",
+    "freePlace": "自由摆放",
+    "themeButton": "主题按钮",
+    "themeHide": "隐藏主题按钮",
+    "themeShow": "显示主题按钮（访客现在看不到）",
+    "metricCard": "指标卡",
+    "template": "样式",
+    "metricData": "显示的数据",
+    "addMetric": "再加一个数据",
+    "widget": {
+      "stats": {
+        "name": "概览",
+        "desc": "每月支出和关键数字"
+      },
+      "number": {
+        "name": "数字",
+        "desc": "一个数字，放大显示"
+      },
+      "trend": {
+        "name": "趋势",
+        "desc": "数字加迷你走势"
+      },
+      "compare": {
+        "name": "对比",
+        "desc": "和去年同期比"
+      },
+      "share": {
+        "name": "占比",
+        "desc": "占每月支出多少"
+      },
+      "rows": {
+        "name": "多行",
+        "desc": "最多 4 个数字一起看"
+      },
+      "chart": {
+        "name": "柱状图",
+        "desc": "每月扣款和月度开销走势"
+      },
+      "composition": {
+        "name": "构成",
+        "desc": "各分类占多少"
+      },
+      "treemap": {
+        "name": "方块图",
+        "desc": "面积表示花多少"
+      },
+      "waterfall": {
+        "name": "月度变化",
+        "desc": "新增、涨价、取消的增减"
+      },
+      "fx": {
+        "name": "币种与汇率",
+        "desc": "各币种占比和涨跌"
+      },
+      "timeline": {
+        "name": "时间线",
+        "desc": "按天排列的扣款"
+      },
+      "calendar": {
+        "name": "日历",
+        "desc": "一个月里哪天扣款"
+      },
+      "years": {
+        "name": "订阅年表",
+        "desc": "每个订阅从哪年用到哪年"
+      },
+      "list": {
+        "name": "订阅列表",
+        "desc": "正在用的全部订阅"
+      },
+      "tenure": {
+        "name": "订阅时长",
+        "desc": "平均和用得最久的"
+      },
+      "changes": {
+        "name": "变动记录",
+        "desc": "新增、涨价和停用"
+      },
+      "ended": {
+        "name": "已退订",
+        "desc": "退订了什么、原来多少钱"
+      },
+      "lifetime": {
+        "name": "买断",
+        "desc": "一次付清的软件"
+      },
+      "footer": {
+        "name": "页脚",
+        "desc": "项目名和版本"
+      },
+      "pile": {
+        "name": "底部订阅堆",
+        "desc": "页面底部落下的图标"
+      },
+      "globe": {
+        "name": "地球",
+        "desc": "在用订阅分布在哪些地区"
+      }
+    }
+  },
+  "update": {
+    "current": "当前版本",
+    "available": "可更新",
+    "check": "检查更新",
+    "failed": "检查失败",
+    "upToDate": "最新",
+    "title": "升级到 v{version}",
+    "copy": "复制命令",
+    "copied": "已复制命令",
+    "guide": "升级说明",
+    "notes": "更新内容"
+  },
+  "autobackup": {
+    "title": "自动备份",
+    "off": "未开启",
+    "failed": "备份失败",
+    "last": "上次备份",
+    "never": "还没有备份",
+    "runNow": "立即备份",
+    "storage": "存储",
+    "kind": "备份到",
+    "endpoint": "服务地址",
+    "bucket": "存储桶",
+    "folder": "文件夹",
+    "kept": "已保存",
+    "encryption": "加密",
+    "passphrase": "加密口令",
+    "confirm": "确认口令",
+    "mismatch": "两次口令不一致",
+    "keep": "保留份数",
+    "copies": {
+      "other": "份"
+    },
+    "save": "保存",
+    "switchTo": "改用 {kind}",
+    "remove": "移除",
+    "removed": "已移除自动备份",
+    "done": "已备份"
+  }
+}

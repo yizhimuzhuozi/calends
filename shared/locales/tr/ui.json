@@ -1,0 +1,25 @@
+{
+  "close": "Kapat",
+  "error": {
+    "loginRequired": "Lütfen önce giriş yapın",
+    "requestFailed": "İstek başarısız oldu ({status})",
+    "wholeCurrency": "{currency} tutarları tam sayı olmalıdır",
+    "deletedElsewhere": "Bu öğe başka bir yerde silindi, değişiklikleriniz kaydedilmedi."
+  },
+  "theme": {
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem"
+  },
+  "method": {
+    "none": "Belirtilmedi"
+  },
+  "toolbar": {
+    "add": "Abonelik ekle"
+  },
+  "working": "İşleniyor…",
+  "undo": "Geri al",
+  "restored": "Geri yüklendi",
+  "loadFailed": "Yüklenemedi",
+  "retry": "Yeniden dene"
+}

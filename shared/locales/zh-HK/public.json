@@ -1,0 +1,129 @@
+{
+  "title": "{name}的訂閱",
+  "loadFailed": "載入失敗",
+  "theme": {
+    "title": "主題：{mode}（點按切換）",
+    "aria": "主題：{mode}，點按切換"
+  },
+  "currency": "顯示貨幣",
+  "hero": {
+    "monthly": "每月訂閱支出",
+    "flat": "與去年同月持平",
+    "more": "比去年同月多 {amount}",
+    "less": "比去年同月少 {amount}",
+    "yearly": "一年約",
+    "paid": "累計已付\n{year} 起"
+  },
+  "timeline": {
+    "title": "時間軸",
+    "upcoming": "接下來 30 天 {count} 筆\n{amount}"
+  },
+  "chart": {
+    "title": "每月扣款",
+    "desc": "過去 12 個月與之後 3 個月，斜紋為預計",
+    "paid": "實付",
+    "mrr": "月成本",
+    "charge": "扣款",
+    "thisMonth": "本月",
+    "projected": "{month}\n預計"
+  },
+  "ended": {
+    "title": "已退訂"
+  },
+  "perMonth": "{amount}/月",
+  "lifetime": {
+    "title": "買斷",
+    "desc": "一次付清，不再扣款"
+  },
+  "composition": {
+    "title": "構成",
+    "desc": "每月成本依分類",
+    "other": "其他"
+  },
+  "count": "{count} 個",
+  "fx": {
+    "title": "匯率",
+    "flat": "與一年前相比，匯率幾乎沒有影響",
+    "less": "和一年前的匯率相比，每月少花 {amount}",
+    "more": "和一年前的匯率相比，每月多花 {amount}",
+    "share": "佔 {pct}%"
+  },
+  "list": {
+    "title": "正在訂閱",
+    "summary": "{count} 個\n每月 {amount}",
+    "all": "全部"
+  },
+  "row": {
+    "ends": "\n{date}結束",
+    "renews": "\n{date}續訂",
+    "perMonthEq": "折合每月"
+  },
+  "titleAnon": "訂閱一覽",
+  "pile": {
+    "label": "訂閱堆：圖示越大，每月花得越多"
+  },
+  "calendar": {
+    "title": "日曆"
+  },
+  "years": {
+    "title": "訂閱年表"
+  },
+  "tenure": {
+    "title": "訂閱時長",
+    "avg": "在用訂閱平均已持有",
+    "longest": "用得最久"
+  },
+  "treemap": {
+    "title": "開銷分布",
+    "missing": "{count} 個訂閱缺匯率，未計入"
+  },
+  "changes": {
+    "title": "變動記錄",
+    "more": "展開全部（{n}）",
+    "less": "收起",
+    "kind": {
+      "added": "新增",
+      "resumed": "恢復",
+      "buy": "買斷",
+      "up": "漲價",
+      "down": "降價",
+      "switch": "換區或換方案",
+      "stopped": "停用",
+      "paused": "暫停"
+    }
+  },
+  "waterfall": {
+    "title": "月度變化",
+    "prev": "上個月",
+    "next": "下個月",
+    "from": "上月",
+    "added": "新增",
+    "expansion": "漲價",
+    "contraction": "降價",
+    "churned": "取消",
+    "fx": "匯率",
+    "to": "本月",
+    "monthEnd": "月末",
+    "incomplete": "缺少匯率，無法畫圖"
+  },
+  "metric": {
+    "monthly": "每月支出",
+    "yearly": "一年約",
+    "active": "在用訂閱",
+    "avgPerSub": "平均每個訂閱每月",
+    "paidTotal": "累計已付",
+    "paidYear": "今年已付",
+    "paidMonth": "本月已付",
+    "next30": "接下來 30 天",
+    "topSub": "最貴的訂閱",
+    "topCategory": "最大的分類",
+    "endedCount": "已退訂",
+    "lifetimeCount": "買斷",
+    "fxEffect": "匯率影響（每月）",
+    "vsPrev": "較去年同期",
+    "shareOf": "占每月支出的比例"
+  },
+  "globe": {
+    "title": "訂閱地區"
+  }
+}

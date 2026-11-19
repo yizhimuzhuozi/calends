@@ -1,0 +1,122 @@
+{
+  "filter": {
+    "all": "Tümü",
+    "live": "Devam eden",
+    "owe": "Alacak",
+    "ended": "Biten",
+    "none": "Eşleşen ödeme yok"
+  },
+  "title": "Başkaları için",
+  "status": {
+    "active": "Etkin",
+    "ending": "Sona eriyor",
+    "ended": "Durduruldu"
+  },
+  "owedPeriods": {
+    "one": "{count} ödeme bekliyor",
+    "other": "{count} ödeme bekliyor"
+  },
+  "viewSub": "Aboneliği gör",
+  "stoppedOn": "\n{date} durduruldu",
+  "nextOn": "\nsonraki {date}",
+  "payFor": "{name} için",
+  "unset": "belirtilmedi",
+  "paidPeriods": {
+    "one": "{count} ödeme yapıldı",
+    "other": "{count} ödeme yapıldı"
+  },
+  "received": "Alınan",
+  "owed": "Borç",
+  "settled": "Ödeşildi",
+  "detailTitle": "Başkaları için",
+  "cardCcy": "\nkart {ccy} ile ödüyor",
+  "forWhom": "Kimin için",
+  "method": "Ödeme yöntemi",
+  "stoppedAt": "Durdurulma tarihi",
+  "nextCharge": "Sonraki ödeme",
+  "note": "Not",
+  "table": {
+    "cost": "O anki maliyet",
+    "total": "Toplam\n{count}",
+    "receivedOn": "{date} alındı",
+    "date": "Ödeme tarihi",
+    "charged": "Ödenen",
+    "received": "Alınan",
+    "diff": "Kâr/zarar",
+    "record": "Kayıt",
+    "even": "Eşit",
+    "none": "Henüz ödeme yok.",
+    "title": "Dönem dökümü",
+    "notCharged": "Henüz çekilmedi"
+  },
+  "entry": {
+    "markedDue": "Borç olarak işaretlendi",
+    "saved": "Kaydedildi",
+    "title": "{date} tarihli ödeme",
+    "markDue": "Borç olarak işaretle",
+    "cancel": "Vazgeç",
+    "save": "Kaydet",
+    "chargedRate": "Ödeme tarihindeki kurla yaklaşık {amount}",
+    "chargedBlank": "Liste fiyatını ({list}) kullanmak için boş bırakın",
+    "amount": "Tutar",
+    "currency": "Para birimi",
+    "paidBack": "{name} bana geri ödedi",
+    "paidBackAnon": "Bana geri ödendi",
+    "receivedEmpty": "Henüz alınmadıysa boş bırakın.",
+    "receivedEven": "Alınma tarihindeki kurla {amount}, ödenenle eşit.",
+    "receivedMore": "Alınma tarihindeki kurla {amount}, ödenenden {diff} fazla.",
+    "receivedLess": "Alınma tarihindeki kurla {amount}, ödenenden {diff} az.",
+    "notReceived": "Alınmadı",
+    "receivedOn": "Alındığı tarih",
+    "notePlaceholder": "İsteğe bağlı, ör. banka havalesi"
+  },
+  "page": {
+    "owedSub": {
+      "one": "{count} ödenmemiş, ödeme tarihindeki kurlarla",
+      "other": "{count} ödenmemiş, ödeme tarihindeki kurlarla"
+    },
+    "subs": {
+      "one": "{count} abonelik",
+      "other": "{count} abonelik"
+    },
+    "diffSub": "Alınan ödemelerde kur ve ücretlerden kaynaklanan kâr/zarar",
+    "emptyTitle": "Henüz başkası için ödeme yok",
+    "emptyBody": "Bir abonelik oluşturun veya düzenleyin, “Kim kullanıyor” altında “Başkası için ödüyorum” seçeneğini seçip kimin için olduğunu girin.",
+    "liveNext": "Aktif: {count}, sonraki ödeme {date}",
+    "lastIn": "Son alınan {date}",
+    "noneIn": "Henüz ödeme alınmadı",
+    "diffAvg": "{count} geri ödendi, dönem başına ort. {amount}",
+    "perPeriod": "Dönem başına ort. {amount}",
+    "owedRate": "Ödeme günü kuruyla",
+    "prepaid": "Ayrıca {count} gelecek ödeme için {amount} peşin"
+  },
+  "paid": "Ödenen",
+  "periods": "{count} dönem",
+  "lastIn": "Son {date}",
+  "prepaidTo": "{date} tarihine kadar peşin alındı",
+  "receipt": {
+    "add": "Ödeme kaydet",
+    "title": "Ödeme kaydet",
+    "covers": "Kapsam",
+    "from": "Başlangıç",
+    "periods": "Ödeme sayısı",
+    "owedTag": "çekildi, alınmadı",
+    "coversFootOne": "{from} ödemesini kapsar.",
+    "coversFootMany": "{from} – {to} arası {count} ödemeyi kapsar, önceden alınanları atlar. Tutar eşit bölünür, kâr/zarar ödeme başına hesaplanır.",
+    "total": "Alınan tutar",
+    "perFoot": "Ödeme başına {per}.",
+    "baseFoot": "Alındığı günün kuruyla {amount}.",
+    "none": "Bekleyen veya yaklaşan ödeme yok.",
+    "undo": "Bu tahsilatı geri al",
+    "batchFoot": "Birden çok dönemi kapsayan bir tahsilatın parçası. Tutarı veya dönemleri değiştirmek için geri alıp yeniden kaydedin.",
+    "perPeriod": "{count} ödeme, her biri {amount}"
+  },
+  "convert": {
+    "maybeGroup": "Başkası adına ödeniyor olabilir",
+    "submit": "Başkası adına ödemeye dönüştür",
+    "title": "{name} aboneliğini başkası adına ödemeye dönüştür",
+    "saved": "Başkası adına ödemeye dönüştürüldü",
+    "changed": "Bu abonelik değiştirildi veya silindi. Yeniden açıp tekrar deneyin."
+  },
+  "stop": "Onun yerine ödemeyi durdur"
+}

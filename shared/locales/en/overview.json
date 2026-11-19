@@ -1,0 +1,86 @@
+{
+  "title": "Overview",
+  "add": "New subscription",
+  "footer": {
+    "one": "{count} active subscription\n{amount}/mo\n",
+    "other": "{count} active subscriptions\n{amount}/mo\n"
+  },
+  "fullReport": "See full report",
+  "listSep": ", ",
+  "n": {
+    "subs": {
+      "one": "{count} subscription",
+      "other": "{count} subscriptions"
+    },
+    "charges": {
+      "one": "{count} charge",
+      "other": "{count} charges"
+    }
+  },
+  "axis": {
+    "yearMonth": "{mon} '{yy}"
+  },
+  "timeline": {
+    "title": "Timeline",
+    "sub": "{past} charged in the last 30 days\n{next} due in the next 30",
+    "past": "Past 30 days\n{amount}"
+  },
+  "spending": {
+    "title": "Monthly spending",
+    "sub": "Lighter bars are projected",
+    "month": "Monthly",
+    "yearly": "Yearly",
+    "year": "{year}",
+    "projected": "\nProjected",
+    "inProgress": "\nIn progress",
+    "paid": "\n{amount} charged",
+    "empty": "No charges in this period",
+    "range": "{from} – {to}",
+    "period": {
+      "label": "Time range",
+      "extended": "18 months",
+      "year": "This year",
+      "past12": "Last 12 months",
+      "next12": "Next 12 months",
+      "lastYear": "Last year",
+      "nextYear": "Next year"
+    },
+    "view": {
+      "bars": "Bar chart",
+      "stream": "Streamgraph"
+    }
+  },
+  "due": {
+    "title": "Upcoming charges",
+    "empty": "Nothing due in the next 30 days",
+    "thisWeek": "This week",
+    "later": "Later",
+    "noMethod": "No payment method"
+  },
+  "wallet": {
+    "title": "Wallet",
+    "manage": "Manage",
+    "balance": "Balance {amount}\n{status}",
+    "covered": {
+      "one": "covers {count} more charge, top up by {date}",
+      "other": "covers {count} more charges, top up by {date}"
+    },
+    "mustTopUp": "top up by {date}",
+    "enough": "enough for 3+ years",
+    "noBalance": "Add a balance to see how long it will last",
+    "others": "Also: {list}"
+  },
+  "tips": {
+    "warn": "Heads up",
+    "info": "Tip",
+    "good": "Fun fact"
+  },
+  "stmt": {
+    "kicker": "This month's subscription spend",
+    "hint": "Charges from the 1st to the end of this month, both charged and upcoming; compared with all of last month.",
+    "perDay": "Per day",
+    "active": "Active",
+    "share": "{amount}/mo\n{pct}%",
+    "aria": "{name}, {amount} per month"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "overlap": {
+    "note": "{what} vẫn chạy song song đến {date}"
+  },
+  "search": "Tìm kiếm",
+  "title": "Tất cả gói đăng ký",
+  "all": "Tất cả",
+  "summary": {
+    "other": "{count} mục\n{monthly}/tháng\n{yearly}/năm"
+  },
+  "status": {
+    "upcoming": "Chưa bắt đầu",
+    "active": "Đang hoạt động",
+    "trial": "Đang dùng thử",
+    "trialShort": "Dùng thử",
+    "paused": "Tạm dừng",
+    "pausedShort": "Tạm dừng",
+    "ending": "Không gia hạn",
+    "ended": "Đã hủy",
+    "lifetime": "Trọn đời",
+    "terminated": "Đã vô hiệu hóa"
+  },
+  "proxyExcluded": "Trả hộ\nkhông tính",
+  "perMonthApprox": "≈ {amount}/tháng",
+  "originalPrice": "Giá gốc {amount}",
+  "view": {
+    "grid": "Thẻ",
+    "list": "Danh sách",
+    "gantt": "Dòng thời gian"
+  },
+  "sort": {
+    "label": "Sắp xếp",
+    "next": "Lần trừ tiền tới",
+    "cost": "Chi phí hằng tháng",
+    "amount": "Số tiền",
+    "name": "Tên",
+    "category": "Danh mục",
+    "method": "Phương thức thanh toán",
+    "start": "Ngày bắt đầu",
+    "asc": "Tăng dần",
+    "desc": "Giảm dần"
+  },
+  "add": "Thêm gói đăng ký",
+  "clear": "Xóa",
+  "facet": {
+    "status": "Trạng thái",
+    "category": "Danh mục",
+    "pay": "Thanh toán"
+  },
+  "unassigned": "Chưa gán",
+  "empty": "Không có gói đăng ký phù hợp",
+  "badge": {
+    "share": "Chia sẻ",
+    "joined": "Tham gia",
+    "proxy": "Trả hộ",
+    "proxyFor": "Trả hộ {name}",
+    "someone": "ai đó",
+    "parallel": "Song song"
+  },
+  "col": {
+    "name": "Gói đăng ký",
+    "category": "Danh mục",
+    "method": "Phương thức thanh toán",
+    "amount": "Số tiền",
+    "monthly": "Hằng tháng",
+    "start": "Bắt đầu",
+    "next": "Lần trừ tiền tới",
+    "planPrice": "Giá gói",
+    "inBase": "Quy đổi {ccy}"
+  },
+  "notCounted": "Không tính",
+  "endedOn": "Kết thúc {date}",
+  "change": {
+    "noMethod": "Chưa chọn phương thức thanh toán",
+    "planned": "Dự định\n",
+    "starts": "Bắt đầu {when}",
+    "from": "Thay đổi {when}"
+  },
+  "proxyBadge": {
+    "owed": {
+      "other": "Trả hộ\n{count} chưa trả lại"
+    },
+    "owedFor": {
+      "other": "Trả hộ {name}\n{count} chưa trả lại"
+    },
+    "settled": "Trả hộ\nđã trả đủ",
+    "settledFor": "Trả hộ {name}\nđã trả đủ"
+  },
+  "gantt": {
+    "months": {
+      "other": "{count} tháng"
+    },
+    "days": {
+      "other": "{count} ngày"
+    },
+    "noRegion": "Không có khu vực",
+    "zoom3m": "3Th",
+    "zoom6m": "6Th",
+    "zoom1y": "1N",
+    "zoom3y": "3N",
+    "byMethod": "Theo thanh toán",
+    "byRegion": "Theo khu vực",
+    "gapTitle": "Gián đoạn {span}: {from} – {to}",
+    "gapShort": "Gián đoạn {span}",
+    "lifetimeSuffix": " trọn đời",
+    "present": "nay",
+    "plannedSuffix": "\ndự định",
+    "introPrefix": "Ưu đãi mở đầu\n",
+    "introShort": "Ưu đãi ",
+    "planned": "Dự định",
+    "gap": "Gián đoạn",
+    "earlier": "Trước",
+    "later": "Sau",
+    "backToNow": "Về hiện tại",
+    "resize": "Kéo để chỉnh độ rộng cột tên\nnhấp đúp để đặt lại"
+  },
+  "kind": {
+    "debit": "Thẻ ngân hàng",
+    "credit": "Thẻ tín dụng",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "paypal": "PayPal",
+    "appstore": "Số dư App Store",
+    "googleplay": "Số dư Google Play",
+    "giftcard": "Thẻ quà tặng",
+    "prepaid": "Số dư cửa hàng",
+    "phone": "Tài khoản di động",
+    "crypto": "Thẻ tiền mã hóa",
+    "other": "Khác"
+  },
+  "network": {
+    "unionpay": "UnionPay"
+  },
+  "monthlySame": "Bằng giá niêm yết"
+}

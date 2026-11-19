@@ -1,0 +1,135 @@
+{
+  "title": "Langganan {name}",
+  "loadFailed": "Gagal memuat",
+  "theme": {
+    "title": "Tema: {mode} (klik untuk beralih)",
+    "aria": "Tema: {mode}, klik untuk beralih"
+  },
+  "currency": "Mata uang tampilan",
+  "hero": {
+    "monthly": "Pengeluaran langganan bulanan",
+    "flat": "Sama seperti bulan ini tahun lalu",
+    "more": "{amount} lebih banyak dari bulan ini tahun lalu",
+    "less": "{amount} lebih sedikit dari bulan ini tahun lalu",
+    "yearly": "Per tahun",
+    "paid": "Dibayar sejak {year}"
+  },
+  "timeline": {
+    "title": "Linimasa",
+    "upcoming": {
+      "other": "{count} tagihan dalam 30 hari ke depan\n{amount}"
+    }
+  },
+  "chart": {
+    "title": "Tagihan bulanan",
+    "desc": "12 bulan terakhir dan 3 bulan ke depan; batang berarsir adalah perkiraan",
+    "paid": "Dibayar",
+    "mrr": "Biaya bulanan",
+    "charge": "Ditagih",
+    "thisMonth": "Bulan ini",
+    "projected": "{month}\nPerkiraan"
+  },
+  "ended": {
+    "title": "Dibatalkan"
+  },
+  "perMonth": "{amount}/bln",
+  "lifetime": {
+    "title": "Seumur hidup",
+    "desc": "Bayar sekali, tanpa tagihan lagi"
+  },
+  "composition": {
+    "title": "Rincian",
+    "desc": "Biaya bulanan per kategori",
+    "other": "Lainnya"
+  },
+  "count": "{count}",
+  "fx": {
+    "title": "Kurs",
+    "flat": "Kurs hampir tidak memengaruhi biaya dalam setahun terakhir",
+    "less": "Dengan kurs hari ini, Anda membayar {amount} lebih sedikit per bulan dibanding setahun lalu",
+    "more": "Dengan kurs hari ini, Anda membayar {amount} lebih banyak per bulan dibanding setahun lalu",
+    "share": "{pct}%"
+  },
+  "list": {
+    "title": "Langganan",
+    "summary": {
+      "other": "{count}\n{amount}/bln"
+    },
+    "all": "Semua"
+  },
+  "row": {
+    "ends": "\nBerakhir {date}",
+    "renews": "\nDiperpanjang {date}",
+    "perMonthEq": "Setara per bulan"
+  },
+  "titleAnon": "Langganan",
+  "pile": {
+    "label": "Tumpukan langganan: makin besar ikonnya, makin mahal"
+  },
+  "calendar": {
+    "title": "Kalender"
+  },
+  "years": {
+    "title": "Linimasa langganan"
+  },
+  "tenure": {
+    "title": "Lama berlangganan",
+    "avg": "Rata-rata lama langganan aktif",
+    "longest": "Paling lama"
+  },
+  "treemap": {
+    "title": "Peta pengeluaran",
+    "missing": {
+      "other": "{count} langganan tanpa kurs tidak disertakan"
+    }
+  },
+  "changes": {
+    "title": "Perubahan",
+    "more": "Tampilkan semua ({n})",
+    "less": "Tampilkan lebih sedikit",
+    "kind": {
+      "added": "Baru",
+      "resumed": "Dilanjutkan",
+      "buy": "Dibeli putus",
+      "up": "Harga naik",
+      "down": "Harga turun",
+      "switch": "Ganti wilayah atau paket",
+      "stopped": "Dihentikan",
+      "paused": "Dijeda"
+    }
+  },
+  "waterfall": {
+    "title": "Perubahan bulanan",
+    "prev": "Bulan sebelumnya",
+    "next": "Bulan berikutnya",
+    "from": "Awal",
+    "added": "Baru",
+    "expansion": "Harga naik",
+    "contraction": "Harga turun",
+    "churned": "Dihentikan",
+    "fx": "Kurs",
+    "to": "Sekarang",
+    "monthEnd": "Akhir bulan",
+    "incomplete": "Kurs tidak lengkap, grafik tidak dapat digambar"
+  },
+  "metric": {
+    "monthly": "Pengeluaran bulanan",
+    "yearly": "Per tahun",
+    "active": "Langganan aktif",
+    "avgPerSub": "Rata-rata per langganan",
+    "paidTotal": "Total dibayar",
+    "paidYear": "Dibayar tahun ini",
+    "paidMonth": "Dibayar bulan ini",
+    "next30": "30 hari ke depan",
+    "topSub": "Termahal",
+    "topCategory": "Kategori terbesar",
+    "endedCount": "Dibatalkan",
+    "lifetimeCount": "Sekali bayar",
+    "fxEffect": "Dampak kurs (bulanan)",
+    "vsPrev": "vs tahun lalu",
+    "shareOf": "Porsi dari pengeluaran bulanan"
+  },
+  "globe": {
+    "title": "Wilayah langganan"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Jahresrückblick teilen",
+  "titleAll": "Gesamtrückblick teilen",
+  "fileName": "abos-rueckblick-{year}-{style}.png",
+  "fileNameAll": "abos-gesamt-{style}.png",
+  "style": {
+    "poster": "Poster",
+    "receipt": "Kassenbon",
+    "card": "Karte",
+    "stars": "Ausgabenverteilung"
+  },
+  "unassigned": "Nicht zugeordnet",
+  "me": "Ich",
+  "whose": "{name}s",
+  "whoseSelf": "Meine",
+  "topSpend": "Höchste Ausgaben",
+  "ofYear": "{pct} der Jahresausgaben",
+  "ofAll": "{pct} der Gesamtausgaben",
+  "n": {
+    "subs": {
+      "one": "{count} Abo",
+      "other": "{count} Abos"
+    },
+    "charges": {
+      "one": "{count} Abbuchung",
+      "other": "{count} Abbuchungen"
+    },
+    "currencies": {
+      "one": "{count} Währung",
+      "other": "{count} Währungen"
+    }
+  },
+  "receipt": {
+    "shop": "{whose} Abonnements",
+    "asOf": "Jahresübersicht\nStand {date}",
+    "fullYear": "Jahresübersicht {year}",
+    "all": "Gesamtübersicht\nStand {date}",
+    "no": "Nr. {no}",
+    "item": "Artikel",
+    "share": "Anteil",
+    "amount": "Betrag",
+    "rest": "{count} weitere",
+    "count": "Artikel {items} / Abbuchungen {charges}",
+    "total": "SUMME"
+  },
+  "poster": {
+    "kicker": "{whose} Abonnements im Jahresrückblick",
+    "kickerAll": "{whose} Abonnements im Gesamtrückblick",
+    "ongoing": "{subs}\n{charges}",
+    "ongoingHidden": "{charges}\n{currencies}",
+    "year": "{subs}\n{charges}",
+    "yearHidden": "{charges}\n{currencies}",
+    "newEnded": "{added} hinzugefügt\n{ended} beendet",
+    "perDay": "Im Schnitt {amount}/Tag"
+  },
+  "card": {
+    "head": "{whose} Abonnements",
+    "intro": {
+      "ongoing": "Bisherige Jahresausgaben",
+      "ongoingHidden": "Bisherige Abos",
+      "year": "Jahresausgaben",
+      "yearHidden": "Abos im Jahr",
+      "all": "Bisherige Ausgaben",
+      "allHidden": "Bisherige Abos"
+    },
+    "perDay": "Im Schnitt {amount}/Tag",
+    "longest": "Längstes Abo",
+    "duration": "{y} J. {m} Mon.",
+    "busiest": "Monat mit den höchsten Ausgaben",
+    "month": "{month}",
+    "newEnded": "Hinzugefügt / beendet",
+    "ended": "{count} beendet",
+    "noneEnded": "Keine beendet",
+    "currencies": "Verwendete Währungen",
+    "currencyCount": "{count}",
+    "nowMonthly": "Aktuelle Monatskosten {amount}"
+  },
+  "stars": {
+    "head": "{year}\n{whose} Abo-Ausgaben",
+    "foot": "Kreisgröße entspricht den Ausgaben"
+  },
+  "spendBasis": "Nettozahlungen für meinen Anteil, einschließlich Erstattungen",
+  "stopLoss": "Nicht erstatteter Verlust dieses Jahr: {amount}",
+  "stopLossAll": "Bisher nicht erstatteter Verlust: {amount}"
+}

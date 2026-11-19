@@ -1,0 +1,118 @@
+{
+  "filter": {
+    "all": "Semua",
+    "live": "Berjalan",
+    "owe": "Belum dibayar",
+    "ended": "Berakhir",
+    "none": "Tidak ada pembayaran talangan yang cocok"
+  },
+  "title": "Talangan",
+  "status": {
+    "active": "Aktif",
+    "ending": "Akan berakhir",
+    "ended": "Dihentikan"
+  },
+  "owedPeriods": {
+    "other": "{count} pembayaran tertunggak"
+  },
+  "viewSub": "Lihat langganan",
+  "stoppedOn": "\ndihentikan {date}",
+  "nextOn": "\nberikutnya {date}",
+  "payFor": "Untuk {name}",
+  "unset": "belum diatur",
+  "paidPeriods": {
+    "other": "Menalangi {count} tagihan"
+  },
+  "received": "Diterima",
+  "owed": "Tertunggak",
+  "settled": "Lunas",
+  "detailTitle": "Talangan",
+  "cardCcy": "\nkartu ditagih dalam {ccy}",
+  "forWhom": "Ditalangi untuk",
+  "method": "Metode pembayaran",
+  "stoppedAt": "Dihentikan pada",
+  "nextCharge": "Tagihan berikutnya",
+  "note": "Catatan",
+  "table": {
+    "cost": "Biaya saat itu",
+    "total": "Total\n{count}",
+    "receivedOn": "Diterima {date}",
+    "date": "Tanggal tagihan",
+    "charged": "Ditagih",
+    "received": "Diterima",
+    "diff": "Laba/rugi",
+    "record": "Catat",
+    "even": "Impas",
+    "none": "Belum ada tagihan.",
+    "title": "Rincian per periode",
+    "notCharged": "Belum ditagih"
+  },
+  "entry": {
+    "markedDue": "Ditandai tertunggak",
+    "saved": "Disimpan",
+    "title": "Tagihan pada {date}",
+    "markDue": "Tandai tertunggak",
+    "cancel": "Batal",
+    "save": "Simpan",
+    "chargedRate": "Sekitar {amount} dengan kurs tanggal tagihan",
+    "chargedBlank": "Kosongkan untuk memakai harga daftar {list}",
+    "amount": "Jumlah",
+    "currency": "Mata uang",
+    "paidBack": "{name} sudah mengganti",
+    "paidBackAnon": "Sudah diganti ke saya",
+    "receivedEmpty": "Kosongkan jika belum diterima.",
+    "receivedEven": "{amount} dengan kurs tanggal terima, impas dengan tagihan.",
+    "receivedMore": "{amount} dengan kurs tanggal terima, {diff} lebih banyak dari tagihan.",
+    "receivedLess": "{amount} dengan kurs tanggal terima, {diff} lebih sedikit dari tagihan.",
+    "notReceived": "Belum diterima",
+    "receivedOn": "Tanggal diterima",
+    "notePlaceholder": "Opsional, mis. transfer bank"
+  },
+  "page": {
+    "owedSub": {
+      "other": "{count} belum dibayar, dengan kurs tanggal tagihan"
+    },
+    "subs": {
+      "other": "{count} langganan"
+    },
+    "diffSub": "Laba/rugi dari kurs dan biaya pada pembayaran yang diterima",
+    "emptyTitle": "Belum ada talangan",
+    "emptyBody": "Buat atau edit langganan, pilih “Talangan” pada “Siapa yang memakai”, lalu masukkan untuk siapa.",
+    "liveNext": "Aktif: {count}, tagihan berikutnya {date}",
+    "lastIn": "Terakhir diterima {date}",
+    "noneIn": "Belum ada pembayaran diterima",
+    "diffAvg": "{count} dikembalikan, rata-rata {amount} per periode",
+    "perPeriod": "Rata-rata {amount} per periode",
+    "owedRate": "Kurs pada hari tagihan",
+    "prepaid": "Ditambah {amount} dibayar di muka untuk {count} tagihan mendatang"
+  },
+  "paid": "Sudah ditalangi",
+  "periods": "{count} periode",
+  "lastIn": "Terakhir {date}",
+  "prepaidTo": "Dibayar di muka hingga {date}",
+  "receipt": {
+    "add": "Catat pembayaran",
+    "title": "Catat pembayaran",
+    "covers": "Mencakup",
+    "from": "Mulai dari",
+    "periods": "Jumlah tagihan",
+    "owedTag": "ditagih, belum diterima",
+    "coversFootOne": "Mencakup tagihan {from}.",
+    "coversFootMany": "Mencakup {count} tagihan dari {from} hingga {to}, melewati yang sudah diterima. Jumlah dibagi rata dan laba/rugi dihitung per tagihan.",
+    "total": "Jumlah diterima",
+    "perFoot": "{per} per tagihan.",
+    "baseFoot": "{amount} dengan kurs pada hari diterima.",
+    "none": "Tidak ada tagihan tertunda atau mendatang.",
+    "undo": "Batalkan penerimaan ini",
+    "batchFoot": "Bagian dari satu penerimaan untuk beberapa periode. Untuk mengubah jumlah atau periode, batalkan lalu catat ulang.",
+    "perPeriod": "{count} tagihan, masing-masing {amount}"
+  },
+  "convert": {
+    "maybeGroup": "Mungkin dibayarkan untuk orang lain",
+    "submit": "Ubah menjadi pembayaran untuk orang lain",
+    "title": "Ubah {name} menjadi pembayaran untuk orang lain",
+    "saved": "Diubah menjadi pembayaran untuk orang lain",
+    "changed": "Langganan ini telah diubah atau dihapus. Buka kembali dan coba lagi."
+  },
+  "stop": "Berhenti membayarkan"
+}

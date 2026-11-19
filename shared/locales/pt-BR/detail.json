@@ -1,0 +1,275 @@
+{
+  "note": {
+    "more": "Ver tudo"
+  },
+  "renewal": {
+    "afterTrial": "Primeira cobrança após o teste",
+    "elapsed": "{pct}% do período decorrido"
+  },
+  "overlap": {
+    "title": "Também ativo",
+    "previous": "Plano anterior",
+    "until": "Até {date}\n{rel}"
+  },
+  "action": {
+    "edit": "Editar",
+    "pause": "Pausar",
+    "resume": "Retomar",
+    "manage": "Gerenciar",
+    "share": "Compartilhar",
+    "copyImage": "Copiar como imagem"
+  },
+  "toast": {
+    "resumed": "Cobrança retomada",
+    "paused": "Pausada. Cobranças futuras não serão previstas",
+    "imageCopied": "Imagem copiada"
+  },
+  "snapshotRest": "mais {count}",
+  "history": "Histórico",
+  "field": {
+    "amount": "Valor",
+    "cycle": "Ciclo de cobrança",
+    "category": "Categoria",
+    "method": "Forma de pagamento",
+    "next": "Próxima cobrança",
+    "expiresHint": "A renovação automática cobra antes desta data",
+    "endedOn": "Encerrada em",
+    "trialEnd": "Fim do teste",
+    "region": "Região",
+    "period": "Período",
+    "present": "hoje",
+    "endedUnknown": "Encerrado; data desconhecida"
+  },
+  "up": {
+    "planned": "Mudança planejada\nnão confirmada",
+    "starting": "Começa em breve",
+    "changing": "Mudança próxima",
+    "effective": "Data de vigência"
+  },
+  "plan": {
+    "drop": "Não trocar",
+    "droppedToast": "Sem troca. Termina após {date}",
+    "confirm": "Confirmar troca",
+    "confirmedToast": "Troca confirmada"
+  },
+  "intro": {
+    "title": "Oferta inicial",
+    "price": "Preço promocional",
+    "until": "Fim da oferta",
+    "then": "Depois"
+  },
+  "share": {
+    "open": "Ver plano",
+    "owner": "Compartilhado\nEu organizo ({count}/{seats})",
+    "member": "Compartilhado\nParticipo",
+    "payTo": "Pagar a",
+    "host": "Organizador",
+    "unnamed": "Sem nome",
+    "me": "Eu"
+  },
+  "charges": {
+    "recentN": {
+      "one": "Só a última",
+      "other": "Só as últimas {count}"
+    },
+    "addShort": "Registrar",
+    "title": "Cobranças",
+    "paidOn": "Pago em {date}",
+    "kind": {
+      "refund": "Reembolso",
+      "adjust": "Ajuste",
+      "failed": "Falhou"
+    },
+    "add": "Adicionar registro (reembolso, ajuste, cobrança com falha, valor no cartão…)"
+  },
+  "stats": {
+    "spent": "Total gasto",
+    "count": {
+      "one": "{count} cobrança",
+      "other": "{count} cobranças"
+    },
+    "owned": "Possui há",
+    "subscribed": "Assinante há",
+    "yearsMonths": "{years} a {months} m",
+    "years": {
+      "one": "{count} ano",
+      "other": "{count} anos"
+    },
+    "months": {
+      "one": "{count} mês",
+      "other": "{count} meses"
+    },
+    "days": {
+      "one": "{count} dia",
+      "other": "{count} dias"
+    },
+    "gaps": {
+      "one": "Interrompida uma vez",
+      "other": "Interrompida {count} vezes"
+    },
+    "perMonth": "Custo mensal real",
+    "spentThisYear": "Gasto este ano",
+    "allTime": "Total {amount}"
+  },
+  "tab": {
+    "charges": "Cobranças\n{count}",
+    "details": "Detalhes"
+  },
+  "kpi": {
+    "noGaps": "Sem interrupções",
+    "startedToday": "Começou hoje",
+    "expectedMonthly": "Previsto por mês",
+    "amortizedCost": "Custo diluído",
+    "perMonthValue": "{amount}/mês",
+    "perDay": "{amount} por dia",
+    "thisYearMonthly": "Este ano por mês",
+    "averageMonthly": "Média {amount}/mês",
+    "dailyAmount": "{amount}/dia"
+  },
+  "chart": {
+    "title": "Por cobrança\n{ccy}",
+    "all": "Tudo",
+    "y1": "1 ano",
+    "m6": "6 meses",
+    "period": "Período",
+    "converted": "Convertido",
+    "average": "Média",
+    "method": "Pagamento",
+    "paidOn": "Pago",
+    "bucket": {
+      "m1": "Cada barra é o total do mês",
+      "m3": "Cada barra é o total do trimestre",
+      "m12": "Cada barra é o total do ano"
+    },
+    "regular": "Preço normal",
+    "saved": "Desconto inicial",
+    "unknownEnd": "Data de término desconhecida; gráfico limitado aos períodos de pagamento conhecidos"
+  },
+  "ev": {
+    "next": "Próxima cobrança",
+    "gap": "Interrupção",
+    "start": "Assinatura",
+    "switch": "Troca de plano",
+    "price": "Mudança de preço",
+    "introEnd": "Volta ao preço normal",
+    "paused": "Pausada",
+    "ended": "Encerrada",
+    "ending": "Termina",
+    "phases": {
+      "one": "{count} fase",
+      "other": "{count} fases"
+    },
+    "more": {
+      "one": "Ver {count} anterior",
+      "other": "Ver {count} anteriores"
+    },
+    "shareStart": "Compartilhamento iniciado"
+  },
+  "stop": {
+    "title": "Encerramento e reembolso",
+    "type": "Tipo de encerramento",
+    "paidThrough": "Pago originalmente até",
+    "loss": "−{money} ({days})"
+  },
+  "timeline": {
+    "planned": "Previsto"
+  },
+  "period": {
+    "paid": "Período atual",
+    "trial": "Teste",
+    "bonus": "Período bônus",
+    "since": "Desde {date}",
+    "sub": "Assinatura",
+    "collect": "Cobrança"
+  },
+  "transfer": {
+    "title": "Transferências",
+    "held": "Em posse",
+    "net": "Custo líquido",
+    "included": "Incl. transferências",
+    "kind": {
+      "label": "Tipo",
+      "buy": "Comprado",
+      "sell": "Vendido"
+    },
+    "hint": {
+      "buy": "Valor pago ao dono anterior ao assumir (ágio incluído). Informe o valor realmente pago.",
+      "sell": "Valor recebido ao repassar. Informe o valor realmente recebido; o serviço restante deixa de contar como pago e não usado."
+    },
+    "paid": "Valor pago",
+    "received": "Valor recebido",
+    "addTitle": "Registrar transferência",
+    "editTitle": "Editar transferência",
+    "saved": "Transferência salva",
+    "deleted": "Excluir esta transferência",
+    "foot": "Dinheiro realmente pago ou recebido ao assumir ou repassar um serviço de segunda mão. Entra no custo líquido e no fluxo de caixa, não no custo mensal, nas previsões de renovação nem na contagem de cobranças.",
+    "add": "Registrar",
+    "none": "Nenhuma transferência ainda",
+    "netGain": "Ganho líquido",
+    "head": {
+      "date": "Data",
+      "amount": "Valor",
+      "base": "Em {ccy}"
+    }
+  },
+  "billing": {
+    "postpaid": "Pós-pago",
+    "nextBill": "Próxima fatura"
+  },
+  "meters": {
+    "title": "Detalhes de uso",
+    "add": "Adicionar dados de uso",
+    "manage": "Medidores",
+    "manageTitle": "Medidores de dados de uso",
+    "addTitle": "Registrar valores",
+    "editTitle": "Editar registro",
+    "name": "Nome",
+    "unit": "Unidade",
+    "namePh": "ex.: Energia, Quilometragem, Tráfego",
+    "unitPh": "ex.: kWh, km, GB",
+    "usage": "Consumo por período",
+    "reading": "Leitura acumulada",
+    "kindFoot": "Consumo por período: informe quanto foi usado a cada vez. Leitura acumulada: informe o valor do medidor (como um hodômetro); o consumo é a diferença entre duas leituras.",
+    "linkGroup": "Vincular um medidor de outra assinatura",
+    "linkFoot": "Os valores são armazenados uma única vez, independentemente da assinatura em que você os registra. Remover o vínculo mantém os dados.",
+    "linkFrom": "De “{name}”",
+    "linkGone": "A assinatura ou o medidor de origem foi excluído, então não há nada para exibir.",
+    "unlink": "Remover vínculo",
+    "asOf": "Em {date}",
+    "newMeter": "Adicionar medidor",
+    "suggest": "Usado em outras assinaturas",
+    "removeConfirm": "Excluir {names} também apaga os valores registrados. Continuar?",
+    "dupName": "Os nomes dos medidores devem ser únicos",
+    "valuesFoot": "Preço unitário = custo real do período ÷ consumo. Faturas pós-pagas contam no período que quitam.",
+    "saved": "Dados de uso salvos",
+    "readingValue": "Leitura {v}",
+    "head": {
+      "date": "Data",
+      "usage": "Consumo"
+    },
+    "readingsCount": "{n} registros",
+    "deleteReadings": "Excluir {n} registros",
+    "removeMeters": "Excluir medidores e seus valores",
+    "latest": "Último",
+    "latestOf": "{name}, último",
+    "average": "Média por período",
+    "avgPrice": "Preço unitário médio",
+    "totalLabel": "Total",
+    "periods": "{n} períodos",
+    "noTrend": "Períodos insuficientes para mostrar a tendência",
+    "latestPrice": "Último {v}",
+    "since": "Desde {date}"
+  },
+  "settlement": {
+    "due": "A pagar",
+    "overdue": "Vencida",
+    "partial": "Paga em parte",
+    "prepaid": "Pré-paga",
+    "this": "Este pagamento",
+    "earliest": "Mais antiga em aberto",
+    "owed": {
+      "one": "{count} conta em aberto",
+      "other": "{count} contas em aberto"
+    }
+  }
+}

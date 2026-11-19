@@ -1,0 +1,202 @@
+{
+  "title": "Relatório",
+  "shareReview": "Compartilhar retrospectiva de {year}",
+  "shareAll": "Compartilhar resumo total",
+  "pick": {
+    "label": "Escolher ano",
+    "all": "Tudo",
+    "year": "{year}",
+    "prev": "Anterior",
+    "next": "Próximo"
+  },
+  "perMonth": "{amount}/mês",
+  "per": {
+    "day": "dia",
+    "week": "sem",
+    "month": "mês",
+    "year": "ano",
+    "lifetime": "pagamento único",
+    "quarter": "trim",
+    "halfYear": "6 meses",
+    "twoYears": "2 anos",
+    "n": {
+      "day": "{count} dias",
+      "week": "{count} sem",
+      "month": "{count} meses",
+      "year": "{count} anos"
+    }
+  },
+  "axis": {
+    "year": "{year}"
+  },
+  "hero": {
+    "label": "Gasto anual com assinaturas",
+    "tip": "Mês {month}\nAcumulado {total}",
+    "tipNow": "Mês {month}, Cobranças pendentes {pending}\nAcumulado {total}",
+    "avg": "Média mensal",
+    "peak": "Mês de pico",
+    "peakAt": "Pico em {when}"
+  },
+  "all": {
+    "label": "Gasto total com assinaturas",
+    "since": "Desde {date}",
+    "last12": "Últimos 12 meses",
+    "avg": "Média anual",
+    "peak": "Ano de pico",
+    "subs": "Assinaturas",
+    "detail": "Detalhes totais"
+  },
+  "tenure": {
+    "title": "Quanto duram as assinaturas",
+    "active": "Ativas, média até agora",
+    "stopped": "Encerradas, média",
+    "quick": "Canceladas logo",
+    "peak": "Máximo ao mesmo tempo",
+    "longest": "As mais antigas",
+    "count": "Assinaturas ativas"
+  },
+  "wf": {
+    "vsFrom": "vs. {amount} no fim do mês passado",
+    "flat": "Sem mudança",
+    "title": "Mudanças em {month}",
+    "prev": "Mês anterior",
+    "next": "Próximo mês",
+    "from": "Mês passado",
+    "fx": "Câmbio",
+    "added": "Novas",
+    "expansion": "Aumento",
+    "contraction": "Redução",
+    "churned": "Encerradas",
+    "now": "Agora",
+    "monthEnd": "Fim do mês",
+    "empty": "Nenhuma assinatura nova, cancelada ou com preço alterado neste mês.",
+    "emptyFx": "Nenhuma assinatura nova, cancelada ou com preço alterado neste mês — toda a variação veio do câmbio ({amount})."
+  },
+  "checkup": {
+    "title": "Diagnóstico",
+    "warn": {
+      "one": "{count} item precisa de atenção",
+      "other": "{count} itens precisam de atenção"
+    },
+    "fix": "Corrigir",
+    "less": "Mostrar menos",
+    "more": "Mostrar mais {count}"
+  },
+  "cash": {
+    "title": "Caixa vs. custo real",
+    "legendCash": "Cobrado no mês",
+    "legendAccrual": "Custo distribuído por mês",
+    "forecast": "\nPrevisão",
+    "tip": "Cobrado {cash}\nCusto {cost}",
+    "open": "\nAbrir este mês no calendário",
+    "openYear": "\nAbrir este ano no calendário",
+    "prepaidItem": "{name}\n{amount}\naté {until}",
+    "prepaid": "Valor pré-pago",
+    "prepaidSub": "{count} pagas, ainda não consumidas",
+    "next90": "A vencer nos próximos 90 dias",
+    "fullPaidHint": "Valor total pago, incluindo adiantamentos para membros"
+  },
+  "comp": {
+    "title": "Para onde vai o dinheiro",
+    "back": "Voltar",
+    "cat": "Categoria",
+    "pay": "Pagamento",
+    "ccy": "Moeda",
+    "cycle": "Ciclo",
+    "unassigned": "Sem atribuição",
+    "yearly": "Anual",
+    "quarterly": "Trimestral / semestral",
+    "monthly": "Mensal",
+    "groupTip": {
+      "one": "{name}\n{count} item\n{amount}/mês",
+      "other": "{name}\n{count} itens\n{amount}/mês"
+    },
+    "groupTipAll": {
+      "one": "{name}\n{count} item\n{amount}",
+      "other": "{name}\n{count} itens\n{amount}"
+    }
+  },
+  "topup": {
+    "title": "Plano de recarga",
+    "range3": "3 meses",
+    "range6": "6 meses",
+    "range12": "1 ano",
+    "span3": "Próximos 3 meses",
+    "span6": "Próximos 6 meses",
+    "span12": "Próximo ano",
+    "empty": "Nenhuma conta com saldo ainda.",
+    "emptyCta": "Adicione saldos da App Store ou da operadora na Carteira",
+    "summary": "Saldo {balance}\ncerca de {monthly}/mês",
+    "why": "{span}: {due} a vencer, {balance} disponível, faltam {need}",
+    "urgent": "; mais urgente: adicione pelo menos {min} até {date}",
+    "cards": "Cartões-presente sugeridos",
+    "anyAmount": "Recarregue qualquer valor — não precisa ser o valor de um cartão",
+    "enough3": "O saldo cobre os próximos 3 meses",
+    "enough6": "O saldo cobre os próximos 6 meses",
+    "enough12": "O saldo cobre o próximo ano",
+    "by": "Até {date}"
+  },
+  "ev": {
+    "start": "Iniciada",
+    "end": "Cancelada",
+    "price": "Mudança de preço",
+    "introEnd": "Fim da oferta inicial",
+    "buy": "Compra definitiva",
+    "pause": "Pausada",
+    "switch": "Troca de região / plano",
+    "resume": "Retomada"
+  },
+  "log": {
+    "title": "Registro de mudanças",
+    "decisions": {
+      "one": "{count} decisão",
+      "other": "{count} decisões"
+    },
+    "more": "Registros anteriores"
+  },
+  "stops": {
+    "title": "Cancelamentos e desativações",
+    "loss": "Perda não reembolsada",
+    "cancel": "Cancelamento antecipado voluntário"
+  },
+  "year": {
+    "title": "Detalhes do ano",
+    "vsLast": "vs mesmo período do ano passado",
+    "vsPrev": "vs. ano anterior",
+    "count": {
+      "one": "{count} item",
+      "other": "{count} itens"
+    },
+    "added": "Nova",
+    "stopped": "Encerrada",
+    "up": "Mais",
+    "down": "Menos",
+    "carpoolGain": "Compartilhados: lucro",
+    "carpoolLoss": "Compartilhados: prejuízo",
+    "carpoolEven": "Compartilhados: empate",
+    "carpoolNet": "Compartilhados: saldo",
+    "proxyGain": "Para outros: lucro",
+    "proxyLoss": "Para outros: prejuízo",
+    "proxyEven": "Para outros: empate",
+    "proxyNet": "Para outros: saldo",
+    "empty": "Igual ao mesmo período do ano passado."
+  },
+  "daily": {
+    "title": "Dia a dia",
+    "flat": "Grade",
+    "bars": "3D"
+  },
+  "region": {
+    "title": "Regiões das assinaturas"
+  },
+  "flow": {
+    "title": "Fluxo de dinheiro",
+    "showPercent": "Mostrar porcentagens",
+    "showAmount": "Mostrar valores"
+  },
+  "profile": {
+    "title": "Composição dos gastos",
+    "recent": "Últimos 12 meses",
+    "before": "12 meses anteriores"
+  }
+}

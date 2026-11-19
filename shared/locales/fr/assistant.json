@@ -1,0 +1,275 @@
+{
+  "imagesSent": "{count} image(s) envoyée(s)",
+  "clearChatsHint": "Supprime toutes les conversations sur le serveur et cet appareil. Irréversible.",
+  "clearChats": "Effacer toutes les discussions",
+  "clearChatsConfirm": "Effacer toutes les discussions ? Action irréversible.",
+  "clearChatsDone": "Discussions effacées",
+  "title": "Assistant IA",
+  "new": "Nouvelle discussion",
+  "settings": "Réglages IA",
+  "toBottom": "Aller en bas",
+  "welcome": {
+    "variants": {
+      "v1": {
+        "title": "Déposez vos factures et captures ici",
+        "body": "Collez un reçu App Store, un SMS de prélèvement, une capture de vos abonnements ou tout autre texte. Je prépare des brouillons à confirmer. Vous pouvez aussi me poser des questions sur vos dépenses."
+      },
+      "v2": {
+        "title": "Où passe votre argent ce mois-ci ?",
+        "body": "Demandez-moi ce qui est à payer ce mois-ci, quels prélèvements coûtent le plus cher ou combien vous avez dépensé cette année. Je consulterai votre registre."
+      },
+      "v3": {
+        "title": "Des avis de prélèvement ? Confiez-les-moi",
+        "body": "Collez un avis de prélèvement de votre banque, portefeuille électronique ou opérateur. Je repère l’abonnement et le montant pour enregistrer le paiement."
+      },
+      "v4": {
+        "title": "Une capture pour toute une page d’abonnements",
+        "body": "Envoyez une capture de vos abonnements App Store ou d’une page d’adhésion. Je prépare un brouillon par abonnement, à confirmer."
+      },
+      "v5": {
+        "title": "Le prix augmente ? Dites-moi à partir de quand",
+        "body": "Dites « Netflix passe à 17.99 le mois prochain » et je modifierai le prix à partir de cette date. Les anciens prélèvements resteront inchangés."
+      },
+      "v6": {
+        "title": "Vous arrêtez ? Il suffit de me le dire",
+        "body": "Non-renouvellement, arrêt immédiat ou blocage par le fournisseur : je distingue chaque cas et peux aussi enregistrer un remboursement."
+      },
+      "v7": {
+        "title": "Je fais les comptes des forfaits partagés",
+        "body": "Vous partagez un forfait familial ? Dites-moi la part de chacun et qui a payé. Je suis les membres et les paiements pour que vous sachiez qui doit encore combien."
+      },
+      "v8": {
+        "title": "Vous avez retrouvé un an de factures ?",
+        "body": "Collez un tableau de factures par mois. Je crée un abonnement par colonne et inscris le montant réel de chaque mois dans son historique."
+      },
+      "v9": {
+        "title": "Quels abonnements pouvez-vous supprimer ?",
+        "body": "Demandez-moi les abonnements inutilisés, les doublons ou les plus fortes hausses de prix. Je les cherche dans votre registre et vous propose une liste de résiliations possibles."
+      },
+      "v10": {
+        "title": "Quels prélèvements la semaine prochaine ?",
+        "body": "Demandez-moi les prélèvements des prochains jours ou du reste du mois. Je les classe par date pour vous aider à anticiper."
+      },
+      "v11": {
+        "title": "Les abonnements en devises aussi ont leur place",
+        "body": "Les prix des boutiques turque ou nigériane restent dans leur devise d’origine. Je les convertis dans votre devise principale au taux du jour et peux aussi noter le débit réel de votre carte."
+      },
+      "v12": {
+        "title": "Un reçu par e-mail ? Copiez tout",
+        "body": "Pas besoin de chercher les détails dans les reçus Apple, Google ou Spotify. Collez l’e-mail entier : je repère le montant, la périodicité et la date."
+      },
+      "v13": {
+        "title": "Ajoutez un abonnement de longue date",
+        "body": "Dites « Depuis 2021, 8 au début, 18 maintenant ». Je complète l’historique des prix pour que le total de vos dépenses soit juste."
+      },
+      "v14": {
+        "title": "Combien en abonnements cette année ?",
+        "body": "Demandez-moi vos dépenses de cette année, de l’an dernier ou de toute autre période. Je les détaille par catégorie ou moyen de paiement."
+      },
+      "v15": {
+        "title": "Pensez à annuler cet essai",
+        "body": "Dites-moi quand l’essai se termine. J’enregistre la date pour que vous receviez un rappel avant le passage au payant."
+      },
+      "v16": {
+        "title": "Vous payez pour quelqu’un ? Gardez une trace",
+        "body": "Dites-moi si vous payez un abonnement pour quelqu’un. Je suivrai séparément les sommes avancées et celles qui vous ont été remboursées."
+      },
+      "v17": {
+        "title": "Vous avez changé de région ou de forfait ?",
+        "body": "Passage de la boutique américaine à la turque, ou à un forfait familial ? Dites-moi quand. Je poursuis avec le nouveau forfait et conserve l’ancien historique."
+      },
+      "v18": {
+        "title": "Posez vos questions, tout simplement",
+        "body": "« Quel est mon abonnement le plus ancien ? » « Quelle carte est la plus débitée ? » Demandez, je consulterai votre registre."
+      },
+      "v19": {
+        "title": "Vous confirmez chaque modification",
+        "body": "Je ne prépare que des brouillons. Les ajouts, changements de prix et résiliations s’affichent sous forme de cartes. Rien n’est enregistré sans votre confirmation."
+      },
+      "v20": {
+        "title": "Commencez votre registre ici",
+        "body": "Envoyez un reçu, une capture ou dites-moi simplement à quoi vous êtes abonné. Je m’occupe du reste."
+      }
+    }
+  },
+  "suggest": {
+    "receipt": {
+      "title": "Coller un reçu",
+      "hint": "App Store, Google Play ou un e-mail de facturation",
+      "text": "Ajoute ce reçu comme abonnement :\n"
+    },
+    "screenshot": {
+      "title": "Envoyer une capture",
+      "hint": "Page d’abonnements ou de facturation — collez-la directement",
+      "text": "Trouve les abonnements dans cette capture d’écran :"
+    },
+    "month": {
+      "title": "Qu’est-ce qui tombe ce mois-ci ?",
+      "hint": "Les prélèvements restants du mois, par date",
+      "text": "Quels abonnements seront encore prélevés ce mois-ci, et pour combien au total ?"
+    },
+    "hikes": {
+      "title": "Qu’est-ce qui a augmenté ?",
+      "hint": "Les abonnements dont le prix a augmenté depuis un an",
+      "text": "Quels abonnements ont augmenté leur prix au cours de l’année passée, et de combien ?"
+    }
+  },
+  "placeholder": "Collez du texte ou une capture, ou posez une question…",
+  "placeholderSetup": "Configurez d’abord votre clé API DeepSeek",
+  "addImage": "Ajouter une image",
+  "removeImage": "Retirer l’image",
+  "send": "Envoyer",
+  "stop": "Arrêter",
+  "imageFailed": "Impossible de lire cette image",
+  "disclaimer": "Généré par DeepSeek. Vérifiez les montants et les dates avant d’ajouter.",
+  "thinking": "Réflexion…",
+  "thought": {
+    "one": "A réfléchi {count} seconde",
+    "other": "A réfléchi {count} secondes"
+  },
+  "stopped": "Arrêté",
+  "copy": "Copier",
+  "copied": "Copié",
+  "regenerate": "Régénérer",
+  "retry": "Réessayer",
+  "applied": "Ajouté à votre registre",
+  "tool": {
+    "running": "En cours",
+    "done": "Terminé",
+    "error": "Échec",
+    "input": "Entrée",
+    "output": "Sortie"
+  },
+  "card": {
+    "draft": "Brouillon d’abonnement",
+    "start": "Date de début",
+    "today": "Aujourd’hui",
+    "next": "Prochains prélèvements",
+    "add": "Ajouter",
+    "confirm": "Confirmer",
+    "edit": "Modifier d’abord",
+    "dismiss": "Ignorer",
+    "dismissed": "Ignoré",
+    "added": "Ajouté",
+    "done": "Terminé",
+    "view": "Voir",
+    "missing": "{fields} introuvable(s) — valeurs par défaut utilisées, à vérifier",
+    "sep": ", ",
+    "filled": "Icône et lien complétés depuis l’App Store",
+    "pendingCount": {
+      "one": "{count} brouillon à confirmer",
+      "other": "{count} brouillons à confirmer"
+    },
+    "applyAll": "Tout confirmer",
+    "history": "Prélèvements passés",
+    "historyCount": {
+      "one": "{count} prélèvement",
+      "other": "{count} prélèvements"
+    },
+    "changes": "Voir les modifications et références",
+    "unverified": "Vérifier le résultat"
+  },
+  "error": {
+    "auth": "Clé API invalide",
+    "balance": "Votre solde DeepSeek est insuffisant",
+    "rate": "Trop de requêtes — réessayez dans un instant",
+    "params": "La requête a été refusée",
+    "server": "DeepSeek rencontre un problème",
+    "network": "Erreur réseau",
+    "config": "Aucune clé API configurée"
+  },
+  "setup": {
+    "title": "Réglages de l’assistant IA",
+    "intro": "Utilise votre propre clé API DeepSeek ; l’usage est facturé sur votre compte DeepSeek. Obtenir une clé :",
+    "keySaved": "Enregistrée ({hint}) — laissez vide pour la conserver",
+    "baseHint": "Par défaut, l’adresse officielle de DeepSeek. Tout service compatible OpenAI fonctionne aussi.",
+    "model": "Modèle",
+    "modelHint": "Lire des images nécessite un modèle avec vision.",
+    "effort": "Réflexion",
+    "effort_none": "Désactivée",
+    "effort_noneHint": "La plus rapide, suffisante pour les reçus simples",
+    "effort_low": "Légère",
+    "effort_lowHint": "Recommandé : rapide et précis",
+    "effort_high": "Approfondie",
+    "effort_highHint": "Plus fiable sur les factures complexes, plus lente",
+    "saved": "Enregistré",
+    "clear": "Supprimer la clé",
+    "cleared": "Clé API supprimée",
+    "cta": "Configurer votre clé API DeepSeek",
+    "ctaHint": "Une seule fois ; la clé reste sur votre propre serveur",
+    "privacy": "La clé est stockée uniquement sur votre serveur — jamais envoyée au navigateur ni incluse dans les sauvegardes. Les textes et images que vous envoyez sont transmis à DeepSeek via votre serveur.",
+    "fetching": "Récupération des modèles…",
+    "fetched": "{count} modèles disponibles.",
+    "fetchHint": "Renseignez la Base URL et la clé API : les modèles disponibles se chargent automatiquement.",
+    "noModels": "Le service n’a pas renvoyé de liste de modèles. Vous pouvez saisir le nom.",
+    "refresh": "Actualiser",
+    "retry": "Réessayer",
+    "manual": "Saisir à la main",
+    "pickList": "Choisir dans la liste",
+    "notInList": "Absent de la liste"
+  },
+  "f": {
+    "member": "Membre",
+    "amount": "Montant",
+    "date": "Date",
+    "paidUntil": "Payé jusqu’au",
+    "fee": "Tarif",
+    "joined": "Arrivée",
+    "left": "Départ",
+    "contact": "Contact",
+    "role": "Rôle",
+    "seats": "Places (moi compris)",
+    "ownerName": "Organisateur",
+    "since": "Partagé depuis",
+    "newPrice": "Nouveau prix",
+    "from": "Date d’effet",
+    "action": "Action",
+    "kind": "Type",
+    "effect": "Effet",
+    "name": "Nom",
+    "category": "Catégorie",
+    "tags": "Tags",
+    "url": "Site web",
+    "manage_url": "Lien de gestion",
+    "notes": "Notes",
+    "method": "Moyen de paiement",
+    "region": "Région",
+    "remind_days": "Rappel (jours avant)",
+    "end": "Pas de renouvellement après",
+    "next_due": "Prochain prélèvement",
+    "trial_end": "Fin de l’essai",
+    "expires": "Fin du service",
+    "price": "Prix",
+    "currency": "Devise",
+    "cycle": "Cycle de facturation",
+    "note": "Note",
+    "planned": "Prévu",
+    "phases": "Phases",
+    "payments": "Paiements enregistrés",
+    "spent": "Dépensé à ce jour",
+    "changes": "Champs modifiés",
+    "funding": "Payé avec"
+  },
+  "v": {
+    "exempt": "Ne paie pas",
+    "owner": "J’organise",
+    "member": "J’ai rejoint",
+    "unshare": "Ne plus partager",
+    "pause": "Suspendre",
+    "cancel": "Résilier",
+    "reactivate": "Reprendre",
+    "charge": "Prélèvement",
+    "deleteAll": "Supprime l’abonnement et tous ses prélèvements. Action irréversible.",
+    "dateUnknown": "Date inconnue",
+    "terminate": "Résilié par le fournisseur"
+  },
+  "interrupted": "La réponse a été interrompue avant la fin.",
+  "saveUnknown": "Impossible de confirmer l’enregistrement. Vérifiez le registre avant de réessayer.",
+  "savedUnverified": "Enregistré, mais le résultat n’a pas pu être vérifié. Vérifiez le registre avant de continuer.",
+  "savedRefreshFailed": "La modification est enregistrée, mais la page n’a pas pu être actualisée. Actualisez-la avant de confirmer d’autres brouillons.",
+  "outcome": {
+    "partial": "Certaines étapes sont inachevées",
+    "limit": "La limite d’appels aux outils est atteinte",
+    "review": "Les brouillons ne sont pas encore enregistrés. Vérifiez les brouillons prêts et les étapes inachevées avant de continuer."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "overlap": {
+    "note": "{what} juga berjalan sampai {date}"
+  },
+  "search": "Cari",
+  "title": "Semua langganan",
+  "all": "Semua",
+  "summary": {
+    "other": "{count} item\n{monthly}/bln\n{yearly}/thn"
+  },
+  "status": {
+    "upcoming": "Belum dimulai",
+    "active": "Aktif",
+    "trial": "Masa uji coba",
+    "trialShort": "Uji coba",
+    "paused": "Dijeda",
+    "pausedShort": "Dijeda",
+    "ending": "Tidak diperpanjang",
+    "ended": "Dibatalkan",
+    "lifetime": "Seumur hidup",
+    "terminated": "Dinonaktifkan"
+  },
+  "proxyExcluded": "Talangan\ntidak dihitung",
+  "perMonthApprox": "≈ {amount}/bln",
+  "originalPrice": "Harga asli {amount}",
+  "view": {
+    "grid": "Kartu",
+    "list": "Daftar",
+    "gantt": "Linimasa"
+  },
+  "sort": {
+    "label": "Urutkan",
+    "next": "Tagihan berikutnya",
+    "cost": "Biaya bulanan",
+    "amount": "Jumlah",
+    "name": "Nama",
+    "category": "Kategori",
+    "method": "Metode pembayaran",
+    "start": "Tanggal mulai",
+    "asc": "Naik",
+    "desc": "Turun"
+  },
+  "add": "Tambah langganan",
+  "clear": "Hapus",
+  "facet": {
+    "status": "Status",
+    "category": "Kategori",
+    "pay": "Pembayaran"
+  },
+  "unassigned": "Belum ditentukan",
+  "empty": "Tidak ada langganan yang cocok",
+  "badge": {
+    "share": "Bersama",
+    "joined": "Diikuti",
+    "proxy": "Talangan",
+    "proxyFor": "Ditalangi untuk {name}",
+    "someone": "seseorang",
+    "parallel": "Paralel"
+  },
+  "col": {
+    "name": "Langganan",
+    "category": "Kategori",
+    "method": "Metode pembayaran",
+    "amount": "Jumlah",
+    "monthly": "Bulanan",
+    "start": "Mulai",
+    "next": "Tagihan berikutnya",
+    "planPrice": "Harga paket",
+    "inBase": "Dalam {ccy}"
+  },
+  "notCounted": "Tidak dihitung",
+  "endedOn": "Berakhir {date}",
+  "change": {
+    "noMethod": "Metode pembayaran belum ditentukan",
+    "planned": "Rencana\n",
+    "starts": "Mulai {when}",
+    "from": "Berubah {when}"
+  },
+  "proxyBadge": {
+    "owed": {
+      "other": "Talangan\n{count} tertunggak"
+    },
+    "owedFor": {
+      "other": "Ditalangi untuk {name}\n{count} tertunggak"
+    },
+    "settled": "Talangan\nlunas",
+    "settledFor": "Ditalangi untuk {name}\nlunas"
+  },
+  "gantt": {
+    "months": {
+      "other": "{count} bulan"
+    },
+    "days": {
+      "other": "{count} hari"
+    },
+    "noRegion": "Tanpa wilayah",
+    "zoom3m": "3B",
+    "zoom6m": "6B",
+    "zoom1y": "1T",
+    "zoom3y": "3T",
+    "byMethod": "Per pembayaran",
+    "byRegion": "Per wilayah",
+    "gapTitle": "Terputus {span}: {from} – {to}",
+    "gapShort": "Terputus {span}",
+    "lifetimeSuffix": " seumur hidup",
+    "present": "sekarang",
+    "plannedSuffix": "\nrencana",
+    "introPrefix": "Promo awal\n",
+    "introShort": "Promo ",
+    "planned": "Rencana",
+    "gap": "Terputus",
+    "earlier": "Sebelumnya",
+    "later": "Berikutnya",
+    "backToNow": "Kembali ke sekarang",
+    "resize": "Seret untuk mengubah lebar kolom nama\nklik dua kali untuk mengatur ulang"
+  },
+  "kind": {
+    "debit": "Kartu debit",
+    "credit": "Kartu kredit",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "paypal": "PayPal",
+    "appstore": "Saldo App Store",
+    "googleplay": "Saldo Google Play",
+    "giftcard": "Kartu hadiah",
+    "prepaid": "Saldo toko",
+    "phone": "Pulsa",
+    "crypto": "Kartu kripto",
+    "other": "Lainnya"
+  },
+  "network": {
+    "unionpay": "UnionPay"
+  },
+  "monthlySame": "Sama dengan harga"
+}

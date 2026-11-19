@@ -1,0 +1,37 @@
+{
+  "choose": "请选择",
+  "noMatch": "没有匹配的选项",
+  "common": "常用",
+  "currency": "币种",
+  "date": {
+    "placeholder": "YYYY-MM-DD",
+    "prev": "上个月",
+    "next": "下个月",
+    "open": "打开日历",
+    "year": "年份",
+    "month": "月份",
+    "invalid": "请输入有效日期",
+    "range": "日期超出允许范围",
+    "type": "输入日期",
+    "confirm": "确定"
+  },
+  "method": {
+    "label": "支付方式",
+    "none": "未指定"
+  },
+  "region": {
+    "label": "地区",
+    "any": "不区分",
+    "none": "不区分地区",
+    "all": "全部地区"
+  },
+  "ccy": {
+    "label": "货币",
+    "switch": "切换金额显示的货币",
+    "orig": "原币",
+    "origHint": "各自币种",
+    "all": "全部货币",
+    "search": "搜索货币、代码或符号",
+    "noMatch": "没有匹配的货币"
+  }
+}

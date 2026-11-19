@@ -1,0 +1,25 @@
+{
+  "close": "閉じる",
+  "error": {
+    "loginRequired": "先にログインしてください",
+    "requestFailed": "リクエストに失敗しました（{status}）",
+    "wholeCurrency": "{currency} の金額は整数で入力してください",
+    "deletedElsewhere": "この項目は別の場所で削除されたため、変更は保存されませんでした。"
+  },
+  "theme": {
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム"
+  },
+  "method": {
+    "none": "未設定"
+  },
+  "toolbar": {
+    "add": "サブスクを追加"
+  },
+  "working": "処理中…",
+  "undo": "取り消す",
+  "restored": "元に戻しました",
+  "loadFailed": "読み込めませんでした",
+  "retry": "再試行"
+}

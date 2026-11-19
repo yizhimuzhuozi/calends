@@ -1,0 +1,74 @@
+{
+  "title": "概览",
+  "add": "新建订阅",
+  "footer": "{count} 个订阅计费中\n每月 {amount}\n",
+  "fullReport": "看完整报告",
+  "listSep": "、",
+  "n": {
+    "subs": "{count} 个订阅",
+    "charges": "{count} 笔"
+  },
+  "axis": {
+    "yearMonth": "{yy}/{m}"
+  },
+  "timeline": {
+    "title": "时间线",
+    "sub": "过去 30 天扣了 {past}\n接下来 30 天要扣 {next}",
+    "past": "过去 30 天\n{amount}"
+  },
+  "spending": {
+    "title": "每月花了多少",
+    "sub": "浅色为预计",
+    "month": "按月",
+    "yearly": "按年",
+    "year": "{year}年",
+    "projected": "\n预计",
+    "inProgress": "\n进行中",
+    "paid": "\n已扣款 {amount}",
+    "empty": "这段时间没有扣款",
+    "range": "{from} – {to}",
+    "period": {
+      "label": "时间范围",
+      "extended": "近期 18 个月",
+      "year": "今年",
+      "past12": "过去 12 个月",
+      "next12": "未来 12 个月",
+      "lastYear": "去年",
+      "nextYear": "明年"
+    },
+    "view": {
+      "bars": "柱状图",
+      "stream": "河流图"
+    }
+  },
+  "due": {
+    "title": "即将扣款",
+    "empty": "30 天内没有扣款",
+    "thisWeek": "这周",
+    "later": "之后",
+    "noMethod": "未指定支付"
+  },
+  "wallet": {
+    "title": "钱包",
+    "manage": "管理",
+    "balance": "余额 {amount}\n{status}",
+    "covered": "还能扣 {count} 期，{date} 前要充值",
+    "mustTopUp": "{date} 前要充值",
+    "enough": "3 年内够用",
+    "noBalance": "还没填余额，填了才能算出还能撑多久",
+    "others": "另有 {list}"
+  },
+  "tips": {
+    "warn": "需要留意",
+    "info": "提示",
+    "good": "一个事实"
+  },
+  "stmt": {
+    "kicker": "当月订阅支出",
+    "hint": "本月 1 日到月底的扣款合计，含已扣和待扣；与上月整月比较。",
+    "perDay": "每天",
+    "active": "计费中",
+    "share": "{amount}/月\n占 {pct}%",
+    "aria": "{name} 每月 {amount}"
+  }
+}

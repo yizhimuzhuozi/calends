@@ -1,0 +1,73 @@
+{
+  "fxApiError": "O serviço de câmbio retornou um erro",
+  "missingId": "ID ausente",
+  "invalidItem": "{name}: {error}",
+  "notPublic": "Este controle não é público",
+  "idMismatch": "Os IDs não correspondem",
+  "invalidJson": "O corpo da requisição não é um JSON válido.",
+  "invalidMethod": "Forma de pagamento inválida",
+  "invalidBackup": "Arquivo de backup inválido",
+  "refreshFailed": "Falha ao atualizar",
+  "backup": {
+    "notBackup": "Este não é um arquivo de backup válido",
+    "unknownFormat": "Formato de backup não reconhecido: {format}",
+    "newerVersion": "Este backup é de uma versão mais nova (v{version}). Atualize este site primeiro."
+  },
+  "auth": {
+    "tooMany": "Muitas tentativas. Tente de novo em 15 minutos.",
+    "alreadySetup": "Uma senha já foi definida",
+    "noSetupToken": "O SETUP_TOKEN não foi configurado na implantação, então não é possível continuar. Defina esse segredo primeiro (wrangler secret put SETUP_TOKEN).",
+    "badSetupToken": "Token de configuração incorreto",
+    "passwordTooShort": {
+      "one": "A senha deve ter pelo menos {min} caractere",
+      "other": "A senha deve ter pelo menos {min} caracteres"
+    },
+    "wrongPassword": "Senha incorreta",
+    "wrongCurrentPassword": "A senha atual está incorreta",
+    "newPasswordTooShort": {
+      "one": "A nova senha deve ter pelo menos {min} caractere",
+      "other": "A nova senha deve ter pelo menos {min} caracteres"
+    },
+    "invalidDevice": "Dispositivo inválido",
+    "nameRequired": "O nome não pode ficar vazio",
+    "cannotRemoveCurrent": "Não é possível remover este dispositivo. Use Sair.",
+    "expired": "A solicitação expirou. Tente de novo.",
+    "passkeyFailed": "Falha na verificação da chave de acesso. Entre com sua senha e adicione-a novamente em Ajustes → Segurança",
+    "passkeyRegisterFailed": "Falha na verificação da chave de acesso",
+    "passkeyNotBound": "Esta chave de acesso não está registrada neste site. Entre com sua senha e adicione-a novamente em Ajustes → Segurança"
+  },
+  "ics": {
+    "calName": "Cobranças de assinaturas",
+    "method": "Pagamento: {name}",
+    "alarm": "{name} renova em breve"
+  },
+  "invalidPerson": "O nome é obrigatório",
+  "personNotFound": "Pessoa não encontrada",
+  "personInUse": {
+    "one": "Ainda vinculada a {count} plano ou pagamento. Mescle com outra pessoa antes.",
+    "other": "Ainda vinculada a {count} planos ou pagamentos. Mescle com outra pessoa antes."
+  },
+  "category": {
+    "invalid": "Lista de categorias inválida",
+    "duplicate": "Categoria duplicada: {name}"
+  },
+  "assistant": {
+    "noKey": "Nenhuma chave de API do DeepSeek configurada.",
+    "badTool": "Ação não suportada."
+  },
+  "invalidAvatar": "Imagem inválida",
+  "avatarInvalid": "Use PNG/WebP quadrado sem metadados, até 128×128 e 64 KB. Envios: PNG/JPEG/WebP até 8 MB e 40 megapixels.",
+  "avatarRosterFull": "A lista de pessoas está cheia. Remova um avatar antes de adicionar outro.",
+  "methodInUse": "Esta forma de pagamento ainda está em uso. Mova as referências para outra forma ou limpe-as primeiro.",
+  "autobackup": {
+    "badEndpoint": "Endpoint inválido; deve começar com https:// ou http://",
+    "badBucket": "Nome de bucket inválido",
+    "noCredentials": "Informe o Access Key ID e o Secret Access Key",
+    "noLogin": "Informe o usuário e a senha",
+    "noPassphrase": "Defina uma frase secreta de criptografia",
+    "badKeep": "Manter deve ficar entre 1 e 365",
+    "notConfigured": "O backup automático não está configurado",
+    "interrupted": "O último backup não terminou",
+    "beforeRestoreFailed": "O backup antes da restauração falhou; o registro não foi alterado: {error}"
+  }
+}

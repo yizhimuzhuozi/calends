@@ -1,0 +1,74 @@
+{
+  "tab": {
+    "plans": "Gói",
+    "people": "Người"
+  },
+  "stat": {
+    "owed": "Cần thu",
+    "owedSub": "{count} người còn nợ",
+    "allSettled": "Đã thu đủ",
+    "received": "Tổng đã nhận",
+    "receivedSub": "Gói chia sẻ và trả hộ",
+    "count": "Số người",
+    "countSub": "Gói chia sẻ: {share}, Trả hộ: {proxy}"
+  },
+  "empty": {
+    "title": "Chưa có ai",
+    "body": "Thêm thành viên vào gói chia sẻ hoặc chọn người được trả hộ — tại đây sẽ thấy mỗi người còn nợ bao nhiêu."
+  },
+  "card": {
+    "noContact": "Chưa có liên hệ",
+    "nothing": "Không tham gia gói nào",
+    "past": "Thêm {count} mục đã kết thúc"
+  },
+  "kind": {
+    "share": "Gói chia sẻ",
+    "proxy": "Trả hộ"
+  },
+  "item": {
+    "noPay": "Chưa thu lần nào",
+    "owedPeriods": "Nợ {count} kỳ",
+    "left": "Đã rời",
+    "ended": "Đã dừng"
+  },
+  "sheet": {
+    "owed": "Còn nợ",
+    "received": "Tổng đã nhận",
+    "last": "Lần trả gần nhất",
+    "in": "Tham gia {count} gói",
+    "inEmpty": "Không có trong gói chia sẻ hay khoản trả hộ nào. Có thể xoá.",
+    "profile": "Hồ sơ",
+    "notePh": "vd: đồng nghiệp, chuyển cuối tháng",
+    "color": "Màu",
+    "customColor": "Màu tùy chọn",
+    "syncFoot": "Đổi tên hoặc liên hệ sẽ áp dụng cho cả {count} chỗ.",
+    "merge": "Gộp vào",
+    "mergePick": "Chọn…",
+    "mergeConfirm": "Gộp “{from}” vào “{into}”? Mọi gói và khoản thu của {from} chuyển sang {into}, giữ tên và liên hệ của {into}.",
+    "merged": "Đã gộp vào {name}",
+    "accountMissing": "Quan hệ thành viên này không còn tồn tại. Hãy mở lại chi tiết người này."
+  },
+  "pick": {
+    "new": "Người mới",
+    "aria": "Chọn người"
+  },
+  "field": {
+    "person": "Người",
+    "editProfile": "Sửa thông tin người",
+    "noContact": "Chưa có liên hệ"
+  },
+  "avatar": {
+    "label": "Ảnh đại diện",
+    "change": "Đổi ảnh đại diện",
+    "help": "Nhấp, kéo thả hoặc dán ảnh PNG, JPEG hay WebP (tối đa 8 MB).",
+    "remove": "Xóa ảnh đại diện",
+    "fallbackColor": "Màu dự phòng"
+  },
+  "list": {
+    "none": "Không có người phù hợp"
+  },
+  "add": {
+    "saved": "Đã thêm người",
+    "exists": "“{name}” đã tồn tại"
+  }
+}

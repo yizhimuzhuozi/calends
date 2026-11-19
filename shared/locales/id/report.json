@@ -1,0 +1,195 @@
+{
+  "title": "Laporan",
+  "shareReview": "Bagikan kilas balik {year}",
+  "shareAll": "Bagikan ringkasan sepanjang waktu",
+  "pick": {
+    "label": "Pilih tahun",
+    "all": "Semua",
+    "year": "{year}",
+    "prev": "Sebelumnya",
+    "next": "Berikutnya"
+  },
+  "perMonth": "{amount}/bln",
+  "per": {
+    "day": "hari",
+    "week": "mgg",
+    "month": "bln",
+    "year": "thn",
+    "lifetime": "sekali bayar",
+    "quarter": "triwulan",
+    "halfYear": "6 bln",
+    "twoYears": "2 thn",
+    "n": {
+      "day": "{count} hari",
+      "week": "{count} mgg",
+      "month": "{count} bln",
+      "year": "{count} thn"
+    }
+  },
+  "axis": {
+    "year": "{year}"
+  },
+  "hero": {
+    "label": "Pengeluaran langganan setahun",
+    "tip": "Bulan {month}\nKumulatif {total}",
+    "tipNow": "Bulan {month}, Tagihan mendatang {pending}\nKumulatif {total}",
+    "avg": "Rata-rata bulanan",
+    "peak": "Bulan tertinggi",
+    "peakAt": "Tertinggi {when}"
+  },
+  "all": {
+    "label": "Total pengeluaran langganan",
+    "since": "Sejak {date}",
+    "last12": "12 bulan terakhir",
+    "avg": "Rata-rata tahunan",
+    "peak": "Tahun tertinggi",
+    "subs": "Langganan",
+    "detail": "Rincian kumulatif"
+  },
+  "tenure": {
+    "title": "Berapa lama langganan bertahan",
+    "active": "Aktif, rata-rata",
+    "stopped": "Dihentikan, rata-rata",
+    "quick": "Berhenti cepat",
+    "peak": "Terbanyak sekaligus",
+    "longest": "Paling lama",
+    "count": "Langganan aktif"
+  },
+  "wf": {
+    "vsFrom": "vs. {amount} akhir bulan lalu",
+    "flat": "Tidak berubah",
+    "title": "Perubahan {month}",
+    "prev": "Bulan sebelumnya",
+    "next": "Bulan berikutnya",
+    "from": "Bulan lalu",
+    "fx": "Kurs",
+    "added": "Baru",
+    "expansion": "Harga naik",
+    "contraction": "Harga turun",
+    "churned": "Dihentikan",
+    "now": "Sekarang",
+    "monthEnd": "Akhir bulan",
+    "empty": "Tidak ada langganan baru, dibatalkan, atau berubah harga bulan ini.",
+    "emptyFx": "Tidak ada langganan baru, dibatalkan, atau berubah harga bulan ini — seluruh perubahan berasal dari kurs ({amount})."
+  },
+  "checkup": {
+    "title": "Pemeriksaan",
+    "warn": {
+      "other": "{count} hal perlu diperhatikan"
+    },
+    "fix": "Perbaiki",
+    "less": "Tampilkan lebih sedikit",
+    "more": "Tampilkan {count} lagi"
+  },
+  "cash": {
+    "title": "Kas vs. biaya riil",
+    "legendCash": "Ditagih bulan itu",
+    "legendAccrual": "Biaya dibagi per bulan",
+    "forecast": "\nPerkiraan",
+    "tip": "Ditagih {cash}\nBiaya {cost}",
+    "open": "\nBuka bulan ini di kalender",
+    "openYear": "\nBuka tahun ini di kalender",
+    "prepaidItem": "{name}\n{amount}\nhingga {until}",
+    "prepaid": "Nilai prabayar",
+    "prepaidSub": "{count} sudah dibayar, belum habis",
+    "next90": "Jatuh tempo dalam 90 hari ke depan",
+    "fullPaidHint": "Total pembayaran, termasuk talangan untuk anggota"
+  },
+  "comp": {
+    "title": "Ke mana uangnya pergi",
+    "back": "Kembali",
+    "cat": "Kategori",
+    "pay": "Pembayaran",
+    "ccy": "Mata uang",
+    "cycle": "Siklus",
+    "unassigned": "Belum ditentukan",
+    "yearly": "Tahunan",
+    "quarterly": "Triwulanan / semesteran",
+    "monthly": "Bulanan",
+    "groupTip": {
+      "other": "{name}\n{count} item\n{amount}/bln"
+    },
+    "groupTipAll": {
+      "other": "{name}\n{count} item\n{amount}"
+    }
+  },
+  "topup": {
+    "title": "Rencana top up",
+    "range3": "3 bln",
+    "range6": "6 bln",
+    "range12": "1 thn",
+    "span3": "3 bulan ke depan",
+    "span6": "6 bulan ke depan",
+    "span12": "Setahun ke depan",
+    "empty": "Belum ada akun dengan saldo.",
+    "emptyCta": "Tambahkan saldo App Store atau pulsa di Dompet",
+    "summary": "Saldo {balance}\nsekitar {monthly}/bln",
+    "why": "{span}: {due} jatuh tempo, {balance} tersedia, kurang {need}",
+    "urgent": "; paling mendesak: tambahkan minimal {min} sebelum {date}",
+    "cards": "Kartu hadiah yang disarankan",
+    "anyAmount": "Top up berapa saja — tidak perlu sesuai nominal kartu",
+    "enough3": "Saldo cukup untuk 3 bulan ke depan",
+    "enough6": "Saldo cukup untuk 6 bulan ke depan",
+    "enough12": "Saldo cukup untuk setahun ke depan",
+    "by": "Sebelum {date}"
+  },
+  "ev": {
+    "start": "Dimulai",
+    "end": "Dibatalkan",
+    "price": "Perubahan harga",
+    "introEnd": "Promo awal berakhir",
+    "buy": "Dibeli putus",
+    "pause": "Dijeda",
+    "switch": "Ganti wilayah / paket",
+    "resume": "Dilanjutkan"
+  },
+  "log": {
+    "title": "Log perubahan",
+    "decisions": {
+      "other": "{count} keputusan"
+    },
+    "more": "Entri sebelumnya"
+  },
+  "stops": {
+    "title": "Pembatalan & penghentian",
+    "loss": "Kerugian tanpa pengembalian dana",
+    "cancel": "Pembatalan dini sukarela"
+  },
+  "year": {
+    "title": "Rincian tahun",
+    "vsLast": "vs periode sama tahun lalu",
+    "vsPrev": "vs. tahun sebelumnya",
+    "count": "{count} item",
+    "added": "Baru",
+    "stopped": "Dihentikan",
+    "up": "Lebih banyak",
+    "down": "Lebih sedikit",
+    "carpoolGain": "Paket bersama: untung",
+    "carpoolLoss": "Paket bersama: rugi",
+    "carpoolEven": "Paket bersama: impas",
+    "carpoolNet": "Paket bersama: neto",
+    "proxyGain": "Talangan: untung",
+    "proxyLoss": "Talangan: rugi",
+    "proxyEven": "Talangan: impas",
+    "proxyNet": "Talangan: neto",
+    "empty": "Sama dengan periode yang sama tahun lalu."
+  },
+  "daily": {
+    "title": "Per hari",
+    "flat": "Kisi",
+    "bars": "3D"
+  },
+  "region": {
+    "title": "Wilayah langganan"
+  },
+  "flow": {
+    "title": "Aliran dana",
+    "showPercent": "Tampilkan persentase",
+    "showAmount": "Tampilkan jumlah"
+  },
+  "profile": {
+    "title": "Komposisi pengeluaran",
+    "recent": "12 bulan terakhir",
+    "before": "12 bulan sebelumnya"
+  }
+}

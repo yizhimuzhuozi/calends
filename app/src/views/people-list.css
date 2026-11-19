@@ -1,0 +1,159 @@
+/* The roster owns its density; person detail sheets retain their existing layout. */
+.people-page {
+  container: people / inline-size;
+}
+.people-list {
+  padding: 0;
+}
+.people-head,
+.people-row {
+  display: grid;
+  /* 称呼 | 订阅 | 待收（含状态） | 至今收回 | 最近收款 */
+  grid-template-columns: minmax(200px, 1fr) 132px 168px 120px 128px;
+  align-items: center;
+  gap: 24px;
+  /* 与合租、代付的列表视图同一套：左右 16px */
+  padding: 8px 16px;
+}
+.people-head {
+  border-radius: var(--r) var(--r) 0 0;
+}
+.people-head > :nth-child(n + 3),
+.people-owed,
+.people-received,
+.people-last {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.people-head > :nth-child(n + 3) {
+  justify-self: end;
+}
+.people-settled {
+  color: var(--label-3);
+}
+.people-head .lt-sort {
+  min-height: var(--ctl-h-md);
+}
+.people-head .lt-sort:focus-visible,
+.people-open:focus-visible {
+  outline: var(--hairline) solid var(--focus-ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+.people-row {
+  /* 与合租、代付的列表视图同一行高（56px），三张表切换时不跳 */
+  min-height: 56px;
+  border-top: var(--hairline) solid var(--sep);
+  cursor: pointer;
+  font-size: var(--fs-2);
+}
+.people-row:last-child {
+  border-radius: 0 0 var(--r) var(--r);
+}
+.people-row:hover,
+.people-row:focus-within {
+  background: var(--fill-2);
+}
+.people-identity,
+.people-plans {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+.people-person {
+  /* 称呼胶囊与联系方式同一行 */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+.people-open.car-member-chip {
+  flex-shrink: 0;
+  max-width: 100%;
+  border: 0;
+  color: var(--label);
+  font-family: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.people-row:hover .people-open.car-member-chip {
+  background: var(--gray-4);
+}
+.people-person small,
+.people-owed small {
+  font-size: var(--fs-1);
+}
+.people-plans {
+  gap: 6px;
+}
+.people-plans > span {
+  display: inline-flex;
+  flex-shrink: 0;
+}
+.people-more {
+  color: var(--label-2);
+  font-size: var(--fs-1);
+  font-weight: 600;
+}
+.people-owed {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 6px;
+  color: var(--orange);
+  white-space: nowrap;
+}
+.people-owed b,
+.people-received,
+.people-last {
+  white-space: nowrap;
+}
+.people-owed small {
+  color: var(--label-2);
+}
+.people-last-label {
+  display: none;
+}
+@media (max-width: 1100px) and (min-width: 720px) {
+  .people-head,
+  .people-row {
+    grid-template-columns: minmax(140px, 1fr) 110px 150px 100px 116px;
+    gap: 16px;
+    gap: 10px;
+    padding-inline: 16px;
+  }
+}
+@container people (max-width: 719px) {
+  .people-head,
+  .people-received {
+    display: none;
+  }
+  .people-row {
+    grid-template-columns: minmax(0, 1fr) max-content;
+    grid-template-areas: 'person owed' 'plans last';
+    gap: 8px 12px;
+    padding: 12px 14px;
+  }
+  .people-identity {
+    grid-area: person;
+  }
+  .people-owed {
+    grid-area: owed;
+  }
+  .people-last {
+    grid-area: last;
+    font-size: var(--fs-1);
+  }
+  .people-last-label {
+    display: inline;
+  }
+  .people-plans {
+    grid-area: plans;
+    padding-left: 34px;
+    gap: 4px;
+  }
+  .people-plans .ico {
+    --s: 18px !important;
+  }
+}

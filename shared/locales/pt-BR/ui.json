@@ -1,0 +1,25 @@
+{
+  "close": "Fechar",
+  "error": {
+    "loginRequired": "Entre primeiro",
+    "requestFailed": "Falha na solicitação ({status})",
+    "wholeCurrency": "Os valores em {currency} devem ser inteiros",
+    "deletedElsewhere": "Este item foi excluído em outro lugar, então suas alterações não foram salvas."
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Escuro",
+    "system": "Sistema"
+  },
+  "method": {
+    "none": "Não definido"
+  },
+  "toolbar": {
+    "add": "Adicionar assinatura"
+  },
+  "working": "Processando…",
+  "undo": "Desfazer",
+  "restored": "Restaurado",
+  "loadFailed": "Não foi possível carregar",
+  "retry": "Tentar novamente"
+}

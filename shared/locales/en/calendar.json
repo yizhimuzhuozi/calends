@@ -1,0 +1,31 @@
+{
+  "yearTitle": "{year}",
+  "summary": {
+    "one": "{count} charge\n{amount}",
+    "other": "{count} charges\n{amount}"
+  },
+  "mode": {
+    "month": "Month",
+    "year": "Year"
+  },
+  "prev": "Previous",
+  "next": "Next",
+  "today": "Today",
+  "ics": "Subscribe in Calendar",
+  "noneDay": "No charges on this day",
+  "projected": "Expected",
+  "charged": "Charged",
+  "monthTotal": "{month} charges",
+  "count": "{count} charges",
+  "monthAll": "All charges in {month}",
+  "noneMonth": "No charges this month",
+  "day": "{day}",
+  "heatCount": {
+    "one": "{count} charge\n",
+    "other": "{count} charges\n"
+  },
+  "pickDay": "Click a date to view its charges",
+  "nextCharge": "Next charge\n{date}",
+  "expandReport": "Expand full report",
+  "nextBill": "Next bill\n{date}"
+}

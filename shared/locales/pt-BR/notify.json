@@ -1,0 +1,120 @@
+{
+  "previewEmpty": "Não há lembretes para enviar hoje.",
+  "appName": "Calends",
+  "trial": {
+    "sub": "O teste termina {when} ({date}), depois {price}",
+    "headline": "O teste de {name} termina {when}"
+  },
+  "renew": {
+    "introEnds": "Fim do preço promocional, volta ao preço normal",
+    "headline": "{name} renova {when} por {price}",
+    "billHeadline": "{name} fatura {when}: {price}"
+  },
+  "ending": {
+    "sub": "Termina {when}, sem renovação",
+    "headline": "{name} termina {when}"
+  },
+  "carpool": {
+    "dueIn": "Vence {when} ({date})",
+    "dueToday": "Vence hoje",
+    "overdue": {
+      "one": "{count} dia de atraso",
+      "other": "{count} dias de atraso"
+    },
+    "sub": "{status}\npróximo período: {bill}",
+    "headline": "Hora de cobrar {member} por {name}"
+  },
+  "proxy": {
+    "someone": "Alguém",
+    "chargedToday": "Cobrado hoje em nome da pessoa",
+    "chargedAgo": {
+      "one": "Cobrado em {date}, há {count} dia",
+      "other": "Cobrado em {date}, há {count} dias"
+    },
+    "sub": "{status}, ainda não reembolsado",
+    "headlineToday": "{sub} pago para {name}",
+    "headlineUnpaid": "{name} ainda não reembolsou {sub}"
+  },
+  "balance": {
+    "sub": "Restarão só {left} até {date}, não cobre {sub} ({amount})",
+    "subSince": "Definido como {calibrated} em {asOf}, {spent} cobrados desde então. Restarão só {left} até {date}, não cobre {sub} ({amount})",
+    "subOver": "O saldo já está em {left}, não cobre {sub} ({amount}) em {date}",
+    "subForfeit": "{forfeit} expirados em {expires}; restarão só {left} em {date}, não basta para {sub} ({amount})",
+    "headline": "Saldo de {name} acabando",
+    "expiring": "Vence em {date}; cerca de {amount} serão perdidos",
+    "expiringHeadline": "Saldo de {name} vencendo"
+  },
+  "section": {
+    "renew": "Próximas cobranças",
+    "trials": "Testes terminando",
+    "balance": "Saldo baixo",
+    "carpool": "Pagamentos de planos compartilhados",
+    "proxy": "A receber de pagamentos para outros",
+    "ending": "Terminando em breve",
+    "month": "Cobranças deste mês"
+  },
+  "daily": {
+    "subject": "Lembrete de assinatura: {title}",
+    "title": "{headline}",
+    "titleMore": "{headline} + mais {more}",
+    "intro": "Você gasta {mrr} por mês com assinaturas, com {count} ativas."
+  },
+  "monthly": {
+    "title": "Cerca de {sum} em cobranças em {month}",
+    "subject": {
+      "one": "Fatura de {month}: cerca de {sum}, {count} cobrança",
+      "other": "Fatura de {month}: cerca de {sum}, {count} cobranças"
+    },
+    "intro": "Com suas assinaturas atuais, são cerca de {arr} por ano."
+  },
+  "email": {
+    "open": "Abrir o Calends",
+    "footer": "Você pode mudar o horário do lembrete e a antecedência nos Ajustes.",
+    "why": "Você está recebendo este e-mail porque ativou os lembretes por e-mail no {app}.",
+    "off": "Para parar de recebê-los, desative o canal de e-mail em Ajustes → Canais de notificação.",
+    "settings": "Ajustes de lembretes",
+    "total": "Total do mês",
+    "testNote": "Este é um e-mail de teste confirmando que o canal de e-mail funciona. Os lembretes reais vão listar aqui as próximas cobranças.",
+    "noCharges": "Nenhuma cobrança prevista para este mês.",
+    "kind": {
+      "daily": "Lembrete",
+      "monthly": "Fatura do mês",
+      "test": "Teste"
+    },
+    "stat": {
+      "sum": "Previsto",
+      "count": "Cobranças",
+      "mrr": "Gasto mensal"
+    }
+  },
+  "text": {
+    "heading": "[{heading}]"
+  },
+  "send": {
+    "noChannel": "Canal não encontrado",
+    "noneEnabled": "Nenhum canal de notificação ativado",
+    "alreadySent": "Já enviado hoje",
+    "failure": "{channel}: {error}",
+    "failureSep": "; "
+  },
+  "test": {
+    "subject": "[Teste] {subject}",
+    "sampleSubject": "[Teste] Os lembretes de assinatura estão prontos",
+    "sampleIntro": "Seu canal de notificação está funcionando."
+  },
+  "channel": {
+    "missing": "Falta {field} em “{channel}”",
+    "field": {
+      "to": "um e-mail de destinatário",
+      "botToken": "um token do bot",
+      "chatId": "um ID de chat",
+      "webhook": "uma URL de webhook",
+      "deviceKey": "uma chave do dispositivo",
+      "topic": "um tópico",
+      "sendKey": "uma SendKey",
+      "url": "uma URL"
+    },
+    "emailNotConfigured": "O e-mail não está configurado neste servidor (requer o binding EMAIL e MAIL_FROM). Use outro canal ou consulte o README."
+  },
+  "sender": "Calends"
+}

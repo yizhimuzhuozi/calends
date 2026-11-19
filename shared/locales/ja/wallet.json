@@ -1,0 +1,149 @@
+{
+  "title": "ウォレット",
+  "sub": {
+    "other": "{count}件の支払い方法"
+  },
+  "subDrag": {
+    "other": "{count}件の支払い方法\nドラッグで並べ替え"
+  },
+  "add": "追加",
+  "orderSaved": "並び順を保存しました",
+  "runwayGroup": "残高の持ち",
+  "family": "共有プラン",
+  "familyCount": "{count}件",
+  "unassigned": "支払い方法なし\n{count}",
+  "runway": {
+    "drain": "月約{amount}",
+    "scale": {
+      "today": "今日",
+      "m3": "3か月",
+      "m6": "6か月",
+      "m9": "9か月",
+      "y1": "1年"
+    },
+    "noSubs": "請求のあるサブスクが紐づいていません。",
+    "shortNow": "{date}（{rel}）の{name}の{amount}に足りません。{topup}チャージすると1年分をまかなえます。",
+    "shortLater": "{periods}分はまかなえますが、{date}（{rel}）の{name}の前に不足します。{topup}チャージすると1年分をまかなえます。",
+    "ok": "今後3年間、{periods}分まかなえます。",
+    "periods": {
+      "other": "{count}回の請求"
+    },
+    "projFoot": "以降の請求はまかなえません。{amount}チャージすると1年分をまかなえます。"
+  },
+  "card": {
+    "cashback": "{pct}%還元",
+    "balance": "残高",
+    "monthlySpend": "月あたり",
+    "subs": {
+      "other": "{count}件のサブスク"
+    },
+    "noCharges": "請求なし",
+    "periodsLeft": {
+      "other": "残り{count}回"
+    },
+    "low": "不足",
+    "enough": "十分",
+    "noBalance": "残高未設定"
+  },
+  "sheet": {
+    "topup": "チャージ / 残高を調整",
+    "setBalance": "残高を設定",
+    "edit": "編集",
+    "goTopup": "チャージ",
+    "site": "Web サイト",
+    "projection": "今後の請求",
+    "forfeit": "期限切れで失効",
+    "linked": "紐づいたサブスク\n{count}",
+    "none": "なし",
+    "notes": "メモ"
+  },
+  "topup": {
+    "toastAdd": "チャージを記録しました",
+    "toastSet": "残高を更新しました",
+    "removed": "チャージを削除しました（残高は変わりません）",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "modeAdd": "チャージ",
+    "modeSet": "実際の残高を設定",
+    "amount": "金額",
+    "actual": "実際の残高",
+    "estimate": "現在の推定",
+    "after": "保存後",
+    "optional": "今回のチャージ（任意）",
+    "date": "日付",
+    "costCcy": "支払い通貨",
+    "cost": "支払額",
+    "costPh": "任意",
+    "note": "メモ",
+    "notePh": "例：Razer Gold、代行業者",
+    "history": "チャージ履歴\n{count}",
+    "spent": "{amount}支払い",
+    "premium": "{pct}%割高",
+    "below": "相場より{pct}%安い",
+    "removeAria": "このチャージを削除"
+  },
+  "editor": {
+    "titleNew": "支払い方法を追加",
+    "titleEdit": "支払い方法を編集",
+    "deleted": "削除しました",
+    "delete": "削除",
+    "cancel": "キャンセル",
+    "saved": "保存しました",
+    "newName": "新しい支払い方法",
+    "name": "名前",
+    "namePh": "三井住友カード、App Store トルコ…",
+    "url": "Web サイト / チャージページ",
+    "urlPh": "https://（任意）",
+    "kind": "種類",
+    "bank": "銀行",
+    "bankDetected": "名前から検出",
+    "bankAuto": "名前から検出",
+    "logoBuiltIn": "{kind}は公式ロゴを使用します",
+    "currency": "通貨",
+    "network": "カードブランド",
+    "networkNone": "非表示",
+    "bankIcon": "銀行アイコン",
+    "bankSet": "手動で選択",
+    "bankHint": "銀行名を含めると自動検出されます",
+    "last4": "下4桁",
+    "region": "地域",
+    "phone": "電話番号",
+    "cashback": "還元 / ポイント",
+    "cashbackPh": "%（任意）",
+    "balanceGroup": "残高",
+    "balance": "現在の残高",
+    "optional": "任意",
+    "asOf": "基準日",
+    "expires": "残高の有効期限",
+    "spentSince": "設定後に {spent} 引き落とし済み、現在約 {current} です。",
+    "spentForfeit": "設定後に {spent} 引き落とし済み、{date} に {forfeit} 失効し、現在約 {current} です。",
+    "nextCharge": "{date} の {name}（{amount}）もこの残高から引き落とされ、残りは {after} です。すでに引き落とし済みなら先に記録してください。",
+    "todayIncluded": "今日の {name}（{amount}）はこの残高に反映済みとして扱います。まだ引き落とされていない場合は、明日更新してください。",
+    "lowAlert": "残高不足アラート",
+    "lowAlertOpt": {
+      "other": "{count}日前"
+    },
+    "lowAlertAria": "残高アラート",
+    "notes": "メモ"
+  },
+  "logo": {
+    "uploaded": "アップロード済み",
+    "link": "画像 URL",
+    "favicon": "Web サイトのアイコン",
+    "bank": "銀行アイコン",
+    "none": "未設定（頭文字を表示）",
+    "upload": "アップロード",
+    "linkBtn": "URL",
+    "clear": "クリア",
+    "wide": "横長ロゴ"
+  },
+  "delete": {
+    "title": "「{name}」を削除",
+    "usedBy": "{count} 件のサブスクがこの支払い方法を使っています。",
+    "usedInHistory": "ほかに {count} 件のサブスクの履歴で使われています。",
+    "isDefault": "新しいサブスクの既定の支払い方法です。",
+    "moveTo": "参照の移行先",
+    "clear": "クリア（支払い方法なし）",
+    "clearHint": "これを使うプランは支払い方法なしになります。これで記録した請求は各プランに従います。これを含む分割払いは分割されなくなります。"
+  }
+}

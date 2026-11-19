@@ -1,0 +1,258 @@
+{
+  "note": {
+    "more": "Xem toàn bộ"
+  },
+  "renewal": {
+    "afterTrial": "Lần trừ tiền đầu sau dùng thử",
+    "elapsed": "Đã qua {pct}% kỳ này"
+  },
+  "overlap": {
+    "title": "Đang chạy song song",
+    "previous": "Gói trước",
+    "until": "Đến {date}\n{rel}"
+  },
+  "action": {
+    "edit": "Sửa",
+    "pause": "Tạm dừng",
+    "resume": "Tiếp tục",
+    "manage": "Quản lý",
+    "share": "Chia sẻ",
+    "copyImage": "Sao chép thành ảnh"
+  },
+  "toast": {
+    "resumed": "Đã tiếp tục thanh toán",
+    "paused": "Đã tạm dừng. Các khoản phí sắp tới sẽ không được dự kiến",
+    "imageCopied": "Đã sao chép ảnh"
+  },
+  "snapshotRest": "{count} mục khác",
+  "history": "Lịch sử",
+  "field": {
+    "amount": "Số tiền",
+    "cycle": "Chu kỳ thanh toán",
+    "category": "Danh mục",
+    "method": "Phương thức thanh toán",
+    "next": "Kỳ thanh toán tới",
+    "expiresHint": "Tự động gia hạn sẽ trừ tiền trước ngày này",
+    "endedOn": "Kết thúc ngày",
+    "trialEnd": "Hết dùng thử",
+    "region": "Khu vực",
+    "period": "Thời gian",
+    "present": "nay",
+    "endedUnknown": "Đã kết thúc; chưa rõ ngày"
+  },
+  "up": {
+    "planned": "Dự định thay đổi\nchưa xác nhận",
+    "starting": "Sắp bắt đầu",
+    "changing": "Thay đổi sắp tới",
+    "effective": "Ngày hiệu lực"
+  },
+  "plan": {
+    "drop": "Không chuyển",
+    "droppedToast": "Sẽ không chuyển. Kết thúc sau {date}",
+    "confirm": "Xác nhận chuyển",
+    "confirmedToast": "Đã xác nhận chuyển"
+  },
+  "intro": {
+    "title": "Ưu đãi mở đầu",
+    "price": "Giá ưu đãi",
+    "until": "Ưu đãi kết thúc",
+    "then": "Sau đó"
+  },
+  "share": {
+    "open": "Xem nhóm",
+    "owner": "Chia sẻ\ntôi làm chủ nhóm ({count}/{seats})",
+    "member": "Chia sẻ\ntôi tham gia",
+    "payTo": "Trả cho",
+    "host": "Chủ nhóm",
+    "unnamed": "Chưa đặt tên",
+    "me": "Tôi"
+  },
+  "charges": {
+    "recentN": "Chỉ {count} lần gần nhất",
+    "addShort": "Ghi",
+    "title": "Khoản phí",
+    "paidOn": "Trả ngày {date}",
+    "kind": {
+      "refund": "Hoàn tiền",
+      "adjust": "Điều chỉnh",
+      "failed": "Thất bại"
+    },
+    "add": "Thêm bản ghi (hoàn tiền, điều chỉnh, trừ tiền thất bại, số tiền trên thẻ…)"
+  },
+  "stats": {
+    "spent": "Tổng chi",
+    "count": {
+      "other": "{count} khoản phí"
+    },
+    "owned": "Đã sở hữu",
+    "subscribed": "Đã đăng ký",
+    "yearsMonths": "{years} năm {months} tháng",
+    "years": {
+      "other": "{count} năm"
+    },
+    "months": {
+      "other": "{count} tháng"
+    },
+    "days": {
+      "other": "{count} ngày"
+    },
+    "gaps": {
+      "other": "Gián đoạn {count} lần"
+    },
+    "perMonth": "Thực chi mỗi tháng",
+    "spentThisYear": "Chi năm nay",
+    "allTime": "Tổng {amount}"
+  },
+  "tab": {
+    "charges": "Lần trừ tiền\n{count}",
+    "details": "Chi tiết"
+  },
+  "kpi": {
+    "noGaps": "Không gián đoạn",
+    "startedToday": "Bắt đầu hôm nay",
+    "expectedMonthly": "Dự kiến mỗi tháng",
+    "amortizedCost": "Chi phí phân bổ",
+    "perMonthValue": "{amount}/tháng",
+    "perDay": "{amount} mỗi ngày",
+    "thisYearMonthly": "Năm nay mỗi tháng",
+    "averageMonthly": "Trung bình {amount}/tháng",
+    "dailyAmount": "{amount}/ngày"
+  },
+  "chart": {
+    "title": "Mỗi lần trừ\n{ccy}",
+    "all": "Tất cả",
+    "y1": "1 năm",
+    "m6": "6 tháng",
+    "period": "Kỳ",
+    "converted": "Quy đổi",
+    "average": "Trung bình",
+    "method": "Thanh toán",
+    "paidOn": "Đã trả",
+    "bucket": {
+      "m1": "Mỗi cột là tổng một tháng",
+      "m3": "Mỗi cột là tổng một quý",
+      "m12": "Mỗi cột là tổng một năm"
+    },
+    "regular": "Giá gốc",
+    "saved": "Ưu đãi kỳ đầu",
+    "unknownEnd": "Chưa rõ ngày kết thúc; biểu đồ chỉ hiển thị phạm vi thanh toán đã biết"
+  },
+  "ev": {
+    "next": "Lần trừ tiếp theo",
+    "gap": "Gián đoạn",
+    "start": "Bắt đầu đăng ký",
+    "switch": "Đổi gói",
+    "price": "Đổi giá",
+    "introEnd": "Về giá thường",
+    "paused": "Tạm dừng",
+    "ended": "Đã kết thúc",
+    "ending": "Sắp kết thúc",
+    "phases": "{count} giai đoạn",
+    "more": "Xem {count} mục trước",
+    "shareStart": "Bắt đầu dùng chung"
+  },
+  "stop": {
+    "title": "Dừng dịch vụ và hoàn tiền",
+    "type": "Loại dừng dịch vụ",
+    "paidThrough": "Ngày cuối đã trả ban đầu",
+    "loss": "−{money} ({days})"
+  },
+  "timeline": {
+    "planned": "Dự kiến"
+  },
+  "period": {
+    "paid": "Kỳ hiện tại",
+    "trial": "Dùng thử",
+    "bonus": "Thời gian tặng",
+    "since": "Từ {date}",
+    "sub": "Kỳ đăng ký",
+    "collect": "Kỳ thu tiền"
+  },
+  "transfer": {
+    "title": "Chuyển nhượng",
+    "held": "Nắm giữ",
+    "net": "Chi phí ròng",
+    "included": "Gồm chuyển nhượng",
+    "kind": {
+      "label": "Loại",
+      "buy": "Mua vào",
+      "sell": "Bán ra"
+    },
+    "hint": {
+      "buy": "Tiền trả cho chủ cũ khi nhận lại (gồm phần chênh). Nhập số tiền thực trả.",
+      "sell": "Tiền nhận được khi chuyển cho người khác. Nhập số tiền thực nhận; thời gian còn lại không còn tính là đã trả mà chưa dùng."
+    },
+    "paid": "Số tiền đã trả",
+    "received": "Số tiền đã nhận",
+    "addTitle": "Ghi chuyển nhượng",
+    "editTitle": "Sửa chuyển nhượng",
+    "saved": "Đã lưu chuyển nhượng",
+    "deleted": "Xóa chuyển nhượng này",
+    "foot": "Tiền thực trả hoặc nhận khi nhận lại hay chuyển đi một dịch vụ đã qua sử dụng. Tính vào chi phí ròng và dòng tiền, không tính vào chi phí hằng tháng, dự báo gia hạn hay số lần trừ tiền.",
+    "add": "Ghi",
+    "none": "Chưa có chuyển nhượng",
+    "netGain": "Thu ròng",
+    "head": {
+      "date": "Ngày",
+      "amount": "Số tiền",
+      "base": "Quy đổi {ccy}"
+    }
+  },
+  "billing": {
+    "postpaid": "Trả sau",
+    "nextBill": "Hóa đơn tiếp theo"
+  },
+  "meters": {
+    "title": "Chi tiết sử dụng",
+    "add": "Thêm dữ liệu sử dụng",
+    "manage": "Chỉ số",
+    "manageTitle": "Chỉ số dữ liệu sử dụng",
+    "addTitle": "Ghi giá trị",
+    "editTitle": "Sửa bản ghi",
+    "name": "Tên",
+    "unit": "Đơn vị",
+    "namePh": "vd. Điện, Quãng đường, Lưu lượng",
+    "unitPh": "vd. kWh, km, GB",
+    "usage": "Lượng dùng mỗi kỳ",
+    "reading": "Số đọc lũy kế",
+    "kindFoot": "Lượng dùng mỗi kỳ: nhập lượng đã dùng mỗi lần. Số đọc lũy kế: nhập số trên đồng hồ (như đồng hồ công-tơ-mét); lượng dùng là chênh lệch giữa hai lần đọc.",
+    "linkGroup": "Liên kết chỉ số từ gói đăng ký khác",
+    "linkFoot": "Giá trị chỉ được lưu một lần, dù bạn ghi từ gói đăng ký nào. Xóa liên kết không làm mất dữ liệu.",
+    "linkFrom": "Từ “{name}”",
+    "linkGone": "Gói đăng ký hoặc chỉ số nguồn đã bị xóa nên không có dữ liệu để hiển thị.",
+    "unlink": "Xóa liên kết",
+    "asOf": "Tính đến {date}",
+    "newMeter": "Thêm chỉ số",
+    "suggest": "Đã dùng ở gói khác",
+    "removeConfirm": "Xóa {names} cũng sẽ xóa các giá trị đã ghi. Tiếp tục?",
+    "dupName": "Tên chỉ số không được trùng",
+    "valuesFoot": "Đơn giá = chi phí thực tế của kỳ ÷ lượng dùng. Hóa đơn trả sau được tính vào kỳ mà nó thanh toán.",
+    "saved": "Đã lưu dữ liệu sử dụng",
+    "readingValue": "Số đọc {v}",
+    "head": {
+      "date": "Ngày",
+      "usage": "Lượng dùng"
+    },
+    "readingsCount": "{n} bản ghi",
+    "deleteReadings": "Xóa {n} bản ghi",
+    "removeMeters": "Xóa chỉ số và giá trị của chúng",
+    "latest": "Gần nhất",
+    "latestOf": "{name} gần nhất",
+    "average": "Trung bình mỗi kỳ",
+    "avgPrice": "Đơn giá trung bình",
+    "totalLabel": "Tổng",
+    "periods": "{n} kỳ",
+    "noTrend": "Chưa đủ kỳ để hiển thị xu hướng",
+    "latestPrice": "Gần nhất {v}",
+    "since": "Từ {date}"
+  },
+  "settlement": {
+    "due": "Đến hạn",
+    "overdue": "Quá hạn",
+    "partial": "Đã trả một phần",
+    "prepaid": "Đã trả trước",
+    "this": "Khoản này",
+    "earliest": "Chưa trả lâu nhất",
+    "owed": "Nợ {count} kỳ"
+  }
+}

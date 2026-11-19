@@ -1,0 +1,257 @@
+{
+  "ph": {
+    "account": "登录邮箱、手机号或用户名",
+    "phone": "手机号码"
+  },
+  "overlap": {
+    "keep": "旧的继续用一段时间",
+    "keepHint": "旧的已经预付、还没到期：两段并行，各自照常计费",
+    "keepUntil": "旧的用到",
+    "endAuto": "随下一段开始",
+    "planned": "计划",
+    "parallel": {
+      "other": "并行 {count} 天"
+    },
+    "payPhase": "记在哪一段"
+  },
+  "addTitle": "添加订阅",
+  "editTitle": "编辑「{name}」",
+  "clearForm": "清空表单",
+  "revert": "撤销修改",
+  "draftRestored": "已恢复上次未保存的内容",
+  "confirmDelete": "删除「{name}」？历史记录会一并清除；只是不再续费的话，建议选择「停止」。",
+  "toast": {
+    "added": "已添加",
+    "saved": "已保存",
+    "deleted": "已删除"
+  },
+  "cycle": {
+    "w1": "每周",
+    "m1": "每月",
+    "m3": "每季度",
+    "m6": "每半年",
+    "y1": "每年",
+    "y2": "每两年",
+    "lt": "买断",
+    "custom": "自定义…"
+  },
+  "unit": {
+    "label": "单位",
+    "every": "每",
+    "day": "天",
+    "week": "周",
+    "month": "个月",
+    "year": "年"
+  },
+  "status": {
+    "active": "计费中",
+    "trial": "试用中",
+    "paused": "已暂停",
+    "cancelled": "已退订",
+    "terminated": "已停用",
+    "stop": "停止"
+  },
+  "category": {
+    "choose": "选择分类",
+    "new": "新建分类…"
+  },
+  "group": {
+    "billing": "计费",
+    "status": "状态",
+    "who": "谁在用",
+    "links": "链接与外观",
+    "tags": "标签与备注"
+  },
+  "field": {
+    "account": "账号",
+    "phone": "手机号",
+    "category": "分类",
+    "amount": "金额",
+    "currency": "币种",
+    "cycle": "周期",
+    "method": "支付方式",
+    "purchased": "购买日期",
+    "start": "开始日期",
+    "region": "地区",
+    "trialEnd": "试用截止",
+    "end": "到期不续",
+    "notSet": "不设置",
+    "notes": "备注",
+    "optional": "可选",
+    "url": "网站",
+    "manageUrl": "管理页",
+    "icon": "图标",
+    "auto": "自动",
+    "showDomain": "公开页显示域名",
+    "showDomainOn": "访客能看到完整域名",
+    "showDomainOff": "公开页打码显示",
+    "tagsPlaceholder": "空格分隔",
+    "notesPlaceholder": "备注，可选",
+    "pausedAt": "暂停日",
+    "plan": "套餐",
+    "iconImported": "输入网址或 emoji 可替换",
+    "iconImage": "图片图标",
+    "iconUpload": "上传",
+    "iconChange": "更换图标",
+    "iconUploadHelp": "上传 PNG/JPEG/WebP（最大 8 MB），会缩成 128px；也可拖入或粘贴图片",
+    "iconClear": "清除",
+    "iconUploadInvalid": "无法使用这张图片：请选择 8 MB 以内的 PNG/JPEG/WebP",
+    "iconUploadTooLarge": "图片压缩后仍超过 64 KB：换一张更简单的图片（如透明底 logo）试试",
+    "billing": "付费方式",
+    "settlement": "账单与缴费分开记"
+  },
+  "share": {
+    "none": "自用",
+    "owner": "我发起",
+    "member": "我加入",
+    "proxy": "代付",
+    "memberHint": "金额填你自己那一份",
+    "perHead": "人均 {amount}",
+    "ownerName": "发起人",
+    "ownerPlaceholder": "付给谁",
+    "perPeriod": "每期份额",
+    "paidUntil": "已付至",
+    "manageHint": "保存后在「合租」里打开这个合租，添加成员、记收款。"
+  },
+  "proxy": {
+    "for": "替谁付",
+    "forPlaceholder": "对方称呼",
+    "contact": "联系方式",
+    "notePlaceholder": "如：同事，月底转账"
+  },
+  "more": {
+    "title": "更多选项",
+    "intro": "首期优惠",
+    "bonus": "赠送时长",
+    "remind": "提醒",
+    "links": "链接",
+    "tags": "标签",
+    "notes": "备注",
+    "summary": "首期优惠、赠送时长、提醒、链接、标签、备注",
+    "summaryLt": "链接、标签、备注"
+  },
+  "intro": {
+    "has": "有首期优惠",
+    "price": "优惠价",
+    "until": "优惠截止"
+  },
+  "bonus": {
+    "has": "有赠送时长",
+    "from": "赠送开始",
+    "until": "赠送到",
+    "resume": "{date} 起恢复扣款",
+    "quick": {
+      "d7": "送 7 天",
+      "m1": "送 1 个月",
+      "m3": "送 3 个月",
+      "m6": "送 半年",
+      "y1": "送 1 年"
+    }
+  },
+  "remind": {
+    "days": "提前天数",
+    "default": "默认（{count} 天）",
+    "defaultSameDay": "默认（到期当天）",
+    "defaultNever": "默认（不提醒）",
+    "sameDay": "到期当天",
+    "before": "提前 {count} 天",
+    "never": "不提醒"
+  },
+  "name": {
+    "placeholder": "名称，或粘贴 App Store 链接",
+    "catalog": "常用服务\n带出 logo、分类和官网"
+  },
+  "change": {
+    "title": "历程与变更",
+    "needPrice": "请填写价格",
+    "toast": {
+      "price": "已记录调价，点「{done}」后生效",
+      "switch": "已添加新阶段，点「{done}」后生效",
+      "resume": "已续订，点「{done}」后生效"
+    },
+    "price": "记录调价",
+    "switch": "换区 / 换套餐 / 换支付方式",
+    "resume": "续订",
+    "undo": "撤回最近一个阶段",
+    "priceDate": "新价格生效日",
+    "switchDate": "切换生效日",
+    "resumeDate": "续订日期",
+    "newPrice": "新价格（{currency}）",
+    "priceLabel": "价格",
+    "planned": "还没确定，只是计划",
+    "plannedHint": "照常算进预测，详情里会标「计划」，到时一键确认或取消",
+    "credit": "抵扣原套餐剩余 {amount}",
+    "renewal": "下次扣款 {date}",
+    "renewalReset": "从生效日重算",
+    "renewalKeep": "保持原扣款日",
+    "firstPay": "首期实付（{currency}）",
+    "adjustPay": "补差（{currency}）"
+  },
+  "history": {
+    "gapMonths": "断更 {count} 个月",
+    "gapDays": "断更 {count} 天",
+    "plannedRange": "{start} → {end}（计划）",
+    "plannedFrom": "{start} 起（计划）",
+    "range": "{start} → {end}",
+    "now": "至今",
+    "initial": "起始",
+    "priceChange": "{date} 调价",
+    "outsidePayments": "将有 {count} 笔已有扣款落在服务期之外。保留原日期、金额和所属阶段，继续修改？",
+    "editPrice": "编辑 {date} 生效的价格",
+    "deletePrice": "删除这条调价记录？此前价格将沿用至下次调价。",
+    "repriceCharges": "保存后将重新推算 {count} 笔历史预计扣款，实付记录保持原样。继续保存？"
+  },
+  "payment": {
+    "addTitle": "记一笔",
+    "editTitle": "修改扣款记录",
+    "toast": {
+      "added": "已记下这笔",
+      "edited": "已修改这笔记录",
+      "deleted": "已删除这笔记录"
+    },
+    "date": "日期",
+    "kind": {
+      "label": "类型",
+      "charge": "扣款",
+      "refund": "退款",
+      "adjust": "补差",
+      "failed": "扣款失败"
+    },
+    "amount": "金额（{currency}）",
+    "refundHint": "填退回多少，保存为负数",
+    "settledCcy": "实扣币种",
+    "settledAmount": "实扣金额",
+    "orderAmount": "订单金额",
+    "usageFoot": "记在这笔的计费周期 {period}",
+    "earlyHint": "这笔算提前续费：结清 {settles} 这一期，下一期 {next}。",
+    "earlyExtra": "这是额外费用",
+    "freezeHint": "这一段目前按周期推算扣款；保存后会先把到今天为止推算出的 {amount} 各期固化成记录，以后完全以记录为准，未来的扣款照旧。",
+    "method": "支付方式",
+    "scopeOne": "只改这一笔",
+    "scopePhase": "这一段 {count} 笔",
+    "scope": "改哪些",
+    "split": "拆分付款",
+    "unsplit": "单一来源",
+    "sources": "付款来源",
+    "addSource": "添加来源",
+    "splitOk": "合计 {amount}，与金额一致",
+    "splitLeft": "还差 {amount} 未分配"
+  },
+  "timeline": {
+    "home": "回到今天（也可以在时间线上双击）"
+  },
+  "ai": {
+    "title": "用 AI 识别",
+    "hint": "粘贴收据、截图或一段文字，自动整理好",
+    "go": "粘贴识别"
+  },
+  "plan": {
+    "choose": {
+      "other": "App Store 有 {count} 个套餐"
+    }
+  },
+  "billing": {
+    "prepaid": "先付费",
+    "postpaid": "后付费"
+  }
+}

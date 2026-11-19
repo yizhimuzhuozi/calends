@@ -1,0 +1,140 @@
+{
+  "overlap": {
+    "note": "{what} {date} tarihine kadar birlikte devam ediyor"
+  },
+  "search": "Ara",
+  "title": "Tüm abonelikler",
+  "all": "Tümü",
+  "summary": {
+    "one": "{count} öğe\n{monthly}/ay\n{yearly}/yıl",
+    "other": "{count} öğe\n{monthly}/ay\n{yearly}/yıl"
+  },
+  "status": {
+    "upcoming": "Başlamadı",
+    "active": "Etkin",
+    "trial": "Denemede",
+    "trialShort": "Deneme",
+    "paused": "Duraklatıldı",
+    "pausedShort": "Duraklatıldı",
+    "ending": "Yenilenmeyecek",
+    "ended": "İptal edildi",
+    "lifetime": "Ömür boyu",
+    "terminated": "Kapatıldı"
+  },
+  "proxyExcluded": "Başkası için ödendi\nsayılmaz",
+  "perMonthApprox": "≈ {amount}/ay",
+  "originalPrice": "Normal fiyat {amount}",
+  "view": {
+    "grid": "Kartlar",
+    "list": "Liste",
+    "gantt": "Zaman çizelgesi"
+  },
+  "sort": {
+    "label": "Sırala",
+    "next": "Sonraki ödeme",
+    "cost": "Aylık maliyet",
+    "amount": "Tutar",
+    "name": "Ad",
+    "category": "Kategori",
+    "method": "Ödeme yöntemi",
+    "start": "Başlangıç tarihi",
+    "asc": "Artan",
+    "desc": "Azalan"
+  },
+  "add": "Abonelik ekle",
+  "clear": "Temizle",
+  "facet": {
+    "status": "Durum",
+    "category": "Kategori",
+    "pay": "Ödeme"
+  },
+  "unassigned": "Atanmamış",
+  "empty": "Eşleşen abonelik yok",
+  "badge": {
+    "share": "Ortak",
+    "joined": "Katıldım",
+    "proxy": "Başkası için",
+    "proxyFor": "{name} için ödendi",
+    "someone": "birisi",
+    "parallel": "Paralel"
+  },
+  "col": {
+    "name": "Abonelik",
+    "category": "Kategori",
+    "method": "Ödeme yöntemi",
+    "amount": "Tutar",
+    "monthly": "Aylık",
+    "start": "Başlangıç",
+    "next": "Sonraki ödeme",
+    "planPrice": "Plan fiyatı",
+    "inBase": "{ccy} karşılığı"
+  },
+  "notCounted": "Sayılmaz",
+  "endedOn": "{date} sona erdi",
+  "change": {
+    "noMethod": "Ödeme yöntemi belirsiz",
+    "planned": "Planlandı\n",
+    "starts": "Başlangıç: {when}",
+    "from": "Değişiklik: {when}"
+  },
+  "proxyBadge": {
+    "owed": {
+      "one": "Başkası için\n{count} borç",
+      "other": "Başkası için\n{count} borç"
+    },
+    "owedFor": {
+      "one": "{name} için\n{count} borç",
+      "other": "{name} için\n{count} borç"
+    },
+    "settled": "Başkası için\nödeşildi",
+    "settledFor": "{name} için\nödeşildi"
+  },
+  "gantt": {
+    "months": {
+      "one": "{count} ay",
+      "other": "{count} ay"
+    },
+    "days": {
+      "one": "{count} gün",
+      "other": "{count} gün"
+    },
+    "noRegion": "Bölge yok",
+    "zoom3m": "3A",
+    "zoom6m": "6A",
+    "zoom1y": "1Y",
+    "zoom3y": "3Y",
+    "byMethod": "Ödemeye göre",
+    "byRegion": "Bölgeye göre",
+    "gapTitle": "{span} ara: {from} – {to}",
+    "gapShort": "{span} ara",
+    "lifetimeSuffix": " ömür boyu",
+    "present": "şimdi",
+    "plannedSuffix": "\nplanlandı",
+    "introPrefix": "Tanıtım teklifi\n",
+    "introShort": "Tanıtım ",
+    "planned": "Planlandı",
+    "gap": "Ara",
+    "earlier": "Önceki",
+    "later": "Sonraki",
+    "backToNow": "Bugüne dön",
+    "resize": "Ad sütununu boyutlandırmak için sürükleyin\nsıfırlamak için çift tıklayın"
+  },
+  "kind": {
+    "debit": "Banka kartı",
+    "credit": "Kredi kartı",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "paypal": "PayPal",
+    "appstore": "App Store bakiyesi",
+    "googleplay": "Google Play bakiyesi",
+    "giftcard": "Hediye kartı",
+    "prepaid": "Mağaza bakiyesi",
+    "phone": "Hat bakiyesi",
+    "crypto": "Kripto kart",
+    "other": "Diğer"
+  },
+  "network": {
+    "unionpay": "UnionPay"
+  },
+  "monthlySame": "Fiyatla aynı"
+}

@@ -1,0 +1,150 @@
+{
+  "overlap": {
+    "note": "{what} действует параллельно до {date}"
+  },
+  "search": "Поиск",
+  "title": "Все подписки",
+  "all": "Все",
+  "summary": {
+    "one": "{count} подписка\n{monthly}/мес.\n{yearly}/год",
+    "few": "{count} подписки\n{monthly}/мес.\n{yearly}/год",
+    "many": "{count} подписок\n{monthly}/мес.\n{yearly}/год",
+    "other": "{count} подписки\n{monthly}/мес.\n{yearly}/год"
+  },
+  "status": {
+    "upcoming": "Не началась",
+    "active": "Активна",
+    "trial": "Пробный период",
+    "trialShort": "Пробная",
+    "paused": "Приостановлена",
+    "pausedShort": "Пауза",
+    "ending": "Не продлевается",
+    "ended": "Отменена",
+    "lifetime": "Навсегда",
+    "terminated": "Отключено"
+  },
+  "proxyExcluded": "Оплата за других\nне учитывается",
+  "perMonthApprox": "≈ {amount}/мес.",
+  "originalPrice": "Было {amount}",
+  "view": {
+    "grid": "Карточки",
+    "list": "Список",
+    "gantt": "Шкала"
+  },
+  "sort": {
+    "label": "Сортировка",
+    "next": "Следующее списание",
+    "cost": "Стоимость в месяц",
+    "amount": "Сумма",
+    "name": "Название",
+    "category": "Категория",
+    "method": "Способ оплаты",
+    "start": "Дата начала",
+    "asc": "По возрастанию",
+    "desc": "По убыванию"
+  },
+  "add": "Добавить подписку",
+  "clear": "Сбросить",
+  "facet": {
+    "status": "Статус",
+    "category": "Категория",
+    "pay": "Оплата"
+  },
+  "unassigned": "Не указан",
+  "empty": "Подходящих подписок нет",
+  "badge": {
+    "share": "Совместная",
+    "joined": "Участвую",
+    "proxy": "Оплата за других",
+    "proxyFor": "Оплата за {name}",
+    "someone": "кого-то",
+    "parallel": "Параллельно"
+  },
+  "col": {
+    "name": "Подписка",
+    "category": "Категория",
+    "method": "Способ оплаты",
+    "amount": "Сумма",
+    "monthly": "В месяц",
+    "start": "Начало",
+    "next": "Следующее списание",
+    "planPrice": "Цена тарифа",
+    "inBase": "В {ccy}"
+  },
+  "notCounted": "Не учитывается",
+  "endedOn": "Завершена {date}",
+  "change": {
+    "noMethod": "Способ оплаты не выбран",
+    "planned": "В планах\n",
+    "starts": "Начнётся {when}",
+    "from": "Изменится {when}"
+  },
+  "proxyBadge": {
+    "owed": {
+      "one": "Оплата за других\nк оплате {count}",
+      "few": "Оплата за других\nк оплате {count}",
+      "many": "Оплата за других\nк оплате {count}",
+      "other": "Оплата за других\nк оплате {count}"
+    },
+    "owedFor": {
+      "one": "Оплата за {name}\nк оплате {count}",
+      "few": "Оплата за {name}\nк оплате {count}",
+      "many": "Оплата за {name}\nк оплате {count}",
+      "other": "Оплата за {name}\nк оплате {count}"
+    },
+    "settled": "Оплата за других\nрассчитались",
+    "settledFor": "Оплата за {name}\nрассчитались"
+  },
+  "gantt": {
+    "months": {
+      "one": "{count} месяц",
+      "few": "{count} месяца",
+      "many": "{count} месяцев",
+      "other": "{count} месяца"
+    },
+    "days": {
+      "one": "{count} день",
+      "few": "{count} дня",
+      "many": "{count} дней",
+      "other": "{count} дня"
+    },
+    "noRegion": "Без региона",
+    "zoom3m": "3 мес.",
+    "zoom6m": "6 мес.",
+    "zoom1y": "1 г.",
+    "zoom3y": "3 г.",
+    "byMethod": "По оплате",
+    "byRegion": "По региону",
+    "gapTitle": "Перерыв {span}: {from} – {to}",
+    "gapShort": "Перерыв {span}",
+    "lifetimeSuffix": " навсегда",
+    "present": "сейчас",
+    "plannedSuffix": "\nв планах",
+    "introPrefix": "Вводное предложение\n",
+    "introShort": "Вводная ",
+    "planned": "В планах",
+    "gap": "Перерыв",
+    "earlier": "Раньше",
+    "later": "Позже",
+    "backToNow": "Вернуться к сегодня",
+    "resize": "Перетащите, чтобы изменить ширину столбца названий\nдвойной щелчок — сброс"
+  },
+  "kind": {
+    "debit": "Банковская карта",
+    "credit": "Кредитная карта",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "paypal": "PayPal",
+    "appstore": "Баланс App Store",
+    "googleplay": "Баланс Google Play",
+    "giftcard": "Подарочная карта",
+    "prepaid": "Баланс магазина",
+    "phone": "Баланс телефона",
+    "crypto": "Криптокарта",
+    "other": "Другое"
+  },
+  "network": {
+    "unionpay": "UnionPay"
+  },
+  "monthlySame": "Равно цене"
+}

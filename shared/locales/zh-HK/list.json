@@ -1,0 +1,125 @@
+{
+  "overlap": {
+    "note": "{what} 並行至 {date}"
+  },
+  "search": "搜尋訂閱",
+  "title": "全部訂閱",
+  "all": "全部",
+  "summary": "{count} 項\n每月 {monthly}\n每年 {yearly}",
+  "status": {
+    "upcoming": "未開始",
+    "active": "計費中",
+    "trial": "試用中",
+    "trialShort": "試用",
+    "paused": "已暫停",
+    "pausedShort": "暫停",
+    "ending": "到期不續",
+    "ended": "已退訂",
+    "lifetime": "買斷",
+    "terminated": "已停用"
+  },
+  "proxyExcluded": "代付\n不計入支出",
+  "perMonthApprox": "≈ {amount}/月",
+  "originalPrice": "原價 {amount}",
+  "view": {
+    "grid": "卡片",
+    "list": "列表",
+    "gantt": "時間軸"
+  },
+  "sort": {
+    "label": "排序",
+    "next": "依下次扣款",
+    "cost": "依月成本",
+    "amount": "按金額",
+    "name": "依名稱",
+    "category": "依分類",
+    "method": "按支付方式",
+    "start": "依開始時間",
+    "asc": "遞增",
+    "desc": "遞減"
+  },
+  "add": "新增訂閱",
+  "clear": "清除",
+  "facet": {
+    "status": "狀態",
+    "category": "分類",
+    "pay": "付款"
+  },
+  "unassigned": "未指定",
+  "empty": "沒有符合的訂閱",
+  "badge": {
+    "share": "共享",
+    "joined": "已加入共享",
+    "proxy": "代付",
+    "proxyFor": "替{name}代付",
+    "someone": "他人",
+    "parallel": "並行"
+  },
+  "col": {
+    "name": "訂閱",
+    "category": "分類",
+    "method": "付款方式",
+    "amount": "金額",
+    "monthly": "月均",
+    "start": "開始",
+    "next": "下次扣款",
+    "planPrice": "方案價格",
+    "inBase": "折合 {ccy}"
+  },
+  "notCounted": "不計入",
+  "endedOn": "結束 {date}",
+  "change": {
+    "noMethod": "付款方式未定",
+    "planned": "計劃\n",
+    "starts": "{when}開始",
+    "from": "{when}起"
+  },
+  "proxyBadge": {
+    "owed": "代付\n待收 {count} 期",
+    "owedFor": "替{name}代付\n待收 {count} 期",
+    "settled": "代付\n已結清",
+    "settledFor": "替{name}代付\n已結清"
+  },
+  "gantt": {
+    "months": "{count} 個月",
+    "days": "{count} 天",
+    "noRegion": "未標地區",
+    "zoom3m": "3月",
+    "zoom6m": "半年",
+    "zoom1y": "1年",
+    "zoom3y": "3年",
+    "byMethod": "依付款方式",
+    "byRegion": "依地區",
+    "gapTitle": "中斷 {span}：{from} – {to}",
+    "gapShort": "中斷 {span}",
+    "lifetimeSuffix": " 買斷",
+    "present": "至今",
+    "plannedSuffix": "\n計劃中",
+    "introPrefix": "首期優惠\n",
+    "introShort": "首期 ",
+    "planned": "計劃中",
+    "gap": "中斷",
+    "earlier": "往前",
+    "later": "往後",
+    "backToNow": "回到現在",
+    "resize": "拖曳調整名稱欄闊度\n按兩下還原預設"
+  },
+  "kind": {
+    "debit": "扣帳卡",
+    "credit": "信用卡",
+    "alipay": "支付寶",
+    "wechat": "微信支付",
+    "paypal": "PayPal",
+    "appstore": "App Store 餘額",
+    "googleplay": "Google Play 餘額",
+    "giftcard": "禮品卡",
+    "prepaid": "商家餘額",
+    "phone": "手機話費",
+    "crypto": "加密卡",
+    "other": "其他"
+  },
+  "network": {
+    "unionpay": "銀聯"
+  },
+  "monthlySame": "同標價"
+}

@@ -1,0 +1,74 @@
+{
+  "tab": {
+    "plans": "プラン",
+    "people": "相手"
+  },
+  "stat": {
+    "owed": "未回収",
+    "owedSub": "{count} 人が未払い",
+    "allSettled": "全員精算済み",
+    "received": "受取累計",
+    "receivedSub": "共有プランと立て替えの合計",
+    "count": "人数",
+    "countSub": "共有 {share}、立て替え {proxy}"
+  },
+  "empty": {
+    "title": "まだ誰もいません",
+    "body": "共有プランにメンバーを追加するか、立て替えの相手を設定すると、ここに人ごとの未回収額がまとまります。"
+  },
+  "card": {
+    "noContact": "連絡先なし",
+    "nothing": "共有も立て替えもなし",
+    "past": "ほか {count} 件は終了"
+  },
+  "kind": {
+    "share": "共有",
+    "proxy": "立て替え"
+  },
+  "item": {
+    "noPay": "未入金",
+    "owedPeriods": "{count} 期分未払い",
+    "left": "退出済み",
+    "ended": "停止済み"
+  },
+  "sheet": {
+    "owed": "未回収",
+    "received": "受取累計",
+    "last": "最終入金",
+    "in": "{count} 件に参加",
+    "inEmpty": "共有にも立て替えにも含まれていません。削除できます。",
+    "profile": "プロフィール",
+    "notePh": "例：同僚、月末に振込",
+    "color": "カラー",
+    "customColor": "カスタムカラー",
+    "syncFoot": "呼び名や連絡先を変えると、{count} か所すべてに反映されます。",
+    "merge": "統合先",
+    "mergePick": "選択…",
+    "mergeConfirm": "「{from}」を「{into}」に統合しますか？{from} の共有と立て替えはすべて {into} に移り、呼び名と連絡先は {into} のものになります。",
+    "merged": "{name} に統合しました",
+    "accountMissing": "このメンバー関係は存在しません。詳細を開き直してください。"
+  },
+  "pick": {
+    "new": "新しい相手",
+    "aria": "相手を選択"
+  },
+  "field": {
+    "person": "相手",
+    "editProfile": "人物情報を編集",
+    "noContact": "連絡先なし"
+  },
+  "avatar": {
+    "label": "アイコン",
+    "change": "アバターを変更",
+    "help": "PNG・JPEG・WebP 画像をクリック、ドロップ、貼り付け（最大 8 MB）。",
+    "remove": "アバターを削除",
+    "fallbackColor": "代替色"
+  },
+  "list": {
+    "none": "該当する人はいません"
+  },
+  "add": {
+    "saved": "人を追加しました",
+    "exists": "「{name}」はすでに登録されています"
+  }
+}

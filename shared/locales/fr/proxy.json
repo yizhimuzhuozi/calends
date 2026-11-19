@@ -1,0 +1,134 @@
+{
+  "filter": {
+    "all": "Tous",
+    "live": "En cours",
+    "owe": "À encaisser",
+    "ended": "Terminés",
+    "none": "Aucune avance ne correspond"
+  },
+  "title": "Payé pour d’autres",
+  "status": {
+    "active": "Actif",
+    "ending": "Se termine",
+    "ended": "Arrêté"
+  },
+  "owedPeriods": {
+    "one": "{count} paiement dû",
+    "other": "{count} paiements dus"
+  },
+  "viewSub": "Voir l’abonnement",
+  "stoppedOn": "\narrêté le {date}",
+  "nextOn": "\nprochain le {date}",
+  "payFor": "Pour {name}",
+  "unset": "non défini",
+  "paidPeriods": {
+    "one": "{count} prélèvement payé",
+    "other": "{count} prélèvements payés"
+  },
+  "received": "Reçu",
+  "owed": "Dû",
+  "settled": "Réglé",
+  "detailTitle": "Payé pour d’autres",
+  "cardCcy": "\ncarte débitée en {ccy}",
+  "forWhom": "Payé pour",
+  "method": "Moyen de paiement",
+  "stoppedAt": "Arrêté le",
+  "nextCharge": "Prochain prélèvement",
+  "note": "Note",
+  "table": {
+    "cost": "Coût à l’époque",
+    "total": "Total\n{count}",
+    "receivedOn": "Reçu le {date}",
+    "date": "Date du prélèvement",
+    "charged": "Prélevé",
+    "received": "Reçu",
+    "diff": "Bénéfice/perte",
+    "record": "Saisir",
+    "even": "Équilibré",
+    "none": "Aucun prélèvement pour l’instant.",
+    "title": "Paiements",
+    "notCharged": "Pas encore prélevé"
+  },
+  "entry": {
+    "markedDue": "Marqué comme dû",
+    "saved": "Enregistré",
+    "title": "Prélèvement du {date}",
+    "markDue": "Marquer comme dû",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "chargedRate": "Environ {amount} au taux du jour du prélèvement",
+    "chargedBlank": "Laissez vide pour utiliser le prix catalogue de {list}",
+    "amount": "Montant",
+    "currency": "Devise",
+    "paidBack": "{name} m’a remboursé",
+    "paidBackAnon": "Remboursé",
+    "receivedEmpty": "Laissez vide si rien n’a encore été reçu.",
+    "receivedEven": "{amount} au taux du jour de réception, égal au prélèvement.",
+    "receivedMore": "{amount} au taux du jour de réception, {diff} de plus que le prélèvement.",
+    "receivedLess": "{amount} au taux du jour de réception, {diff} de moins que le prélèvement.",
+    "notReceived": "Non reçu",
+    "receivedOn": "Reçu le",
+    "notePlaceholder": "Facultatif, ex. virement bancaire"
+  },
+  "page": {
+    "owedSub": {
+      "one": "{count} impayé, aux taux du jour du prélèvement",
+      "other": "{count} impayés, aux taux du jour du prélèvement"
+    },
+    "subs": {
+      "one": "{count} abonnement",
+      "other": "{count} abonnements"
+    },
+    "diffSub": "Bénéfice/perte dû aux taux de change et aux frais sur les paiements reçus",
+    "emptyTitle": "Aucun paiement pour d’autres",
+    "emptyBody": "Créez ou modifiez un abonnement, choisissez « Je paie pour » dans « Qui l’utilise » et indiquez pour qui.",
+    "liveNext": "Actifs : {count}, prochain prélèvement {date}",
+    "lastIn": "Dernier reçu le {date}",
+    "noneIn": "Aucun paiement reçu pour l’instant",
+    "diffAvg": "{count} remboursés, {amount} en moyenne par période",
+    "perPeriod": "{amount} en moyenne par période",
+    "owedRate": "Au taux du jour du prélèvement",
+    "prepaid": {
+      "one": "Plus {amount} prépayé pour {count} paiement à venir",
+      "other": "Plus {amount} prépayé pour {count} paiements à venir"
+    }
+  },
+  "paid": "Avancé",
+  "periods": {
+    "one": "{count} période",
+    "other": "{count} périodes"
+  },
+  "lastIn": "Dernier {date}",
+  "prepaidTo": "Prépayé jusqu’au {date}",
+  "receipt": {
+    "add": "Enregistrer un paiement",
+    "title": "Enregistrer un paiement",
+    "covers": "Couvre",
+    "from": "À partir de",
+    "periods": "Paiements couverts",
+    "owedTag": "prélevé, non remboursé",
+    "coversFootOne": "Couvre le paiement du {from}.",
+    "coversFootMany": {
+      "one": "Couvre {count} paiement du {from} au {to}.",
+      "other": "Couvre {count} paiements du {from} au {to}, en ignorant ceux déjà reçus. Le montant est réparti à parts égales et le bénéfice/perte calculé par paiement."
+    },
+    "total": "Montant reçu",
+    "perFoot": "{per} par paiement.",
+    "baseFoot": "{amount} au taux du jour de réception.",
+    "none": "Aucun paiement dû ou à venir.",
+    "undo": "Annuler ce remboursement",
+    "batchFoot": "Fait partie d’un remboursement couvrant plusieurs périodes. Pour modifier le montant ou les périodes, annulez-le puis enregistrez-le à nouveau.",
+    "perPeriod": {
+      "one": "{count} paiement, {amount}",
+      "other": "{count} paiements, {amount} chacun"
+    }
+  },
+  "convert": {
+    "maybeGroup": "Peut-être payé pour un tiers",
+    "submit": "Convertir en paiement pour un tiers",
+    "title": "Convertir {name} en paiement pour un tiers",
+    "saved": "Converti en paiement pour un tiers",
+    "changed": "Cet abonnement a été modifié ou supprimé. Rouvrez-le et réessayez."
+  },
+  "stop": "Arrêter de payer pour cette personne"
+}

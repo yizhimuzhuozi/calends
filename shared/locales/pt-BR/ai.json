@@ -1,0 +1,99 @@
+{
+  "title": "Acesso por IA",
+  "newToken": "Novo token",
+  "mcpUrl": "URL do MCP",
+  "urlCopied": "URL copiada",
+  "copy": "Copiar",
+  "copied": "Copiado",
+  "copyFailed": "Não foi possível copiar",
+  "neverUsed": "Nunca usado",
+  "tokenPlaceholder": "<seu-token>",
+  "tokens": {
+    "one": "Tokens\n{count}",
+    "other": "Tokens\n{count}"
+  },
+  "noTokens": "Nenhum token ainda. Crie um e entregue ao assistente de IA que você quer conectar.",
+  "lastUsed": "Último uso {time}",
+  "confirmRevoke": "Revogar “{name}”? Os assistentes de IA que o usam perderão o acesso na hora.",
+  "revoke": "Revogar",
+  "revoked": "Revogado",
+  "setup": "Configuração",
+  "tools": {
+    "one": "Ferramentas disponíveis\n{count}",
+    "other": "Ferramentas disponíveis\n{count}"
+  },
+  "clientOther": "Outro",
+  "scope": {
+    "write": "Leitura e escrita",
+    "read": "Somente leitura",
+    "label": "Permissão",
+    "writeDesc": "Consultar e gerenciar assinaturas, pagamentos, recebimentos, carteiras, pessoas, categorias e configurações do registro.",
+    "readDesc": "Apenas consultar. Não pode alterar nada."
+  },
+  "created": {
+    "title": "Token criado",
+    "saved": "Já salvei",
+    "foot": "Este token é exibido só uma vez e não poderá ser visto de novo depois de fechar. Se perdê-lo, revogue e crie outro.",
+    "tokenCopied": "Token copiado"
+  },
+  "cancel": "Cancelar",
+  "generate": "Criar",
+  "name": "Nome",
+  "namePlaceholder": "Para qual IA é este token?",
+  "pickClient": "Escolha seu assistente de IA",
+  "tokensHint": "Dê a cada assistente um token próprio para poder revogá-lo separadamente.",
+  "toolsHint": "O que os assistentes podem fazer com seu registro. Tokens somente leitura veem apenas as ferramentas de leitura.",
+  "toolsRead": "Leitura",
+  "toolsWrite": "Escrita",
+  "experimental": "Experimental",
+  "copiedWithToken": "Copiado, com o token incluído",
+  "installIn": "Adicionar ao {name}",
+  "createdAt": "Criado {time}",
+  "where": {
+    "terminal": "Execute isto no seu terminal.",
+    "codex": "Execute isto no seu terminal. Adicione a linha export ao perfil do seu shell para o token continuar valendo após reiniciar.",
+    "file": "Adicione isto a {path}.",
+    "grokbot": "No Grok Bot, abra Ajustes → Plugins, adicione um servidor MCP e preencha nome, URL e cabeçalho abaixo. O Grok Bot roda na nuvem, então o endereço precisa ser público.",
+    "http": "Qualquer cliente MCP compatível com Streamable HTTP. Esta é uma requisição de teste rápida."
+  },
+  "via": {
+    "command": "Comando no terminal",
+    "install": "Instalação com um clique",
+    "file": "Arquivo de configuração",
+    "settings": "Ajustes do app",
+    "http": "Qualquer cliente MCP"
+  },
+  "step": {
+    "token": "Token",
+    "tokenReady": "Usando “{name}”, incluído no trecho abaixo",
+    "tokenNeeded": "Tokens são exibidos só uma vez.",
+    "createFor": "Criar um token para {name}",
+    "send": "Enviar para {name}"
+  },
+  "status": {
+    "on": "O acesso por IA está ativado",
+    "off": "O acesso por IA está desativado",
+    "onHint": "Um token válido permite que o assistente de IA acesse o registro conforme as permissões atribuídas.",
+    "offHint": "Todas as requisições MCP são recusadas até você reativar."
+  },
+  "promptLabel": "Prompt",
+  "copyConfigOnly": "Copiar só a configuração",
+  "configCopied": "Configuração copiada",
+  "agentPrompt": "Conecte meu registro de assinaturas Calends como um servidor MCP chamado \"calends\". {where}\n\n{code}\n\nQuando estiver pronto, chame a ferramenta {verify} para confirmar que funciona e me diga quantas assinaturas ativas eu tenho.",
+  "col": {
+    "name": "Nome",
+    "key": "Chave",
+    "created": "Criado",
+    "lastUsed": "Último uso"
+  },
+  "domain": {
+    "overview": "Visão geral e estatísticas",
+    "subs": "Assinaturas e planos",
+    "charges": "Cobranças",
+    "wallet": "Carteira e formas de pagamento",
+    "people": "Planos compartilhados e pagos por outros",
+    "categories": "Categorias",
+    "settings": "Configurações",
+    "other": "Outros"
+  }
+}

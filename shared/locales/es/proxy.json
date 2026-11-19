@@ -1,0 +1,134 @@
+{
+  "filter": {
+    "all": "Todos",
+    "live": "Activos",
+    "owe": "Pendientes",
+    "ended": "Finalizados",
+    "none": "Ningún pago por otros coincide"
+  },
+  "title": "Pagos por otros",
+  "status": {
+    "active": "Activo",
+    "ending": "Termina",
+    "ended": "Detenido"
+  },
+  "owedPeriods": {
+    "one": "{count} pago pendiente",
+    "other": "{count} pagos pendientes"
+  },
+  "viewSub": "Ver suscripción",
+  "stoppedOn": "\ndetenido {date}",
+  "nextOn": "\npróximo {date}",
+  "payFor": "Para {name}",
+  "unset": "sin definir",
+  "paidPeriods": {
+    "one": "{count} cobro pagado",
+    "other": "{count} cobros pagados"
+  },
+  "received": "Recibido",
+  "owed": "Pendiente",
+  "settled": "Al día",
+  "detailTitle": "Pago por otros",
+  "cardCcy": "\nla tarjeta liquida en {ccy}",
+  "forWhom": "Para quién",
+  "method": "Método de pago",
+  "stoppedAt": "Detenido el",
+  "nextCharge": "Próximo cobro",
+  "note": "Nota",
+  "table": {
+    "cost": "Coste entonces",
+    "total": "Total\n{count}",
+    "receivedOn": "Recibido {date}",
+    "date": "Fecha de cobro",
+    "charged": "Cobrado",
+    "received": "Recibido",
+    "diff": "Ganancia/pérdida",
+    "record": "Registrar",
+    "even": "Igual",
+    "none": "Aún no hay cobros.",
+    "title": "Pagos",
+    "notCharged": "Aún sin cobrar"
+  },
+  "entry": {
+    "markedDue": "Marcado como pendiente",
+    "saved": "Guardado",
+    "title": "Cobro del {date}",
+    "markDue": "Marcar como pendiente",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "chargedRate": "Unos {amount} al tipo de cambio de la fecha de cobro",
+    "chargedBlank": "Déjalo en blanco para usar el precio de lista de {list}",
+    "amount": "Importe",
+    "currency": "Moneda",
+    "paidBack": "{name} me lo devolvió",
+    "paidBackAnon": "Me lo devolvieron",
+    "receivedEmpty": "Déjalo en blanco si aún no lo has recibido.",
+    "receivedEven": "{amount} al tipo de cambio de la fecha de recepción, igual que lo cobrado.",
+    "receivedMore": "{amount} al tipo de cambio de la fecha de recepción, {diff} más que lo cobrado.",
+    "receivedLess": "{amount} al tipo de cambio de la fecha de recepción, {diff} menos que lo cobrado.",
+    "notReceived": "No recibido",
+    "receivedOn": "Recibido el",
+    "notePlaceholder": "Opcional, p. ej. transferencia bancaria"
+  },
+  "page": {
+    "owedSub": {
+      "one": "{count} sin pagar, al tipo de cambio de la fecha de cobro",
+      "other": "{count} sin pagar, al tipo de cambio de la fecha de cobro"
+    },
+    "subs": {
+      "one": "{count} suscripción",
+      "other": "{count} suscripciones"
+    },
+    "diffSub": "Ganancia/pérdida por tipos de cambio y comisiones en los pagos recibidos",
+    "emptyTitle": "Aún no has pagado nada por otros",
+    "emptyBody": "Crea o edita una suscripción, elige «Pago por otro» en «Quién la usa» e indica para quién es.",
+    "liveNext": "Activos: {count}, próximo cobro {date}",
+    "lastIn": "Último cobro {date}",
+    "noneIn": "Aún no se han recibido pagos",
+    "diffAvg": "{count} devueltos, {amount} de media por periodo",
+    "perPeriod": "{amount} de media por periodo",
+    "owedRate": "Al tipo del día del cobro",
+    "prepaid": {
+      "one": "Además {amount} prepagado para {count} pago próximo",
+      "other": "Además {amount} prepagado para {count} pagos próximos"
+    }
+  },
+  "paid": "Adelantado",
+  "periods": {
+    "one": "{count} periodo",
+    "other": "{count} periodos"
+  },
+  "lastIn": "Último {date}",
+  "prepaidTo": "Prepagado hasta {date}",
+  "receipt": {
+    "add": "Registrar cobro",
+    "title": "Registrar cobro",
+    "covers": "Cubre",
+    "from": "Desde",
+    "periods": "Pagos cubiertos",
+    "owedTag": "cobrado, pendiente",
+    "coversFootOne": "Cubre el pago del {from}.",
+    "coversFootMany": {
+      "one": "Cubre {count} pago del {from} al {to}.",
+      "other": "Cubre {count} pagos del {from} al {to}, omitiendo los ya recibidos. El importe se reparte por igual y la ganancia/pérdida se calcula por pago."
+    },
+    "total": "Importe recibido",
+    "perFoot": "{per} por pago.",
+    "baseFoot": "{amount} al tipo del día de recepción.",
+    "none": "No hay pagos pendientes ni próximos.",
+    "undo": "Deshacer este cobro",
+    "batchFoot": "Forma parte de un cobro que cubre varios periodos. Para cambiar importe o periodos, deshazlo y regístralo de nuevo.",
+    "perPeriod": {
+      "one": "{count} pago, {amount}",
+      "other": "{count} pagos, {amount} cada uno"
+    }
+  },
+  "convert": {
+    "maybeGroup": "Posibles pagos por otros",
+    "submit": "Convertir en pago por otra persona",
+    "title": "Convertir {name} en pago por otra persona",
+    "saved": "Convertido en pago por otra persona",
+    "changed": "Esta suscripción se ha modificado o eliminado. Vuelve a abrirla e inténtalo de nuevo."
+  },
+  "stop": "Dejar de pagar por esta persona"
+}

@@ -1,0 +1,252 @@
+{
+  "currency": {
+    "SLE": "Sierra Leonean Leone",
+    "XCG": "Caribbean guilder",
+    "ZWG": "Zimbabwe Gold"
+  },
+  "bill": {
+    "m1": "Monthly",
+    "m3": "Quarterly",
+    "m6": "Every 6 months",
+    "m12": "Yearly",
+    "custom": {
+      "one": "Every {count} month",
+      "other": "Every {count} months"
+    },
+    "once": "One-time"
+  },
+  "cycle": {
+    "lifetime": "Lifetime",
+    "once": "once",
+    "every": {
+      "day": "Daily",
+      "week": "Weekly",
+      "month": "Monthly",
+      "year": "Yearly"
+    },
+    "quarterly": "Quarterly",
+    "halfYearly": "Every 6 months",
+    "biennial": "Every 2 years",
+    "everyN": {
+      "day": {
+        "one": "Every {count} day",
+        "other": "Every {count} days"
+      },
+      "week": {
+        "one": "Every {count} week",
+        "other": "Every {count} weeks"
+      },
+      "month": {
+        "one": "Every {count} month",
+        "other": "Every {count} months"
+      },
+      "year": {
+        "one": "Every {count} year",
+        "other": "Every {count} years"
+      }
+    }
+  },
+  "subError": {
+    "name": "Name is required",
+    "price": "Invalid price",
+    "paymentCurrency": "Payment currency must match the plan currency",
+    "start": "Invalid start date",
+    "cycle": "Invalid billing cycle",
+    "refundAmount": "Enter a positive refund amount and a valid currency",
+    "refundDate": "Set a leave date; the refund date cannot precede joining",
+    "funding": "Invalid split payment: use at least two different payment methods with non-zero amounts, and no single payment method on the same charge",
+    "fundingSum": "The split amounts must add up to the payment amount",
+    "transfer": "Invalid transfer: type, date, a positive amount and currency are required",
+    "meter": "Invalid meter: each needs a unique id and a name",
+    "reading": "Invalid meter record: each needs a unique id, a valid date and numeric values",
+    "meterLink": "The linked meter does not exist or is itself linked",
+    "meterLinkUsed": "“{meter}” is linked by “{name}”; remove that link first",
+    "readingMeter": "A meter record refers to a meter that is not defined"
+  },
+  "phase": {
+    "switchTooEarly": "The effective date must be after the current phase starts",
+    "resumeNeedsStopDate": "Enter the actual stop date and save before resuming",
+    "resumeTooEarly": "The resume date can't be earlier than the last end date",
+    "prependTooLate": "The earlier phase must start before the subscription's start date",
+    "prependUntil": "The earlier phase must end after it starts and before the original start date",
+    "priceOutOfRange": "The price change date isn't within any phase",
+    "keepTooEarly": "The keep-until date must be after the switch date",
+    "endTooEarly": "The end date must be after this phase's start date",
+    "endOnNextStart": "The end date is the last day of service and can't be the next phase's start date; leave it empty or use the day before to continue into the next phase",
+    "startOrder": "Phase starts must stay strictly between the adjacent phase starts.",
+    "priceDuplicate": "A price point already exists on this date",
+    "priceInitial": "The initial price cannot be deleted",
+    "upgradeUnavailable": "This switch can’t credit the old plan: it must already be in effect, use the same currency and prepaid billing, and the old plan must have unused days left. Keeping the billing date also needs the same cycle."
+  },
+  "event": {
+    "label": "{region}{price}/{per}",
+    "region": "{region} ",
+    "per": {
+      "year": "yr",
+      "month": "mo",
+      "months": "{count} mo",
+      "week": "wk",
+      "day": "day"
+    }
+  },
+  "listSep": ", ",
+  "insight": {
+    "yearly": {
+      "title": {
+        "one": "{count} long-term subscription renews within 60 days",
+        "other": "{count} long-term subscriptions renew within 60 days"
+      },
+      "body": "About {sum} in total. Annual charges are hard to refund, so now is the time to decide what stays."
+    },
+    "dup": {
+      "title": "{names} may be duplicates",
+      "body": {
+        "one": "This subscription costs about {sum} a month. Check whether you still need it.",
+        "other": "These {count} subscriptions cost about {sum} a month together. Check whether you still need all of them."
+      }
+    },
+    "hikes": {
+      "title": {
+        "one": "{count} subscription raised its price in the past year",
+        "other": "{count} subscriptions raised their prices in the past year"
+      }
+    },
+    "intro": {
+      "title": {
+        "one": "{name}'s promo ends in {count} day",
+        "other": "{name}'s promo ends in {count} days"
+      },
+      "body": "After that, the price goes from {from} back to {to}."
+    },
+    "balance": {
+      "title": "{name} won't last until {date}",
+      "body": "{sub} needs {need}, with only {current} left by then.",
+      "bodyOver": "{sub} needs {need}, and the balance is already {current}.",
+      "bodyToday": "After today's {sub} ({need}), the balance is {current}."
+    },
+    "fx": {
+      "title": "{pct}% of spending is in foreign currencies",
+      "body": "The largest is {ccy} ({share}%). This part gets cheaper when {ccy} weakens, and pricier when it strengthens."
+    },
+    "noMethod": {
+      "title": {
+        "one": "{count} subscription has no payment method",
+        "other": "{count} subscriptions have no payment method"
+      },
+      "body": "Add one so balance forecasts and per-method stats are complete."
+    },
+    "top": {
+      "title": "{name} is your most expensive subscription",
+      "body": "About {perDay} a day, {pct}% of monthly spending."
+    }
+  },
+  "methodKind": {
+    "debit": "Bank card",
+    "credit": "Credit card",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "paypal": "PayPal",
+    "appstore": "App Store",
+    "googleplay": "Google Play",
+    "giftcard": "Gift card",
+    "prepaid": "Store balance",
+    "phone": "Mobile credit",
+    "crypto": "Crypto card",
+    "other": "Other"
+  },
+  "publicMethod": "{kind}\n{region}",
+  "channel": {
+    "email": "Email"
+  },
+  "csv": {
+    "appStoreBalance": "App Store {region} balance",
+    "otherCategory": "Other"
+  },
+  "category": {
+    "ai": "AI",
+    "tools": "Tools",
+    "productivity": "Productivity",
+    "media": "Video",
+    "music": "Music",
+    "games": "Games",
+    "cloud": "Cloud & Servers",
+    "storage": "Storage",
+    "domains": "Domains",
+    "vpn": "VPN & Network",
+    "developer": "Developer",
+    "design": "Design",
+    "education": "Education",
+    "news": "News & Reading",
+    "social": "Social",
+    "shopping": "Shopping",
+    "finance": "Finance",
+    "insurance": "Insurance",
+    "health": "Health & Fitness",
+    "phone": "Phone & Mobile",
+    "daily": "Lifestyle"
+  },
+  "stop": {
+    "title": "Stop service",
+    "nonrenew": "Do not renew",
+    "cancel": "Stop immediately",
+    "terminate": "Disabled by provider",
+    "date": "Stop date",
+    "paidThrough": "Paid through {date}",
+    "refundYes": "Refunded",
+    "refundNo": "Unrefunded",
+    "refundAmount": "Refund amount",
+    "refundDate": "Refund date",
+    "reason": "Reason (optional)",
+    "refunded": "Refunded {money}",
+    "partial": "Partial refund {money}",
+    "unrefunded": "No refund\nLoss {money}",
+    "unused": "Unrefunded loss: {money} ({days})",
+    "unusedTitle": "Unrefunded",
+    "terminated": "Terminated",
+    "restore": "Reactivate",
+    "fxMissing": "Some loss amounts cannot be converted because exchange rates are missing. Original amounts are shown below.",
+    "lossTitle": "Unrefunded loss",
+    "lossDays": {
+      "one": "{count} day",
+      "other": "{count} days"
+    },
+    "fullyRefunded": "Fully refunded",
+    "chargeOnEnd": "This day is still a renewal charge. Pick the day before to avoid it.",
+    "nonrenewDone": "Set to not renew. No charges after {date}.",
+    "stoppedDone": "Service stopped",
+    "method": "Stop method",
+    "latestRefundHint": "These fields edit the latest refund. Earlier refunds stay in payment history."
+  },
+  "renewal": {
+    "title": "Renewal rules",
+    "chargeLeadDays": "Charge in advance",
+    "cancelLeadDays": "Cancel in advance",
+    "nextDue": "Next charge date",
+    "hint": "Domains often renew days before they expire; Apple subscriptions must be cancelled before the charge. Only the charge date and cancel deadline change; the service period stays the same.",
+    "cancelBy": "Cancel by",
+    "invalid": "Enter whole numbers from 0 to 3660 days.",
+    "tooLate": "The cancellation deadline has passed. The next period will still be charged.",
+    "cancelReminder": "Cancel by {date} to avoid the next charge.",
+    "none": "None"
+  },
+  "import": {
+    "invalid": "This file could not be read as subscription data.",
+    "tooLarge": "Choose a file no larger than 32 MB.",
+    "pending": "This backup has pending database changes. Create a consistent database backup first.",
+    "currency": "Choose the currency; the source symbol is ambiguous or unsupported.",
+    "cycle": "Choose a valid billing cycle.",
+    "price": "Enter a valid non-negative amount.",
+    "date": "Enter a valid date.",
+    "selectUser": "Choose one account from this backup.",
+    "payers": "Paid by",
+    "unknownStart": "Original start date is unknown; recording starts on the selected date.",
+    "manual": "Manual renewal in the source; imported as paused.",
+    "reviewRequired": "Open this file through Import data to review its fields.",
+    "badDate": "Original {field} \"{value}\" was not recognized and was not imported",
+    "nextDue": "next payment date",
+    "end": "end date"
+  },
+  "fxIncomplete": "Some amounts can’t be converted because exchange rates are missing, so this is incomplete.",
+  "fxUnconverted": "Unconverted: {amount}",
+  "fxOther": "and {count} other currencies"
+}

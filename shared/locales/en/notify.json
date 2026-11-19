@@ -1,0 +1,120 @@
+{
+  "previewEmpty": "No reminders to send today.",
+  "appName": "Calends",
+  "trial": {
+    "sub": "Trial ends {when} ({date}), then {price}",
+    "headline": "{name} trial ends {when}"
+  },
+  "renew": {
+    "introEnds": "Intro price ends, back to regular price",
+    "headline": "{name} renews {when} for {price}",
+    "billHeadline": "{name} bills {when}: {price}"
+  },
+  "ending": {
+    "sub": "Ends {when}, won't renew",
+    "headline": "{name} ends {when}"
+  },
+  "carpool": {
+    "dueIn": "Due {when} ({date})",
+    "dueToday": "Due today",
+    "overdue": {
+      "one": "{count} day overdue",
+      "other": "{count} days overdue"
+    },
+    "sub": "{status}\nnext period: {bill}",
+    "headline": "Time to collect from {member} for {name}"
+  },
+  "proxy": {
+    "someone": "Someone",
+    "chargedToday": "Charged on their behalf today",
+    "chargedAgo": {
+      "one": "Charged {date}, {count} day ago",
+      "other": "Charged {date}, {count} days ago"
+    },
+    "sub": "{status}, not repaid yet",
+    "headlineToday": "Paid {sub} for {name}",
+    "headlineUnpaid": "{name} hasn't repaid {sub}"
+  },
+  "balance": {
+    "sub": "Only {left} left by {date}, not enough for {sub} ({amount})",
+    "subSince": "Set to {calibrated} on {asOf}, {spent} charged since. Only {left} left by {date}, not enough for {sub} ({amount})",
+    "subOver": "Balance is already {left}, not enough for {sub} ({amount}) on {date}",
+    "subForfeit": "{forfeit} expired on {expires}; only {left} left by {date}, not enough for {sub} ({amount})",
+    "headline": "{name} balance running low",
+    "expiring": "Expires {date}; about {amount} will be forfeited",
+    "expiringHeadline": "{name} balance expiring"
+  },
+  "section": {
+    "renew": "Upcoming charges",
+    "trials": "Trials ending",
+    "balance": "Low balance",
+    "carpool": "Shared plan payments",
+    "proxy": "Owed for paying on behalf",
+    "ending": "Ending soon",
+    "month": "This month's charges"
+  },
+  "daily": {
+    "subject": "Subscription reminder: {title}",
+    "title": "{headline}",
+    "titleMore": "{headline} + {more} more",
+    "intro": "You're spending {mrr} a month on subscriptions, with {count} active."
+  },
+  "monthly": {
+    "title": "About {sum} due in {month}",
+    "subject": {
+      "one": "{month} bill: about {sum}, {count} charge",
+      "other": "{month} bill: about {sum}, {count} charges"
+    },
+    "intro": "At your current subscriptions, that is about {arr} a year."
+  },
+  "email": {
+    "open": "Open Calends",
+    "footer": "You can change the reminder time and lead days in Settings.",
+    "why": "You're receiving this because email reminders are turned on in {app}.",
+    "off": "To stop them, turn off the email channel in Settings → Notification channels.",
+    "settings": "Reminder settings",
+    "total": "Total this month",
+    "testNote": "This is a test email confirming that the email channel works. Real reminders list upcoming charges here.",
+    "noCharges": "No charges are expected this month.",
+    "kind": {
+      "daily": "Reminder",
+      "monthly": "Monthly bill",
+      "test": "Test"
+    },
+    "stat": {
+      "sum": "Expected",
+      "count": "Charges",
+      "mrr": "Monthly spend"
+    }
+  },
+  "text": {
+    "heading": "[{heading}]"
+  },
+  "send": {
+    "noChannel": "Channel not found",
+    "noneEnabled": "No notification channels are turned on",
+    "alreadySent": "Already sent today",
+    "failure": "{channel}: {error}",
+    "failureSep": "; "
+  },
+  "test": {
+    "subject": "[Test] {subject}",
+    "sampleSubject": "[Test] Subscription reminders are ready",
+    "sampleIntro": "Your notification channel is working."
+  },
+  "channel": {
+    "missing": "“{channel}” is missing {field}",
+    "field": {
+      "to": "a recipient email",
+      "botToken": "a bot token",
+      "chatId": "a chat ID",
+      "webhook": "a webhook URL",
+      "deviceKey": "a device key",
+      "topic": "a topic",
+      "sendKey": "a SendKey",
+      "url": "a URL"
+    },
+    "emailNotConfigured": "Email isn't set up on this server (needs the EMAIL binding and MAIL_FROM). Use another channel or see the README."
+  },
+  "sender": "Calends"
+}

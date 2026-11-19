@@ -1,0 +1,273 @@
+{
+  "ph": {
+    "account": "Email, telepon, atau nama pengguna",
+    "phone": "Nomor telepon"
+  },
+  "overlap": {
+    "keep": "Tetap pakai yang lama sementara",
+    "keepHint": "Sudah dibayar di muka dan belum habis: keduanya berjalan bersamaan dan ditagih seperti biasa",
+    "keepUntil": "Yang lama berjalan sampai",
+    "endAuto": "Saat fase berikutnya mulai",
+    "planned": "Rencana",
+    "parallel": {
+      "other": "Tumpang tindih {count} hari"
+    },
+    "payPhase": "Masuk ke fase"
+  },
+  "addTitle": "Tambah langganan",
+  "editTitle": "Edit “{name}”",
+  "clearForm": "Kosongkan formulir",
+  "revert": "Batalkan perubahan",
+  "draftRestored": "Draf yang belum disimpan dipulihkan",
+  "confirmDelete": "Hapus “{name}”? Riwayatnya juga akan dihapus. Jika Anda hanya berhenti memperpanjang, pilih Hentikan saja.",
+  "toast": {
+    "added": "Ditambahkan",
+    "saved": "Disimpan",
+    "deleted": "Dihapus"
+  },
+  "cycle": {
+    "w1": "Mingguan",
+    "m1": "Bulanan",
+    "m3": "Triwulanan",
+    "m6": "Per 6 bulan",
+    "y1": "Tahunan",
+    "y2": "Per 2 tahun",
+    "lt": "Seumur hidup",
+    "custom": "Kustom…"
+  },
+  "unit": {
+    "label": "Satuan",
+    "every": "Setiap",
+    "day": {
+      "other": "hari"
+    },
+    "week": {
+      "other": "minggu"
+    },
+    "month": {
+      "other": "bulan"
+    },
+    "year": {
+      "other": "tahun"
+    }
+  },
+  "status": {
+    "active": "Aktif",
+    "trial": "Uji coba",
+    "paused": "Dijeda",
+    "cancelled": "Dibatalkan",
+    "terminated": "Dinonaktifkan",
+    "stop": "Hentikan"
+  },
+  "category": {
+    "choose": "Pilih kategori",
+    "new": "Kategori baru…"
+  },
+  "group": {
+    "billing": "Tagihan",
+    "status": "Status",
+    "who": "Siapa yang memakai",
+    "links": "Tautan & tampilan",
+    "tags": "Tag & catatan"
+  },
+  "field": {
+    "account": "Akun",
+    "phone": "Nomor telepon",
+    "category": "Kategori",
+    "amount": "Jumlah",
+    "currency": "Mata uang",
+    "cycle": "Siklus tagihan",
+    "method": "Metode pembayaran",
+    "purchased": "Tanggal pembelian",
+    "start": "Tanggal mulai",
+    "region": "Wilayah",
+    "trialEnd": "Uji coba berakhir",
+    "end": "Berakhir pada",
+    "notSet": "Belum diatur",
+    "notes": "Catatan",
+    "optional": "Opsional",
+    "url": "Situs web",
+    "manageUrl": "Halaman kelola",
+    "icon": "Ikon",
+    "auto": "Otomatis",
+    "showDomain": "Tampilkan domain di halaman publik",
+    "showDomainOn": "Pengunjung melihat domain lengkap",
+    "showDomainOff": "Disamarkan di halaman publik",
+    "tagsPlaceholder": "Pisahkan dengan spasi",
+    "notesPlaceholder": "Catatan (opsional)",
+    "pausedAt": "Tanggal jeda",
+    "plan": "Paket",
+    "iconImported": "URL atau emoji untuk mengganti",
+    "iconImage": "Ikon gambar",
+    "iconUpload": "Unggah",
+    "iconChange": "Ganti ikon",
+    "iconUploadHelp": "Unggah PNG/JPEG/WebP (maks. 8 MB), diperkecil ke 128px; bisa juga seret atau tempel gambar",
+    "iconClear": "Hapus",
+    "iconUploadInvalid": "Gambar tidak dapat dipakai: pilih PNG/JPEG/WebP maksimal 8 MB",
+    "iconUploadTooLarge": "Gambar masih lebih dari 64 KB setelah dikompresi: coba gambar yang lebih sederhana, misalnya logo berlatar transparan",
+    "billing": "Pembayaran",
+    "settlement": "Catat tagihan dan pembayaran terpisah"
+  },
+  "share": {
+    "none": "Hanya saya",
+    "owner": "Saya pengelola",
+    "member": "Saya bergabung",
+    "proxy": "Talangan",
+    "memberHint": "Masukkan bagian Anda saja",
+    "perHead": "{amount} per orang",
+    "ownerName": "Pengelola",
+    "ownerPlaceholder": "Kepada siapa Anda membayar",
+    "perPeriod": "Bagian per periode",
+    "paidUntil": "Lunas hingga",
+    "manageHint": "Setelah disimpan, buka paket ini di Paket bersama untuk menambah anggota dan mencatat pembayaran."
+  },
+  "proxy": {
+    "for": "Ditalangi untuk",
+    "forPlaceholder": "Nama mereka",
+    "contact": "Kontak",
+    "notePlaceholder": "mis. Rekan kerja, bayar di akhir bulan"
+  },
+  "more": {
+    "title": "Opsi lainnya",
+    "intro": "Promo awal",
+    "bonus": "Waktu gratis",
+    "remind": "Pengingat",
+    "links": "Tautan",
+    "tags": "Tag",
+    "notes": "Catatan",
+    "summary": "Promo awal, waktu gratis, pengingat, tautan, tag, catatan",
+    "summaryLt": "Tautan, tag, catatan"
+  },
+  "intro": {
+    "has": "Promo awal",
+    "price": "Harga promo",
+    "until": "Promo berakhir"
+  },
+  "bonus": {
+    "has": "Waktu gratis",
+    "from": "Gratis mulai",
+    "until": "Gratis hingga",
+    "resume": "Tagihan berlanjut {date}",
+    "quick": {
+      "d7": "+7 hari",
+      "m1": "+1 bulan",
+      "m3": "+3 bulan",
+      "m6": "+6 bulan",
+      "y1": "+1 tahun"
+    }
+  },
+  "remind": {
+    "days": "Ingatkan saya",
+    "default": {
+      "other": "Default ({count} hari sebelumnya)"
+    },
+    "defaultSameDay": "Default (pada hari jatuh tempo)",
+    "defaultNever": "Default (tidak pernah)",
+    "sameDay": "Pada hari jatuh tempo",
+    "before": {
+      "other": "{count} hari sebelumnya"
+    },
+    "never": "Tidak pernah"
+  },
+  "name": {
+    "placeholder": "Nama, atau tempel tautan App Store",
+    "catalog": "Layanan populer\nmengisi logo, kategori, dan situs web"
+  },
+  "change": {
+    "title": "Riwayat & perubahan",
+    "needPrice": "Masukkan harga",
+    "toast": {
+      "price": "Perubahan harga dicatat. Ketuk “{done}” untuk menerapkan.",
+      "switch": "Fase baru ditambahkan. Ketuk “{done}” untuk menerapkan.",
+      "resume": "Berlangganan lagi. Ketuk “{done}” untuk menerapkan."
+    },
+    "price": "Catat perubahan harga",
+    "switch": "Ubah wilayah, paket, atau metode pembayaran",
+    "resume": "Berlangganan lagi",
+    "undo": "Urungkan fase terakhir",
+    "priceDate": "Harga baru mulai",
+    "switchDate": "Perubahan berlaku",
+    "resumeDate": "Berlangganan lagi pada",
+    "newPrice": "Harga baru ({currency})",
+    "priceLabel": "Harga",
+    "planned": "Belum pasti, baru rencana",
+    "plannedHint": "Tetap dihitung dalam perkiraan dan ditandai “Rencana” di detail. Nanti cukup satu ketukan untuk mengonfirmasi atau membatalkan.",
+    "credit": "Kreditkan sisa {amount} dari paket lama",
+    "renewal": "Tagihan berikutnya {date}",
+    "renewalReset": "Mulai ulang",
+    "renewalKeep": "Tetap tanggal",
+    "firstPay": "Pembayaran pertama ({currency})",
+    "adjustPay": "Selisih ({currency})"
+  },
+  "history": {
+    "gapMonths": {
+      "other": "Terputus {count} bulan"
+    },
+    "gapDays": {
+      "other": "Terputus {count} hari"
+    },
+    "plannedRange": "{start} → {end} (rencana)",
+    "plannedFrom": "Mulai {start} (rencana)",
+    "range": "{start} → {end}",
+    "now": "sekarang",
+    "initial": "Awal",
+    "priceChange": "Perubahan harga {date}",
+    "outsidePayments": "{count} pembayaran akan berada di luar masa layanan. Lanjutkan dengan tanggal, jumlah, dan tahap asli?",
+    "editPrice": "Edit harga berlaku {date}",
+    "deletePrice": "Hapus harga ini? Harga sebelumnya berlaku hingga perubahan berikutnya.",
+    "repriceCharges": "Menyimpan akan menghitung ulang {count} perkiraan tagihan lampau. Pembayaran tercatat tidak berubah. Lanjutkan?"
+  },
+  "payment": {
+    "addTitle": "Tambah pembayaran",
+    "editTitle": "Edit pembayaran",
+    "toast": {
+      "added": "Pembayaran ditambahkan",
+      "edited": "Pembayaran diperbarui",
+      "deleted": "Pembayaran dihapus"
+    },
+    "date": "Tanggal",
+    "kind": {
+      "label": "Jenis",
+      "charge": "Tagihan",
+      "refund": "Refund",
+      "adjust": "Penyesuaian",
+      "failed": "Tagihan gagal"
+    },
+    "amount": "Jumlah ({currency})",
+    "refundHint": "Masukkan jumlah yang di-refund; akan disimpan sebagai nilai negatif",
+    "settledCcy": "Mata uang kartu",
+    "settledAmount": "Jumlah di kartu",
+    "orderAmount": "Jumlah pesanan",
+    "usageFoot": "Dicatat untuk periode tagihan {period}",
+    "earlyHint": "Dihitung sebagai perpanjangan lebih awal: melunasi periode {settles}, berikutnya {next}.",
+    "earlyExtra": "Ini biaya tambahan",
+    "freezeHint": "Tagihan di fase ini saat ini diperkirakan dari siklus tagihan. Saat disimpan, {amount} tagihan perkiraan hingga hari ini akan diubah menjadi catatan; sejak itu, catatanlah yang menjadi acuan. Tagihan mendatang tidak berubah.",
+    "method": "Metode pembayaran",
+    "scopeOne": "Hanya tagihan ini",
+    "scopePhase": "Paket ini ({count})",
+    "scope": "Terapkan ke",
+    "split": "Bagi pembayaran",
+    "unsplit": "Satu metode",
+    "sources": "Dibayar dengan",
+    "addSource": "Tambah sumber",
+    "splitOk": "Total {amount}, sesuai jumlah",
+    "splitLeft": "Sisa dialokasikan: {amount}"
+  },
+  "timeline": {
+    "home": "Kembali ke hari ini (atau klik dua kali linimasa)"
+  },
+  "ai": {
+    "title": "Isi dengan AI",
+    "hint": "Tempel struk, tangkapan layar, atau teks, sisanya otomatis",
+    "go": "Tempel"
+  },
+  "plan": {
+    "choose": {
+      "other": "{count} paket App Store"
+    }
+  },
+  "billing": {
+    "prepaid": "Prabayar",
+    "postpaid": "Pascabayar"
+  }
+}

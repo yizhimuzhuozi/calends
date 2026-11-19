@@ -1,0 +1,270 @@
+{
+  "imagesSent": "Đã gửi {count} ảnh",
+  "clearChatsHint": "Xóa toàn bộ hội thoại trên máy chủ và thiết bị này. Không thể hoàn tác.",
+  "clearChats": "Xóa mọi cuộc trò chuyện",
+  "clearChatsConfirm": "Xóa mọi cuộc trò chuyện? Không thể hoàn tác.",
+  "clearChatsDone": "Đã xóa mọi cuộc trò chuyện",
+  "title": "Trợ lý AI",
+  "new": "Cuộc trò chuyện mới",
+  "settings": "Cài đặt AI",
+  "toBottom": "Xuống cuối",
+  "welcome": {
+    "variants": {
+      "v1": {
+        "title": "Gửi hóa đơn và ảnh chụp màn hình vào đây",
+        "body": "Dán biên lai App Store, tin nhắn trừ tiền, ảnh chụp trang đăng ký hoặc bất kỳ đoạn văn bản nào. Tôi sẽ tạo bản nháp gói đăng ký để bạn xác nhận. Bạn cũng có thể hỏi về chi tiêu."
+      },
+      "v2": {
+        "title": "Tiền tháng này đi đâu hết rồi?",
+        "body": "Hỏi tôi tháng này cần trả bao nhiêu, khoản nào tốn nhất hoặc năm nay đã chi bao nhiêu. Tôi sẽ tra trong sổ của bạn."
+      },
+      "v3": {
+        "title": "Có thông báo trừ tiền? Cứ gửi tôi",
+        "body": "Dán thông báo trừ tiền từ ngân hàng, ví điện tử hoặc nhà mạng. Tôi sẽ xác định gói đăng ký, số tiền và ghi lại khoản thanh toán."
+      },
+      "v4": {
+        "title": "Một ảnh chụp, cả trang gói đăng ký",
+        "body": "Gửi ảnh chụp danh sách đăng ký App Store hoặc trang thành viên. Tôi sẽ tách thành từng bản nháp cho mỗi gói để bạn xác nhận."
+      },
+      "v5": {
+        "title": "Tăng giá? Cho tôi biết từ khi nào",
+        "body": "Nói “Netflix từ tháng sau là 17.99”, tôi sẽ đổi giá từ ngày đó. Các khoản trừ tiền trước đây vẫn giữ nguyên."
+      },
+      "v6": {
+        "title": "Không muốn dùng tiếp? Chỉ cần nói",
+        "body": "Không gia hạn, dừng ngay hay bị nhà cung cấp khóa tài khoản: tôi phân biệt được và có thể ghi cả khoản hoàn tiền."
+      },
+      "v7": {
+        "title": "Tôi tính giúp phần tiền dùng chung",
+        "body": "Đang chia sẻ gói gia đình? Cho tôi biết phần của mỗi người và ai đã trả. Tôi sẽ theo dõi thành viên và tiền nhận được để bạn biết ai còn nợ bao nhiêu."
+      },
+      "v8": {
+        "title": "Tìm thấy bảng hóa đơn cả năm?",
+        "body": "Dán bảng hóa đơn theo tháng. Tôi sẽ tạo một gói đăng ký cho mỗi cột và ghi số tiền thực tế từng tháng vào lịch sử."
+      },
+      "v9": {
+        "title": "Có thể cắt bớt gói đăng ký nào?",
+        "body": "Hỏi tôi về các gói không dùng, trùng lặp hoặc tăng giá nhiều nhất. Tôi sẽ tìm trong sổ và lập danh sách các gói bạn có thể hủy."
+      },
+      "v10": {
+        "title": "Tuần sau có khoản nào bị trừ?",
+        "body": "Hỏi về các khoản sẽ trừ trong vài ngày tới hoặc phần còn lại của tháng. Tôi sẽ xếp theo ngày để bạn chuẩn bị trước."
+      },
+      "v11": {
+        "title": "Gói đăng ký bằng ngoại tệ cũng rõ ràng",
+        "body": "Giá tại cửa hàng Thổ Nhĩ Kỳ hay Nigeria vẫn được ghi bằng tiền gốc. Tôi quy đổi sang tiền tệ chính theo tỷ giá ngày đó và có thể ghi cả số tiền thực tế bị trừ trên thẻ."
+      },
+      "v12": {
+        "title": "Email biên lai: cứ sao chép toàn bộ",
+        "body": "Không cần chọn lọc chi tiết trong biên lai Apple, Google hay Spotify. Dán cả email, tôi sẽ tìm số tiền, chu kỳ và ngày thanh toán."
+      },
+      "v13": {
+        "title": "Thêm gói đăng ký đã dùng nhiều năm",
+        "body": "Nói “Dùng từ 2021, ban đầu 8, giờ 18”. Tôi sẽ bổ sung lịch sử giá để tổng chi tiêu của bạn được tính chính xác."
+      },
+      "v14": {
+        "title": "Năm nay tốn bao nhiêu cho các gói đăng ký?",
+        "body": "Hỏi về chi phí đăng ký năm nay, năm ngoái hoặc bất kỳ khoảng thời gian nào. Tôi sẽ chia theo danh mục hoặc phương thức thanh toán."
+      },
+      "v15": {
+        "title": "Đừng quên hủy trước khi hết dùng thử",
+        "body": "Cho tôi biết ngày kết thúc dùng thử. Tôi sẽ ghi lại để bạn nhận được nhắc nhở trước khi chuyển sang trả phí."
+      },
+      "v16": {
+        "title": "Trả hộ người khác? Ghi lại cho rõ",
+        "body": "Cho tôi biết nếu bạn trả tiền gói đăng ký hộ người khác. Tôi sẽ theo dõi riêng số tiền đã trả và số tiền đã nhận lại."
+      },
+      "v17": {
+        "title": "Đổi khu vực hay gói đăng ký?",
+        "body": "Chuyển từ cửa hàng Mỹ sang Thổ Nhĩ Kỳ, hay nâng cấp lên gói gia đình? Cho tôi biết ngày đổi. Tôi sẽ tính tiếp theo gói mới và giữ lại lịch sử cũ."
+      },
+      "v18": {
+        "title": "Cứ hỏi tự nhiên",
+        "body": "“Tôi dùng gói nào lâu nhất?” “Thẻ nào bị trừ nhiều tiền nhất?” Cứ hỏi, tôi sẽ tra sổ rồi trả lời."
+      },
+      "v19": {
+        "title": "Mỗi thay đổi đều do bạn xác nhận",
+        "body": "Tôi chỉ tạo bản nháp. Thêm gói, đổi giá hay ngừng dùng đều hiện thành thẻ để bạn xem. Chỉ khi bạn xác nhận mới lưu vào sổ."
+      },
+      "v20": {
+        "title": "Bắt đầu ghi sổ tại đây",
+        "body": "Gửi biên lai, ảnh chụp màn hình hoặc chỉ cần nói bạn đang đăng ký gì. Phần còn lại để tôi lo."
+      }
+    }
+  },
+  "suggest": {
+    "receipt": {
+      "title": "Dán một biên lai",
+      "hint": "App Store, Google Play hoặc email thanh toán",
+      "text": "Thêm biên lai này thành gói đăng ký giúp tôi:\n"
+    },
+    "screenshot": {
+      "title": "Gửi ảnh chụp màn hình",
+      "hint": "Trang quản lý gói hoặc trang hóa đơn, dán trực tiếp được",
+      "text": "Tìm các gói đăng ký trong ảnh chụp màn hình này:"
+    },
+    "month": {
+      "title": "Tháng này phải trả bao nhiêu?",
+      "hint": "Các khoản còn lại trong tháng, theo ngày trừ tiền",
+      "text": "Tháng này còn những gói đăng ký nào sẽ trừ tiền, tổng cộng bao nhiêu?"
+    },
+    "hikes": {
+      "title": "Gói nào vừa tăng giá?",
+      "hint": "Các gói đăng ký tăng giá trong năm qua",
+      "text": "Trong năm qua những gói đăng ký nào đã tăng giá, mỗi gói tăng bao nhiêu?"
+    }
+  },
+  "placeholder": "Dán văn bản hoặc ảnh chụp màn hình, hoặc hỏi bất cứ điều gì…",
+  "placeholderSetup": "Hãy cài đặt DeepSeek API Key trước",
+  "addImage": "Thêm ảnh",
+  "removeImage": "Xóa ảnh",
+  "send": "Gửi",
+  "stop": "Dừng",
+  "imageFailed": "Không đọc được ảnh",
+  "disclaimer": "Do DeepSeek tạo. Hãy kiểm tra số tiền và ngày trước khi thêm.",
+  "thinking": "Đang suy nghĩ…",
+  "thought": {
+    "other": "Đã suy nghĩ {count} giây"
+  },
+  "stopped": "Đã dừng",
+  "copy": "Sao chép",
+  "copied": "Đã sao chép",
+  "regenerate": "Tạo lại",
+  "retry": "Thử lại",
+  "applied": "Đã ghi vào sổ",
+  "tool": {
+    "running": "Đang chạy",
+    "done": "Xong",
+    "error": "Lỗi",
+    "input": "Đầu vào",
+    "output": "Kết quả"
+  },
+  "card": {
+    "draft": "Bản nháp gói đăng ký",
+    "start": "Ngày bắt đầu",
+    "today": "Hôm nay",
+    "next": "Các lần trừ tiền tới",
+    "add": "Thêm",
+    "confirm": "Xác nhận",
+    "edit": "Sửa rồi thêm",
+    "dismiss": "Bỏ qua",
+    "dismissed": "Đã bỏ qua",
+    "added": "Đã thêm",
+    "done": "Đã xong",
+    "view": "Xem",
+    "missing": "Không nhận ra {fields}, đã dùng giá trị mặc định, hãy kiểm tra",
+    "sep": ", ",
+    "filled": "Biểu tượng và liên kết lấy từ App Store",
+    "pendingCount": {
+      "other": "Còn {count} bản nháp chờ xác nhận"
+    },
+    "applyAll": "Xác nhận tất cả",
+    "history": "Lịch sử thanh toán",
+    "historyCount": "{count} lần",
+    "changes": "Xem thay đổi và tham chiếu",
+    "unverified": "Kiểm tra kết quả"
+  },
+  "error": {
+    "auth": "API Key không hợp lệ",
+    "balance": "Số dư tài khoản DeepSeek không đủ",
+    "rate": "Yêu cầu quá nhiều, hãy thử lại sau ít phút",
+    "params": "Tham số yêu cầu không hợp lệ",
+    "server": "Dịch vụ DeepSeek đang tạm gặp sự cố",
+    "network": "Lỗi kết nối mạng",
+    "config": "Chưa cài đặt API Key"
+  },
+  "setup": {
+    "title": "Cài đặt trợ lý AI",
+    "intro": "Dùng DeepSeek API Key của riêng bạn; chi phí tính vào tài khoản DeepSeek của bạn theo giá của DeepSeek. Lấy Key tại:",
+    "keySaved": "Đã lưu ({hint}), để trống nếu không đổi",
+    "baseHint": "Mặc định là địa chỉ chính thức của DeepSeek. Dịch vụ nào tương thích OpenAI cũng dùng được.",
+    "model": "Mô hình",
+    "modelHint": "Đọc ảnh cần mô hình hỗ trợ thị giác.",
+    "effort": "Mức suy nghĩ",
+    "effort_none": "Tắt",
+    "effort_noneHint": "Nhanh nhất, hợp với biên lai đơn giản",
+    "effort_low": "Nhẹ",
+    "effort_lowHint": "Khuyên dùng: nhanh và chính xác",
+    "effort_high": "Sâu",
+    "effort_highHint": "Ổn định hơn với hóa đơn phức tạp, chậm hơn",
+    "saved": "Đã lưu",
+    "clear": "Xóa Key",
+    "cleared": "Đã xóa API Key",
+    "cta": "Cài đặt DeepSeek API Key",
+    "ctaHint": "Chỉ cần một lần, Key chỉ lưu trên máy chủ của bạn",
+    "privacy": "Key chỉ được lưu trên máy chủ của bạn, không gửi tới trình duyệt và không có trong bản sao lưu. Khi nhận diện, văn bản và hình ảnh bạn gửi sẽ được máy chủ của bạn chuyển tiếp tới DeepSeek.",
+    "fetching": "Đang lấy danh sách mô hình…",
+    "fetched": "Có {count} mô hình.",
+    "fetchHint": "Điền Base URL và API key, danh sách mô hình sẽ tự tải.",
+    "noModels": "Dịch vụ không trả về danh sách mô hình. Bạn có thể nhập tên.",
+    "refresh": "Làm mới",
+    "retry": "Thử lại",
+    "manual": "Tự nhập",
+    "pickList": "Chọn từ danh sách",
+    "notInList": "Không có trong danh sách"
+  },
+  "f": {
+    "member": "Thành viên",
+    "amount": "Số tiền",
+    "date": "Ngày",
+    "paidUntil": "Đã trả đến",
+    "fee": "Phí",
+    "joined": "Ngày tham gia",
+    "left": "Ngày rời",
+    "contact": "Liên hệ",
+    "role": "Vai trò",
+    "seats": "Số suất (gồm cả tôi)",
+    "ownerName": "Chủ nhóm",
+    "since": "Chia sẻ từ",
+    "newPrice": "Giá mới",
+    "from": "Ngày hiệu lực",
+    "action": "Thao tác",
+    "kind": "Loại",
+    "effect": "Ảnh hưởng",
+    "name": "Tên",
+    "category": "Danh mục",
+    "tags": "Thẻ",
+    "url": "Trang web",
+    "manage_url": "Liên kết quản lý",
+    "notes": "Ghi chú",
+    "method": "Phương thức thanh toán",
+    "region": "Khu vực",
+    "remind_days": "Nhắc trước (ngày)",
+    "end": "Không gia hạn sau",
+    "next_due": "Lần trừ tiền tới",
+    "trial_end": "Hết dùng thử",
+    "expires": "Dịch vụ kết thúc",
+    "price": "Giá",
+    "currency": "Tiền tệ",
+    "cycle": "Chu kỳ thanh toán",
+    "note": "Ghi chú",
+    "planned": "Dự kiến",
+    "phases": "Giai đoạn",
+    "payments": "Khoản đã ghi",
+    "spent": "Đã chi đến nay",
+    "changes": "Trường thay đổi",
+    "funding": "Nguồn thanh toán"
+  },
+  "v": {
+    "exempt": "Không trả tiền",
+    "owner": "Tôi làm chủ nhóm",
+    "member": "Tôi tham gia",
+    "unshare": "Ngừng chia sẻ",
+    "pause": "Tạm dừng",
+    "cancel": "Hủy đăng ký",
+    "reactivate": "Tiếp tục",
+    "charge": "Trừ tiền",
+    "deleteAll": "Xóa gói đăng ký và toàn bộ lần trừ tiền. Không thể hoàn tác.",
+    "dateUnknown": "Không rõ ngày",
+    "terminate": "Bị nhà cung cấp dừng"
+  },
+  "interrupted": "Câu trả lời bị ngắt giữa chừng.",
+  "saveUnknown": "Không thể xác nhận thay đổi đã được lưu. Hãy kiểm tra sổ trước khi thử lại.",
+  "savedUnverified": "Đã lưu nhưng chưa thể xác minh kết quả. Hãy kiểm tra sổ trước khi tiếp tục.",
+  "savedRefreshFailed": "Thay đổi đã được lưu nhưng không thể làm mới trang. Hãy tải lại trước khi xác nhận bản nháp khác.",
+  "outcome": {
+    "partial": "Một số bước chưa hoàn tất",
+    "limit": "Đã đạt giới hạn gọi công cụ",
+    "review": "Các bản nháp chưa được lưu. Hãy xem lại bản nháp đã chuẩn bị và các bước chưa hoàn tất trước khi tiếp tục."
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "currency": {
+    "SLE": "시에라리온 리온",
+    "XCG": "카리브 길더",
+    "ZWG": "짐바브웨 골드"
+  },
+  "bill": {
+    "m1": "매월",
+    "m3": "분기마다",
+    "m6": "6개월마다",
+    "m12": "매년",
+    "custom": {
+      "other": "{count}개월마다"
+    },
+    "once": "일회성"
+  },
+  "cycle": {
+    "lifetime": "평생 이용",
+    "once": "1회",
+    "every": {
+      "day": "매일",
+      "week": "매주",
+      "month": "매월",
+      "year": "매년"
+    },
+    "quarterly": "분기마다",
+    "halfYearly": "6개월마다",
+    "biennial": "2년마다",
+    "everyN": {
+      "day": {
+        "other": "{count}일마다"
+      },
+      "week": {
+        "other": "{count}주마다"
+      },
+      "month": {
+        "other": "{count}개월마다"
+      },
+      "year": {
+        "other": "{count}년마다"
+      }
+    }
+  },
+  "subError": {
+    "name": "이름을 입력하세요",
+    "price": "가격이 올바르지 않습니다",
+    "paymentCurrency": "결제 통화는 플랜 통화와 같아야 합니다",
+    "start": "시작일이 올바르지 않습니다",
+    "cycle": "결제 주기가 올바르지 않습니다",
+    "refundAmount": "양수 환불액과 유효한 통화를 입력하세요",
+    "refundDate": "탈퇴일을 설정하세요. 환불일은 가입일 이후여야 합니다",
+    "funding": "분할 결제가 올바르지 않습니다: 금액이 0이 아닌 서로 다른 결제 수단을 두 개 이상 지정하고, 같은 결제에 단일 결제 수단을 함께 지정하지 마세요",
+    "fundingSum": "분할 금액의 합계가 결제 금액과 같아야 합니다",
+    "transfer": "잘못된 양도: 유형, 날짜, 0보다 큰 금액, 통화가 필요합니다",
+    "meter": "지표가 올바르지 않습니다: 고유한 id와 이름이 필요합니다",
+    "reading": "사용량 기록이 올바르지 않습니다: 고유한 id, 올바른 날짜와 숫자 값이 필요합니다",
+    "meterLink": "연결된 지표가 없거나 해당 지표도 다른 지표에 연결되어 있습니다",
+    "meterLinkUsed": "“{name}”에서 “{meter}”에 연결되어 있습니다. 먼저 해당 구독에서 연결을 해제하세요",
+    "readingMeter": "사용량 기록이 정의되지 않은 지표를 참조합니다"
+  },
+  "phase": {
+    "switchTooEarly": "적용일은 현재 구간의 시작일 이후여야 합니다",
+    "resumeNeedsStopDate": "재개하기 전에 실제 중지일을 입력하고 저장하세요",
+    "resumeTooEarly": "재개일은 마지막 종료일보다 빠를 수 없습니다",
+    "prependTooLate": "추가할 기간은 구독 시작일보다 앞서야 합니다",
+    "prependUntil": "추가할 기간의 종료일은 시작일 이후, 원래 시작일 이전이어야 합니다",
+    "priceOutOfRange": "가격 변경일이 어떤 구간에도 속하지 않습니다",
+    "keepTooEarly": "계속 사용할 종료일은 전환일 이후여야 합니다",
+    "endTooEarly": "종료일은 이 구간의 시작일 이후여야 합니다",
+    "endOnNextStart": "종료일은 서비스 마지막 날이라 다음 구간의 시작일과 같을 수 없습니다. 이어서 전환하려면 비워 두거나 전날로 지정하세요",
+    "startOrder": "시작일은 이전 단계의 시작일 이후, 다음 단계의 시작일 이전이어야 합니다.",
+    "priceDuplicate": "이 날짜에 이미 가격이 있습니다",
+    "priceInitial": "초기 가격은 삭제할 수 없습니다",
+    "upgradeUnavailable": "이 전환은 이전 요금제를 차감할 수 없습니다. 이미 적용되었고 같은 통화이고 선불이어야 하며, 이전 요금제에 사용하지 않은 일수가 남아 있어야 합니다. 결제일을 유지하려면 주기도 같아야 합니다."
+  },
+  "event": {
+    "label": "{region}{price}/{per}",
+    "region": "{region} ",
+    "per": {
+      "year": "년",
+      "month": "월",
+      "months": "{count}개월",
+      "week": "주",
+      "day": "일"
+    }
+  },
+  "listSep": ", ",
+  "insight": {
+    "yearly": {
+      "title": {
+        "other": "장기 구독 {count}개가 60일 안에 갱신됩니다"
+      },
+      "body": "합계 약 {sum}입니다. 연간 결제는 환불이 어려우니 지금 유지할 구독을 정해 두세요."
+    },
+    "dup": {
+      "title": "{names}은(는) 중복일 수 있습니다",
+      "body": {
+        "other": "이 구독 {count}개에 매달 약 {sum}이 나갑니다. 모두 필요한지 확인해 보세요."
+      }
+    },
+    "hikes": {
+      "title": {
+        "other": "지난 1년간 구독 {count}개의 가격이 올랐습니다"
+      }
+    },
+    "intro": {
+      "title": {
+        "other": "{name}의 프로모션이 {count}일 후 종료됩니다"
+      },
+      "body": "종료 후 가격이 {from}에서 {to}(으)로 돌아갑니다."
+    },
+    "balance": {
+      "title": "{name}의 잔액이 {date}까지 버티지 못합니다",
+      "body": "{sub}에 {need}이(가) 필요하지만 그때 남는 금액은 {current}입니다.",
+      "bodyOver": "{sub}에 {need}이(가) 필요하지만 잔액이 이미 {current}입니다.",
+      "bodyToday": "오늘의 {sub}({need})을(를) 빼면 잔액은 {current}입니다."
+    },
+    "fx": {
+      "title": "지출의 {pct}%가 외화입니다",
+      "body": "가장 큰 비중은 {ccy}({share}%)입니다. {ccy}가 약세면 이 부분이 저렴해지고, 강세면 비싸집니다."
+    },
+    "noMethod": {
+      "title": {
+        "other": "구독 {count}개에 결제 수단이 없습니다"
+      },
+      "body": "결제 수단을 추가하면 잔액 예측과 수단별 통계가 정확해집니다."
+    },
+    "top": {
+      "title": "{name}이(가) 가장 비싼 구독입니다",
+      "body": "하루 약 {perDay}, 월 지출의 {pct}%입니다."
+    }
+  },
+  "methodKind": {
+    "debit": "체크카드",
+    "credit": "신용카드",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "paypal": "PayPal",
+    "appstore": "App Store",
+    "googleplay": "Google Play",
+    "giftcard": "기프트 카드",
+    "prepaid": "스토어 잔액",
+    "phone": "휴대폰 잔액",
+    "crypto": "암호화폐 카드",
+    "other": "기타"
+  },
+  "publicMethod": "{kind}\n{region}",
+  "channel": {
+    "email": "이메일"
+  },
+  "csv": {
+    "appStoreBalance": "App Store {region} 잔액",
+    "otherCategory": "기타"
+  },
+  "category": {
+    "ai": "AI",
+    "tools": "도구",
+    "productivity": "생산성",
+    "media": "동영상",
+    "music": "음악",
+    "games": "게임",
+    "cloud": "클라우드",
+    "storage": "저장공간",
+    "domains": "도메인",
+    "vpn": "VPN 및 네트워크",
+    "developer": "개발",
+    "design": "디자인",
+    "education": "교육",
+    "news": "뉴스 및 독서",
+    "social": "소셜",
+    "shopping": "쇼핑",
+    "finance": "금융",
+    "insurance": "보험",
+    "health": "건강 및 운동",
+    "phone": "통신",
+    "daily": "라이프스타일"
+  },
+  "stop": {
+    "title": "서비스 중지",
+    "nonrenew": "갱신 안 함",
+    "cancel": "즉시 중지",
+    "terminate": "제공업체에 의한 중지",
+    "date": "중지일",
+    "paidThrough": "{date}까지 결제됨",
+    "refundYes": "환불됨",
+    "refundNo": "미환불",
+    "refundAmount": "환불 금액",
+    "refundDate": "환불일",
+    "reason": "사유 (선택)",
+    "refunded": "환불됨 {money}",
+    "partial": "부분 환불 {money}",
+    "unrefunded": "미환불\n손실 {money}",
+    "unused": "미환불 손실: {money} ({days})",
+    "unusedTitle": "미환불",
+    "terminated": "사용 중지됨",
+    "restore": "다시 활성화",
+    "fxMissing": "일부 손실은 환율이 없어 환산할 수 없습니다. 내역에 원래 통화 금액을 표시합니다.",
+    "lossTitle": "미환불 손실",
+    "lossDays": {
+      "other": "{count}일"
+    },
+    "fullyRefunded": "전액 환불됨",
+    "chargeOnEnd": "이날은 갱신 결제일입니다. 전날로 바꾸면 결제되지 않습니다.",
+    "nonrenewDone": "만료 후 갱신하지 않도록 설정했습니다. {date} 이후 결제되지 않습니다.",
+    "stoppedDone": "서비스를 중지했습니다",
+    "method": "중지 방식",
+    "latestRefundHint": "여기서는 가장 최근 환불을 수정합니다. 이전 환불은 결제 내역에 유지됩니다."
+  },
+  "renewal": {
+    "title": "갱신 규칙",
+    "chargeLeadDays": "미리 결제할 일수",
+    "cancelLeadDays": "미리 취소할 일수",
+    "nextDue": "다음 결제일",
+    "hint": "서비스 갱신 전 결제와 결제 전 취소에 필요한 일수입니다. 0은 없음이며 서비스 기간은 유지됩니다.",
+    "cancelBy": "취소 기한",
+    "invalid": "0~3660 사이의 정수 일수를 입력하세요.",
+    "tooLate": "취소 기한이 지나 다음 기간에도 요금이 청구됩니다.",
+    "cancelReminder": "다음 결제를 피하려면 {date}까지 취소하세요.",
+    "none": "없음"
+  },
+  "import": {
+    "invalid": "이 파일을 구독 데이터로 읽을 수 없습니다.",
+    "tooLarge": "32 MB 이하의 파일을 선택하세요.",
+    "pending": "반영되지 않은 변경 사항이 있습니다. 일관된 데이터베이스 백업을 먼저 만드세요.",
+    "currency": "통화 기호가 모호하거나 지원되지 않습니다. 통화를 선택하세요.",
+    "cycle": "유효한 결제 주기를 선택하세요.",
+    "price": "0 이상의 유효한 금액을 입력하세요.",
+    "date": "유효한 날짜를 입력하세요.",
+    "selectUser": "백업에서 계정 하나를 선택하세요.",
+    "payers": "결제자",
+    "unknownStart": "원래 시작일을 알 수 없습니다. 선택한 날짜부터 기록합니다.",
+    "manual": "원본은 수동 갱신입니다. 일시 중지 상태로 가져옵니다.",
+    "reviewRequired": "데이터 가져오기에서 파일을 열어 항목을 확인하세요.",
+    "badDate": "원래 {field} \"{value}\"을(를) 인식할 수 없어 가져오지 않았습니다",
+    "nextDue": "다음 결제일",
+    "end": "종료일"
+  },
+  "fxIncomplete": "환율이 없어 일부 금액을 환산할 수 없으므로 결과가 불완전합니다.",
+  "fxUnconverted": "미환산: {amount}",
+  "fxOther": "외 {count}개 통화"
+}

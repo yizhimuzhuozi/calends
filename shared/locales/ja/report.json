@@ -1,0 +1,195 @@
+{
+  "title": "レポート",
+  "shareReview": "{year}年のまとめを共有",
+  "shareAll": "累計レポートを共有",
+  "pick": {
+    "label": "年を選択",
+    "all": "すべて",
+    "year": "{year}年",
+    "prev": "前へ",
+    "next": "次へ"
+  },
+  "perMonth": "{amount}/月",
+  "per": {
+    "day": "日",
+    "week": "週",
+    "month": "月",
+    "year": "年",
+    "lifetime": "1回",
+    "quarter": "3か月",
+    "halfYear": "6か月",
+    "twoYears": "2年",
+    "n": {
+      "day": "{count}日",
+      "week": "{count}週",
+      "month": "{count}か月",
+      "year": "{count}年"
+    }
+  },
+  "axis": {
+    "year": "{year}年"
+  },
+  "hero": {
+    "label": "年間サブスク支出",
+    "tip": "当月 {month}\n累計 {total}",
+    "tipNow": "当月 {month}、請求予定 {pending}\n累計 {total}",
+    "avg": "月平均",
+    "peak": "最多月",
+    "peakAt": "最多 {when}"
+  },
+  "all": {
+    "label": "累計サブスク支出",
+    "since": "{date}から",
+    "last12": "直近 12 か月",
+    "avg": "年平均",
+    "peak": "最多年",
+    "subs": "契約数",
+    "detail": "累計の内訳"
+  },
+  "tenure": {
+    "title": "契約の続き方",
+    "active": "契約中の平均期間",
+    "stopped": "解約分の平均期間",
+    "quick": "すぐ解約",
+    "peak": "同時契約の最多",
+    "longest": "長く続いている",
+    "count": "契約中の数"
+  },
+  "wf": {
+    "vsFrom": "先月末 {amount} から",
+    "flat": "変化なし",
+    "title": "{month}の変動",
+    "prev": "前月",
+    "next": "翌月",
+    "from": "先月",
+    "fx": "為替",
+    "added": "新規",
+    "expansion": "値上げ",
+    "contraction": "値下げ",
+    "churned": "停止",
+    "now": "現在",
+    "monthEnd": "月末",
+    "empty": "今月は新規・解約・価格変更のあったサブスクはありません。",
+    "emptyFx": "今月は新規・解約・価格変更のあったサブスクはなく、変動はすべて為替によるものです（{amount}）。"
+  },
+  "checkup": {
+    "title": "診断",
+    "warn": {
+      "other": "{count}件の要確認項目"
+    },
+    "fix": "対応",
+    "less": "閉じる",
+    "more": "あと{count}件を表示"
+  },
+  "cash": {
+    "title": "支払額と実質コスト",
+    "legendCash": "その月の請求額",
+    "legendAccrual": "月割りのコスト",
+    "forecast": "\n予測",
+    "tip": "請求 {cash}\nコスト {cost}",
+    "open": "\nこの月をカレンダーで開く",
+    "openYear": "\nこの年をカレンダーで開く",
+    "prepaidItem": "{name}\n{amount}\n{until}まで",
+    "prepaid": "前払いの残存価値",
+    "prepaidSub": "{count}件が支払い済み・未消化",
+    "next90": "今後90日間の請求",
+    "fullPaidHint": "支払総額（メンバーへの立て替えを含む）"
+  },
+  "comp": {
+    "title": "お金の行き先",
+    "back": "戻る",
+    "cat": "カテゴリ",
+    "pay": "支払い方法",
+    "ccy": "通貨",
+    "cycle": "サイクル",
+    "unassigned": "未設定",
+    "yearly": "年払い",
+    "quarterly": "3か月 / 半年払い",
+    "monthly": "月払い",
+    "groupTip": {
+      "other": "{name}\n{count}件\n{amount}/月"
+    },
+    "groupTipAll": {
+      "other": "{name}\n{count}件\n{amount}"
+    }
+  },
+  "topup": {
+    "title": "チャージ計画",
+    "range3": "3か月",
+    "range6": "6か月",
+    "range12": "1年",
+    "span3": "今後3か月",
+    "span6": "今後6か月",
+    "span12": "今後1年",
+    "empty": "残高のあるアカウントはまだありません。",
+    "emptyCta": "ウォレットで App Store や携帯キャリアの残高を追加",
+    "summary": "残高 {balance}\n月約{monthly}",
+    "why": "{span}：請求 {due}、手持ち {balance}、不足 {need}",
+    "urgent": "。最優先：{date}までに{min}以上チャージ",
+    "cards": "おすすめのギフトカード",
+    "anyAmount": "任意の金額をチャージできます。カードの額面に合わせる必要はありません",
+    "enough3": "残高で今後3か月をまかなえます",
+    "enough6": "残高で今後6か月をまかなえます",
+    "enough12": "残高で今後1年をまかなえます",
+    "by": "{date}まで"
+  },
+  "ev": {
+    "start": "開始",
+    "end": "解約",
+    "price": "価格変更",
+    "introEnd": "初回特典終了",
+    "buy": "買い切り購入",
+    "pause": "一時停止",
+    "switch": "地域 / プランを変更",
+    "resume": "再開"
+  },
+  "log": {
+    "title": "変更履歴",
+    "decisions": {
+      "other": "{count}件の判断"
+    },
+    "more": "以前の記録"
+  },
+  "stops": {
+    "title": "解約と利用停止",
+    "loss": "未返金損失",
+    "cancel": "自分で早期解約"
+  },
+  "year": {
+    "title": "年間の内訳",
+    "vsLast": "前年同期比",
+    "vsPrev": "前年比",
+    "count": "{count} 件",
+    "added": "新規",
+    "stopped": "停止",
+    "up": "増加",
+    "down": "減少",
+    "carpoolGain": "共有プランの利益",
+    "carpoolLoss": "共有プランの損失",
+    "carpoolEven": "共有プランは収支ゼロ",
+    "carpoolNet": "共有プランの損益",
+    "proxyGain": "立て替えの利益",
+    "proxyLoss": "立て替えの損失",
+    "proxyEven": "立て替えは収支ゼロ",
+    "proxyNet": "立て替えの損益",
+    "empty": "前年同期と同水準です。"
+  },
+  "daily": {
+    "title": "日別",
+    "flat": "平面",
+    "bars": "立体"
+  },
+  "region": {
+    "title": "サブスクの地域"
+  },
+  "flow": {
+    "title": "お金の流れ",
+    "showPercent": "割合で表示",
+    "showAmount": "金額で表示"
+  },
+  "profile": {
+    "title": "支出構成の比較",
+    "recent": "直近 12 か月",
+    "before": "その前の 12 か月"
+  }
+}

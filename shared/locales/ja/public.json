@@ -1,0 +1,135 @@
+{
+  "title": "{name}のサブスク",
+  "loadFailed": "読み込めませんでした",
+  "theme": {
+    "title": "テーマ：{mode}（クリックで切り替え）",
+    "aria": "テーマ：{mode}、クリックで切り替え"
+  },
+  "currency": "表示通貨",
+  "hero": {
+    "monthly": "毎月のサブスク支出",
+    "flat": "昨年の同月と同じ",
+    "more": "昨年の同月より{amount}多い",
+    "less": "昨年の同月より{amount}少ない",
+    "yearly": "年額",
+    "paid": "{year}年からの支払い"
+  },
+  "timeline": {
+    "title": "タイムライン",
+    "upcoming": {
+      "other": "今後30日間に{count}件の請求\n{amount}"
+    }
+  },
+  "chart": {
+    "title": "毎月の請求",
+    "desc": "過去12か月と今後3か月。斜線のバーは予測です",
+    "paid": "支払い済み",
+    "mrr": "月額",
+    "charge": "請求額",
+    "thisMonth": "今月",
+    "projected": "{month}\n予測"
+  },
+  "ended": {
+    "title": "解約済み"
+  },
+  "perMonth": "{amount}/月",
+  "lifetime": {
+    "title": "買い切り",
+    "desc": "一度の支払いで、以後の請求なし"
+  },
+  "composition": {
+    "title": "内訳",
+    "desc": "カテゴリ別の月額",
+    "other": "その他"
+  },
+  "count": "{count}件",
+  "fx": {
+    "title": "為替レート",
+    "flat": "この1年、為替による費用の変化はほとんどありません",
+    "less": "今日のレートでは、1年前より月{amount}安くなっています",
+    "more": "今日のレートでは、1年前より月{amount}高くなっています",
+    "share": "{pct}%"
+  },
+  "list": {
+    "title": "サブスク",
+    "summary": {
+      "other": "{count}件\n{amount}/月"
+    },
+    "all": "すべて"
+  },
+  "row": {
+    "ends": "\n{date}終了",
+    "renews": "\n{date}に更新",
+    "perMonthEq": "月換算"
+  },
+  "titleAnon": "サブスク一覧",
+  "pile": {
+    "label": "サブスクの山：アイコンが大きいほど月額が高い"
+  },
+  "calendar": {
+    "title": "カレンダー"
+  },
+  "years": {
+    "title": "サブスク年表"
+  },
+  "tenure": {
+    "title": "契約期間",
+    "avg": "利用中サブスクの平均契約期間",
+    "longest": "最長契約"
+  },
+  "treemap": {
+    "title": "支出マップ",
+    "missing": {
+      "other": "為替レートがない{count}件のサブスクは含まれていません"
+    }
+  },
+  "changes": {
+    "title": "変更履歴",
+    "more": "すべて表示（{n}）",
+    "less": "折りたたむ",
+    "kind": {
+      "added": "新規",
+      "resumed": "再開",
+      "buy": "買い切り",
+      "up": "値上げ",
+      "down": "値下げ",
+      "switch": "地域・プラン変更",
+      "stopped": "停止",
+      "paused": "一時停止"
+    }
+  },
+  "waterfall": {
+    "title": "月ごとの変動",
+    "prev": "前の月",
+    "next": "次の月",
+    "from": "月初",
+    "added": "新規",
+    "expansion": "値上げ",
+    "contraction": "値下げ",
+    "churned": "停止",
+    "fx": "為替",
+    "to": "現在",
+    "monthEnd": "月末",
+    "incomplete": "為替レートがなく、グラフを描画できません"
+  },
+  "metric": {
+    "monthly": "毎月の支出",
+    "yearly": "年間",
+    "active": "利用中のサブスク",
+    "avgPerSub": "サブスクあたりの平均",
+    "paidTotal": "累計支払額",
+    "paidYear": "今年の支払額",
+    "paidMonth": "今月の支払額",
+    "next30": "今後30日間",
+    "topSub": "最も高いサブスク",
+    "topCategory": "最大のカテゴリ",
+    "endedCount": "解約済み",
+    "lifetimeCount": "買い切り",
+    "fxEffect": "為替の影響（月額）",
+    "vsPrev": "前年比",
+    "shareOf": "毎月の支出に占める割合"
+  },
+  "globe": {
+    "title": "サブスクの地域"
+  }
+}

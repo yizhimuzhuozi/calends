@@ -1,0 +1,252 @@
+{
+  "currency": {
+    "SLE": "Sierra Leone leonesi",
+    "XCG": "Karayip guldeni",
+    "ZWG": "Zimbabve altını"
+  },
+  "bill": {
+    "m1": "Aylık",
+    "m3": "Üç aylık",
+    "m6": "Altı aylık",
+    "m12": "Yıllık",
+    "custom": {
+      "one": "{count} ayda bir",
+      "other": "{count} ayda bir"
+    },
+    "once": "Tek seferlik"
+  },
+  "cycle": {
+    "lifetime": "Ömür boyu",
+    "once": "tek seferlik",
+    "every": {
+      "day": "Günlük",
+      "week": "Haftalık",
+      "month": "Aylık",
+      "year": "Yıllık"
+    },
+    "quarterly": "Üç aylık",
+    "halfYearly": "Altı aylık",
+    "biennial": "İki yılda bir",
+    "everyN": {
+      "day": {
+        "one": "{count} günde bir",
+        "other": "{count} günde bir"
+      },
+      "week": {
+        "one": "{count} haftada bir",
+        "other": "{count} haftada bir"
+      },
+      "month": {
+        "one": "{count} ayda bir",
+        "other": "{count} ayda bir"
+      },
+      "year": {
+        "one": "{count} yılda bir",
+        "other": "{count} yılda bir"
+      }
+    }
+  },
+  "subError": {
+    "name": "Ad gerekli",
+    "price": "Geçersiz fiyat",
+    "paymentCurrency": "Ödeme para birimi planın para birimiyle aynı olmalı",
+    "start": "Geçersiz başlangıç tarihi",
+    "cycle": "Geçersiz ödeme dönemi",
+    "refundAmount": "Pozitif bir tutar ve geçerli para birimi girin",
+    "refundDate": "Ayrılma tarihini belirleyin; iade katılma tarihinden önce olamaz",
+    "funding": "Geçersiz bölünmüş ödeme: sıfır olmayan tutarlarla en az iki farklı ödeme yöntemi kullanın ve aynı ödemeye tek bir yöntem atamayın",
+    "fundingSum": "Bölünmüş tutarların toplamı ödeme tutarına eşit olmalıdır",
+    "transfer": "Geçersiz devir: tür, tarih, pozitif tutar ve para birimi gerekli",
+    "meter": "Geçersiz ölçüt: benzersiz bir id ve ad gerekli",
+    "reading": "Geçersiz kullanım kaydı: benzersiz bir id, geçerli bir tarih ve sayısal değerler gerekli",
+    "meterLink": "Bağlanan ölçüt mevcut değil veya kendisi de başka bir ölçüte bağlı",
+    "meterLinkUsed": "“{name}” aboneliği “{meter}” ölçütüne bağlı; önce o abonelikteki bağlantıyı kaldırın",
+    "readingMeter": "Bir kullanım kaydı tanımlanmamış bir ölçüte başvuruyor"
+  },
+  "phase": {
+    "switchTooEarly": "Geçerlilik tarihi mevcut dönemin başlangıcından sonra olmalı",
+    "resumeNeedsStopDate": "Devam etmeden önce gerçek durdurma tarihini girip kaydedin",
+    "resumeTooEarly": "Devam tarihi son bitiş tarihinden önce olamaz",
+    "prependTooLate": "Önceki dönem, aboneliğin başlangıcından önce başlamalı",
+    "prependUntil": "Önceki dönem başladıktan sonra ve ilk başlangıç tarihinden önce bitmeli",
+    "priceOutOfRange": "Fiyat değişikliği tarihi hiçbir dönemin içinde değil",
+    "keepTooEarly": "Devam etme tarihi geçiş tarihinden sonra olmalı",
+    "endTooEarly": "Bitiş tarihi bu dönemin başlangıcından sonra olmalı",
+    "endOnNextStart": "Bitiş tarihi hizmetin son günüdür ve sonraki dönemin başlangıcıyla aynı olamaz; kesintisiz geçiş için boş bırakın ya da bir önceki günü seçin",
+    "startOrder": "Başlangıç tarihi, önceki ve sonraki aşamaların başlangıç tarihleri arasında olmalıdır.",
+    "priceDuplicate": "Bu tarihte zaten bir fiyat var",
+    "priceInitial": "Başlangıç fiyatı silinemez",
+    "upgradeUnavailable": "Bu geçiş eski planı mahsup edemez: geçiş yürürlüğe girmiş, aynı para birimi ve ön ödemeli olmalı, eski planda kullanılmamış gün kalmalı. Ödeme tarihini korumak için döngü de aynı olmalı."
+  },
+  "event": {
+    "label": "{region}{price}/{per}",
+    "region": "{region} ",
+    "per": {
+      "year": "yıl",
+      "month": "ay",
+      "months": "{count} ay",
+      "week": "hafta",
+      "day": "gün"
+    }
+  },
+  "listSep": ", ",
+  "insight": {
+    "yearly": {
+      "title": {
+        "one": "{count} uzun vadeli abonelik 60 gün içinde yenileniyor",
+        "other": "{count} uzun vadeli abonelik 60 gün içinde yenileniyor"
+      },
+      "body": "Toplam yaklaşık {sum}. Yıllık ödemelerin iadesi zordur; neyin kalacağına karar vermenin tam zamanı."
+    },
+    "dup": {
+      "title": "{names} birbirinin tekrarı olabilir",
+      "body": {
+        "one": "Bu abonelik ayda yaklaşık {sum} tutuyor. Hâlâ gerekip gerekmediğine bakın.",
+        "other": "Bu {count} abonelik birlikte ayda yaklaşık {sum} tutuyor. Hepsine hâlâ ihtiyacınız olup olmadığına bakın."
+      }
+    },
+    "hikes": {
+      "title": {
+        "one": "{count} abonelik son bir yılda zam yaptı",
+        "other": "{count} abonelik son bir yılda zam yaptı"
+      }
+    },
+    "intro": {
+      "title": {
+        "one": "{name} kampanyası {count} gün sonra bitiyor",
+        "other": "{name} kampanyası {count} gün sonra bitiyor"
+      },
+      "body": "Ardından fiyat {from} tutarından {to} tutarına döner."
+    },
+    "balance": {
+      "title": "{name} bakiyesi {date} tarihine kadar yetmeyecek",
+      "body": "{sub} için {need} gerekiyor, o zamana kadar yalnızca {current} kalacak.",
+      "bodyOver": "{sub} için {need} gerekiyor, bakiye zaten {current}.",
+      "bodyToday": "Bugünkü {sub} ({need}) sonrası bakiye {current}."
+    },
+    "fx": {
+      "title": "Harcamaların %{pct} kadarı yabancı para birimlerinde",
+      "body": "En büyüğü {ccy} (%{share}). {ccy} değer kaybettikçe bu kısım ucuzlar, değer kazandıkça pahalanır."
+    },
+    "noMethod": {
+      "title": {
+        "one": "{count} aboneliğin ödeme yöntemi yok",
+        "other": "{count} aboneliğin ödeme yöntemi yok"
+      },
+      "body": "Bakiye tahminleri ve ödeme yöntemi istatistikleri eksiksiz olsun diye bir yöntem ekleyin."
+    },
+    "top": {
+      "title": "En pahalı aboneliğiniz: {name}",
+      "body": "Günde yaklaşık {perDay}, aylık harcamanın %{pct} kadarı."
+    }
+  },
+  "methodKind": {
+    "debit": "Banka kartı",
+    "credit": "Kredi kartı",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "paypal": "PayPal",
+    "appstore": "App Store",
+    "googleplay": "Google Play",
+    "giftcard": "Hediye kartı",
+    "prepaid": "Mağaza bakiyesi",
+    "phone": "Hat bakiyesi",
+    "crypto": "Kripto kart",
+    "other": "Diğer"
+  },
+  "publicMethod": "{kind}\n{region}",
+  "channel": {
+    "email": "E-posta"
+  },
+  "csv": {
+    "appStoreBalance": "App Store {region} bakiyesi",
+    "otherCategory": "Diğer"
+  },
+  "category": {
+    "ai": "Yapay zekâ",
+    "tools": "Araçlar",
+    "productivity": "Verimlilik",
+    "media": "Video",
+    "music": "Müzik",
+    "games": "Oyunlar",
+    "cloud": "Bulut ve sunucular",
+    "storage": "Depolama",
+    "domains": "Alan adları",
+    "vpn": "VPN ve ağ",
+    "developer": "Geliştirme",
+    "design": "Tasarım",
+    "education": "Eğitim",
+    "news": "Haber ve okuma",
+    "social": "Sosyal",
+    "shopping": "Alışveriş",
+    "finance": "Finans",
+    "insurance": "Sigorta",
+    "health": "Sağlık ve fitness",
+    "phone": "Telefon ve hat",
+    "daily": "Yaşam"
+  },
+  "stop": {
+    "title": "Hizmeti durdur",
+    "nonrenew": "Yenileme",
+    "cancel": "Hemen durdur",
+    "terminate": "Sağlayıcı tarafından kapatıldı",
+    "date": "Durdurma tarihi",
+    "paidThrough": "{date} tarihine kadar ödendi",
+    "refundYes": "İade edildi",
+    "refundNo": "İade edilmedi",
+    "refundAmount": "İade tutarı",
+    "refundDate": "İade tarihi",
+    "reason": "Neden (isteğe bağlı)",
+    "refunded": "İade edildi {money}",
+    "partial": "Kısmi iade {money}",
+    "unrefunded": "İade yok\nKayıp {money}",
+    "unused": "İade edilmeyen kayıp: {money} ({days})",
+    "unusedTitle": "İade edilmedi",
+    "terminated": "Kapatıldı",
+    "restore": "Yeniden etkinleştir",
+    "fxMissing": "Döviz kurları eksik olduğundan bazı kayıplar dönüştürülemiyor. Orijinal tutarlar ayrıntılarda korunur.",
+    "lossTitle": "İade edilmeyen kayıp",
+    "lossDays": {
+      "one": "{count} gün",
+      "other": "{count} gün"
+    },
+    "fullyRefunded": "Tamamı iade edildi",
+    "chargeOnEnd": "Bu gün hâlâ yenileme ücreti alınır. Önlemek için bir önceki günü seçin.",
+    "nonrenewDone": "Yenilenmeyecek. {date} sonrasında ücret alınmaz.",
+    "stoppedDone": "Hizmet durduruldu",
+    "method": "Durdurma şekli",
+    "latestRefundHint": "Bu alanlar son iadeyi düzenler. Önceki iadeler ödeme geçmişinde kalır."
+  },
+  "renewal": {
+    "title": "Yenileme kuralları",
+    "chargeLeadDays": "Erken tahsilat",
+    "cancelLeadDays": "Önceden iptal",
+    "nextDue": "Sonraki ödeme",
+    "hint": "Yenilemeden önce tahsilat, tahsilattan önce iptal. Gün sayısını girin; 0, yok demektir. Hizmet dönemleri değişmez.",
+    "cancelBy": "Son iptal tarihi",
+    "invalid": "0 ile 3660 arasında tam gün sayısı girin.",
+    "tooLate": "İptal süresi geçti. Sonraki dönem yine tahsil edilecek.",
+    "cancelReminder": "Sonraki ödemeyi önlemek için {date} tarihine kadar iptal edin.",
+    "none": "Yok"
+  },
+  "import": {
+    "invalid": "Bu dosya abonelik verisi olarak okunamadı.",
+    "tooLarge": "En fazla 32 MB boyutunda bir dosya seçin.",
+    "pending": "Bu yedekte bekleyen değişiklikler var. Önce tutarlı bir veritabanı yedeği oluşturun.",
+    "currency": "Para birimini seçin; kaynak simgesi belirsiz veya desteklenmiyor.",
+    "cycle": "Geçerli bir faturalama dönemi seçin.",
+    "price": "Geçerli, negatif olmayan bir tutar girin.",
+    "date": "Geçerli bir tarih girin.",
+    "selectUser": "Bu yedekten bir hesap seçin.",
+    "payers": "Ödeyen",
+    "unknownStart": "İlk başlangıç tarihi bilinmiyor; kayıt seçilen tarihten başlar.",
+    "manual": "Kaynakta elle yenileme; duraklatılmış olarak içe aktarılır.",
+    "reviewRequired": "Alanları incelemek için dosyayı Veri içe aktar üzerinden açın.",
+    "badDate": "Orijinal {field} \"{value}\" tanınmadı, içe aktarılmadı",
+    "nextDue": "sonraki ödeme tarihi",
+    "end": "bitiş tarihi"
+  },
+  "fxIncomplete": "Döviz kuru eksik olduğu için bazı tutarlar çevrilemiyor; sonuç eksik.",
+  "fxUnconverted": "Dönüştürülmeyen: {amount}",
+  "fxOther": "ve {count} diğer para birimi"
+}

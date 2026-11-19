@@ -1,0 +1,82 @@
+{
+  "title": "年間レポートを共有",
+  "titleAll": "累計レポートを共有",
+  "fileName": "subscriptions-{year}-in-review-{style}.png",
+  "fileNameAll": "subscriptions-all-time-{style}.png",
+  "style": {
+    "poster": "ポスター",
+    "receipt": "レシート",
+    "card": "カード",
+    "stars": "支出の内訳"
+  },
+  "unassigned": "未設定",
+  "me": "自分",
+  "whose": "{name}の",
+  "whoseSelf": "私の",
+  "topSpend": "支出額が最大",
+  "ofYear": "年間支出の{pct}",
+  "ofAll": "累計支出の{pct}",
+  "n": {
+    "subs": {
+      "other": "{count}件のサブスク"
+    },
+    "charges": {
+      "other": "{count}回の請求"
+    },
+    "currencies": {
+      "other": "{count}種類の通貨"
+    }
+  },
+  "receipt": {
+    "shop": "{whose}サブスクリプション台帳",
+    "asOf": "年間明細\n{date}時点",
+    "fullYear": "{year}年の明細",
+    "all": "累計明細\n{date}時点",
+    "no": "No. {no}",
+    "item": "品目",
+    "share": "割合",
+    "amount": "金額",
+    "rest": "ほか{count}件",
+    "count": "品目 {items} / 請求 {charges}",
+    "total": "合計"
+  },
+  "poster": {
+    "kicker": "{whose}年間サブスクリプションレポート",
+    "kickerAll": "{whose}累計サブスクリプションレポート",
+    "ongoing": "{subs}\n{charges}",
+    "ongoingHidden": "{charges}\n{currencies}",
+    "year": "{subs}\n{charges}",
+    "yearHidden": "{charges}\n{currencies}",
+    "newEnded": "新規 {added}\n終了 {ended}",
+    "perDay": "1日平均 {amount}"
+  },
+  "card": {
+    "head": "{whose}サブスク",
+    "intro": {
+      "ongoing": "年初からの支出",
+      "ongoingHidden": "年初からの契約数",
+      "year": "年間支出",
+      "yearHidden": "年間の契約数",
+      "all": "累計支出",
+      "allHidden": "累計の契約数"
+    },
+    "perDay": "1日平均 {amount}",
+    "longest": "契約期間が最長",
+    "duration": "{y}年{m}か月",
+    "busiest": "支出が最も多い月",
+    "month": "{month}",
+    "newEnded": "新規 / 終了",
+    "ended": "{count}件終了",
+    "noneEnded": "終了した契約なし",
+    "currencies": "使用通貨",
+    "currencyCount": "{count}種類",
+    "nowMonthly": "現在の月額費用 {amount}"
+  },
+  "stars": {
+    "head": "{year}年\n{whose}サブスクリプション支出",
+    "foot": "円の大きさは支出額を示します"
+  },
+  "spendBasis": "自分の負担分の純支出（返金を含む）",
+  "stopLoss": "今年の未返金損失：{amount}",
+  "stopLossAll": "累計の未返金損失：{amount}"
+}

@@ -1,0 +1,187 @@
+{
+  "title": "報告",
+  "shareReview": "分享 {year} 年度回顧",
+  "shareAll": "分享累計回顧",
+  "pick": {
+    "label": "選擇年份",
+    "all": "全部",
+    "year": "{year} 年",
+    "prev": "上一個",
+    "next": "下一個"
+  },
+  "perMonth": "{amount}/月",
+  "per": {
+    "day": "天",
+    "week": "週",
+    "month": "月",
+    "year": "年",
+    "lifetime": "買斷",
+    "quarter": "季",
+    "halfYear": "半年",
+    "twoYears": "兩年",
+    "n": {
+      "day": " {count} 天",
+      "week": " {count} 週",
+      "month": " {count} 個月",
+      "year": " {count} 年"
+    }
+  },
+  "axis": {
+    "year": "{yy}年"
+  },
+  "hero": {
+    "label": "全年訂閱支出",
+    "tip": "當月 {month}\n累計 {total}",
+    "tipNow": "當月 {month}，待扣款 {pending}\n累計 {total}",
+    "avg": "月均",
+    "peak": "最高月",
+    "peakAt": "最高 {when}"
+  },
+  "all": {
+    "label": "累計訂閱支出",
+    "since": "自 {date} 起",
+    "last12": "近 12 個月",
+    "avg": "年均",
+    "peak": "最高年",
+    "subs": "訂閱數",
+    "detail": "累計明細"
+  },
+  "tenure": {
+    "title": "訂閱壽命",
+    "active": "在用平均已訂",
+    "stopped": "停掉的平均訂了",
+    "quick": "試完就停",
+    "peak": "同時在訂最多",
+    "longest": "訂得最久",
+    "count": "在用訂閱數"
+  },
+  "wf": {
+    "vsFrom": "比上月底 {amount}",
+    "flat": "持平",
+    "title": "{n}月變動",
+    "prev": "上個月",
+    "next": "下個月",
+    "from": "上月末",
+    "fx": "匯率",
+    "added": "新增",
+    "expansion": "漲價",
+    "contraction": "降價",
+    "churned": "停用",
+    "now": "現在",
+    "monthEnd": "月末",
+    "empty": "這個月沒有新增、退訂或調價。",
+    "emptyFx": "這個月沒有新增、退訂或調價，變化全部來自匯率（{amount}）。"
+  },
+  "checkup": {
+    "title": "體檢",
+    "warn": "{count} 項需要留意",
+    "fix": "處理",
+    "less": "收起",
+    "more": "再看 {count} 項"
+  },
+  "cash": {
+    "title": "現金與真實成本",
+    "legendCash": "當月扣款",
+    "legendAccrual": "攤到每月的成本",
+    "forecast": "\n預測",
+    "tip": "扣款 {cash}\n成本 {cost}",
+    "open": "\n點按查看當月日曆",
+    "openYear": "\n點按查看當年日曆",
+    "prepaidItem": "{name}\n{amount}\n至 {until}",
+    "prepaid": "預付餘值",
+    "prepaidSub": "{count} 項已付未用完",
+    "next90": "未來 90 天要付",
+    "fullPaidHint": "全額實付，含替成員墊付"
+  },
+  "comp": {
+    "title": "錢花在哪",
+    "back": "返回",
+    "cat": "分類",
+    "pay": "支付",
+    "ccy": "貨幣",
+    "cycle": "週期",
+    "unassigned": "未指定",
+    "yearly": "年付",
+    "quarterly": "季付 / 半年付",
+    "monthly": "月付",
+    "groupTip": "{name}\n{count} 項\n{amount}/月",
+    "groupTipAll": "{name}\n{count} 項\n{amount}"
+  },
+  "topup": {
+    "title": "增值計劃",
+    "range3": "3 個月",
+    "range6": "半年",
+    "range12": "1 年",
+    "span3": "未來三個月",
+    "span6": "未來半年",
+    "span12": "未來一年",
+    "empty": "還沒有設定餘額的帳戶。",
+    "emptyCta": "去錢包填寫 App Store / 話費餘額",
+    "summary": "餘額 {balance}\n每月約 {monthly}",
+    "why": "{span}要扣 {due}，餘額 {balance}，還差 {need}",
+    "urgent": "；最急的是 {date} 前至少要補 {min}",
+    "cards": "禮品卡面額參考",
+    "anyAmount": "依需求增值即可，不用湊面額",
+    "enough3": "餘額足夠，三個月內不用增值",
+    "enough6": "餘額足夠，半年內不用增值",
+    "enough12": "餘額足夠，一年內不用增值",
+    "by": "{date} 前"
+  },
+  "ev": {
+    "start": "開始訂閱",
+    "end": "退訂",
+    "price": "調價",
+    "introEnd": "優惠結束",
+    "buy": "買斷",
+    "pause": "暫停",
+    "switch": "換區 / 換套餐",
+    "resume": "續訂"
+  },
+  "log": {
+    "title": "變更日誌",
+    "decisions": "{count} 次決定",
+    "more": "更早的記錄"
+  },
+  "stops": {
+    "title": "退訂與停用",
+    "loss": "未退款損失",
+    "cancel": "主動提前退訂"
+  },
+  "year": {
+    "title": "年度明細",
+    "vsLast": "較去年同期",
+    "vsPrev": "較上一年",
+    "count": "{count} 項",
+    "added": "新增",
+    "stopped": "停用",
+    "up": "多付",
+    "down": "少付",
+    "carpoolGain": "合租盈利",
+    "carpoolLoss": "合租虧損",
+    "carpoolEven": "合租持平",
+    "carpoolNet": "合租盈虧",
+    "proxyGain": "代付盈利",
+    "proxyLoss": "代付虧損",
+    "proxyEven": "代付持平",
+    "proxyNet": "代付盈虧",
+    "empty": "與去年同期持平。"
+  },
+  "daily": {
+    "title": "逐日",
+    "flat": "平面",
+    "bars": "立體"
+  },
+  "region": {
+    "title": "訂閱地區"
+  },
+  "flow": {
+    "title": "資金流向",
+    "showPercent": "顯示百分比",
+    "showAmount": "顯示金額"
+  },
+  "profile": {
+    "title": "支出結構對比",
+    "recent": "近 12 個月",
+    "before": "前 12 個月"
+  }
+}

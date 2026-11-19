@@ -1,0 +1,82 @@
+{
+  "title": "概要",
+  "add": "新規サブスク",
+  "footer": {
+    "other": "利用中のサブスク {count}件\n{amount}/月\n"
+  },
+  "fullReport": "レポート全体を見る",
+  "listSep": "、",
+  "n": {
+    "subs": {
+      "other": "{count}件のサブスク"
+    },
+    "charges": {
+      "other": "{count}件の請求"
+    }
+  },
+  "axis": {
+    "yearMonth": "{yy}年{mon}"
+  },
+  "timeline": {
+    "title": "タイムライン",
+    "sub": "過去30日間に{past}請求\n今後30日間に{next}予定",
+    "past": "過去30日間\n{amount}"
+  },
+  "spending": {
+    "title": "月間支出",
+    "sub": "薄いバーは予測です",
+    "month": "月別",
+    "yearly": "年別",
+    "year": "{year}年",
+    "projected": "\n予測",
+    "inProgress": "\n進行中",
+    "paid": "\n{amount}請求済み",
+    "empty": "この期間の請求はありません",
+    "range": "{from} – {to}",
+    "period": {
+      "label": "期間",
+      "extended": "18か月",
+      "year": "今年",
+      "past12": "過去12か月",
+      "next12": "今後12か月",
+      "lastYear": "昨年",
+      "nextYear": "来年"
+    },
+    "view": {
+      "bars": "棒グラフ",
+      "stream": "ストリームグラフ"
+    }
+  },
+  "due": {
+    "title": "今後の請求",
+    "empty": "今後30日間の請求はありません",
+    "thisWeek": "今週",
+    "later": "それ以降",
+    "noMethod": "支払い方法なし"
+  },
+  "wallet": {
+    "title": "ウォレット",
+    "manage": "管理",
+    "balance": "残高 {amount}\n{status}",
+    "covered": {
+      "other": "あと{count}回分、{date}までにチャージ"
+    },
+    "mustTopUp": "{date}までにチャージ",
+    "enough": "3年以上持ちます",
+    "noBalance": "残高を入力すると、どれくらい持つかがわかります",
+    "others": "ほか：{list}"
+  },
+  "tips": {
+    "warn": "注意",
+    "info": "ヒント",
+    "good": "豆知識"
+  },
+  "stmt": {
+    "kicker": "今月のサブスク支出",
+    "hint": "今月 1 日から月末までの引き落とし合計（引き落とし済みと予定を含む）。先月全体と比較します。",
+    "perDay": "1日あたり",
+    "active": "利用中",
+    "share": "{amount}/月\n{pct}%",
+    "aria": "{name}、月額{amount}"
+  }
+}

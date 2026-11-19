@@ -1,0 +1,283 @@
+{
+  "ph": {
+    "account": "Login email, phone or username",
+    "phone": "Phone number"
+  },
+  "overlap": {
+    "keep": "Keep the old one running",
+    "keepHint": "Already prepaid and not expired yet: both run side by side and are billed as usual",
+    "keepUntil": "Old one runs until",
+    "endAuto": "When next starts",
+    "planned": "Planned",
+    "parallel": {
+      "one": "Overlaps {count} day",
+      "other": "Overlaps {count} days"
+    },
+    "payPhase": "Belongs to"
+  },
+  "addTitle": "Add subscription",
+  "editTitle": "Edit “{name}”",
+  "clearForm": "Clear form",
+  "revert": "Revert changes",
+  "draftRestored": "Restored your unsaved draft",
+  "confirmDelete": "Delete “{name}”? Its history will be deleted too. If you just stopped renewing, choose Stop instead.",
+  "toast": {
+    "added": "Added",
+    "saved": "Saved",
+    "deleted": "Deleted"
+  },
+  "cycle": {
+    "w1": "Weekly",
+    "m1": "Monthly",
+    "m3": "Quarterly",
+    "m6": "Every 6 months",
+    "y1": "Yearly",
+    "y2": "Every 2 years",
+    "lt": "Lifetime",
+    "custom": "Custom…"
+  },
+  "unit": {
+    "label": "Unit",
+    "every": "Every",
+    "day": {
+      "one": "day",
+      "other": "days"
+    },
+    "week": {
+      "one": "week",
+      "other": "weeks"
+    },
+    "month": {
+      "one": "month",
+      "other": "months"
+    },
+    "year": {
+      "one": "year",
+      "other": "years"
+    }
+  },
+  "status": {
+    "active": "Active",
+    "trial": "Trial",
+    "paused": "Paused",
+    "cancelled": "Cancelled",
+    "terminated": "Terminated",
+    "stop": "Stop"
+  },
+  "category": {
+    "choose": "Choose category",
+    "new": "New category…"
+  },
+  "group": {
+    "billing": "Billing",
+    "status": "Status",
+    "who": "Who uses it",
+    "links": "Links & appearance",
+    "tags": "Tags & notes"
+  },
+  "field": {
+    "account": "Account",
+    "phone": "Phone number",
+    "category": "Category",
+    "amount": "Amount",
+    "currency": "Currency",
+    "cycle": "Billing cycle",
+    "method": "Payment method",
+    "purchased": "Purchase date",
+    "start": "Start date",
+    "region": "Region",
+    "trialEnd": "Trial ends",
+    "end": "Ends on",
+    "notSet": "Not set",
+    "notes": "Notes",
+    "optional": "Optional",
+    "url": "Website",
+    "manageUrl": "Manage page",
+    "icon": "Icon",
+    "auto": "Automatic",
+    "showDomain": "Show domain on public page",
+    "showDomainOn": "Visitors see the full domain",
+    "showDomainOff": "Masked on the public page",
+    "tagsPlaceholder": "Separate with spaces",
+    "notesPlaceholder": "Notes (optional)",
+    "pausedAt": "Paused on",
+    "plan": "Plan",
+    "iconImported": "URL or emoji to replace",
+    "iconImage": "Image icon",
+    "iconUpload": "Upload",
+    "iconChange": "Change icon",
+    "iconUploadHelp": "Upload a PNG/JPEG/WebP (up to 8 MB), scaled to 128px; you can also drop or paste an image",
+    "iconClear": "Clear",
+    "iconUploadInvalid": "Can't use this image: choose a PNG/JPEG/WebP up to 8 MB",
+    "iconUploadTooLarge": "Image is still over 64 KB after compression: try a simpler one, such as a logo on a transparent background",
+    "billing": "Payment",
+    "settlement": "Track bills and payments separately"
+  },
+  "share": {
+    "none": "Just me",
+    "owner": "I host",
+    "member": "I joined",
+    "proxy": "Paying for",
+    "memberHint": "Enter just your share",
+    "perHead": "{amount} per person",
+    "ownerName": "Host",
+    "ownerPlaceholder": "Who you pay",
+    "perPeriod": "Share per period",
+    "paidUntil": "Paid until",
+    "manageHint": "After saving, open this plan under Shared plans to add members and record payments."
+  },
+  "proxy": {
+    "for": "Paying for",
+    "forPlaceholder": "Their name",
+    "contact": "Contact",
+    "notePlaceholder": "e.g. Coworker, pays at month end"
+  },
+  "more": {
+    "title": "More options",
+    "intro": "Intro offer",
+    "bonus": "Free time",
+    "remind": "Reminder",
+    "links": "Links",
+    "tags": "Tags",
+    "notes": "Notes",
+    "summary": "Intro offer, free time, reminder, links, tags, notes",
+    "summaryLt": "Links, tags, notes"
+  },
+  "intro": {
+    "has": "Intro offer",
+    "price": "Intro price",
+    "until": "Offer ends"
+  },
+  "bonus": {
+    "has": "Free time",
+    "from": "Free from",
+    "until": "Free until",
+    "resume": "Billing resumes {date}",
+    "quick": {
+      "d7": "+7 days",
+      "m1": "+1 month",
+      "m3": "+3 months",
+      "m6": "+6 months",
+      "y1": "+1 year"
+    }
+  },
+  "remind": {
+    "days": "Remind me",
+    "default": {
+      "one": "Default ({count} day before)",
+      "other": "Default ({count} days before)"
+    },
+    "defaultSameDay": "Default (on the due date)",
+    "defaultNever": "Default (never)",
+    "sameDay": "On the due date",
+    "before": {
+      "one": "{count} day before",
+      "other": "{count} days before"
+    },
+    "never": "Never"
+  },
+  "name": {
+    "placeholder": "Name, or paste an App Store link",
+    "catalog": "Popular services\nfills in logo, category and website"
+  },
+  "change": {
+    "title": "History & changes",
+    "needPrice": "Enter a price",
+    "toast": {
+      "price": "Price change recorded. Tap “{done}” to apply.",
+      "switch": "New phase added. Tap “{done}” to apply.",
+      "resume": "Resubscribed. Tap “{done}” to apply."
+    },
+    "price": "Record price change",
+    "switch": "Change region, plan or payment method",
+    "resume": "Resubscribe",
+    "undo": "Undo latest phase",
+    "priceDate": "New price starts",
+    "switchDate": "Change takes effect",
+    "resumeDate": "Resubscribed on",
+    "newPrice": "New price ({currency})",
+    "priceLabel": "Price",
+    "planned": "Not final, just planned",
+    "plannedHint": "Still counted in forecasts and marked “Planned” in details. Confirm or cancel it with one tap later.",
+    "credit": "Credit unused {amount} from the old plan",
+    "renewal": "Next charge {date}",
+    "renewalReset": "Restart cycle",
+    "renewalKeep": "Keep date",
+    "firstPay": "First payment ({currency})",
+    "adjustPay": "Difference ({currency})"
+  },
+  "history": {
+    "gapMonths": {
+      "one": "Lapsed {count} month",
+      "other": "Lapsed {count} months"
+    },
+    "gapDays": {
+      "one": "Lapsed {count} day",
+      "other": "Lapsed {count} days"
+    },
+    "plannedRange": "{start} → {end} (planned)",
+    "plannedFrom": "From {start} (planned)",
+    "range": "{start} → {end}",
+    "now": "now",
+    "initial": "Initial",
+    "priceChange": "Price change {date}",
+    "outsidePayments": "{count} existing payment(s) will fall outside the service period. Keep their original dates, amounts and phase, and continue?",
+    "editPrice": "Edit price effective {date}",
+    "deletePrice": "Delete this price point? The preceding price will apply until the next change.",
+    "repriceCharges": "Saving will recalculate {count} past estimated charges. Recorded payments will stay unchanged. Continue?"
+  },
+  "payment": {
+    "addTitle": "Add payment",
+    "editTitle": "Edit payment",
+    "toast": {
+      "added": "Payment added",
+      "edited": "Payment updated",
+      "deleted": "Payment deleted"
+    },
+    "date": "Date",
+    "kind": {
+      "label": "Type",
+      "charge": "Charge",
+      "refund": "Refund",
+      "adjust": "Adjustment",
+      "failed": "Failed charge"
+    },
+    "amount": "Amount ({currency})",
+    "refundHint": "Enter the amount refunded; it’s saved as negative",
+    "settledCcy": "Card currency",
+    "settledAmount": "Card amount",
+    "orderAmount": "Order amount",
+    "usageFoot": "Recorded for the billing period {period}",
+    "earlyHint": "Counts as an early renewal: settles the {settles} period, next one {next}.",
+    "earlyExtra": "This is an extra charge",
+    "freezeHint": "Charges in this phase are currently estimated from the billing cycle. Saving will first turn the estimated {amount} charges up to today into records; from then on, records are the source of truth. Future charges are unchanged.",
+    "method": "Payment method",
+    "scopeOne": "This charge only",
+    "scopePhase": "This plan ({count})",
+    "scope": "Apply to",
+    "split": "Split payment",
+    "unsplit": "Single method",
+    "sources": "Paid with",
+    "addSource": "Add source",
+    "splitOk": "Adds up to {amount}",
+    "splitLeft": "Remaining to allocate: {amount}"
+  },
+  "timeline": {
+    "home": "Back to today (or double-click the timeline)"
+  },
+  "ai": {
+    "title": "Fill in with AI",
+    "hint": "Paste a receipt, screenshot or any text and let it sort things out",
+    "go": "Paste"
+  },
+  "plan": {
+    "choose": {
+      "one": "{count} App Store plan",
+      "other": "{count} App Store plans"
+    }
+  },
+  "billing": {
+    "prepaid": "Prepaid",
+    "postpaid": "Postpaid"
+  }
+}

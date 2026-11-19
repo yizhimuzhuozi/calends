@@ -1,0 +1,86 @@
+{
+  "title": "Visão geral",
+  "add": "Nova assinatura",
+  "footer": {
+    "one": "{count} assinatura ativa\n{amount}/mês\n",
+    "other": "{count} assinaturas ativas\n{amount}/mês\n"
+  },
+  "fullReport": "Ver relatório completo",
+  "listSep": ", ",
+  "n": {
+    "subs": {
+      "one": "{count} assinatura",
+      "other": "{count} assinaturas"
+    },
+    "charges": {
+      "one": "{count} cobrança",
+      "other": "{count} cobranças"
+    }
+  },
+  "axis": {
+    "yearMonth": "{mon}/{yy}"
+  },
+  "timeline": {
+    "title": "Linha do tempo",
+    "sub": "{past} cobrados nos últimos 30 dias\n{next} a vencer nos próximos 30",
+    "past": "Últimos 30 dias\n{amount}"
+  },
+  "spending": {
+    "title": "Gastos mensais",
+    "sub": "Barras mais claras são previsões",
+    "month": "Mensal",
+    "yearly": "Anual",
+    "year": "{year}",
+    "projected": "\nPrevisto",
+    "inProgress": "\nEm andamento",
+    "paid": "\n{amount} cobrados",
+    "empty": "Nenhuma cobrança neste período",
+    "range": "{from} – {to}",
+    "period": {
+      "label": "Período",
+      "extended": "18 meses",
+      "year": "Este ano",
+      "past12": "Últimos 12 meses",
+      "next12": "Próximos 12 meses",
+      "lastYear": "Ano passado",
+      "nextYear": "Próximo ano"
+    },
+    "view": {
+      "bars": "Gráfico de barras",
+      "stream": "Gráfico de fluxo"
+    }
+  },
+  "due": {
+    "title": "Próximas cobranças",
+    "empty": "Nada a vencer nos próximos 30 dias",
+    "thisWeek": "Esta semana",
+    "later": "Depois",
+    "noMethod": "Sem forma de pagamento"
+  },
+  "wallet": {
+    "title": "Carteira",
+    "manage": "Gerenciar",
+    "balance": "Saldo {amount}\n{status}",
+    "covered": {
+      "one": "cobre mais {count} cobrança, recarregue até {date}",
+      "other": "cobre mais {count} cobranças, recarregue até {date}"
+    },
+    "mustTopUp": "recarregue até {date}",
+    "enough": "suficiente para mais de 3 anos",
+    "noBalance": "Adicione um saldo para ver quanto tempo ele dura",
+    "others": "Também: {list}"
+  },
+  "tips": {
+    "warn": "Atenção",
+    "info": "Dica",
+    "good": "Curiosidade"
+  },
+  "stmt": {
+    "kicker": "Gasto com assinaturas este mês",
+    "hint": "Cobranças do dia 1 ao fim deste mês, já cobradas e futuras; comparado com todo o mês passado.",
+    "perDay": "Por dia",
+    "active": "Ativas",
+    "share": "{amount}/mês\n{pct}%",
+    "aria": "{name}, {amount} por mês"
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "currency": {
+    "SLE": "Leone Sierra Leone",
+    "XCG": "Gulden Karibia",
+    "ZWG": "Emas Zimbabwe"
+  },
+  "bill": {
+    "m1": "Bulanan",
+    "m3": "Triwulanan",
+    "m6": "Per 6 bulan",
+    "m12": "Tahunan",
+    "custom": {
+      "other": "Per {count} bulan"
+    },
+    "once": "Sekali"
+  },
+  "cycle": {
+    "lifetime": "Seumur hidup",
+    "once": "sekali",
+    "every": {
+      "day": "Harian",
+      "week": "Mingguan",
+      "month": "Bulanan",
+      "year": "Tahunan"
+    },
+    "quarterly": "Triwulanan",
+    "halfYearly": "Per 6 bulan",
+    "biennial": "Per 2 tahun",
+    "everyN": {
+      "day": {
+        "other": "Per {count} hari"
+      },
+      "week": {
+        "other": "Per {count} minggu"
+      },
+      "month": {
+        "other": "Per {count} bulan"
+      },
+      "year": {
+        "other": "Per {count} tahun"
+      }
+    }
+  },
+  "subError": {
+    "name": "Nama wajib diisi",
+    "price": "Harga tidak valid",
+    "paymentCurrency": "Mata uang pembayaran harus sama dengan mata uang paket",
+    "start": "Tanggal mulai tidak valid",
+    "cycle": "Siklus tagihan tidak valid",
+    "refundAmount": "Masukkan jumlah positif dan mata uang yang valid",
+    "refundDate": "Tetapkan tanggal keluar; pengembalian tidak boleh sebelum bergabung",
+    "funding": "Pembagian pembayaran tidak valid: gunakan minimal dua metode pembayaran berbeda dengan jumlah bukan nol, dan jangan tetapkan satu metode tersendiri pada tagihan yang sama",
+    "fundingSum": "Jumlah bagian harus sama dengan jumlah pembayaran",
+    "transfer": "Pengalihan tidak valid: jenis, tanggal, jumlah positif, dan mata uang wajib diisi",
+    "meter": "Meteran tidak valid: perlu id unik dan nama",
+    "reading": "Catatan penggunaan tidak valid: perlu id unik, tanggal valid, dan nilai angka",
+    "meterLink": "Meteran yang ditautkan tidak ada atau juga merupakan tautan ke meteran lain",
+    "meterLinkUsed": "“{meter}” ditautkan oleh “{name}”; hapus tautan di sana terlebih dahulu",
+    "readingMeter": "Catatan penggunaan merujuk ke meteran yang belum ditentukan"
+  },
+  "phase": {
+    "switchTooEarly": "Tanggal berlaku harus setelah fase saat ini dimulai",
+    "resumeNeedsStopDate": "Masukkan tanggal berhenti yang sebenarnya dan simpan sebelum melanjutkan",
+    "resumeTooEarly": "Tanggal lanjut tidak boleh sebelum tanggal berakhir terakhir",
+    "prependTooLate": "Fase sebelumnya harus dimulai sebelum tanggal mulai langganan",
+    "prependUntil": "Fase sebelumnya harus berakhir setelah dimulai dan sebelum tanggal mulai semula",
+    "priceOutOfRange": "Tanggal perubahan harga tidak berada di fase mana pun",
+    "keepTooEarly": "Tanggal tetap berjalan harus setelah tanggal peralihan",
+    "endTooEarly": "Tanggal berakhir harus setelah awal fase ini",
+    "endOnNextStart": "Tanggal berakhir adalah hari layanan terakhir dan tidak boleh sama dengan awal fase berikutnya; kosongkan atau pakai sehari sebelumnya untuk melanjutkan",
+    "startOrder": "Tanggal mulai harus berada di antara tanggal mulai tahap sebelumnya dan berikutnya.",
+    "priceDuplicate": "Harga sudah ada pada tanggal ini",
+    "priceInitial": "Harga awal tidak dapat dihapus",
+    "upgradeUnavailable": "Peralihan ini tidak bisa mengkreditkan paket lama: harus sudah berlaku, memakai mata uang yang sama dan prabayar, serta paket lama masih punya hari yang belum terpakai. Mempertahankan tanggal tagihan juga butuh siklus yang sama."
+  },
+  "event": {
+    "label": "{region}{price}/{per}",
+    "region": "{region} ",
+    "per": {
+      "year": "thn",
+      "month": "bln",
+      "months": "{count} bln",
+      "week": "mgg",
+      "day": "hari"
+    }
+  },
+  "listSep": ", ",
+  "insight": {
+    "yearly": {
+      "title": {
+        "other": "{count} langganan jangka panjang diperpanjang dalam 60 hari"
+      },
+      "body": "Totalnya sekitar {sum}. Tagihan tahunan sulit di-refund, jadi sekarang saatnya memutuskan mana yang dipertahankan."
+    },
+    "dup": {
+      "title": "{names} mungkin duplikat",
+      "body": {
+        "other": "{count} langganan ini totalnya sekitar {sum} per bulan. Periksa apakah semuanya masih Anda perlukan."
+      }
+    },
+    "hikes": {
+      "title": {
+        "other": "{count} langganan naik harga dalam setahun terakhir"
+      }
+    },
+    "intro": {
+      "title": {
+        "other": "Promo {name} berakhir dalam {count} hari"
+      },
+      "body": "Setelah itu, harga kembali dari {from} ke {to}."
+    },
+    "balance": {
+      "title": "{name} tidak akan cukup sampai {date}",
+      "body": "{sub} perlu {need}, saat itu hanya tersisa {current}.",
+      "bodyOver": "{sub} perlu {need}, saldo sudah {current}.",
+      "bodyToday": "Setelah {sub} ({need}) hari ini, saldo menjadi {current}."
+    },
+    "fx": {
+      "title": "{pct}% pengeluaran dalam mata uang asing",
+      "body": "Terbesar adalah {ccy} ({share}%). Bagian ini jadi lebih murah saat {ccy} melemah, dan lebih mahal saat menguat."
+    },
+    "noMethod": {
+      "title": {
+        "other": "{count} langganan belum punya metode pembayaran"
+      },
+      "body": "Tambahkan agar perkiraan saldo dan statistik per metode lengkap."
+    },
+    "top": {
+      "title": "{name} adalah langganan termahal Anda",
+      "body": "Sekitar {perDay} per hari, {pct}% dari pengeluaran bulanan."
+    }
+  },
+  "methodKind": {
+    "debit": "Kartu debit",
+    "credit": "Kartu kredit",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "paypal": "PayPal",
+    "appstore": "App Store",
+    "googleplay": "Google Play",
+    "giftcard": "Kartu hadiah",
+    "prepaid": "Saldo toko",
+    "phone": "Pulsa",
+    "crypto": "Kartu kripto",
+    "other": "Lainnya"
+  },
+  "publicMethod": "{kind}\n{region}",
+  "channel": {
+    "email": "Email"
+  },
+  "csv": {
+    "appStoreBalance": "Saldo App Store {region}",
+    "otherCategory": "Lainnya"
+  },
+  "category": {
+    "ai": "AI",
+    "tools": "Alat",
+    "productivity": "Produktivitas",
+    "media": "Video",
+    "music": "Musik",
+    "games": "Game",
+    "cloud": "Cloud & server",
+    "storage": "Penyimpanan",
+    "domains": "Domain",
+    "vpn": "VPN & jaringan",
+    "developer": "Pengembangan",
+    "design": "Desain",
+    "education": "Pendidikan",
+    "news": "Berita & bacaan",
+    "social": "Sosial",
+    "shopping": "Belanja",
+    "finance": "Keuangan",
+    "insurance": "Asuransi",
+    "health": "Kesehatan & kebugaran",
+    "phone": "Telepon & seluler",
+    "daily": "Gaya hidup"
+  },
+  "stop": {
+    "title": "Hentikan layanan",
+    "nonrenew": "Jangan perpanjang",
+    "cancel": "Hentikan sekarang",
+    "terminate": "Dinonaktifkan penyedia",
+    "date": "Tanggal berhenti",
+    "paidThrough": "Dibayar hingga {date}",
+    "refundYes": "Dikembalikan",
+    "refundNo": "Tanpa pengembalian dana",
+    "refundAmount": "Jumlah pengembalian",
+    "refundDate": "Tanggal pengembalian",
+    "reason": "Alasan (opsional)",
+    "refunded": "Dikembalikan {money}",
+    "partial": "Pengembalian sebagian {money}",
+    "unrefunded": "Tanpa pengembalian dana\nKerugian {money}",
+    "unused": "Kerugian tanpa pengembalian dana: {money} ({days})",
+    "unusedTitle": "Tanpa pengembalian dana",
+    "terminated": "Dinonaktifkan",
+    "restore": "Aktifkan kembali",
+    "fxMissing": "Sebagian kerugian tidak dapat dikonversi karena kurs tidak tersedia. Jumlah dalam mata uang asli tetap ada di rincian.",
+    "lossTitle": "Kerugian tanpa pengembalian dana",
+    "lossDays": {
+      "other": "{count} hari"
+    },
+    "fullyRefunded": "Dana dikembalikan penuh",
+    "chargeOnEnd": "Hari ini masih ada tagihan perpanjangan. Pilih sehari sebelumnya agar tidak ditagih.",
+    "nonrenewDone": "Tidak akan diperpanjang. Tidak ada tagihan setelah {date}.",
+    "stoppedDone": "Layanan dihentikan",
+    "method": "Cara penghentian",
+    "latestRefundHint": "Kolom ini mengubah pengembalian dana terakhir. Pengembalian sebelumnya tetap ada di riwayat pembayaran."
+  },
+  "renewal": {
+    "title": "Aturan perpanjangan",
+    "chargeLeadDays": "Tagih lebih awal",
+    "cancelLeadDays": "Batalkan lebih awal",
+    "nextDue": "Tagihan berikutnya",
+    "hint": "Tagihan sebelum perpanjangan, pembatalan sebelum tagihan itu. Masukkan hari; 0 berarti tidak ada. Periode layanan tetap.",
+    "cancelBy": "Batas pembatalan",
+    "invalid": "Masukkan bilangan bulat dari 0 hingga 3660 hari.",
+    "tooLate": "Batas pembatalan telah lewat. Periode berikutnya tetap akan ditagih.",
+    "cancelReminder": "Batalkan sebelum {date} untuk menghindari tagihan berikutnya.",
+    "none": "Tidak ada"
+  },
+  "import": {
+    "invalid": "File ini tidak dapat dibaca sebagai data langganan.",
+    "tooLarge": "Pilih file maksimal 32 MB.",
+    "pending": "Cadangan berisi perubahan tertunda. Buat cadangan basis data yang konsisten terlebih dahulu.",
+    "currency": "Pilih mata uang; simbol sumber ambigu atau tidak didukung.",
+    "cycle": "Pilih siklus penagihan yang valid.",
+    "price": "Masukkan jumlah valid yang tidak negatif.",
+    "date": "Masukkan tanggal yang valid.",
+    "selectUser": "Pilih satu akun dari cadangan ini.",
+    "payers": "Dibayar oleh",
+    "unknownStart": "Tanggal mulai asli tidak diketahui; pencatatan dimulai dari tanggal yang dipilih.",
+    "manual": "Pembaruan manual pada sumber; diimpor sebagai dijeda.",
+    "reviewRequired": "Buka file melalui Impor data untuk meninjau kolomnya.",
+    "badDate": "{field} asli \"{value}\" tidak dikenali, tidak diimpor",
+    "nextDue": "tanggal pembayaran berikutnya",
+    "end": "tanggal berakhir"
+  },
+  "fxIncomplete": "Beberapa jumlah tidak dapat dikonversi karena kurs tidak tersedia, jadi hasil ini tidak lengkap.",
+  "fxUnconverted": "Belum dikonversi: {amount}",
+  "fxOther": "dan {count} mata uang lainnya"
+}

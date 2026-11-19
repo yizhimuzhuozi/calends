@@ -1,0 +1,97 @@
+{
+  "title": "連接 AI 助手",
+  "newToken": "新增令牌",
+  "mcpUrl": "MCP 網址",
+  "urlCopied": "網址已複製",
+  "copy": "複製",
+  "copied": "已複製",
+  "copyFailed": "複製失敗",
+  "neverUsed": "從未使用",
+  "tokenPlaceholder": "<你的令牌>",
+  "tokens": {
+    "other": "令牌\n{count} 個"
+  },
+  "noTokens": "還沒有令牌。新增一個，交給要連接的 AI 助理。",
+  "lastUsed": "最近使用 {time}",
+  "confirmRevoke": "撤銷「{name}」？使用它的 AI 助理會立即失去存取權限。",
+  "revoke": "撤銷",
+  "revoked": "已撤銷",
+  "setup": "連接方式",
+  "tools": {
+    "other": "可用工具\n{count} 個"
+  },
+  "clientOther": "其他",
+  "scope": {
+    "write": "讀寫",
+    "read": "唯讀",
+    "label": "權限",
+    "writeDesc": "可以查詢和管理訂閱、扣款、收款、錢包、人員、分類及帳本設定。",
+    "readDesc": "只能查詢，不能修改任何資料。"
+  },
+  "created": {
+    "title": "令牌已建立",
+    "saved": "我已儲存",
+    "foot": "令牌只會顯示這一次，關閉後就無法再查看；遺失了就撤銷後重新建立。",
+    "tokenCopied": "令牌已複製"
+  },
+  "cancel": "取消",
+  "generate": "建立",
+  "name": "名稱",
+  "namePlaceholder": "要給哪個 AI 使用",
+  "pickClient": "選擇你的 AI 助手",
+  "tokensHint": "建議每個助手用一個獨立的令牌，有需要時可以單獨撤銷。",
+  "toolsHint": "AI 助手能對帳簿做的事。唯讀令牌只能看到讀取類工具。",
+  "toolsRead": "讀取",
+  "toolsWrite": "修改",
+  "experimental": "實驗性",
+  "copiedWithToken": "已複製，已包含令牌",
+  "installIn": "加入到 {name}",
+  "createdAt": "建立於 {time}",
+  "where": {
+    "terminal": "在終端機執行。",
+    "codex": "在終端機執行。把 export 那一行加到 shell 設定檔，重新啟動後令牌仍然有效。",
+    "file": "加入到 {path}。",
+    "grokbot": "在 Grok Bot 打開 設定 → Plugins，新增 MCP 伺服器，按下面填寫名稱、地址和請求標頭。Grok Bot 在雲端運行，地址需要公網可訪問。",
+    "http": "任何支援 Streamable HTTP 的 MCP 用戶端都可以。下面是一個測試請求。"
+  },
+  "via": {
+    "command": "終端機指令",
+    "install": "一鍵安裝",
+    "file": "設定檔",
+    "settings": "App 內設定",
+    "http": "任何用戶端"
+  },
+  "step": {
+    "token": "令牌",
+    "tokenReady": "使用「{name}」，已寫入下面的設定",
+    "tokenNeeded": "令牌只會在建立時顯示一次。",
+    "createFor": "為 {name} 建立令牌",
+    "send": "傳給 {name}"
+  },
+  "status": {
+    "on": "AI 存取已開啟",
+    "off": "AI 存取已關閉",
+    "onHint": "持有有效令牌的 AI 助手可按令牌權限存取賬本。",
+    "offHint": "重新開啟前，所有 MCP 請求都會被拒絕。"
+  },
+  "promptLabel": "提示詞",
+  "copyConfigOnly": "只複製設定",
+  "configCopied": "設定已複製",
+  "agentPrompt": "請把我的 Calends 訂閱帳本接入為你的 MCP 伺服器，名稱叫 calends。{where}\n\n{code}\n\n設定好後呼叫 {verify} 工具驗證一下，再告訴我現在有幾個使用中的訂閱。",
+  "col": {
+    "name": "名稱",
+    "key": "密鑰",
+    "created": "建立",
+    "lastUsed": "最近使用"
+  },
+  "domain": {
+    "overview": "概覽與統計",
+    "subs": "訂閱與方案",
+    "charges": "扣款記錄",
+    "wallet": "錢包與付款方式",
+    "people": "合租與代付",
+    "categories": "分類",
+    "settings": "設定",
+    "other": "其他"
+  }
+}

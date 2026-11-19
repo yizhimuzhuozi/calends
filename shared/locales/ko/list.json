@@ -1,0 +1,135 @@
+{
+  "overlap": {
+    "note": "{what} {date}까지 함께 진행"
+  },
+  "search": "검색",
+  "title": "모든 구독",
+  "all": "전체",
+  "summary": {
+    "other": "{count}개\n{monthly}/월\n{yearly}/년"
+  },
+  "status": {
+    "upcoming": "시작 전",
+    "active": "이용 중",
+    "trial": "체험 중",
+    "trialShort": "체험",
+    "paused": "일시 정지됨",
+    "pausedShort": "정지",
+    "ending": "갱신 안 함",
+    "ended": "해지됨",
+    "lifetime": "평생 이용",
+    "terminated": "사용 중지됨"
+  },
+  "proxyExcluded": "대신 결제\n집계 제외",
+  "perMonthApprox": "≈ {amount}/월",
+  "originalPrice": "정가 {amount}",
+  "view": {
+    "grid": "카드",
+    "list": "목록",
+    "gantt": "타임라인"
+  },
+  "sort": {
+    "label": "정렬",
+    "next": "다음 결제",
+    "cost": "월 비용",
+    "amount": "금액",
+    "name": "이름",
+    "category": "카테고리",
+    "method": "결제 수단",
+    "start": "시작일",
+    "asc": "오름차순",
+    "desc": "내림차순"
+  },
+  "add": "구독 추가",
+  "clear": "지우기",
+  "facet": {
+    "status": "상태",
+    "category": "카테고리",
+    "pay": "결제 수단"
+  },
+  "unassigned": "미지정",
+  "empty": "일치하는 구독이 없습니다",
+  "badge": {
+    "share": "공유",
+    "joined": "참여",
+    "proxy": "대신 결제",
+    "proxyFor": "{name} 대신 결제",
+    "someone": "누군가",
+    "parallel": "병행"
+  },
+  "col": {
+    "name": "구독",
+    "category": "카테고리",
+    "method": "결제 수단",
+    "amount": "금액",
+    "monthly": "월",
+    "start": "시작",
+    "next": "다음 결제",
+    "planPrice": "요금제 가격",
+    "inBase": "{ccy} 환산"
+  },
+  "notCounted": "집계 제외",
+  "endedOn": "{date} 종료",
+  "change": {
+    "noMethod": "결제 수단 미정",
+    "planned": "예정\n",
+    "starts": "{when} 시작",
+    "from": "{when} 변경"
+  },
+  "proxyBadge": {
+    "owed": {
+      "other": "대신 결제\n{count}건 미수"
+    },
+    "owedFor": {
+      "other": "{name} 대신 결제\n{count}건 미수"
+    },
+    "settled": "대신 결제\n정산 완료",
+    "settledFor": "{name} 대신 결제\n정산 완료"
+  },
+  "gantt": {
+    "months": {
+      "other": "{count}개월"
+    },
+    "days": {
+      "other": "{count}일"
+    },
+    "noRegion": "지역 없음",
+    "zoom3m": "3개월",
+    "zoom6m": "6개월",
+    "zoom1y": "1년",
+    "zoom3y": "3년",
+    "byMethod": "결제 수단별",
+    "byRegion": "지역별",
+    "gapTitle": "{span} 중단: {from} – {to}",
+    "gapShort": "{span} 중단",
+    "lifetimeSuffix": " 평생 이용",
+    "present": "현재",
+    "plannedSuffix": "\n예정",
+    "introPrefix": "프로모션\n",
+    "introShort": "프로모션 ",
+    "planned": "예정",
+    "gap": "중단",
+    "earlier": "이전",
+    "later": "다음",
+    "backToNow": "현재로",
+    "resize": "드래그해 이름 열 너비 조절\n더블클릭하면 기본값"
+  },
+  "kind": {
+    "debit": "체크카드",
+    "credit": "신용카드",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "paypal": "PayPal",
+    "appstore": "App Store 잔액",
+    "googleplay": "Google Play 잔액",
+    "giftcard": "기프트 카드",
+    "prepaid": "스토어 잔액",
+    "phone": "휴대폰 잔액",
+    "crypto": "암호화폐 카드",
+    "other": "기타"
+  },
+  "network": {
+    "unionpay": "UnionPay"
+  },
+  "monthlySame": "표시 가격과 동일"
+}

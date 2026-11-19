@@ -1,0 +1,519 @@
+{
+  "title": "Ayarlar",
+  "days": {
+    "one": "{count} gün",
+    "other": "{count} gün"
+  },
+  "logout": "Çıkış yap",
+  "toast": {
+    "saved": "Kaydedildi",
+    "deleted": "Silindi",
+    "csvEmpty": "Bu CSV'de içe aktarılacak abonelik yok",
+    "badBackup": "Geçerli bir yedek dosyası değil"
+  },
+  "general": {
+    "title": "Genel",
+    "language": "Dil",
+    "followSystem": "Sistem varsayılanı",
+    "name": "Ad",
+    "namePlaceholder": "Paylaşım görsellerinde ve herkese açık sayfada gösterilir",
+    "avatar": "Avatar",
+    "avatarDefault": "Varsayılan simge",
+    "startPage": "Açılış sayfası",
+    "startPageAria": "Başlangıç sayfası",
+    "baseCurrency": "Ana para birimi",
+    "signedAmounts": "Gelir ve gider işaretleri",
+    "gainColor": "Kazanç/kayıp renkleri",
+    "gainGreen": "Yeşil kazanç, kırmızı kayıp",
+    "gainRed": "Kırmızı kazanç, yeşil kayıp",
+    "timezone": "Saat dilimi",
+    "weekStart": "Hafta başlangıcı",
+    "weekStartAria": "Haftanın ilk günü",
+    "monday": "Pazartesi",
+    "sunday": "Pazar",
+    "telemetry": "Anonim kullanım istatistikleri",
+    "telemetryForcedOff": "Bu kurulumda kapalı",
+    "telemetryNote": "Yalnızca kullanım ve sürüm bilgisi sayılır. Abonelikleriniz, tutarlar ve defter verileriniz asla toplanmaz."
+  },
+  "sidebar": {
+    "thisMonth": "Bu ay",
+    "dragFoot": "Sıralamak için tutamaçları sürükleyin; kenar çubuğu bu sırayı izler.",
+    "title": "Kenar çubuğu",
+    "upcoming": "Yaklaşan ödemeler",
+    "lookAhead": "İleriye bakış",
+    "lookAheadAria": "Yaklaşan ödemeler aralığı"
+  },
+  "remind": {
+    "title": "Hatırlatmalar",
+    "lead": "Hatırlat",
+    "sameDay": "Aynı gün",
+    "never": "Hiçbir zaman",
+    "hour": "Gönderim saati",
+    "monthly": "Her ayın 1'inde aylık önizleme",
+    "test": "Tüm kanallara test hatırlatması gönder",
+    "testFailed": "Gönderilemedi",
+    "channelError": "{channel}: {error}",
+    "errorSep": "; ",
+    "testSent": "Test hatırlatması gönderildi",
+    "preview": "Bugünün hatırlatmalarını önizle",
+    "log": "Gönderim kaydı"
+  },
+  "today": {
+    "recent": "Son gönderimler",
+    "title": "Bugün ({day})",
+    "items": {
+      "one": "{count} öğe",
+      "other": "{count} öğe"
+    }
+  },
+  "books": {
+    "title": "Defter",
+    "defaultMethod": "Varsayılan ödeme yöntemi",
+    "unassigned": {
+      "one": "{count} aboneliğin ödeme yöntemi yok",
+      "other": "{count} aboneliğin ödeme yöntemi yok"
+    },
+    "assignAllDone": {
+      "one": "{count} aboneliğe varsayılan ödeme yöntemi atandı",
+      "other": "{count} aboneliğe varsayılan ödeme yöntemi atandı"
+    },
+    "assignAll": "Tümüne varsayılanı uygula",
+    "collectCurrency": "Ortak plan para birimi"
+  },
+  "fx": {
+    "title": "Döviz kurları",
+    "current": "Güncel kur",
+    "updatedAt": "Güncellendi: {time}",
+    "updated": "Döviz kurları güncellendi",
+    "history": "Geçmiş kurlar",
+    "earliest": "{date} itibarıyla",
+    "coverage": {
+      "one": "{covered} / {count} gün",
+      "other": "{covered} / {count} gün"
+    },
+    "fill": "Eksik kurları tamamla",
+    "historyUpdated": "Geçmiş kurlar güncellendi"
+  },
+  "open": {
+    "publicSubs": "Gösterilen abonelikler",
+    "publicSubsHint": "Başkaları için ödenen abonelikler gizli kalır. Yeni abonelikler varsayılan olarak herkese açıktır.",
+    "publicShown": "Gösterilen\n{count}",
+    "publicOff2": "Gizli\n{count}",
+    "publicShowAll": "Tümünü göster",
+    "publicHideAll": "Tümünü gizle",
+    "publicHideOne": "{name} gizle",
+    "publicShowOne": "{name} göster",
+    "publicNone": "Hiçbiri gösterilmiyor, herkese açık sayfa boş kalacak",
+    "title": "Paylaşım ve erişim",
+    "ics": "Sistem takvimine abone ol",
+    "on": "Açık",
+    "off": "Kapalı",
+    "public": "Herkese açık sayfa",
+    "publicOn": "Herkese açık sayfa açık",
+    "publicOff": "Herkese açık sayfa kapalı",
+    "publicTitle": "Sayfa başlığı",
+    "previewPublic": "Herkese açık sayfayı önizle",
+    "ai": "Yapay zekâ erişimi (MCP)",
+    "aiOn": "Yapay zekâ erişimi açık",
+    "aiOff": "Yapay zekâ erişimi kapalı. Yapay zekâ asistanları artık bağlanamaz.",
+    "manageAi": "Token'ları ve kurulumu yönet"
+  },
+  "data": {
+    "title": "Veriler",
+    "importCsv": "Veri içe aktar",
+    "restore": "Yedekten geri yükle",
+    "exportCsv": "CSV dışa aktar",
+    "backup": "Tam yedeği dışa aktar"
+  },
+  "restore": {
+    "cancel": "Vazgeç",
+    "replace": "Mevcut defteri değiştir",
+    "done": "Geri yüklendi",
+    "warning": "Mevcut defteriniz tamamen yedekle değiştirilecek. Bu işlem geri alınamaz; önce bir yedek dışa aktarmayı düşünün.",
+    "subs": "Abonelikler",
+    "methods": "Ödeme yöntemleri",
+    "count": {
+      "one": "{count}",
+      "other": "{count}"
+    },
+    "time": "Yedekleme zamanı",
+    "format": "Biçim",
+    "legacy": "Eski yedek: yalnızca abonelikler ve ödeme yöntemleri",
+    "unlock": "Kilidi aç",
+    "wrongPassphrase": "Parola ifadesi yanlış"
+  },
+  "import": {
+    "title": {
+      "one": "{count} abonelik içe aktar",
+      "other": "{count} abonelik içe aktar"
+    },
+    "confirmReplace": "Değiştirmek mevcut tüm abonelikleri ve ödeme yöntemlerini siler. Devam edilsin mi?",
+    "replaceDone": "İçe aktarıldı (değiştirildi)",
+    "replaceAll": "Tümünü değiştir",
+    "mergeDone": "İçe aktarıldı (birleştirildi)",
+    "merge": "Mevcutlara ekle",
+    "newMethods": "Yeni ödeme yöntemleri oluşturulacak: {names}",
+    "sep": ", ",
+    "history": "Ödemeler yalnızca içe aktarma tarihinden itibaren tahmin edilir. Önceki geçmiş yeniden oluşturulmaz.",
+    "owner": "Yedekteki hesap",
+    "choose": "Seçin…",
+    "independent": "Aynı adlı abonelikler ayrı kalır.",
+    "include": "Dahil et",
+    "every": "Her",
+    "next": "Sonraki ödeme",
+    "paused": "Duraklatılmış olarak içe aktarılır; sürdürmeden önce inceleyin.",
+    "reading": "Dosya okunuyor…",
+    "formats": "CSV, ZIP yedeği veya SQLite veritabanı"
+  },
+  "channels": {
+    "title": {
+      "one": "Bildirim kanalları\n{count} açık",
+      "other": "Bildirim kanalları\n{count} açık"
+    },
+    "empty": "Henüz kanal yok; hatırlatmalar gönderilmeyecek.",
+    "test": "Test et",
+    "testFailed": "Gönderilemedi",
+    "testSent": "Test mesajı gönderildi",
+    "add": "Kanal ekle",
+    "addKind": "{name} ekle",
+    "delete": "Sil",
+    "save": "Kaydet",
+    "fillField": "Lütfen şunu girin: {field}",
+    "name": "Ad",
+    "optional": "İsteğe bağlı",
+    "enabled": "Etkin",
+    "field": {
+      "to": "E-posta adresi",
+      "webhook": "Webhook URL'si",
+      "server": "Sunucu",
+      "token": "Erişim token'ı"
+    },
+    "kind": {
+      "email": {
+        "name": "E-posta",
+        "help": "Cloudflare Email Sending ile gönderilir; alan adınızın Cloudflare'de doğrulanmış olması gerekir"
+      },
+      "telegram": {
+        "chatIdPlaceholder": "Kullanıcı ID'niz veya grup ID'si",
+        "help": "Token almak için @BotFather ile bir bot oluşturun. Önce botunuza bir mesaj gönderin, ardından ID'nizi bulmak için @userinfobot'u kullanın"
+      },
+      "lark": {
+        "name": "Lark (Feishu)",
+        "secret": "İmza anahtarı",
+        "secretPlaceholder": "İmza doğrulaması açıksa gerekli",
+        "help": "Grup ayarları → Botlar → Özel bot ekle"
+      },
+      "dingtalk": {
+        "name": "DingTalk",
+        "secret": "İmza anahtarı",
+        "secretPlaceholder": "SEC…, imzalama açıksa gerekli",
+        "help": "Grup ayarları → Botlar → Özel bot"
+      },
+      "wecom": {
+        "name": "WeCom",
+        "help": "Grup sohbeti → Grup botu ekle"
+      },
+      "bark": {
+        "keyPlaceholder": "Uygulamadan kopyalanan anahtar",
+        "help": "iPhone anlık bildirimleri; App Store'da Bark'ı arayın"
+      },
+      "ntfy": {
+        "topicPlaceholder": "Tahmin edilmesi zor bir ad seçin",
+        "help": "Telefonunuza ntfy uygulamasını kurun ve aynı konuya abone olun"
+      },
+      "serverchan": {
+        "name": "ServerChan",
+        "keyPlaceholder": "SCT… veya sctp…",
+        "help": "WeChat'e bildirim (ServerChan Turbo / ³)"
+      },
+      "discord": {
+        "help": "Kanal ayarları → Entegrasyonlar → Webhook'lar"
+      },
+      "webhook": {
+        "name": "Özel webhook",
+        "header": "Ek başlık",
+        "help": "POST JSON: subject, intro, sections, text, markdown, url"
+      }
+    }
+  },
+  "security": {
+    "title": "Güvenlik",
+    "unknownBrowser": "Bilinmeyen tarayıcı",
+    "ago": {
+      "justNow": "Az önce etkindi",
+      "minutes": {
+        "one": "{count} dakika önce",
+        "other": "{count} dakika önce"
+      },
+      "hours": {
+        "one": "{count} saat önce",
+        "other": "{count} saat önce"
+      },
+      "days": {
+        "one": "{count} gün önce",
+        "other": "{count} gün önce"
+      }
+    },
+    "thisDevice": "Bu cihaz",
+    "signedInPasskey": "{time} geçiş anahtarıyla giriş yapıldı",
+    "signedInPassword": "{time} parolayla giriş yapıldı",
+    "revoke": "Çıkış yap",
+    "revoked": "Çıkış yapıldı",
+    "lastUsed": "Son kullanım: {time}",
+    "addedAt": "Eklenme: {time}",
+    "remove": "Kaldır",
+    "rename": "Yeniden adlandır",
+    "removed": "Kaldırıldı",
+    "addPasskey": "Geçiş anahtarı ekle",
+    "alreadyBound": "Bu cihazda zaten bir geçiş anahtarı var",
+    "changePassword": "Parolayı değiştir",
+    "devices": "Giriş yapılmış cihazlar",
+    "devicesCount": {
+      "one": "Giriş yapılmış cihazlar\n{count}",
+      "other": "Giriş yapılmış cihazlar\n{count}"
+    },
+    "maxSessions": "En fazla giriş yapılmış cihaz",
+    "maxSessionsSaved": {
+      "one": "En fazla {count} cihaz",
+      "other": "En fazla {count} cihaz"
+    },
+    "deviceCount": {
+      "one": "{count} cihaz",
+      "other": "{count} cihaz"
+    },
+    "confirmLogoutOthers": "Diğer tüm cihazlardan çıkış yapılsın mı?",
+    "loggedOutOthers": "Diğer cihazlardan çıkış yapıldı",
+    "logoutOthers": "Diğer tüm cihazlardan çıkış yap",
+    "passwordChanged": "Parola değiştirildi. Diğer cihazlardan çıkış yapıldı.",
+    "save": "Kaydet",
+    "mismatch": "Parolalar eşleşmiyor",
+    "passwordFoot": "En az 8 karakter. Değiştirmek, bu cihaz dışındaki tüm cihazlardan çıkış yapar.",
+    "currentPassword": "Mevcut parola",
+    "newPassword": "Yeni parola",
+    "confirmPassword": "Yeni parolayı onaylayın"
+  },
+  "cat": {
+    "title": "Kategoriler",
+    "manage": "Kategorileri yönet",
+    "count": {
+      "one": "{count} kategori",
+      "other": "{count} kategori"
+    },
+    "subs": {
+      "one": "{count} abonelik",
+      "other": "{count} abonelik"
+    },
+    "unused": "Kullanılmıyor",
+    "foot": "Sıralamak için sürükleyin. Kategoriyi yeniden adlandırmak içindeki tüm abonelikleri günceller.",
+    "add": "Yeni kategori",
+    "edit": "Kategoriyi düzenle",
+    "name": "Ad",
+    "namePlaceholder": "Kategori adı",
+    "color": "Renk",
+    "icon": "Simge",
+    "search": "Simge ara",
+    "noMatch": "Eşleşen simge yok",
+    "delete": "Kategoriyi sil",
+    "moveTo": {
+      "one": "İçindeki {count} aboneliği taşı:",
+      "other": "İçindeki {count} aboneliği taşı:"
+    },
+    "dragHandle": "Sıralamak için sürükleyin",
+    "toast": {
+      "created": "Kategori eklendi",
+      "saved": "Kategori kaydedildi",
+      "renamed": {
+        "one": "Kategori kaydedildi\n{count} abonelik güncellendi",
+        "other": "Kategori kaydedildi\n{count} abonelik güncellendi"
+      },
+      "deleted": "Kategori silindi",
+      "order": "Sıralama kaydedildi"
+    },
+    "error": {
+      "empty": "Bir ad girin",
+      "duplicate": "“{name}” adlı bir kategori zaten var"
+    },
+    "group": {
+      "common": "Sık kullanılan",
+      "tech": "Teknoloji",
+      "media": "Eğlence",
+      "work": "İş",
+      "money": "Alışveriş ve para",
+      "life": "Ev ve yaşam",
+      "food": "Yeme içme",
+      "health": "Sağlık ve spor",
+      "travel": "Seyahat",
+      "people": "İnsanlar ve eğitim"
+    }
+  },
+  "publicPage": {
+    "title": "Herkese açık sayfayı düzenle",
+    "access": "Herkese açık erişim",
+    "back": "Ayarlara dön",
+    "reset": "Varsayılana döndür",
+    "leave": "Kaydedilmemiş değişiklikler var. Yine de çıkılsın mı?",
+    "leaveOk": "Çık",
+    "head": "Üst bölüm",
+    "browserTitle": "Tarayıcı başlığı",
+    "avatarFollow": "Genel avatarı kullan",
+    "avatarLinkHint": "Ziyaretçilerin tarayıcıları bu adrese doğrudan istek gönderir, bu yüzden sunucusu IP'lerini görebilir.",
+    "bio": "Metin",
+    "bioPlaceholder": "Başlığın altında görünür. Satır sonları korunur; çevrilmez.",
+    "sections": "Bölümler",
+    "remove": "Kaldır",
+    "emptyCard": "Henüz veri yok. Ziyaretçiler bu kartı görmez.",
+    "editTab": "Ayarlar",
+    "previewTab": "Önizleme",
+    "desktop": "Masaüstü",
+    "phone": "Telefon",
+    "library": {
+      "metrics": "Sayılar",
+      "charts": "Grafikler",
+      "lists": "Listeler ve zaman",
+      "bottom": "Sayfanın altı"
+    },
+    "hintDrag": "Bir bileşeni sayfaya sürükleyin veya en alta eklemek için tıklayın.",
+    "hintTap": "Sayfanın en altına eklemek için dokunun.",
+    "backToLibrary": "Bileşenlere dön",
+    "headHint": "Düzenlemek için sayfadaki başlığa, metne veya avatara tıklayın. Tema düğmesine tıklamak onu gizler veya gösterir.",
+    "autoSnap": "Otomatik hizala",
+    "freePlace": "Serbest",
+    "themeButton": "Tema düğmesi",
+    "themeHide": "Tema düğmesini gizle",
+    "themeShow": "Tema düğmesini göster (ziyaretçilerden gizli)",
+    "metricCard": "Metrik kartı",
+    "template": "Stil",
+    "metricData": "Gösterilen veri",
+    "addMetric": "Bir değer daha ekle",
+    "widget": {
+      "stats": {
+        "name": "Genel bakış",
+        "desc": "Aylık harcama ve temel rakamlar"
+      },
+      "number": {
+        "name": "Sayı",
+        "desc": "Tek bir sayı, büyük gösterilir"
+      },
+      "trend": {
+        "name": "Eğilim",
+        "desc": "Mini grafikli bir sayı"
+      },
+      "compare": {
+        "name": "Karşılaştırma",
+        "desc": "Geçen yılın aynı dönemiyle"
+      },
+      "share": {
+        "name": "Pay",
+        "desc": "Aylık harcamadaki pay"
+      },
+      "rows": {
+        "name": "Satırlar",
+        "desc": "Birlikte en fazla 4 sayı"
+      },
+      "chart": {
+        "name": "Çubuk grafik",
+        "desc": "Aylık ödemeler ve harcama eğilimi"
+      },
+      "composition": {
+        "name": "Dağılım",
+        "desc": "Kategoriye göre harcama"
+      },
+      "treemap": {
+        "name": "Ağaç haritası",
+        "desc": "Alan, ne kadar harcadığınızı gösterir"
+      },
+      "waterfall": {
+        "name": "Aylık değişim",
+        "desc": "Eklenen, zamlanan veya iptal edilenler"
+      },
+      "fx": {
+        "name": "Para birimleri",
+        "desc": "Para birimi payı ve kur hareketleri"
+      },
+      "timeline": {
+        "name": "Zaman çizelgesi",
+        "desc": "Gün gün ödemeler"
+      },
+      "calendar": {
+        "name": "Takvim",
+        "desc": "Hangi günler ödeme alınır"
+      },
+      "years": {
+        "name": "Abonelik zaman çizelgesi",
+        "desc": "Her aboneliğin ne zaman sürdüğü"
+      },
+      "list": {
+        "name": "Abonelik listesi",
+        "desc": "Kullanımdaki her şey"
+      },
+      "tenure": {
+        "name": "Abonelik süresi",
+        "desc": "Ortalama ve en uzun süre"
+      },
+      "changes": {
+        "name": "Değişiklikler",
+        "desc": "Eklenen, fiyatı değişen ve durdurulanlar"
+      },
+      "ended": {
+        "name": "İptal edilenler",
+        "desc": "İptal edilenler ve fiyatı"
+      },
+      "lifetime": {
+        "name": "Tek seferlik",
+        "desc": "Tek seferlik satın alımlar"
+      },
+      "footer": {
+        "name": "Alt bilgi",
+        "desc": "Proje adı ve sürüm"
+      },
+      "pile": {
+        "name": "Simge yığını",
+        "desc": "Sayfanın altına düşen simgeler"
+      },
+      "globe": {
+        "name": "Küre",
+        "desc": "Etkin aboneliklerin bölgeleri"
+      }
+    }
+  },
+  "update": {
+    "current": "Sürüm",
+    "available": "Güncelleme var",
+    "check": "Güncellemeleri denetle",
+    "failed": "Denetlenemedi",
+    "upToDate": "Güncel",
+    "title": "v{version} sürümüne yükselt",
+    "copy": "Komutu kopyala",
+    "copied": "Komut kopyalandı",
+    "guide": "Yükseltme rehberi",
+    "notes": "Sürüm notları"
+  },
+  "autobackup": {
+    "title": "Otomatik yedekleme",
+    "off": "Kapalı",
+    "failed": "Yedekleme başarısız",
+    "last": "Son yedek",
+    "never": "Henüz yedek yok",
+    "runNow": "Şimdi yedekle",
+    "storage": "Depolama",
+    "kind": "Yedekleme yeri",
+    "endpoint": "Uç nokta",
+    "bucket": "Bucket",
+    "folder": "Klasör",
+    "kept": "Kaydedildi",
+    "encryption": "Şifreleme",
+    "passphrase": "Parola ifadesi",
+    "confirm": "Parola ifadesini onayla",
+    "mismatch": "Parola ifadeleri eşleşmiyor",
+    "keep": "Sakla",
+    "copies": {
+      "one": "kopya",
+      "other": "kopya"
+    },
+    "save": "Kaydet",
+    "switchTo": "{kind} hizmetine geç",
+    "remove": "Kaldır",
+    "removed": "Otomatik yedekleme kaldırıldı",
+    "done": "Yedeklendi"
+  }
+}

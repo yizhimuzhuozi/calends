@@ -1,0 +1,221 @@
+{
+  "currency": {
+    "SLE": "獅子山利昂",
+    "XCG": "加勒比盾",
+    "ZWG": "辛巴威金元"
+  },
+  "bill": {
+    "m1": "按月",
+    "m3": "按季",
+    "m6": "按半年",
+    "m12": "按年",
+    "custom": "按 {count} 個月",
+    "once": "一次性"
+  },
+  "cycle": {
+    "lifetime": "買斷",
+    "once": "一次",
+    "every": {
+      "day": "每天",
+      "week": "每週",
+      "month": "每月",
+      "year": "每年"
+    },
+    "quarterly": "每季",
+    "halfYearly": "每半年",
+    "biennial": "每兩年",
+    "everyN": {
+      "day": "每 {count} 天",
+      "week": "每 {count} 週",
+      "month": "每 {count} 個月",
+      "year": "每 {count} 年"
+    }
+  },
+  "subError": {
+    "name": "名稱不能為空",
+    "price": "價格無效",
+    "paymentCurrency": "扣款幣別必須與所屬方案的幣別一致",
+    "start": "開始日期無效",
+    "cycle": "週期無效",
+    "refundAmount": "退款金額須為正數，幣別須有效",
+    "refundDate": "請先設定退出日期，退款日期不能早於加入日期",
+    "funding": "資金拆分無效：至少兩個不同的付款方式，金額不為零，且這一筆不能同時另記單獨的付款方式",
+    "fundingSum": "拆分金額合計必須等於這一筆的金額",
+    "transfer": "轉讓紀錄無效：類型、日期、大於 0 的金額和幣別都要填對",
+    "meter": "用量指標無效：每個指標需要唯一的 id 和名稱",
+    "reading": "用量紀錄無效：每筆需要唯一的 id、有效日期和數值",
+    "meterLink": "關聯的指標不存在，或它本身也是從其他訂閱關聯而來的",
+    "meterLinkUsed": "「{meter}」正被「{name}」關聯，請先在那邊取消關聯",
+    "readingMeter": "用量紀錄引用了未定義的指標"
+  },
+  "phase": {
+    "switchTooEarly": "生效日期要晚於目前階段的開始日期",
+    "resumeNeedsStopDate": "請先填寫實際停用日期並儲存，再續訂",
+    "resumeTooEarly": "續訂日期不能早於上次結束的日期",
+    "prependTooLate": "補的這段要早於訂閱的開始日期",
+    "prependUntil": "補的這段的結束日期要在它開始之後、原來的開始日期之前",
+    "priceOutOfRange": "調價日期不在任何階段內",
+    "keepTooEarly": "繼續使用的截止日期要晚於生效日期",
+    "endTooEarly": "結束日期要晚於這一階段的開始日期",
+    "endOnNextStart": "結束日期是服務的最後一天，不能和下一階段的開始日期相同；要接上下一階段，請留空或填前一天",
+    "startOrder": "開始日必須晚於上一段開始日、早於下一段開始日。",
+    "priceDuplicate": "該日期已有價格記錄",
+    "priceInitial": "起始價不可刪除",
+    "upgradeUnavailable": "這次切換不能折抵舊方案：需要已生效、同幣別、先付費，舊方案當期還有未用完的天數；保持原扣款日還要週期不變"
+  },
+  "event": {
+    "label": "{region}{price}/{per}",
+    "region": "{region} ",
+    "per": {
+      "year": "年",
+      "month": "月",
+      "months": "{count}月",
+      "week": "週",
+      "day": "天"
+    }
+  },
+  "listSep": "、",
+  "insight": {
+    "yearly": {
+      "title": "{count} 個長週期訂閱 60 天內續訂",
+      "body": "合計約 {sum}。年繳一旦扣款就很難退款，現在正是決定去留的時候。"
+    },
+    "dup": {
+      "title": "{names} 可能重複",
+      "body": "這 {count} 個訂閱每月合計約 {sum}，確認是否都還需要。"
+    },
+    "hikes": {
+      "title": "{count} 個訂閱過去一年漲了價"
+    },
+    "intro": {
+      "title": "{name} 的優惠 {count} 天後結束",
+      "body": "之後從 {from} 恢復到 {to}。"
+    },
+    "balance": {
+      "title": "{name} 餘額撐不到 {date}",
+      "body": "{sub} 需要 {need}，到時只剩 {current}。",
+      "bodyOver": "{sub} 需要 {need}，餘額已是 {current}。",
+      "bodyToday": "扣掉今天的 {sub}（{need}）後，餘額是 {current}。"
+    },
+    "fx": {
+      "title": "{pct}% 的支出以外幣計價",
+      "body": "最大宗是{ccy}（{share}%）。{ccy}貶值時這部分會變便宜，反之則變貴。"
+    },
+    "noMethod": {
+      "title": "{count} 個訂閱沒有指定付款方式",
+      "body": "補上之後，餘額推算與依付款方式的統計才會完整。"
+    },
+    "top": {
+      "title": "{name} 是最貴的訂閱",
+      "body": "每天約 {perDay}，佔月支出 {pct}%。"
+    }
+  },
+  "methodKind": {
+    "debit": "金融卡",
+    "credit": "信用卡",
+    "alipay": "支付寶",
+    "wechat": "微信支付",
+    "paypal": "PayPal",
+    "appstore": "App Store",
+    "googleplay": "Google Play",
+    "giftcard": "禮品卡",
+    "prepaid": "商家餘額",
+    "phone": "電信帳單",
+    "crypto": "加密卡",
+    "other": "其他"
+  },
+  "publicMethod": "{kind}\n{region}",
+  "channel": {
+    "email": "電子郵件"
+  },
+  "csv": {
+    "appStoreBalance": "App Store {region} 餘額",
+    "otherCategory": "其他"
+  },
+  "category": {
+    "ai": "AI",
+    "tools": "工具",
+    "productivity": "效率",
+    "media": "影音",
+    "music": "音樂",
+    "games": "遊戲",
+    "cloud": "伺服器",
+    "storage": "儲存",
+    "domains": "網域",
+    "vpn": "網路",
+    "developer": "開發",
+    "design": "設計",
+    "education": "教育",
+    "news": "閱讀",
+    "social": "社交",
+    "shopping": "購物",
+    "finance": "金融",
+    "insurance": "保險",
+    "health": "健康",
+    "phone": "通訊",
+    "daily": "日用"
+  },
+  "stop": {
+    "title": "停止服務",
+    "nonrenew": "到期不續",
+    "cancel": "立即停止",
+    "terminate": "被服務方停用",
+    "date": "停止日",
+    "paidThrough": "本期付到 {date}",
+    "refundYes": "已退款",
+    "refundNo": "未退款",
+    "refundAmount": "退款金額",
+    "refundDate": "退款日期",
+    "reason": "原因（選填）",
+    "refunded": "已退款 {money}",
+    "partial": "部分退款 {money}",
+    "unrefunded": "未退款\n損失 {money}",
+    "unused": "未退款損失：{money}（{days}）",
+    "unusedTitle": "未退款",
+    "terminated": "已停用",
+    "restore": "恢復訂閱",
+    "fxMissing": "部分損失缺少匯率，暫時無法彙總為本位幣；原幣金額保留在明細中。",
+    "lossTitle": "未退款損失",
+    "lossDays": {
+      "other": "{count} 天"
+    },
+    "fullyRefunded": "已全額退款",
+    "chargeOnEnd": "這一天仍會續費扣款，改成前一天才不會扣",
+    "nonrenewDone": "已設為到期不續，{date} 後不再扣款",
+    "stoppedDone": "已停止服務",
+    "method": "停止方式",
+    "latestRefundHint": "此處修改最近一筆退款，之前的退款保留在扣款紀錄中。"
+  },
+  "renewal": {
+    "title": "續費規則",
+    "chargeLeadDays": "提前扣款",
+    "cancelLeadDays": "需提前取消",
+    "nextDue": "下次扣款日",
+    "hint": "網域等服務常在到期前自動扣款；Apple 等訂閱需在扣款前取消。只影響扣款日與取消截止日，服務帳期不變。",
+    "cancelBy": "最晚取消日",
+    "invalid": "請輸入 0 至 3660 的整數天數。",
+    "tooLate": "本期已過取消截止，下一期仍會扣款",
+    "cancelReminder": "請在 {date} 前取消，避免下一期扣款。",
+    "none": "不需要"
+  },
+  "import": {
+    "invalid": "無法將此檔案讀取為訂閱資料。",
+    "tooLarge": "請選擇不超過 32 MB 的檔案。",
+    "pending": "此備份包含尚未寫入資料庫的變更，請先建立一致的資料庫備份。",
+    "currency": "請選擇幣別，原檔案的符號有歧義或幣別不受支援。",
+    "cycle": "請選擇有效的計費週期。",
+    "price": "請輸入有效的非負金額。",
+    "date": "請輸入有效日期。",
+    "selectUser": "請選擇備份中的一個帳號。",
+    "payers": "付款人",
+    "unknownStart": "原開始日期未知，從所選日期開始記帳。",
+    "manual": "原紀錄為手動續費，以暫停狀態匯入。",
+    "reviewRequired": "請透過「匯入資料」開啟此檔案並核對欄位。",
+    "badDate": "原{field}「{value}」格式無法辨識，未匯入",
+    "nextDue": "下次扣款日",
+    "end": "結束日"
+  },
+  "fxIncomplete": "部分金額缺少匯率無法換算，這裡的結果不完整。",
+  "fxUnconverted": "未換算：{amount}",
+  "fxOther": "等 {count} 種幣別"
+}

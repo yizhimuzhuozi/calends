@@ -1,0 +1,252 @@
+{
+  "currency": {
+    "SLE": "leone sierra-léonais",
+    "XCG": "Florin caribéen",
+    "ZWG": "Zimbabwe Gold"
+  },
+  "bill": {
+    "m1": "Mensuel",
+    "m3": "Trimestriel",
+    "m6": "Semestriel",
+    "m12": "Annuel",
+    "custom": {
+      "one": "Tous les {count} mois",
+      "other": "Tous les {count} mois"
+    },
+    "once": "Unique"
+  },
+  "cycle": {
+    "lifetime": "À vie",
+    "once": "une fois",
+    "every": {
+      "day": "Quotidien",
+      "week": "Hebdomadaire",
+      "month": "Mensuel",
+      "year": "Annuel"
+    },
+    "quarterly": "Trimestriel",
+    "halfYearly": "Semestriel",
+    "biennial": "Tous les 2 ans",
+    "everyN": {
+      "day": {
+        "one": "Tous les {count} jour",
+        "other": "Tous les {count} jours"
+      },
+      "week": {
+        "one": "Toutes les {count} semaine",
+        "other": "Toutes les {count} semaines"
+      },
+      "month": {
+        "one": "Tous les {count} mois",
+        "other": "Tous les {count} mois"
+      },
+      "year": {
+        "one": "Tous les {count} an",
+        "other": "Tous les {count} ans"
+      }
+    }
+  },
+  "subError": {
+    "name": "Le nom est obligatoire",
+    "price": "Prix non valide",
+    "paymentCurrency": "La devise du paiement doit correspondre à celle de la formule",
+    "start": "Date de début non valide",
+    "cycle": "Cycle de facturation non valide",
+    "refundAmount": "Saisissez un montant positif et une devise valide",
+    "refundDate": "Indiquez le départ ; le remboursement ne peut précéder l’arrivée",
+    "funding": "Répartition invalide : utilisez au moins deux moyens de paiement différents avec des montants non nuls, sans moyen de paiement unique sur le même paiement",
+    "fundingSum": "La somme des montants répartis doit égaler le montant du paiement",
+    "transfer": "Cession invalide : type, date, montant positif et devise sont requis",
+    "meter": "Compteur invalide : un id unique et un nom sont requis",
+    "reading": "Entrée d’usage invalide : un id unique, une date valide et des valeurs numériques sont requis",
+    "meterLink": "Le compteur lié n’existe pas ou est lui-même lié à un autre compteur",
+    "meterLinkUsed": "« {meter} » est lié depuis « {name} » ; supprimez d’abord ce lien",
+    "readingMeter": "Une entrée d’usage fait référence à un compteur non défini"
+  },
+  "phase": {
+    "switchTooEarly": "La date d’effet doit être postérieure au début de la phase actuelle",
+    "resumeNeedsStopDate": "Saisissez la date d'arrêt réelle et enregistrez avant de reprendre",
+    "resumeTooEarly": "La date de reprise ne peut pas précéder la dernière date de fin",
+    "prependTooLate": "La phase antérieure doit commencer avant le début de l'abonnement",
+    "prependUntil": "La phase antérieure doit se terminer après son début et avant la date de début d'origine",
+    "priceOutOfRange": "La date du changement de prix ne se trouve dans aucune phase",
+    "keepTooEarly": "La date de maintien doit être postérieure à la date du changement",
+    "endTooEarly": "La date de fin doit être postérieure au début de cette phase",
+    "endOnNextStart": "La date de fin est le dernier jour de service et ne peut pas tomber le jour où commence la phase suivante ; laissez-la vide ou choisissez la veille pour enchaîner",
+    "startOrder": "Le début doit rester strictement entre les débuts des phases voisines.",
+    "priceDuplicate": "Un prix existe déjà à cette date",
+    "priceInitial": "Le prix initial ne peut pas être supprimé",
+    "upgradeUnavailable": "Ce changement ne peut pas créditer l’ancienne formule : il doit déjà être effectif, dans la même devise et en prépaiement, et l’ancienne formule doit avoir des jours non utilisés. Garder la date de prélèvement exige aussi le même cycle."
+  },
+  "event": {
+    "label": "{region}{price}/{per}",
+    "region": "{region} ",
+    "per": {
+      "year": "an",
+      "month": "mois",
+      "months": "{count} mois",
+      "week": "sem.",
+      "day": "jour"
+    }
+  },
+  "listSep": ", ",
+  "insight": {
+    "yearly": {
+      "title": {
+        "one": "{count} abonnement longue durée se renouvelle d’ici 60 jours",
+        "other": "{count} abonnements longue durée se renouvellent d’ici 60 jours"
+      },
+      "body": "Environ {sum} au total. Les prélèvements annuels sont difficiles à rembourser : c’est le moment de décider ce que vous gardez."
+    },
+    "dup": {
+      "title": "{names} font peut-être doublon",
+      "body": {
+        "one": "Cet abonnement coûte environ {sum} par mois. Vérifiez si vous en avez encore besoin.",
+        "other": "Ces {count} abonnements coûtent environ {sum} par mois au total. Vérifiez si vous en avez encore tous besoin."
+      }
+    },
+    "hikes": {
+      "title": {
+        "one": "{count} abonnement a augmenté son prix cette année",
+        "other": "{count} abonnements ont augmenté leur prix cette année"
+      }
+    },
+    "intro": {
+      "title": {
+        "one": "L’offre de {name} se termine dans {count} jour",
+        "other": "L’offre de {name} se termine dans {count} jours"
+      },
+      "body": "Ensuite, le prix repasse de {from} à {to}."
+    },
+    "balance": {
+      "title": "{name} ne tiendra pas jusqu’au {date}",
+      "body": "{sub} nécessite {need}, il ne restera que {current}.",
+      "bodyOver": "{sub} nécessite {need}, le solde est déjà à {current}.",
+      "bodyToday": "Après le {sub} ({need}) du jour, le solde est de {current}."
+    },
+    "fx": {
+      "title": "{pct} % des dépenses sont en devises étrangères",
+      "body": "La principale est {ccy} ({share} %). Cette part baisse quand {ccy} s’affaiblit et augmente quand elle se renforce."
+    },
+    "noMethod": {
+      "title": {
+        "one": "{count} abonnement n’a pas de moyen de paiement",
+        "other": "{count} abonnements n’ont pas de moyen de paiement"
+      },
+      "body": "Ajoutez-en un pour des prévisions de solde et des statistiques par moyen de paiement complètes."
+    },
+    "top": {
+      "title": "{name} est votre abonnement le plus cher",
+      "body": "Environ {perDay} par jour, soit {pct} % des dépenses mensuelles."
+    }
+  },
+  "methodKind": {
+    "debit": "Carte bancaire",
+    "credit": "Carte de crédit",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "paypal": "PayPal",
+    "appstore": "App Store",
+    "googleplay": "Google Play",
+    "giftcard": "Carte cadeau",
+    "prepaid": "Solde boutique",
+    "phone": "Crédit mobile",
+    "crypto": "Carte crypto",
+    "other": "Autre"
+  },
+  "publicMethod": "{kind}\n{region}",
+  "channel": {
+    "email": "E-mail"
+  },
+  "csv": {
+    "appStoreBalance": "Solde App Store {region}",
+    "otherCategory": "Autre"
+  },
+  "category": {
+    "ai": "IA",
+    "tools": "Outils",
+    "productivity": "Productivité",
+    "media": "Vidéo",
+    "music": "Musique",
+    "games": "Jeux",
+    "cloud": "Cloud et serveurs",
+    "storage": "Stockage",
+    "domains": "Domaines",
+    "vpn": "VPN et réseau",
+    "developer": "Développement",
+    "design": "Design",
+    "education": "Éducation",
+    "news": "Actualités et lecture",
+    "social": "Réseaux sociaux",
+    "shopping": "Shopping",
+    "finance": "Finances",
+    "insurance": "Assurance",
+    "health": "Santé et forme",
+    "phone": "Téléphonie",
+    "daily": "Vie quotidienne"
+  },
+  "stop": {
+    "title": "Arrêter le service",
+    "nonrenew": "Ne pas renouveler",
+    "cancel": "Arrêter maintenant",
+    "terminate": "Désactivé par le fournisseur",
+    "date": "Date d’arrêt",
+    "paidThrough": "Payé jusqu’au {date}",
+    "refundYes": "Remboursé",
+    "refundNo": "Non remboursé",
+    "refundAmount": "Montant remboursé",
+    "refundDate": "Date de remboursement",
+    "reason": "Motif (facultatif)",
+    "refunded": "Remboursé {money}",
+    "partial": "Remboursement partiel {money}",
+    "unrefunded": "Non remboursé\nPerte {money}",
+    "unused": "Perte non remboursée: {money} ({days})",
+    "unusedTitle": "Non remboursé",
+    "terminated": "Désactivé",
+    "restore": "Réactiver",
+    "fxMissing": "Certaines pertes ne peuvent pas être converties faute de taux de change. Les montants d’origine restent dans le détail.",
+    "lossTitle": "Perte non remboursée",
+    "lossDays": {
+      "one": "{count} jour",
+      "other": "{count} jours"
+    },
+    "fullyRefunded": "Intégralement remboursé",
+    "chargeOnEnd": "Ce jour-là, le renouvellement est encore prélevé. Choisissez la veille pour l’éviter.",
+    "nonrenewDone": "Ne sera pas renouvelé. Plus de prélèvement après le {date}.",
+    "stoppedDone": "Service arrêté",
+    "method": "Mode d’arrêt",
+    "latestRefundHint": "Ces champs modifient le dernier remboursement. Les précédents restent dans l’historique des paiements."
+  },
+  "renewal": {
+    "title": "Règles de renouvellement",
+    "chargeLeadDays": "Prélèvement anticipé",
+    "cancelLeadDays": "Annulation anticipée",
+    "nextDue": "Prochain prélèvement",
+    "hint": "Prélèvement avant le renouvellement, annulation avant ce prélèvement. Indiquez les jours ; 0 signifie aucun. Les périodes restent fixes.",
+    "cancelBy": "Date limite d’annulation",
+    "invalid": "Saisissez un nombre entier de 0 à 3660 jours.",
+    "tooLate": "Le délai d’annulation est dépassé. La prochaine période sera facturée.",
+    "cancelReminder": "Annulez avant le {date} pour éviter le prochain prélèvement.",
+    "none": "Aucun"
+  },
+  "import": {
+    "invalid": "Ce fichier ne peut pas être lu comme des données d’abonnements.",
+    "tooLarge": "Choisissez un fichier de 32 Mo maximum.",
+    "pending": "Cette sauvegarde contient des modifications en attente. Créez d’abord une sauvegarde cohérente de la base.",
+    "currency": "Choisissez la devise ; le symbole est ambigu ou non pris en charge.",
+    "cycle": "Choisissez un cycle de facturation valide.",
+    "price": "Saisissez un montant valide positif ou nul.",
+    "date": "Saisissez une date valide.",
+    "selectUser": "Choisissez un compte dans cette sauvegarde.",
+    "payers": "Payé par",
+    "unknownStart": "La date de début originale est inconnue ; le suivi commence à la date choisie.",
+    "manual": "Renouvellement manuel à l’origine ; importé en pause.",
+    "reviewRequired": "Ouvrez ce fichier via Importer des données pour vérifier les champs.",
+    "badDate": "{field} d’origine « {value} » non reconnu, non importé",
+    "nextDue": "date du prochain paiement",
+    "end": "date de fin"
+  },
+  "fxIncomplete": "Certains montants ne peuvent pas être convertis faute de taux de change ; ce résultat est incomplet.",
+  "fxUnconverted": "Non converti : {amount}",
+  "fxOther": "et {count} autres devises"
+}

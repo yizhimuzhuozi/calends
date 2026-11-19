@@ -1,0 +1,195 @@
+{
+  "title": "Báo cáo",
+  "shareReview": "Chia sẻ tổng kết năm {year}",
+  "shareAll": "Chia sẻ tổng kết toàn thời gian",
+  "pick": {
+    "label": "Chọn năm",
+    "all": "Tất cả",
+    "year": "Năm {year}",
+    "prev": "Trước",
+    "next": "Sau"
+  },
+  "perMonth": "{amount}/tháng",
+  "per": {
+    "day": "ngày",
+    "week": "tuần",
+    "month": "tháng",
+    "year": "năm",
+    "lifetime": "một lần",
+    "quarter": "quý",
+    "halfYear": "6 tháng",
+    "twoYears": "2 năm",
+    "n": {
+      "day": "{count} ngày",
+      "week": "{count} tuần",
+      "month": "{count} tháng",
+      "year": "{count} năm"
+    }
+  },
+  "axis": {
+    "year": "{year}"
+  },
+  "hero": {
+    "label": "Chi tiêu đăng ký cả năm",
+    "tip": "Tháng {month}\nLũy kế {total}",
+    "tipNow": "Tháng {month}, Chờ trừ {pending}\nLũy kế {total}",
+    "avg": "Trung bình tháng",
+    "peak": "Tháng cao nhất",
+    "peakAt": "Cao nhất {when}"
+  },
+  "all": {
+    "label": "Tổng chi tiêu đăng ký",
+    "since": "Từ {date}",
+    "last12": "12 tháng qua",
+    "avg": "Trung bình năm",
+    "peak": "Năm cao nhất",
+    "subs": "Số đăng ký",
+    "detail": "Chi tiết lũy kế"
+  },
+  "tenure": {
+    "title": "Gói đăng ký kéo dài bao lâu",
+    "active": "Đang dùng, trung bình",
+    "stopped": "Đã dừng, trung bình",
+    "quick": "Dừng ngay",
+    "peak": "Nhiều nhất cùng lúc",
+    "longest": "Dùng lâu nhất",
+    "count": "Gói đang dùng"
+  },
+  "wf": {
+    "vsFrom": "so với {amount} cuối tháng trước",
+    "flat": "Không đổi",
+    "title": "Biến động {month}",
+    "prev": "Tháng trước",
+    "next": "Tháng sau",
+    "from": "Tháng trước",
+    "fx": "Tỷ giá",
+    "added": "Mới",
+    "expansion": "Tăng giá",
+    "contraction": "Giảm giá",
+    "churned": "Đã dừng",
+    "now": "Hiện tại",
+    "monthEnd": "Cuối tháng",
+    "empty": "Tháng này không có gói đăng ký mới, bị hủy hay đổi giá.",
+    "emptyFx": "Tháng này không có gói đăng ký mới, bị hủy hay đổi giá — toàn bộ biến động đến từ tỷ giá ({amount})."
+  },
+  "checkup": {
+    "title": "Kiểm tra",
+    "warn": {
+      "other": "{count} mục cần chú ý"
+    },
+    "fix": "Sửa",
+    "less": "Thu gọn",
+    "more": "Hiện thêm {count}"
+  },
+  "cash": {
+    "title": "Tiền mặt và chi phí thực",
+    "legendCash": "Đã trừ trong tháng",
+    "legendAccrual": "Chi phí phân bổ theo tháng",
+    "forecast": "\nDự báo",
+    "tip": "Đã trừ {cash}\nChi phí {cost}",
+    "open": "\nMở tháng này trong lịch",
+    "openYear": "\nMở năm này trong lịch",
+    "prepaidItem": "{name}\n{amount}\nđến {until}",
+    "prepaid": "Giá trị trả trước",
+    "prepaidSub": "{count} đã trả, chưa dùng hết",
+    "next90": "Đến hạn trong 90 ngày tới",
+    "fullPaidHint": "Toàn bộ số tiền đã trả, gồm khoản ứng trước cho thành viên"
+  },
+  "comp": {
+    "title": "Tiền đi đâu",
+    "back": "Quay lại",
+    "cat": "Danh mục",
+    "pay": "Thanh toán",
+    "ccy": "Tiền tệ",
+    "cycle": "Chu kỳ",
+    "unassigned": "Chưa gán",
+    "yearly": "Hằng năm",
+    "quarterly": "Hằng quý / nửa năm",
+    "monthly": "Hằng tháng",
+    "groupTip": {
+      "other": "{name}\n{count} mục\n{amount}/tháng"
+    },
+    "groupTipAll": {
+      "other": "{name}\n{count} mục\n{amount}"
+    }
+  },
+  "topup": {
+    "title": "Kế hoạch nạp tiền",
+    "range3": "3 tháng",
+    "range6": "6 tháng",
+    "range12": "1 năm",
+    "span3": "3 tháng tới",
+    "span6": "6 tháng tới",
+    "span12": "Năm tới",
+    "empty": "Chưa có tài khoản nào có số dư.",
+    "emptyCta": "Thêm số dư App Store hoặc nhà mạng trong Ví",
+    "summary": "Số dư {balance}\nkhoảng {monthly}/tháng",
+    "why": "{span}: cần trả {due}, đang có {balance}, thiếu {need}",
+    "urgent": "; gấp nhất: nạp ít nhất {min} trước {date}",
+    "cards": "Thẻ quà tặng gợi ý",
+    "anyAmount": "Nạp số tiền bất kỳ — không cần khớp mệnh giá thẻ",
+    "enough3": "Số dư đủ cho 3 tháng tới",
+    "enough6": "Số dư đủ cho 6 tháng tới",
+    "enough12": "Số dư đủ cho năm tới",
+    "by": "Trước {date}"
+  },
+  "ev": {
+    "start": "Bắt đầu",
+    "end": "Đã hủy",
+    "price": "Đổi giá",
+    "introEnd": "Hết ưu đãi mở đầu",
+    "buy": "Mua đứt",
+    "pause": "Tạm dừng",
+    "switch": "Đổi khu vực / gói",
+    "resume": "Tiếp tục"
+  },
+  "log": {
+    "title": "Nhật ký thay đổi",
+    "decisions": {
+      "other": "{count} quyết định"
+    },
+    "more": "Mục cũ hơn"
+  },
+  "stops": {
+    "title": "Hủy và ngừng dịch vụ",
+    "loss": "Tổn thất chưa hoàn tiền",
+    "cancel": "Chủ động hủy sớm"
+  },
+  "year": {
+    "title": "Chi tiết năm",
+    "vsLast": "so với cùng kỳ năm ngoái",
+    "vsPrev": "so với năm trước",
+    "count": "{count} mục",
+    "added": "Mới",
+    "stopped": "Đã dừng",
+    "up": "Nhiều hơn",
+    "down": "Ít hơn",
+    "carpoolGain": "Gói chia sẻ: lãi",
+    "carpoolLoss": "Gói chia sẻ: lỗ",
+    "carpoolEven": "Gói chia sẻ: hòa vốn",
+    "carpoolNet": "Gói chia sẻ: lãi/lỗ",
+    "proxyGain": "Trả hộ: lãi",
+    "proxyLoss": "Trả hộ: lỗ",
+    "proxyEven": "Trả hộ: hòa vốn",
+    "proxyNet": "Trả hộ: lãi/lỗ",
+    "empty": "Bằng cùng kỳ năm ngoái."
+  },
+  "daily": {
+    "title": "Theo ngày",
+    "flat": "Lưới",
+    "bars": "3D"
+  },
+  "region": {
+    "title": "Khu vực đăng ký"
+  },
+  "flow": {
+    "title": "Dòng tiền",
+    "showPercent": "Hiển thị phần trăm",
+    "showAmount": "Hiển thị số tiền"
+  },
+  "profile": {
+    "title": "Cơ cấu chi tiêu",
+    "recent": "12 tháng gần nhất",
+    "before": "12 tháng trước đó"
+  }
+}

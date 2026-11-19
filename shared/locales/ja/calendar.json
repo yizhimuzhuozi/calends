@@ -1,0 +1,29 @@
+{
+  "yearTitle": "{year}年",
+  "summary": {
+    "other": "{count}件の請求\n{amount}"
+  },
+  "mode": {
+    "month": "月",
+    "year": "年"
+  },
+  "prev": "前へ",
+  "next": "次へ",
+  "today": "今日",
+  "ics": "カレンダーで購読",
+  "noneDay": "この日の請求はありません",
+  "projected": "予定",
+  "charged": "請求済み",
+  "monthTotal": "{month}の引き落とし",
+  "count": "{count} 件",
+  "monthAll": "{month}のすべての請求",
+  "noneMonth": "今月の請求はありません",
+  "day": "{day}日",
+  "heatCount": {
+    "other": "{count}件\n"
+  },
+  "pickDay": "日付を選んでその日の支払いを表示",
+  "nextCharge": "次回の支払い\n{date}",
+  "expandReport": "完全なレポートを表示",
+  "nextBill": "次回の請求\n{date}"
+}

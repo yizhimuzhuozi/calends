@@ -1,0 +1,275 @@
+{
+  "imagesSent": "{count} imagem(ns) enviada(s)",
+  "clearChatsHint": "Apaga todas as conversas do servidor e deste dispositivo. Não dá para desfazer.",
+  "clearChats": "Limpar todas as conversas",
+  "clearChatsConfirm": "Limpar todas as conversas? Não dá para desfazer.",
+  "clearChatsDone": "Conversas apagadas",
+  "title": "Assistente de IA",
+  "new": "Nova conversa",
+  "settings": "Ajustes de IA",
+  "toBottom": "Ir para o fim",
+  "welcome": {
+    "variants": {
+      "v1": {
+        "title": "Mande suas faturas e prints por aqui",
+        "body": "Cole um recibo da App Store, um SMS de cobrança, um print das assinaturas ou qualquer texto. Eu preparo rascunhos para você confirmar. Você também pode perguntar sobre seus gastos."
+      },
+      "v2": {
+        "title": "Para onde foi o dinheiro deste mês?",
+        "body": "Pergunte o que vence neste mês, quais cobranças são mais caras ou quanto você gastou neste ano. Eu consulto seus registros."
+      },
+      "v3": {
+        "title": "Avisos de cobrança? Pode mandar",
+        "body": "Cole um aviso de cobrança do banco, da carteira digital ou da operadora. Eu identifico a assinatura e o valor e registro o pagamento."
+      },
+      "v4": {
+        "title": "Um print para uma página inteira de assinaturas",
+        "body": "Envie um print das assinaturas da App Store ou de uma página de membros. Eu separo tudo em rascunhos, um por assinatura, para você confirmar."
+      },
+      "v5": {
+        "title": "O preço subiu? Me diga a partir de quando",
+        "body": "Diga “Netflix passa a custar 17.99 no mês que vem” e eu mudo o preço a partir dessa data. As cobranças anteriores ficam como estavam."
+      },
+      "v6": {
+        "title": "Não quer continuar? É só dizer",
+        "body": "Não renovar, encerrar agora ou ter a conta bloqueada pelo provedor: eu sei a diferença e também posso registrar um reembolso."
+      },
+      "v7": {
+        "title": "Eu faço as contas do plano compartilhado",
+        "body": "Dividindo um plano família? Me diga a parte de cada pessoa e quem já pagou. Eu acompanho os membros e os pagamentos para você saber quem ainda deve quanto."
+      },
+      "v8": {
+        "title": "Achou as faturas de um ano inteiro?",
+        "body": "Cole uma tabela de faturas por mês. Eu crio uma assinatura por coluna e registro o valor real de cada mês no histórico."
+      },
+      "v9": {
+        "title": "Quais assinaturas dá para cortar?",
+        "body": "Pergunte pelas que você não usa, pelas duplicadas ou pelas que mais aumentaram de preço. Eu busco nos seus registros e preparo uma lista de possíveis cancelamentos."
+      },
+      "v10": {
+        "title": "O que será cobrado na semana que vem?",
+        "body": "Pergunte pelas cobranças dos próximos dias ou do restante do mês. Eu listo tudo por data para você se planejar."
+      },
+      "v11": {
+        "title": "Assinaturas em moeda estrangeira, em dia",
+        "body": "Os preços das lojas da Turquia ou da Nigéria ficam na moeda original. Eu converto para sua moeda principal pelo câmbio do dia e também posso registrar o valor realmente cobrado no cartão."
+      },
+      "v12": {
+        "title": "Recibo por e-mail? Copie tudo",
+        "body": "Não precisa separar os detalhes dos recibos da Apple, Google ou Spotify. Cole o e-mail inteiro e eu encontro o valor, o ciclo e a data."
+      },
+      "v13": {
+        "title": "Adicione uma assinatura que você tem há anos",
+        "body": "Diga “Desde 2021, no começo 8, agora 18” e eu completo o histórico de preços para calcular seus gastos acumulados corretamente."
+      },
+      "v14": {
+        "title": "Quanto você gastou em assinaturas neste ano?",
+        "body": "Pergunte sobre este ano, o ano passado ou qualquer período. Eu separo os gastos por categoria ou forma de pagamento."
+      },
+      "v15": {
+        "title": "Não esqueça de cancelar o teste grátis",
+        "body": "Me diga quando o teste termina. Eu registro a data para você receber um lembrete antes de começar a cobrança."
+      },
+      "v16": {
+        "title": "Pagando por outra pessoa? Registre também",
+        "body": "Me avise se você paga uma assinatura por alguém. Eu acompanho separadamente o que você pagou e o que recebeu de volta."
+      },
+      "v17": {
+        "title": "Mudou de região ou de plano?",
+        "body": "Saiu da loja dos EUA para a da Turquia ou mudou para o plano família? Me diga quando. Eu continuo com o novo plano e preservo o histórico anterior."
+      },
+      "v18": {
+        "title": "Pergunte à vontade",
+        "body": "“Qual assinatura eu tenho há mais tempo?” “Qual cartão recebe mais cobranças?” É só perguntar que eu consulto seus registros."
+      },
+      "v19": {
+        "title": "Você confirma cada alteração",
+        "body": "Eu só preparo rascunhos. Novas assinaturas, mudanças de preço e cancelamentos aparecem como cartões. Nada é salvo até você confirmar."
+      },
+      "v20": {
+        "title": "Comece seus registros por aqui",
+        "body": "Envie um recibo, um print ou apenas me conte quais assinaturas você tem. Eu cuido do resto."
+      }
+    }
+  },
+  "suggest": {
+    "receipt": {
+      "title": "Colar um recibo",
+      "hint": "App Store, Google Play ou um e-mail de cobrança",
+      "text": "Adicione este recibo como assinatura:\n"
+    },
+    "screenshot": {
+      "title": "Enviar um print",
+      "hint": "Página de assinaturas ou de cobrança — é só colar",
+      "text": "Encontre as assinaturas neste print:"
+    },
+    "month": {
+      "title": "O que vence este mês?",
+      "hint": "As cobranças que faltam no mês, por data",
+      "text": "Quais assinaturas ainda vão cobrar este mês e quanto dá no total?"
+    },
+    "hikes": {
+      "title": "O que ficou mais caro?",
+      "hint": "Assinaturas com aumento de preço no último ano",
+      "text": "Quais assinaturas aumentaram de preço no último ano, e quanto?"
+    }
+  },
+  "placeholder": "Cole um texto ou print, ou pergunte qualquer coisa…",
+  "placeholderSetup": "Configure primeiro sua API Key do DeepSeek",
+  "addImage": "Adicionar imagem",
+  "removeImage": "Remover imagem",
+  "send": "Enviar",
+  "stop": "Parar",
+  "imageFailed": "Não foi possível ler a imagem",
+  "disclaimer": "Gerado pelo DeepSeek. Confira valores e datas antes de adicionar.",
+  "thinking": "Pensando…",
+  "thought": {
+    "one": "Pensou por {count} segundo",
+    "other": "Pensou por {count} segundos"
+  },
+  "stopped": "Interrompido",
+  "copy": "Copiar",
+  "copied": "Copiado",
+  "regenerate": "Gerar novamente",
+  "retry": "Tentar de novo",
+  "applied": "Adicionado ao seu registro",
+  "tool": {
+    "running": "Executando",
+    "done": "Concluído",
+    "error": "Falhou",
+    "input": "Entrada",
+    "output": "Saída"
+  },
+  "card": {
+    "draft": "Rascunho de assinatura",
+    "start": "Data de início",
+    "today": "Hoje",
+    "next": "Próximas cobranças",
+    "add": "Adicionar",
+    "confirm": "Confirmar",
+    "edit": "Editar antes",
+    "dismiss": "Descartar",
+    "dismissed": "Descartado",
+    "added": "Adicionado",
+    "done": "Concluído",
+    "view": "Ver",
+    "missing": "Não foi possível identificar {fields}: usamos valores padrão, confira",
+    "sep": ", ",
+    "filled": "Ícone e link preenchidos pela App Store",
+    "pendingCount": {
+      "one": "{count} rascunho para confirmar",
+      "other": "{count} rascunhos para confirmar"
+    },
+    "applyAll": "Confirmar tudo",
+    "history": "Cobranças anteriores",
+    "historyCount": {
+      "one": "{count} cobrança",
+      "other": "{count} cobranças"
+    },
+    "changes": "Ver alterações e referências",
+    "unverified": "Conferir resultado"
+  },
+  "error": {
+    "auth": "API Key inválida",
+    "balance": "Seu saldo no DeepSeek é insuficiente",
+    "rate": "Muitas solicitações — tente de novo daqui a pouco",
+    "params": "A solicitação foi recusada",
+    "server": "O DeepSeek está com problemas",
+    "network": "Erro de rede",
+    "config": "Nenhuma API Key configurada ainda"
+  },
+  "setup": {
+    "title": "Ajustes do assistente de IA",
+    "intro": "Usa sua própria API Key do DeepSeek; o uso é cobrado na sua conta do DeepSeek. Obtenha uma em",
+    "keySaved": "Salva ({hint}) — deixe em branco para mantê-la",
+    "baseHint": "Por padrão, o endpoint oficial da DeepSeek. Qualquer serviço compatível com OpenAI também funciona.",
+    "model": "Modelo",
+    "modelHint": "Para ler imagens é preciso um modelo com visão.",
+    "effort": "Raciocínio",
+    "effort_none": "Desligado",
+    "effort_noneHint": "O mais rápido, bom para recibos simples",
+    "effort_low": "Leve",
+    "effort_lowHint": "Recomendado: rápido e preciso",
+    "effort_high": "Profundo",
+    "effort_highHint": "Mais confiável em faturas complexas, mais lento",
+    "saved": "Salvo",
+    "clear": "Remover chave",
+    "cleared": "API Key removida",
+    "cta": "Configurar sua API Key do DeepSeek",
+    "ctaHint": "Só uma vez; a chave fica no seu próprio servidor",
+    "privacy": "A chave fica guardada só no seu servidor — nunca é enviada ao navegador nem incluída em backups. Os textos e imagens que você envia são encaminhados ao DeepSeek pelo seu servidor.",
+    "fetching": "Buscando modelos…",
+    "fetched": "{count} modelos disponíveis.",
+    "fetchHint": "Preencha a Base URL e a API key e os modelos disponíveis carregam sozinhos.",
+    "noModels": "O serviço não retornou uma lista de modelos. Você pode digitar o nome.",
+    "refresh": "Atualizar",
+    "retry": "Tentar de novo",
+    "manual": "Digitar",
+    "pickList": "Escolher da lista",
+    "notInList": "Fora da lista"
+  },
+  "f": {
+    "member": "Membro",
+    "amount": "Valor",
+    "date": "Data",
+    "paidUntil": "Pago até",
+    "fee": "Mensalidade",
+    "joined": "Entrou em",
+    "left": "Saiu em",
+    "contact": "Contato",
+    "role": "Função",
+    "seats": "Vagas (incluindo eu)",
+    "ownerName": "Organizador",
+    "since": "Compartilhado desde",
+    "newPrice": "Novo preço",
+    "from": "Data de vigência",
+    "action": "Ação",
+    "kind": "Tipo",
+    "effect": "Efeito",
+    "name": "Nome",
+    "category": "Categoria",
+    "tags": "Tags",
+    "url": "Site",
+    "manage_url": "Link de gerenciamento",
+    "notes": "Notas",
+    "method": "Forma de pagamento",
+    "region": "Região",
+    "remind_days": "Lembrar (dias antes)",
+    "end": "Não renova após",
+    "next_due": "Próxima cobrança",
+    "trial_end": "Fim do teste",
+    "expires": "Fim do serviço",
+    "price": "Preço",
+    "currency": "Moeda",
+    "cycle": "Ciclo de cobrança",
+    "note": "Nota",
+    "planned": "Planejado",
+    "phases": "Fases",
+    "payments": "Cobranças registradas",
+    "spent": "Gasto até hoje",
+    "changes": "Campos alterados",
+    "funding": "Pago com"
+  },
+  "v": {
+    "exempt": "Não paga",
+    "owner": "Eu organizo",
+    "member": "Participo",
+    "unshare": "Deixar de compartilhar",
+    "pause": "Pausar",
+    "cancel": "Cancelar",
+    "reactivate": "Retomar",
+    "charge": "Cobrança",
+    "deleteAll": "Exclui a assinatura e todas as cobranças. Não é possível desfazer.",
+    "dateUnknown": "Data desconhecida",
+    "terminate": "Encerrada pelo provedor"
+  },
+  "interrupted": "A resposta foi interrompida antes de terminar.",
+  "saveUnknown": "Não foi possível confirmar o salvamento. Confira o registro antes de tentar novamente.",
+  "savedUnverified": "Salvo, mas não foi possível verificar o resultado. Confira o registro antes de continuar.",
+  "savedRefreshFailed": "A alteração foi salva, mas a página não pôde ser atualizada. Atualize-a antes de confirmar outros rascunhos.",
+  "outcome": {
+    "partial": "Algumas etapas estão incompletas",
+    "limit": "O limite de chamadas de ferramentas foi atingido",
+    "review": "Os rascunhos ainda não foram salvos. Revise os rascunhos prontos e as etapas pendentes antes de continuar."
+  }
+}

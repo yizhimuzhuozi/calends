@@ -1,0 +1,99 @@
+{
+  "title": "Accès IA",
+  "newToken": "Nouveau jeton",
+  "mcpUrl": "URL MCP",
+  "urlCopied": "URL copiée",
+  "copy": "Copier",
+  "copied": "Copié",
+  "copyFailed": "Copie impossible",
+  "neverUsed": "Jamais utilisé",
+  "tokenPlaceholder": "<votre-jeton>",
+  "tokens": {
+    "one": "Jetons\n{count}",
+    "other": "Jetons\n{count}"
+  },
+  "noTokens": "Aucun jeton pour l’instant. Créez-en un et donnez-le à l’assistant IA que vous voulez connecter.",
+  "lastUsed": "Dernière utilisation {time}",
+  "confirmRevoke": "Révoquer « {name} » ? Tout assistant IA qui l’utilise perdra l’accès immédiatement.",
+  "revoke": "Révoquer",
+  "revoked": "Révoqué",
+  "setup": "Configuration",
+  "tools": {
+    "one": "Outil disponible\n{count}",
+    "other": "Outils disponibles\n{count}"
+  },
+  "clientOther": "Autre",
+  "scope": {
+    "write": "Lecture et écriture",
+    "read": "Lecture seule",
+    "label": "Autorisation",
+    "writeDesc": "Consulter et gérer abonnements, paiements, encaissements, portefeuilles, personnes, catégories et paramètres du registre.",
+    "readDesc": "Consultation uniquement. Aucune modification possible."
+  },
+  "created": {
+    "title": "Jeton créé",
+    "saved": "Je l’ai enregistré",
+    "foot": "Ce jeton n’est affiché qu’une seule fois et ne sera plus visible après fermeture. Si vous le perdez, révoquez-le et créez-en un nouveau.",
+    "tokenCopied": "Jeton copié"
+  },
+  "cancel": "Annuler",
+  "generate": "Créer",
+  "name": "Nom",
+  "namePlaceholder": "Pour quelle IA ?",
+  "pickClient": "Choisissez votre assistant IA",
+  "tokensHint": "Donnez à chaque assistant son propre jeton pour pouvoir le révoquer séparément.",
+  "toolsHint": "Ce que les assistants peuvent faire avec votre registre. Les jetons en lecture seule ne voient que les outils de lecture.",
+  "toolsRead": "Lecture",
+  "toolsWrite": "Écriture",
+  "experimental": "Expérimental",
+  "copiedWithToken": "Copié, jeton inclus",
+  "installIn": "Ajouter à {name}",
+  "createdAt": "Créé {time}",
+  "where": {
+    "terminal": "Exécutez ceci dans votre terminal.",
+    "codex": "Exécutez ceci dans votre terminal. Ajoutez la ligne export à votre profil shell pour que le jeton persiste après un redémarrage.",
+    "file": "Ajoutez ceci à {path}.",
+    "grokbot": "Dans Grok Bot, ouvrez Réglages → Plugins, ajoutez un serveur MCP et renseignez le nom, l’URL et l’en-tête ci-dessous. Grok Bot tourne dans le cloud : l’adresse doit être publique.",
+    "http": "Tout client MCP compatible Streamable HTTP. Voici une requête de test rapide."
+  },
+  "via": {
+    "command": "Commande terminal",
+    "install": "Installation en un clic",
+    "file": "Fichier de configuration",
+    "settings": "Réglages de l’app",
+    "http": "Tout client MCP"
+  },
+  "step": {
+    "token": "Jeton",
+    "tokenReady": "Utilise « {name} », inclus dans l’extrait ci-dessous",
+    "tokenNeeded": "Les jetons ne sont affichés qu’une seule fois.",
+    "createFor": "Créer un jeton pour {name}",
+    "send": "Envoyer à {name}"
+  },
+  "status": {
+    "on": "L’accès IA est activé",
+    "off": "L’accès IA est désactivé",
+    "onHint": "Un jeton valide permet à un assistant IA d’accéder au registre selon les autorisations attribuées.",
+    "offHint": "Toutes les requêtes MCP sont refusées jusqu’à sa réactivation."
+  },
+  "promptLabel": "Prompt",
+  "copyConfigOnly": "Copier seulement la config",
+  "configCopied": "Configuration copiée",
+  "agentPrompt": "Connecte mon registre d’abonnements Calends comme serveur MCP nommé « calends ». {where}\n\n{code}\n\nUne fois configuré, appelle l’outil {verify} pour vérifier que tout marche, puis dis-moi combien d’abonnements actifs j’ai.",
+  "col": {
+    "name": "Nom",
+    "key": "Clé",
+    "created": "Créé",
+    "lastUsed": "Dernière utilisation"
+  },
+  "domain": {
+    "overview": "Aperçu et statistiques",
+    "subs": "Abonnements et forfaits",
+    "charges": "Prélèvements",
+    "wallet": "Portefeuille et moyens de paiement",
+    "people": "Abonnements partagés et avances",
+    "categories": "Catégories",
+    "settings": "Réglages",
+    "other": "Autres"
+  }
+}

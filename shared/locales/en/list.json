@@ -1,0 +1,140 @@
+{
+  "overlap": {
+    "note": "{what} also running until {date}"
+  },
+  "search": "Search",
+  "title": "All subscriptions",
+  "all": "All",
+  "summary": {
+    "one": "{count} item\n{monthly}/mo\n{yearly}/yr",
+    "other": "{count} items\n{monthly}/mo\n{yearly}/yr"
+  },
+  "status": {
+    "upcoming": "Not started",
+    "active": "Active",
+    "trial": "On trial",
+    "trialShort": "Trial",
+    "paused": "Paused",
+    "pausedShort": "Paused",
+    "ending": "Not renewing",
+    "ended": "Canceled",
+    "lifetime": "Lifetime",
+    "terminated": "Terminated"
+  },
+  "proxyExcluded": "Paid for others\nnot counted",
+  "perMonthApprox": "≈ {amount}/mo",
+  "originalPrice": "Original {amount}",
+  "view": {
+    "grid": "Cards",
+    "list": "List",
+    "gantt": "Timeline"
+  },
+  "sort": {
+    "label": "Sort",
+    "next": "Next charge",
+    "cost": "Monthly cost",
+    "amount": "Amount",
+    "name": "Name",
+    "category": "Category",
+    "method": "Payment method",
+    "start": "Start date",
+    "asc": "Ascending",
+    "desc": "Descending"
+  },
+  "add": "Add subscription",
+  "clear": "Clear",
+  "facet": {
+    "status": "Status",
+    "category": "Category",
+    "pay": "Payment"
+  },
+  "unassigned": "Unassigned",
+  "empty": "No matching subscriptions",
+  "badge": {
+    "share": "Shared",
+    "joined": "Joined",
+    "proxy": "Paid for others",
+    "proxyFor": "Paid for {name}",
+    "someone": "someone",
+    "parallel": "Overlap"
+  },
+  "col": {
+    "name": "Subscription",
+    "category": "Category",
+    "method": "Payment method",
+    "amount": "Amount",
+    "monthly": "Monthly",
+    "start": "Start",
+    "next": "Next charge",
+    "planPrice": "Plan price",
+    "inBase": "In {ccy}"
+  },
+  "notCounted": "Not counted",
+  "endedOn": "Ended {date}",
+  "change": {
+    "noMethod": "Payment method TBD",
+    "planned": "Planned\n",
+    "starts": "Starts {when}",
+    "from": "Changes {when}"
+  },
+  "proxyBadge": {
+    "owed": {
+      "one": "Paid for others\n{count} due",
+      "other": "Paid for others\n{count} due"
+    },
+    "owedFor": {
+      "one": "Paid for {name}\n{count} due",
+      "other": "Paid for {name}\n{count} due"
+    },
+    "settled": "Paid for others\nsettled",
+    "settledFor": "Paid for {name}\nsettled"
+  },
+  "gantt": {
+    "months": {
+      "one": "{count} month",
+      "other": "{count} months"
+    },
+    "days": {
+      "one": "{count} day",
+      "other": "{count} days"
+    },
+    "noRegion": "No region",
+    "zoom3m": "3M",
+    "zoom6m": "6M",
+    "zoom1y": "1Y",
+    "zoom3y": "3Y",
+    "byMethod": "By payment",
+    "byRegion": "By region",
+    "gapTitle": "Lapsed {span}: {from} – {to}",
+    "gapShort": "Lapsed {span}",
+    "lifetimeSuffix": " lifetime",
+    "present": "now",
+    "plannedSuffix": "\nplanned",
+    "introPrefix": "Intro offer\n",
+    "introShort": "Intro ",
+    "planned": "Planned",
+    "gap": "Lapsed",
+    "earlier": "Earlier",
+    "later": "Later",
+    "backToNow": "Back to now",
+    "resize": "Drag to resize the name column\ndouble-click to reset"
+  },
+  "kind": {
+    "debit": "Bank card",
+    "credit": "Credit card",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "paypal": "PayPal",
+    "appstore": "App Store balance",
+    "googleplay": "Google Play balance",
+    "giftcard": "Gift card",
+    "prepaid": "Store balance",
+    "phone": "Phone credit",
+    "crypto": "Crypto card",
+    "other": "Other"
+  },
+  "network": {
+    "unionpay": "UnionPay"
+  },
+  "monthlySame": "Same as price"
+}

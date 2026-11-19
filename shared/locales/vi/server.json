@@ -1,0 +1,68 @@
+{
+  "fxApiError": "Dịch vụ tỷ giá trả về lỗi",
+  "missingId": "Thiếu id",
+  "invalidItem": "{name}: {error}",
+  "notPublic": "Sổ này không công khai",
+  "idMismatch": "ID không khớp",
+  "invalidJson": "Nội dung yêu cầu không phải JSON hợp lệ.",
+  "invalidMethod": "Phương thức thanh toán không hợp lệ",
+  "invalidBackup": "Tệp sao lưu không hợp lệ",
+  "refreshFailed": "Làm mới thất bại",
+  "backup": {
+    "notBackup": "Đây không phải tệp sao lưu hợp lệ",
+    "unknownFormat": "Định dạng sao lưu không xác định: {format}",
+    "newerVersion": "Bản sao lưu này đến từ phiên bản mới hơn (v{version}). Hãy cập nhật trang này trước."
+  },
+  "auth": {
+    "tooMany": "Thử quá nhiều lần. Hãy thử lại sau 15 phút.",
+    "alreadySetup": "Mật khẩu đã được đặt",
+    "noSetupToken": "SETUP_TOKEN chưa được cấu hình khi triển khai nên không thể tiếp tục thiết lập. Hãy đặt secret này trước (wrangler secret put SETUP_TOKEN).",
+    "badSetupToken": "Token thiết lập không đúng",
+    "passwordTooShort": {
+      "other": "Mật khẩu phải có ít nhất {min} ký tự"
+    },
+    "wrongPassword": "Mật khẩu không đúng",
+    "wrongCurrentPassword": "Mật khẩu hiện tại không đúng",
+    "newPasswordTooShort": {
+      "other": "Mật khẩu mới phải có ít nhất {min} ký tự"
+    },
+    "invalidDevice": "Thiết bị không hợp lệ",
+    "nameRequired": "Tên không được để trống",
+    "cannotRemoveCurrent": "Không thể xóa thiết bị này. Hãy dùng Đăng xuất.",
+    "expired": "Yêu cầu đã hết hạn. Vui lòng thử lại.",
+    "passkeyFailed": "Xác minh passkey thất bại. Hãy đăng nhập bằng mật khẩu rồi thêm lại trong Cài đặt → Bảo mật",
+    "passkeyRegisterFailed": "Xác minh passkey thất bại",
+    "passkeyNotBound": "Passkey này chưa được đăng ký với trang này. Hãy đăng nhập bằng mật khẩu rồi thêm lại trong Cài đặt → Bảo mật"
+  },
+  "ics": {
+    "calName": "Khoản phí gói đăng ký",
+    "method": "Thanh toán: {name}",
+    "alarm": "{name} sắp gia hạn"
+  },
+  "invalidPerson": "Cần nhập tên",
+  "personNotFound": "Không tìm thấy người này",
+  "personInUse": "Vẫn gắn với {count} gói hoặc khoản trả hộ. Hãy gộp vào người khác trước.",
+  "category": {
+    "invalid": "Danh sách danh mục không hợp lệ",
+    "duplicate": "Danh mục bị trùng: {name}"
+  },
+  "assistant": {
+    "noKey": "Chưa cấu hình khóa API DeepSeek.",
+    "badTool": "Thao tác không được hỗ trợ."
+  },
+  "invalidAvatar": "Ảnh không hợp lệ",
+  "avatarInvalid": "Dùng PNG/WebP vuông không có siêu dữ liệu, tối đa 128×128 và 64 KB. Tải lên PNG/JPEG/WebP tối đa 8 MB và 40 megapixel.",
+  "avatarRosterFull": "Danh sách người đã đầy. Hãy xóa một ảnh đại diện trước.",
+  "methodInUse": "Phương thức thanh toán này vẫn đang được dùng. Hãy chuyển tham chiếu sang phương thức khác hoặc xóa trống trước.",
+  "autobackup": {
+    "badEndpoint": "Endpoint không hợp lệ; phải bắt đầu bằng https:// hoặc http://",
+    "badBucket": "Tên bucket không hợp lệ",
+    "noCredentials": "Nhập Access Key ID và Secret Access Key",
+    "noLogin": "Nhập tên người dùng và mật khẩu",
+    "noPassphrase": "Hãy đặt cụm mật khẩu mã hóa",
+    "badKeep": "Số bản giữ lại phải từ 1 đến 365",
+    "notConfigured": "Chưa thiết lập sao lưu tự động",
+    "interrupted": "Lần sao lưu trước chưa hoàn tất",
+    "beforeRestoreFailed": "Sao lưu trước khi khôi phục thất bại; sổ không thay đổi: {error}"
+  }
+}

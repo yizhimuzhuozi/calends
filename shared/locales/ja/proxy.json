@@ -1,0 +1,118 @@
+{
+  "filter": {
+    "all": "すべて",
+    "live": "進行中",
+    "owe": "未回収",
+    "ended": "終了",
+    "none": "該当する立替はありません"
+  },
+  "title": "立て替え",
+  "status": {
+    "active": "継続中",
+    "ending": "終了予定",
+    "ended": "停止"
+  },
+  "owedPeriods": {
+    "other": "未回収 {count}件"
+  },
+  "viewSub": "サブスクを見る",
+  "stoppedOn": "\n{date}に停止",
+  "nextOn": "\n次回 {date}",
+  "payFor": "{name}の分",
+  "unset": "未設定",
+  "paidPeriods": {
+    "other": "{count}回立て替え"
+  },
+  "received": "受取済み",
+  "owed": "未回収",
+  "settled": "精算済み",
+  "detailTitle": "立て替え",
+  "cardCcy": "\nカードは{ccy}で決済",
+  "forWhom": "立て替え先",
+  "method": "支払い方法",
+  "stoppedAt": "停止日",
+  "nextCharge": "次回請求",
+  "note": "メモ",
+  "table": {
+    "cost": "当時のコスト",
+    "total": "合計 {count} 回",
+    "receivedOn": "{date} 受取",
+    "date": "請求日",
+    "charged": "請求額",
+    "received": "受取済み",
+    "diff": "損益",
+    "record": "記録",
+    "even": "差額なし",
+    "none": "まだ請求はありません。",
+    "title": "明細",
+    "notCharged": "未引き落とし"
+  },
+  "entry": {
+    "markedDue": "未回収にしました",
+    "saved": "保存しました",
+    "title": "{date}の請求",
+    "markDue": "未回収にする",
+    "cancel": "キャンセル",
+    "save": "保存",
+    "chargedRate": "請求日のレートで約 {amount}",
+    "chargedBlank": "空欄の場合は定価の {list} を使用します",
+    "amount": "金額",
+    "currency": "通貨",
+    "paidBack": "{name}から返済あり",
+    "paidBackAnon": "返済あり",
+    "receivedEmpty": "まだ受け取っていない場合は空欄にしてください。",
+    "receivedEven": "受領日のレートで{amount}、請求額と同じです。",
+    "receivedMore": "受領日のレートで{amount}、請求額より{diff}多くなっています。",
+    "receivedLess": "受領日のレートで{amount}、請求額より{diff}少なくなっています。",
+    "notReceived": "未受領",
+    "receivedOn": "受取日",
+    "notePlaceholder": "任意（例：銀行振込）"
+  },
+  "page": {
+    "owedSub": {
+      "other": "未回収{count}件（請求日のレート）"
+    },
+    "subs": {
+      "other": "{count}件のサブスク"
+    },
+    "diffSub": "受取済みの請求における為替と手数料による損益",
+    "emptyTitle": "立て替えはまだありません",
+    "emptyBody": "サブスクリプションを作成または編集し、「利用者」で「立て替え」を選んで支払う相手を入力します。",
+    "liveNext": "進行中 {count} 件、次回 {date}",
+    "lastIn": "最終受取 {date}",
+    "noneIn": "まだ受け取りはありません",
+    "diffAvg": "回収 {count} 期、1 期あたり平均 {amount}",
+    "perPeriod": "1 期あたり平均 {amount}",
+    "owedRate": "請求日のレート",
+    "prepaid": "ほかに前受け {count} 回分 {amount}（引き落とし後に計上）"
+  },
+  "paid": "立て替え済み",
+  "periods": "{count} 期",
+  "lastIn": "最終 {date}",
+  "prepaidTo": "{date} まで前受け済み",
+  "receipt": {
+    "add": "受取を記録",
+    "title": "受取を記録",
+    "covers": "対象",
+    "from": "開始回",
+    "periods": "回数",
+    "owedTag": "引き落とし済み・未回収",
+    "coversFootOne": "{from} の 1 回分です。",
+    "coversFootMany": "{from}〜{to} の {count} 回分（受取済みの回はスキップ）。金額は均等に按分し、損益は回ごとに計算します。",
+    "total": "受取金額",
+    "perFoot": "1 回あたり {per}。",
+    "baseFoot": "受取日のレートで {amount}。",
+    "none": "未回収または前受けできる回はありません。",
+    "undo": "この入金を取り消す",
+    "batchFoot": "複数回分をまとめた入金の一部です。金額や対象回を変えるには、取り消して記録し直してください。",
+    "perPeriod": "{count} 回分、1 回 {amount}"
+  },
+  "convert": {
+    "maybeGroup": "立替払いの可能性",
+    "submit": "立替払いに変更",
+    "title": "{name} を立替払いに変更",
+    "saved": "立替払いに変更しました",
+    "changed": "このサブスクリプションは変更または削除されました。開き直して再試行してください。"
+  },
+  "stop": "代理支払いを停止"
+}

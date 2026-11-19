@@ -1,0 +1,111 @@
+import { AVATAR_INPUT_MAX_BYTES, avatarCrop, prepareAvatarThumbnail } from '../../shared/avatar.ts';
+import { t } from '../../shared/i18n.ts';
+import { ICON_UPLOAD_SIZE, iconFit, iconInput, isDataIcon } from '../../shared/icon.ts';
+// 从别的页面（新建订阅表单）把文字、图片交给 AI 助手：先存进 sessionStorage，助手页打开时取走
+import { go } from './router.ts';
+import { HANDOFF_KEY } from './store.ts';
+
+const KEY = HANDOFF_KEY;
+
+/** 压缩成长边不超过 1600px 的 JPEG（data URL）：截图够清晰，请求体也不大 */
+export async function compressImage(file: Blob): Promise<string> {
+  const bmp = await createImageBitmap(file);
+  const k = Math.min(1, 1600 / Math.max(bmp.width, bmp.height));
+  const c = document.createElement('canvas');
+  c.width = Math.round(bmp.width * k);
+  c.height = Math.round(bmp.height * k);
+  const g = c.getContext('2d')!;
+  g.fillStyle = '#fff';
+  g.fillRect(0, 0, c.width, c.height);
+  g.drawImage(bmp, 0, 0, c.width, c.height);
+  return c.toDataURL('image/jpeg', 0.86);
+}
+
+export function handoff(text: string, images: string[] = []) {
+  try {
+    sessionStorage.setItem(KEY, JSON.stringify({ text, images }));
+  } catch {
+    /* 存不下（图片太大）就只带文字 */
+    try {
+      sessionStorage.setItem(KEY, JSON.stringify({ text, images: [] }));
+    } catch {
+      /* 隐私模式：直接跳过去 */
+    }
+  }
+  go('assistant');
+}
+
+export function takeHandoff(): { text: string; images: string[] } | null {
+  try {
+    const raw = sessionStorage.getItem(KEY);
+    if (!raw) return null;
+    sessionStorage.removeItem(KEY);
+    return JSON.parse(raw) as { text: string; images: string[] };
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * 本地图片 → 订阅图标：等比缩进 128 见方、保留透明，重新编码（丢掉原图元数据），
+ * 优先 WebP，浏览器不支持时回落 PNG；结果再过一遍 iconInput，保证与导入、MCP 写入的约束一致。
+ */
+export async function compressIcon(file: Blob): Promise<string> {
+  const invalid = () => new Error(t('editor.field.iconUploadInvalid'));
+  if (!['image/png', 'image/jpeg', 'image/webp'].includes(file.type) || !file.size || file.size > AVATAR_INPUT_MAX_BYTES) throw invalid();
+  let bmp: ImageBitmap;
+  try {
+    bmp = await createImageBitmap(file);
+  } catch {
+    throw invalid();
+  }
+  try {
+    const fit = iconFit(bmp.width, bmp.height);
+    if (!fit) throw invalid();
+    const canvas = document.createElement('canvas');
+    canvas.width = canvas.height = ICON_UPLOAD_SIZE;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) throw invalid();
+    ctx.imageSmoothingQuality = 'high';
+    ctx.drawImage(bmp, fit.x, fit.y, fit.w, fit.h);
+    for (const q of [0.9, 0.8, 0.65, 0.5]) {
+      const url = canvas.toDataURL('image/webp', q);
+      const data = isDataIcon(url) ? url : canvas.toDataURL('image/png');
+      try {
+        const icon = iconInput(data);
+        if (icon) return icon;
+      } catch {
+        /* 超出大小上限：降低质量再试；PNG 没有质量可调，直接失败 */
+      }
+      if (!url.startsWith('data:image/webp')) break;
+    }
+    // 图能解码、只是压不进 64 KB（多见于不支持 WebP 编码、回落 PNG 的浏览器）：别让人以为是格式或 8 MB 的问题
+    throw new Error(t('editor.field.iconUploadTooLarge'));
+  } finally {
+    bmp.close();
+  }
+}
+
+/** Private roster thumbnail: center-crop and re-encode to strip source metadata. */
+export async function compressAvatar(file: Blob): Promise<string> {
+  if (!['image/png', 'image/jpeg', 'image/webp'].includes(file.type) || !file.size || file.size > AVATAR_INPUT_MAX_BYTES)
+    throw new Error(t('server.avatarInvalid'));
+  let bmp: ImageBitmap;
+  try {
+    bmp = await createImageBitmap(file);
+  } catch {
+    throw new Error(t('server.avatarInvalid'));
+  }
+  try {
+    const crop = avatarCrop(bmp.width, bmp.height);
+    const canvas = document.createElement('canvas');
+    canvas.width = canvas.height = crop.size;
+    const ctx = canvas.getContext('2d');
+    if (!ctx) throw new Error(t('server.avatarInvalid'));
+    ctx.drawImage(bmp, crop.x, crop.y, crop.side, crop.side, 0, 0, crop.size, crop.size);
+    // PNG fallback covers browsers without a WebP encoder.
+    return prepareAvatarThumbnail(canvas.toDataURL('image/webp', 0.82));
+  } finally {
+    bmp.close();
+  }
+}

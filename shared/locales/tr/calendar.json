@@ -1,0 +1,31 @@
+{
+  "yearTitle": "{year}",
+  "summary": {
+    "one": "{count} ödeme\n{amount}",
+    "other": "{count} ödeme\n{amount}"
+  },
+  "mode": {
+    "month": "Ay",
+    "year": "Yıl"
+  },
+  "prev": "Önceki",
+  "next": "Sonraki",
+  "today": "Bugün",
+  "ics": "Takvime abone ol",
+  "noneDay": "Bu gün ödeme yok",
+  "projected": "Beklenen",
+  "charged": "Ödendi",
+  "monthTotal": "{month} ödemeleri",
+  "count": "{count} ödeme",
+  "monthAll": "Tüm ödemeler\n{month}",
+  "noneMonth": "Bu ay ödeme yok",
+  "day": "{day}",
+  "heatCount": {
+    "one": "{count} ödeme\n",
+    "other": "{count} ödeme\n"
+  },
+  "pickDay": "Ödemeleri görmek için bir tarih seçin",
+  "nextCharge": "Sonraki ödeme\n{date}",
+  "expandReport": "Tam raporu aç",
+  "nextBill": "Sonraki fatura\n{date}"
+}

@@ -1,0 +1,138 @@
+{
+  "title": "{name}s Abos",
+  "loadFailed": "Laden fehlgeschlagen",
+  "theme": {
+    "title": "Design: {mode} (klicken zum Wechseln)",
+    "aria": "Design: {mode}, klicken zum Wechseln"
+  },
+  "currency": "Anzeigewährung",
+  "hero": {
+    "monthly": "Monatliche Abo-Ausgaben",
+    "flat": "Wie im selben Monat letztes Jahr",
+    "more": "{amount} mehr als im selben Monat letztes Jahr",
+    "less": "{amount} weniger als im selben Monat letztes Jahr",
+    "yearly": "Pro Jahr",
+    "paid": "Bezahlt seit {year}"
+  },
+  "timeline": {
+    "title": "Zeitleiste",
+    "upcoming": {
+      "one": "{count} Abbuchung in den nächsten 30 Tagen\n{amount}",
+      "other": "{count} Abbuchungen in den nächsten 30 Tagen\n{amount}"
+    }
+  },
+  "chart": {
+    "title": "Monatliche Abbuchungen",
+    "desc": "Letzte 12 und nächste 3 Monate; schraffierte Balken sind Prognosen",
+    "paid": "Bezahlt",
+    "mrr": "Monatliche Kosten",
+    "charge": "Abgebucht",
+    "thisMonth": "Dieser Monat",
+    "projected": "{month}\nPrognose"
+  },
+  "ended": {
+    "title": "Gekündigt"
+  },
+  "perMonth": "{amount}/Mon.",
+  "lifetime": {
+    "title": "Lebenslang",
+    "desc": "Einmal bezahlt, keine weiteren Abbuchungen"
+  },
+  "composition": {
+    "title": "Aufteilung",
+    "desc": "Monatliche Kosten nach Kategorie",
+    "other": "Sonstiges"
+  },
+  "count": "{count}",
+  "fx": {
+    "title": "Wechselkurse",
+    "flat": "Wechselkurse haben die Kosten im letzten Jahr kaum verändert",
+    "less": "Zu heutigen Kursen zahlst du {amount} weniger im Monat als vor einem Jahr",
+    "more": "Zu heutigen Kursen zahlst du {amount} mehr im Monat als vor einem Jahr",
+    "share": "{pct} %"
+  },
+  "list": {
+    "title": "Abos",
+    "summary": {
+      "one": "{count}\n{amount}/Mon.",
+      "other": "{count}\n{amount}/Mon."
+    },
+    "all": "Alle"
+  },
+  "row": {
+    "ends": "\nEndet am {date}",
+    "renews": "\nVerlängert sich am {date}",
+    "perMonthEq": "umgerechnet/Monat"
+  },
+  "titleAnon": "Abos",
+  "pile": {
+    "label": "Deine Abos als Stapel – je größer, desto teurer"
+  },
+  "calendar": {
+    "title": "Kalender"
+  },
+  "years": {
+    "title": "Abo-Zeitleiste"
+  },
+  "tenure": {
+    "title": "Abo-Dauer",
+    "avg": "Durchschnittliche Laufzeit aktiver Abos",
+    "longest": "Am längsten gehalten"
+  },
+  "treemap": {
+    "title": "Ausgabenkarte",
+    "missing": {
+      "one": "{count} Abo ohne Wechselkurs ist nicht enthalten",
+      "other": "{count} Abos ohne Wechselkurs sind nicht enthalten"
+    }
+  },
+  "changes": {
+    "title": "Änderungen",
+    "more": "Alle anzeigen ({n})",
+    "less": "Weniger anzeigen",
+    "kind": {
+      "added": "Neu",
+      "resumed": "Wieder aufgenommen",
+      "buy": "Gekauft",
+      "up": "Preis gestiegen",
+      "down": "Preis gesenkt",
+      "switch": "Region oder Tarif gewechselt",
+      "stopped": "Beendet",
+      "paused": "Pausiert"
+    }
+  },
+  "waterfall": {
+    "title": "Monatliche Veränderung",
+    "prev": "Vorheriger Monat",
+    "next": "Nächster Monat",
+    "from": "Start",
+    "added": "Neu",
+    "expansion": "Preis gestiegen",
+    "contraction": "Preis gesenkt",
+    "churned": "Beendet",
+    "fx": "Wechselkurs",
+    "to": "Jetzt",
+    "monthEnd": "Monatsende",
+    "incomplete": "Wechselkurse fehlen, Diagramm nicht möglich"
+  },
+  "metric": {
+    "monthly": "Monatliche Ausgaben",
+    "yearly": "Pro Jahr",
+    "active": "Aktive Abos",
+    "avgPerSub": "Durchschnitt pro Abo",
+    "paidTotal": "Insgesamt bezahlt",
+    "paidYear": "Dieses Jahr bezahlt",
+    "paidMonth": "Diesen Monat bezahlt",
+    "next30": "Nächste 30 Tage",
+    "topSub": "Teuerstes Abo",
+    "topCategory": "Größte Kategorie",
+    "endedCount": "Gekündigt",
+    "lifetimeCount": "Einmalkauf",
+    "fxEffect": "Wechselkurseffekt (monatlich)",
+    "vsPrev": "ggü. Vorjahr",
+    "shareOf": "Anteil an den monatlichen Ausgaben"
+  },
+  "globe": {
+    "title": "Abo-Regionen"
+  }
+}

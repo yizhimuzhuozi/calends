@@ -1,0 +1,117 @@
+{
+  "previewEmpty": "Hôm nay không có lời nhắc nào cần gửi.",
+  "appName": "Calends",
+  "trial": {
+    "sub": "Hết dùng thử {when} ({date}), sau đó {price}",
+    "headline": "{name} hết dùng thử {when}"
+  },
+  "renew": {
+    "introEnds": "Hết giá ưu đãi, trở về giá thường",
+    "headline": "{name} gia hạn {when} với giá {price}",
+    "billHeadline": "{name} xuất hóa đơn {when}: {price}"
+  },
+  "ending": {
+    "sub": "Kết thúc {when}, không gia hạn",
+    "headline": "{name} kết thúc {when}"
+  },
+  "carpool": {
+    "dueIn": "Đến hạn {when} ({date})",
+    "dueToday": "Đến hạn hôm nay",
+    "overdue": {
+      "other": "Quá hạn {count} ngày"
+    },
+    "sub": "{status}\nkỳ tới: {bill}",
+    "headline": "Đến lúc thu tiền {name} từ {member}"
+  },
+  "proxy": {
+    "someone": "Ai đó",
+    "chargedToday": "Đã trả hộ hôm nay",
+    "chargedAgo": {
+      "other": "Đã trừ tiền {date}, {count} ngày trước"
+    },
+    "sub": "{status}, chưa được trả lại",
+    "headlineToday": "Đã trả hộ {sub} cho {name}",
+    "headlineUnpaid": "{name} chưa trả lại {sub}"
+  },
+  "balance": {
+    "sub": "Đến {date} chỉ còn {left}, không đủ cho {sub} ({amount})",
+    "subSince": "Đặt thành {calibrated} vào {asOf}, đã trừ {spent} từ đó. Đến {date} chỉ còn {left}, không đủ cho {sub} ({amount})",
+    "subOver": "Số dư đã là {left}, không đủ cho {sub} ({amount}) vào {date}",
+    "subForfeit": "{forfeit} hết hạn ngày {expires}; đến {date} chỉ còn {left}, không đủ trả {sub} ({amount})",
+    "headline": "Số dư {name} sắp hết",
+    "expiring": "Hết hạn {date}; khoảng {amount} sẽ bị mất",
+    "expiringHeadline": "Số dư {name} sắp hết hạn"
+  },
+  "section": {
+    "renew": "Khoản phí sắp tới",
+    "trials": "Sắp hết dùng thử",
+    "balance": "Số dư thấp",
+    "carpool": "Thanh toán gói chia sẻ",
+    "proxy": "Tiền trả hộ cần thu lại",
+    "ending": "Sắp kết thúc",
+    "month": "Khoản phí tháng này"
+  },
+  "daily": {
+    "subject": "Nhắc nhở gói đăng ký: {title}",
+    "title": "{headline}",
+    "titleMore": "{headline} và {more} mục khác",
+    "intro": "Bạn đang chi {mrr} mỗi tháng cho gói đăng ký, với {count} gói đang hoạt động."
+  },
+  "monthly": {
+    "title": "Khoảng {sum} cần thanh toán trong {month}",
+    "subject": {
+      "other": "Hóa đơn {month}: khoảng {sum}, {count} khoản phí"
+    },
+    "intro": "Với các gói hiện tại, mỗi năm khoảng {arr}."
+  },
+  "email": {
+    "open": "Mở Calends",
+    "footer": "Bạn có thể đổi giờ nhắc và số ngày nhắc trước trong Cài đặt.",
+    "why": "Bạn nhận được email này vì đã bật nhắc nhở qua email trong {app}.",
+    "off": "Để ngừng nhận, hãy tắt kênh email trong Cài đặt → Kênh thông báo.",
+    "settings": "Cài đặt nhắc nhở",
+    "total": "Tổng tháng này",
+    "testNote": "Đây là email thử để xác nhận kênh email hoạt động. Nhắc nhở thật sẽ liệt kê các khoản sắp thanh toán ở đây.",
+    "noCharges": "Tháng này không có khoản thanh toán dự kiến nào.",
+    "kind": {
+      "daily": "Nhắc nhở",
+      "monthly": "Hóa đơn tháng",
+      "test": "Thử"
+    },
+    "stat": {
+      "sum": "Dự kiến",
+      "count": "Số khoản",
+      "mrr": "Chi mỗi tháng"
+    }
+  },
+  "text": {
+    "heading": "[{heading}]"
+  },
+  "send": {
+    "noChannel": "Không tìm thấy kênh",
+    "noneEnabled": "Chưa bật kênh thông báo nào",
+    "alreadySent": "Hôm nay đã gửi",
+    "failure": "{channel}: {error}",
+    "failureSep": "; "
+  },
+  "test": {
+    "subject": "[Thử] {subject}",
+    "sampleSubject": "[Thử] Nhắc nhở gói đăng ký đã sẵn sàng",
+    "sampleIntro": "Kênh thông báo của bạn đang hoạt động."
+  },
+  "channel": {
+    "missing": "“{channel}” còn thiếu {field}",
+    "field": {
+      "to": "email người nhận",
+      "botToken": "token bot",
+      "chatId": "chat ID",
+      "webhook": "URL webhook",
+      "deviceKey": "khóa thiết bị",
+      "topic": "chủ đề",
+      "sendKey": "SendKey",
+      "url": "URL"
+    },
+    "emailNotConfigured": "Máy chủ này chưa cấu hình gửi email (cần binding EMAIL và MAIL_FROM). Hãy dùng kênh khác hoặc xem README."
+  },
+  "sender": "Calends"
+}

@@ -1,0 +1,275 @@
+{
+  "note": {
+    "more": "Tout afficher"
+  },
+  "renewal": {
+    "afterTrial": "Premier prélèvement après l’essai",
+    "elapsed": "{pct} % de la période écoulée"
+  },
+  "overlap": {
+    "title": "Aussi en cours",
+    "previous": "Ancienne formule",
+    "until": "Jusqu’au {date}\n{rel}"
+  },
+  "action": {
+    "edit": "Modifier",
+    "pause": "Suspendre",
+    "resume": "Reprendre",
+    "manage": "Gérer",
+    "share": "Partager",
+    "copyImage": "Copier en image"
+  },
+  "toast": {
+    "resumed": "Facturation reprise",
+    "paused": "Suspendu. Les prochains prélèvements ne seront plus prévus",
+    "imageCopied": "Image copiée"
+  },
+  "snapshotRest": "{count} de plus",
+  "history": "Historique",
+  "field": {
+    "amount": "Montant",
+    "cycle": "Cycle de facturation",
+    "category": "Catégorie",
+    "method": "Moyen de paiement",
+    "next": "Prochaine échéance",
+    "expiresHint": "Le renouvellement automatique prélève avant cette date",
+    "endedOn": "Terminé le",
+    "trialEnd": "Fin de l’essai",
+    "region": "Région",
+    "period": "Période",
+    "present": "aujourd’hui",
+    "endedUnknown": "Terminé ; date inconnue"
+  },
+  "up": {
+    "planned": "Changement prévu\nnon confirmé",
+    "starting": "Commence bientôt",
+    "changing": "Changement à venir",
+    "effective": "Date d’effet"
+  },
+  "plan": {
+    "drop": "Ne pas changer",
+    "droppedToast": "Pas de changement. Se termine après le {date}",
+    "confirm": "Confirmer le changement",
+    "confirmedToast": "Changement confirmé"
+  },
+  "intro": {
+    "title": "Offre de lancement",
+    "price": "Prix de lancement",
+    "until": "Fin de l’offre",
+    "then": "Ensuite"
+  },
+  "share": {
+    "open": "Voir le partage",
+    "owner": "Partagé\nj’organise ({count}/{seats})",
+    "member": "Partagé\nj’ai rejoint",
+    "payTo": "Payer à",
+    "host": "Organisateur",
+    "unnamed": "Sans nom",
+    "me": "Moi"
+  },
+  "charges": {
+    "recentN": {
+      "one": "Seulement le dernier",
+      "other": "Seulement les {count} derniers"
+    },
+    "addShort": "Ajouter",
+    "title": "Prélèvements",
+    "paidOn": "Payé le {date}",
+    "kind": {
+      "refund": "Remboursement",
+      "adjust": "Ajustement",
+      "failed": "Échec"
+    },
+    "add": "Ajouter une opération (remboursement, ajustement, échec, montant carte…)"
+  },
+  "stats": {
+    "spent": "Total dépensé",
+    "count": {
+      "one": "{count} prélèvement",
+      "other": "{count} prélèvements"
+    },
+    "owned": "Possédé depuis",
+    "subscribed": "Abonné depuis",
+    "yearsMonths": "{years} an(s) {months} mois",
+    "years": {
+      "one": "{count} an",
+      "other": "{count} ans"
+    },
+    "months": {
+      "one": "{count} mois",
+      "other": "{count} mois"
+    },
+    "days": {
+      "one": "{count} jour",
+      "other": "{count} jours"
+    },
+    "gaps": {
+      "one": "Interrompu une fois",
+      "other": "Interrompu {count} fois"
+    },
+    "perMonth": "Coût mensuel réel",
+    "spentThisYear": "Dépensé cette année",
+    "allTime": "Total {amount}"
+  },
+  "tab": {
+    "charges": "Prélèvements\n{count}",
+    "details": "Détails"
+  },
+  "kpi": {
+    "noGaps": "Sans interruption",
+    "startedToday": "Commencé aujourd’hui",
+    "expectedMonthly": "Prévu par mois",
+    "amortizedCost": "Coût lissé",
+    "perMonthValue": "{amount}/mois",
+    "perDay": "{amount} par jour",
+    "thisYearMonthly": "Cette année par mois",
+    "averageMonthly": "Moyenne {amount}/mois",
+    "dailyAmount": "{amount}/jour"
+  },
+  "chart": {
+    "title": "Par prélèvement\n{ccy}",
+    "all": "Tout",
+    "y1": "1 an",
+    "m6": "6 mois",
+    "period": "Période",
+    "converted": "Converti",
+    "average": "Moyenne",
+    "method": "Paiement",
+    "paidOn": "Payé",
+    "bucket": {
+      "m1": "Chaque barre est un total mensuel",
+      "m3": "Chaque barre est un total trimestriel",
+      "m12": "Chaque barre est un total annuel"
+    },
+    "regular": "Prix normal",
+    "saved": "Remise de lancement",
+    "unknownEnd": "Date de fin inconnue ; graphique limité aux périodes de paiement connues"
+  },
+  "ev": {
+    "next": "Prochain prélèvement",
+    "gap": "Interruption",
+    "start": "Abonnement",
+    "switch": "Changement d’offre",
+    "price": "Changement de prix",
+    "introEnd": "Retour au prix normal",
+    "paused": "En pause",
+    "ended": "Terminé",
+    "ending": "Se termine",
+    "phases": {
+      "one": "{count} phase",
+      "other": "{count} phases"
+    },
+    "more": {
+      "one": "Afficher {count} plus ancien",
+      "other": "Afficher {count} plus anciens"
+    },
+    "shareStart": "Partage commencé"
+  },
+  "stop": {
+    "title": "Arrêt et remboursement",
+    "type": "Type d’arrêt",
+    "paidThrough": "Payé initialement jusqu’au",
+    "loss": "−{money} ({days})"
+  },
+  "timeline": {
+    "planned": "Prévu"
+  },
+  "period": {
+    "paid": "Période en cours",
+    "trial": "Essai",
+    "bonus": "Période offerte",
+    "since": "Depuis le {date}",
+    "sub": "Abonnement",
+    "collect": "Encaissement"
+  },
+  "transfer": {
+    "title": "Cessions",
+    "held": "Détenu",
+    "net": "Coût net",
+    "included": "Cessions incluses",
+    "kind": {
+      "label": "Type",
+      "buy": "Acheté",
+      "sell": "Vendu"
+    },
+    "hint": {
+      "buy": "Somme versée à l’ancien titulaire lors de la reprise (prime comprise). Saisissez le montant réellement payé.",
+      "sell": "Somme reçue lors de la cession. Saisissez le montant réellement reçu ; le service restant n’est plus compté comme payé non utilisé."
+    },
+    "paid": "Montant payé",
+    "received": "Montant reçu",
+    "addTitle": "Enregistrer une cession",
+    "editTitle": "Modifier la cession",
+    "saved": "Cession enregistrée",
+    "deleted": "Supprimer cette cession",
+    "foot": "Argent réellement payé ou reçu lors de la reprise ou de la cession d’un service d’occasion. Compté dans le coût net et la trésorerie, pas dans le coût mensuel, les prévisions de renouvellement ni le nombre de prélèvements.",
+    "add": "Enregistrer",
+    "none": "Aucune cession pour l’instant",
+    "netGain": "Gain net",
+    "head": {
+      "date": "Date",
+      "amount": "Montant",
+      "base": "En {ccy}"
+    }
+  },
+  "billing": {
+    "postpaid": "Postpayé",
+    "nextBill": "Prochaine facture"
+  },
+  "meters": {
+    "title": "Détails d’usage",
+    "add": "Ajouter des données d’usage",
+    "manage": "Compteurs",
+    "manageTitle": "Compteurs de données d’usage",
+    "addTitle": "Saisir des valeurs",
+    "editTitle": "Modifier l’entrée",
+    "name": "Nom",
+    "unit": "Unité",
+    "namePh": "p. ex. Électricité, Kilométrage, Trafic",
+    "unitPh": "p. ex. kWh, km, Go",
+    "usage": "Conso. par période",
+    "reading": "Relevé cumulé",
+    "kindFoot": "Consommation par période : saisissez la quantité utilisée à chaque fois. Relevé cumulé : saisissez la valeur du compteur (comme un compteur kilométrique) ; la consommation est l’écart entre deux relevés.",
+    "linkGroup": "Lier un compteur d’un autre abonnement",
+    "linkFoot": "Les valeurs ne sont stockées qu’une seule fois, quel que soit l’abonnement depuis lequel vous les saisissez. Supprimer le lien conserve les données.",
+    "linkFrom": "Depuis « {name} »",
+    "linkGone": "L’abonnement ou le compteur d’origine a été supprimé. Il n’y a donc rien à afficher.",
+    "unlink": "Supprimer le lien",
+    "asOf": "Au {date}",
+    "newMeter": "Ajouter un compteur",
+    "suggest": "Utilisé dans d’autres abonnements",
+    "removeConfirm": "Supprimer {names} efface aussi leurs valeurs saisies. Continuer ?",
+    "dupName": "Les noms de compteurs doivent être uniques",
+    "valuesFoot": "Prix unitaire = coût réel de la période ÷ consommation. Les factures post-payées comptent pour la période réglée.",
+    "saved": "Données d’usage enregistrées",
+    "readingValue": "Relevé {v}",
+    "head": {
+      "date": "Date",
+      "usage": "Consommation"
+    },
+    "readingsCount": "{n} entrées",
+    "deleteReadings": "Supprimer {n} entrées",
+    "removeMeters": "Supprimer les compteurs et leurs valeurs",
+    "latest": "Dernier",
+    "latestOf": "{name}, dernier",
+    "average": "Moyenne par période",
+    "avgPrice": "Prix unitaire moyen",
+    "totalLabel": "Total",
+    "periods": "{n} périodes",
+    "noTrend": "Pas assez de périodes pour afficher une tendance",
+    "latestPrice": "Dernier {v}",
+    "since": "Depuis le {date}"
+  },
+  "settlement": {
+    "due": "À payer",
+    "overdue": "En retard",
+    "partial": "Payée en partie",
+    "prepaid": "Prépayée",
+    "this": "Ce paiement",
+    "earliest": "Plus ancienne impayée",
+    "owed": {
+      "one": "{count} facture impayée",
+      "other": "{count} factures impayées"
+    }
+  }
+}

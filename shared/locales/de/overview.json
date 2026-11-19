@@ -1,0 +1,86 @@
+{
+  "title": "Übersicht",
+  "add": "Neues Abo",
+  "footer": {
+    "one": "{count} aktives Abo\n{amount}/Mon.\n",
+    "other": "{count} aktive Abos\n{amount}/Mon.\n"
+  },
+  "fullReport": "Ganzen Bericht ansehen",
+  "listSep": ", ",
+  "n": {
+    "subs": {
+      "one": "{count} Abo",
+      "other": "{count} Abos"
+    },
+    "charges": {
+      "one": "{count} Abbuchung",
+      "other": "{count} Abbuchungen"
+    }
+  },
+  "axis": {
+    "yearMonth": "{mon} '{yy}"
+  },
+  "timeline": {
+    "title": "Zeitleiste",
+    "sub": "{past} in den letzten 30 Tagen abgebucht\n{next} fällig in den nächsten 30",
+    "past": "Letzte 30 Tage\n{amount}"
+  },
+  "spending": {
+    "title": "Monatliche Ausgaben",
+    "sub": "Hellere Balken sind Prognosen",
+    "month": "Monatlich",
+    "yearly": "Jährlich",
+    "year": "{year}",
+    "projected": "\nPrognose",
+    "inProgress": "\nLaufend",
+    "paid": "\n{amount} abgebucht",
+    "empty": "Keine Abbuchungen in diesem Zeitraum",
+    "range": "{from} – {to}",
+    "period": {
+      "label": "Zeitraum",
+      "extended": "18 Monate",
+      "year": "Dieses Jahr",
+      "past12": "Letzte 12 Monate",
+      "next12": "Nächste 12 Monate",
+      "lastYear": "Letztes Jahr",
+      "nextYear": "Nächstes Jahr"
+    },
+    "view": {
+      "bars": "Balkendiagramm",
+      "stream": "Streamgraph"
+    }
+  },
+  "due": {
+    "title": "Anstehende Abbuchungen",
+    "empty": "In den nächsten 30 Tagen ist nichts fällig",
+    "thisWeek": "Diese Woche",
+    "later": "Später",
+    "noMethod": "Keine Zahlungsmethode"
+  },
+  "wallet": {
+    "title": "Wallet",
+    "manage": "Verwalten",
+    "balance": "Guthaben {amount}\n{status}",
+    "covered": {
+      "one": "reicht für {count} weitere Abbuchung, bis {date} aufladen",
+      "other": "reicht für {count} weitere Abbuchungen, bis {date} aufladen"
+    },
+    "mustTopUp": "bis {date} aufladen",
+    "enough": "reicht für über 3 Jahre",
+    "noBalance": "Trag ein Guthaben ein, um zu sehen, wie lange es reicht",
+    "others": "Außerdem: {list}"
+  },
+  "tips": {
+    "warn": "Achtung",
+    "info": "Tipp",
+    "good": "Wusstest du?"
+  },
+  "stmt": {
+    "kicker": "Abo-Ausgaben diesen Monat",
+    "hint": "Abbuchungen vom 1. bis zum Monatsende, bereits abgebucht und anstehend; verglichen mit dem gesamten Vormonat.",
+    "perDay": "Pro Tag",
+    "active": "Aktiv",
+    "share": "{amount}/Mon.\n{pct} %",
+    "aria": "{name}, {amount} pro Monat"
+  }
+}

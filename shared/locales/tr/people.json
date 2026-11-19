@@ -1,0 +1,89 @@
+{
+  "tab": {
+    "plans": "Planlar",
+    "people": "Kişiler"
+  },
+  "stat": {
+    "owed": "Alacaklar",
+    "owedSub": {
+      "one": "{count} kişi borçlu",
+      "other": "{count} kişi borçlu"
+    },
+    "allSettled": "Herkes ödeşti",
+    "received": "Toplam alınan",
+    "receivedSub": "Ortak planlar ve başkaları için ödemeler",
+    "count": "Kişi",
+    "countSub": "Ortak: {share}, Başkası için: {proxy}"
+  },
+  "empty": {
+    "title": "Henüz kimse yok",
+    "body": "Ortak bir plana üye ekleyin veya kimin için ödediğinizi belirtin; burada kimin ne kadar borçlu olduğunu görürsünüz."
+  },
+  "card": {
+    "noContact": "İletişim yok",
+    "nothing": "Hiçbir planda değil",
+    "past": {
+      "one": "Ayrıca {count} tanesi bitti",
+      "other": "Ayrıca {count} tanesi bitti"
+    }
+  },
+  "kind": {
+    "share": "Ortak plan",
+    "proxy": "Başkası için"
+  },
+  "item": {
+    "noPay": "Henüz ödeme yok",
+    "owedPeriods": {
+      "one": "{count} dönem borç",
+      "other": "{count} dönem borç"
+    },
+    "left": "Ayrıldı",
+    "ended": "Durduruldu"
+  },
+  "sheet": {
+    "owed": "Alacak",
+    "received": "Toplam alınan",
+    "last": "Son ödeme",
+    "in": {
+      "one": "{count} planda",
+      "other": "{count} planda"
+    },
+    "inEmpty": "Hiçbir ortak planda veya ödemede yok. Silebilirsiniz.",
+    "profile": "Profil",
+    "notePh": "ör. iş arkadaşı, ay sonu öder",
+    "color": "Renk",
+    "customColor": "Özel renk",
+    "syncFoot": {
+      "one": "Ad ve iletişim değişiklikleri {count} yerin tümüne uygulanır.",
+      "other": "Ad ve iletişim değişiklikleri {count} yerin tümüne uygulanır."
+    },
+    "merge": "Birleştir",
+    "mergePick": "Seç…",
+    "mergeConfirm": "“{from}” kişisi “{into}” ile birleştirilsin mi? {from} kişisinin tüm planları ve ödemeleri {into} kişisine geçer; ad ve iletişim {into} kişisinden alınır.",
+    "merged": "{name} ile birleştirildi",
+    "accountMissing": "Bu üyelik artık yok. Kişi ayrıntılarını yeniden açın."
+  },
+  "pick": {
+    "new": "Yeni kişi",
+    "aria": "Kişi seç"
+  },
+  "field": {
+    "person": "Kişi",
+    "editProfile": "Kişiyi düzenle",
+    "noContact": "İletişim yok"
+  },
+  "avatar": {
+    "label": "Avatar",
+    "change": "Avatarı değiştir",
+    "help": "PNG, JPEG veya WebP görselini tıklayın, bırakın veya yapıştırın (en fazla 8 MB).",
+    "remove": "Avatarı kaldır",
+    "fallbackColor": "Yedek renk"
+  },
+  "list": {
+    "none": "Eşleşen kişi yok"
+  },
+  "add": {
+    "saved": "Kişi eklendi",
+    "exists": "“{name}” zaten var"
+  }
+}

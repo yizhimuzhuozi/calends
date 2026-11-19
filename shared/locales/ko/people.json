@@ -1,0 +1,74 @@
+{
+  "tab": {
+    "plans": "플랜",
+    "people": "사람"
+  },
+  "stat": {
+    "owed": "받을 돈",
+    "owedSub": "{count}명 미납",
+    "allSettled": "모두 정산 완료",
+    "received": "누적 입금액",
+    "receivedSub": "공유 플랜과 대신 결제 합계",
+    "count": "인원",
+    "countSub": "공유 {share}, 대신 결제 {proxy}"
+  },
+  "empty": {
+    "title": "아직 사람이 없어요",
+    "body": "공유 플랜에 멤버를 추가하거나 대신 결제할 상대를 지정하면, 여기서 사람별로 받을 돈을 모아 볼 수 있어요."
+  },
+  "card": {
+    "noContact": "연락처 없음",
+    "nothing": "공유\n대신 결제 없음",
+    "past": "종료된 항목 {count}개 더 있음"
+  },
+  "kind": {
+    "share": "공유",
+    "proxy": "대신 결제"
+  },
+  "item": {
+    "noPay": "아직 받은 적 없음",
+    "owedPeriods": "{count}회분 미납",
+    "left": "나감",
+    "ended": "중단됨"
+  },
+  "sheet": {
+    "owed": "받을 돈",
+    "received": "누적 입금액",
+    "last": "최근 입금",
+    "in": "참여 {count}건",
+    "inEmpty": "어떤 공유나 대신 결제에도 없어요. 삭제할 수 있어요.",
+    "profile": "프로필",
+    "notePh": "예: 회사 동료, 월말 송금",
+    "color": "색상",
+    "customColor": "사용자 지정 색상",
+    "syncFoot": "이름이나 연락처를 바꾸면 {count}곳 모두에 반영돼요.",
+    "merge": "병합 대상",
+    "mergePick": "선택…",
+    "mergeConfirm": "'{from}'을(를) '{into}'에 병합할까요? {from}의 공유와 대신 결제가 모두 {into}(으)로 옮겨지고, 이름과 연락처는 {into} 기준이 돼요.",
+    "merged": "{name}에 병합했어요",
+    "accountMissing": "이 멤버 관계가 더 이상 없습니다. 인물 상세를 다시 여세요."
+  },
+  "pick": {
+    "new": "새 사람",
+    "aria": "사람 선택"
+  },
+  "field": {
+    "person": "사람",
+    "editProfile": "인물 정보 편집",
+    "noContact": "연락처 없음"
+  },
+  "avatar": {
+    "label": "프로필 사진",
+    "change": "아바타 변경",
+    "help": "PNG, JPEG, WebP 이미지를 클릭하거나 끌어 놓거나 붙여넣으세요(최대 8 MB).",
+    "remove": "아바타 삭제",
+    "fallbackColor": "대체 색상"
+  },
+  "list": {
+    "none": "조건에 맞는 사람이 없습니다"
+  },
+  "add": {
+    "saved": "사람을 추가했습니다",
+    "exists": "‘{name}’이(가) 이미 있습니다"
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "note": {
+    "more": "Tümünü göster"
+  },
+  "renewal": {
+    "afterTrial": "Denemeden sonraki ilk ödeme",
+    "elapsed": "Bu dönemin %{pct} kadarı geçti"
+  },
+  "overlap": {
+    "title": "Birlikte devam eden",
+    "previous": "Önceki plan",
+    "until": "{date} tarihine kadar\n{rel}"
+  },
+  "action": {
+    "edit": "Düzenle",
+    "pause": "Duraklat",
+    "resume": "Devam ettir",
+    "manage": "Yönet",
+    "share": "Paylaş",
+    "copyImage": "Görsel olarak kopyala"
+  },
+  "toast": {
+    "resumed": "Ödemeler devam ediyor",
+    "paused": "Duraklatıldı. Gelecek ödemeler tahmin edilmeyecek",
+    "imageCopied": "Görsel kopyalandı"
+  },
+  "snapshotRest": "{count} tane daha",
+  "history": "Geçmiş",
+  "field": {
+    "amount": "Tutar",
+    "cycle": "Ödeme dönemi",
+    "category": "Kategori",
+    "method": "Ödeme yöntemi",
+    "next": "Sonraki ödeme",
+    "expiresHint": "Otomatik yenileme bu tarihten önce ücretlendirir",
+    "endedOn": "Bitiş tarihi",
+    "trialEnd": "Deneme bitişi",
+    "region": "Bölge",
+    "period": "Dönem",
+    "present": "bugün",
+    "endedUnknown": "Sona erdi; tarih bilinmiyor"
+  },
+  "up": {
+    "planned": "Planlanan değişiklik\nonaylanmadı",
+    "starting": "Yakında başlıyor",
+    "changing": "Yaklaşan değişiklik",
+    "effective": "Geçerlilik tarihi"
+  },
+  "plan": {
+    "drop": "Geçiş yapma",
+    "droppedToast": "Geçiş yapılmayacak. {date} sonrasında sona erecek",
+    "confirm": "Geçişi onayla",
+    "confirmedToast": "Geçiş onaylandı"
+  },
+  "intro": {
+    "title": "Tanıtım teklifi",
+    "price": "Tanıtım fiyatı",
+    "until": "Teklif bitişi",
+    "then": "Sonra"
+  },
+  "share": {
+    "open": "Planı aç",
+    "owner": "Ortak\nyönetici benim ({count}/{seats})",
+    "member": "Ortak\nkatıldım",
+    "payTo": "Ödenecek kişi",
+    "host": "Yönetici",
+    "unnamed": "Adsız",
+    "me": "Ben"
+  },
+  "charges": {
+    "recentN": "Yalnızca son {count}",
+    "addShort": "Ekle",
+    "title": "Ödemeler",
+    "paidOn": "{date} ödendi",
+    "kind": {
+      "refund": "İade",
+      "adjust": "Düzeltme",
+      "failed": "Başarısız"
+    },
+    "add": "Kayıt ekle (iade, düzeltme, başarısız ödeme, kart tutarı…)"
+  },
+  "stats": {
+    "spent": "Toplam harcama",
+    "count": {
+      "one": "{count} ödeme",
+      "other": "{count} ödeme"
+    },
+    "owned": "Sahiplik süresi",
+    "subscribed": "Abonelik süresi",
+    "yearsMonths": "{years} yıl {months} ay",
+    "years": {
+      "one": "{count} yıl",
+      "other": "{count} yıl"
+    },
+    "months": {
+      "one": "{count} ay",
+      "other": "{count} ay"
+    },
+    "days": {
+      "one": "{count} gün",
+      "other": "{count} gün"
+    },
+    "gaps": {
+      "one": "Bir kez ara verildi",
+      "other": "{count} kez ara verildi"
+    },
+    "perMonth": "Gerçek aylık",
+    "spentThisYear": "Bu yıl harcanan",
+    "allTime": "Toplam {amount}"
+  },
+  "tab": {
+    "charges": "Ödemeler\n{count}",
+    "details": "Ayrıntılar"
+  },
+  "kpi": {
+    "noGaps": "Kesinti yok",
+    "startedToday": "Bugün başladı",
+    "expectedMonthly": "Tahmini aylık",
+    "amortizedCost": "Dağıtılmış maliyet",
+    "perMonthValue": "{amount}/ay",
+    "perDay": "Günde {amount}",
+    "thisYearMonthly": "Bu yıl aylık",
+    "averageMonthly": "Ortalama {amount}/ay",
+    "dailyAmount": "{amount}/gün"
+  },
+  "chart": {
+    "title": "Ödeme başına\n{ccy}",
+    "all": "Tümü",
+    "y1": "1 yıl",
+    "m6": "6 ay",
+    "period": "Dönem",
+    "converted": "Karşılığı",
+    "average": "Ortalama",
+    "method": "Ödeme",
+    "paidOn": "Ödendi",
+    "bucket": {
+      "m1": "Her çubuk aylık toplamdır",
+      "m3": "Her çubuk üç aylık toplamdır",
+      "m12": "Her çubuk yıllık toplamdır"
+    },
+    "regular": "Normal fiyat",
+    "saved": "Başlangıç indirimi",
+    "unknownEnd": "Bitiş tarihi bilinmiyor; grafik bilinen ödeme dönemleriyle sınırlı"
+  },
+  "ev": {
+    "next": "Sonraki ödeme",
+    "gap": "Kesinti",
+    "start": "Abone olundu",
+    "switch": "Plan değişti",
+    "price": "Fiyat değişikliği",
+    "introEnd": "Normal fiyata dönüş",
+    "paused": "Duraklatıldı",
+    "ended": "Bitti",
+    "ending": "Bitiyor",
+    "phases": "{count} dönem",
+    "more": "Önceki {count} kaydı göster",
+    "shareStart": "Paylaşım başladı"
+  },
+  "stop": {
+    "title": "Sonlandırma ve iade",
+    "type": "Sonlandırma türü",
+    "paidThrough": "Başlangıçta ödenen son gün",
+    "loss": "−{money} ({days})"
+  },
+  "timeline": {
+    "planned": "Beklenen"
+  },
+  "period": {
+    "paid": "Bu dönem",
+    "trial": "Deneme",
+    "bonus": "Hediye dönemi",
+    "since": "{date} tarihinden beri",
+    "sub": "Abonelik",
+    "collect": "Tahsilat"
+  },
+  "transfer": {
+    "title": "Devirler",
+    "held": "Elde",
+    "net": "Net maliyet",
+    "included": "Devirler dahil",
+    "kind": {
+      "label": "Tür",
+      "buy": "Satın alındı",
+      "sell": "Satıldı"
+    },
+    "hint": {
+      "buy": "Devralırken önceki sahibine ödenen para (prim dahil). Gerçekte ödenen tutarı girin.",
+      "sell": "Devrederken alınan para. Gerçekte alınan tutarı girin; kalan hizmet artık ödenmiş ama kullanılmamış sayılmaz."
+    },
+    "paid": "Ödenen tutar",
+    "received": "Alınan tutar",
+    "addTitle": "Devir kaydet",
+    "editTitle": "Devri düzenle",
+    "saved": "Devir kaydedildi",
+    "deleted": "Bu devri sil",
+    "foot": "İkinci el bir hizmeti devralırken veya devrederken gerçekten ödenen ya da alınan para. Net maliyete ve nakit akışına dahildir; aylık maliyete, yenileme tahminlerine ve tahsilat sayısına dahil değildir.",
+    "add": "Kaydet",
+    "none": "Henüz devir yok",
+    "netGain": "Net kazanç",
+    "head": {
+      "date": "Tarih",
+      "amount": "Tutar",
+      "base": "{ccy} karşılığı"
+    }
+  },
+  "billing": {
+    "postpaid": "Sonradan ödemeli",
+    "nextBill": "Sonraki fatura"
+  },
+  "meters": {
+    "title": "Kullanım ayrıntıları",
+    "add": "Kullanım verisi ekle",
+    "manage": "Ölçütler",
+    "manageTitle": "Kullanım verisi ölçütleri",
+    "addTitle": "Değer kaydet",
+    "editTitle": "Kaydı düzenle",
+    "name": "Ad",
+    "unit": "Birim",
+    "namePh": "örn. Elektrik, Kilometre, Trafik",
+    "unitPh": "örn. kWh, km, GB",
+    "usage": "Dönem kullanımı",
+    "reading": "Kümülatif okuma",
+    "kindFoot": "Dönem kullanımı: her seferinde ne kadar kullanıldığını girin. Kümülatif okuma: sayaç değerini girin (kilometre sayacı gibi); kullanım iki okuma arasındaki farktır.",
+    "linkGroup": "Başka bir abonelikten ölçüt bağla",
+    "linkFoot": "Değerler, hangi abonelikten kaydederseniz kaydedin yalnızca bir kez saklanır. Bağlantıyı kaldırmak verileri silmez.",
+    "linkFrom": "Kaynak: “{name}”",
+    "linkGone": "Kaynak abonelik veya ölçüt silindiği için gösterilecek veri yok.",
+    "unlink": "Bağlantıyı kaldır",
+    "asOf": "{date} itibarıyla",
+    "newMeter": "Ölçüt ekle",
+    "suggest": "Diğer aboneliklerde kullanıldı",
+    "removeConfirm": "{names} silinirse kaydedilen değerleri de temizlenir. Devam edilsin mi?",
+    "dupName": "Ölçüt adları benzersiz olmalı",
+    "valuesFoot": "Birim fiyat = dönemin gerçek maliyeti ÷ kullanım. Sonradan ödemeli faturalar kapattıkları döneme sayılır.",
+    "saved": "Kullanım verileri kaydedildi",
+    "readingValue": "Okuma {v}",
+    "head": {
+      "date": "Tarih",
+      "usage": "Kullanım"
+    },
+    "readingsCount": "{n} kayıt",
+    "deleteReadings": "{n} kaydı sil",
+    "removeMeters": "Ölçütleri ve değerlerini sil",
+    "latest": "Son",
+    "latestOf": "{name}, son",
+    "average": "Dönem başına ort.",
+    "avgPrice": "Ort. birim fiyat",
+    "totalLabel": "Toplam",
+    "periods": "{n} dönem",
+    "noTrend": "Bu aralıkta eğilim için yeterli dönem yok",
+    "latestPrice": "Son {v}",
+    "since": "{date} itibarıyla"
+  },
+  "settlement": {
+    "due": "Ödenecek",
+    "overdue": "Gecikmiş",
+    "partial": "Kısmen ödendi",
+    "prepaid": "Peşin ödendi",
+    "this": "Bu ödeme",
+    "earliest": "En eski ödenmemiş",
+    "owed": {
+      "one": "{count} fatura ödenmedi",
+      "other": "{count} fatura ödenmedi"
+    }
+  }
+}

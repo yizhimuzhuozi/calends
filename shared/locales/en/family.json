@@ -1,0 +1,375 @@
+{
+  "sheet": {
+    "paidOut": "Paid {amount}",
+    "receiptHint": "When a member pays you, open their details and tap “Record payment”",
+    "tabIn": "{amount} ({count})",
+    "tabInShort": "Received",
+    "tabOut": "{amount} ({count})",
+    "tabOutShort": "Paid",
+    "chargeDate": "Charged on",
+    "refund": "Refund",
+    "noCharges": "No charges yet",
+    "people": "{count} people",
+    "title": "Shared plan",
+    "seats": "Seats",
+    "seatsVal": "{used}/{total}",
+    "since": "Started",
+    "members": "Members",
+    "receipts": "Payments received",
+    "receiptsSum": "{count}\n{amount}",
+    "date": "Date",
+    "member": "Member",
+    "covers": "Covers",
+    "amount": "Amount",
+    "expandAll": "Expand all",
+    "collapseAll": "Collapse all",
+    "fee": "Fee",
+    "nextCollection": "Next due",
+    "status": "Payment status",
+    "period": "Current period",
+    "range": "{from} – {until}",
+    "rangeFrom": "From",
+    "rangeTo": "To",
+    "vacancy": "Vacant",
+    "departed": "{count} departed",
+    "hidePersonal": "Hide personal details",
+    "showPersonal": "Show personal details",
+    "hiddenMember": "Hidden member",
+    "addMember": "Add member",
+    "vacancyTrack": "Currently vacant",
+    "copyFailed": "Could not copy image",
+    "ownerFee": "Organizer",
+    "ledgerTitle": "Money in and out"
+  },
+  "contact": {
+    "via": {
+      "wechat": "WeChat",
+      "email": "Email",
+      "phone": "Phone",
+      "other": "Other"
+    },
+    "hint": {
+      "wechat": "WeChat ID",
+      "discord": "Username",
+      "generic": "Account / ID"
+    },
+    "viaAria": "Contact method",
+    "open": "Open {via}"
+  },
+  "member": {
+    "defaultName": "member",
+    "unnamed": "Unnamed",
+    "toastPaid": "Recorded {amount} from {name}",
+    "paymentRemoved": "Payment deleted",
+    "copied": {
+      "one": "Copied to {count} member",
+      "other": "Copied to {count} members"
+    },
+    "titleNew": "Add member\n{name}",
+    "confirmDelete": "Permanently delete “{name}”? Their payment history will be deleted too, lowering your recorded income.\nIf they just left the plan, set a leave date instead.",
+    "deleted": "Deleted",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "added": "Member added",
+    "saved": "Saved",
+    "add": "Add",
+    "save": "Save",
+    "group": "Member",
+    "name": "Name",
+    "namePh": "What to call them",
+    "contact": "Contact",
+    "account": "Member account",
+    "accountPh": "Email, phone, username or ID on {name}",
+    "joined": "Joined",
+    "tenure": "Member for",
+    "joinDrop": {
+      "one": "{count} paid or waived period before the new join date will be deleted when you save.",
+      "other": "{count} paid or waived periods before the new join date will be deleted when you save."
+    },
+    "joinDropPaid": {
+      "one": "{count} paid or waived period before the new join date ({amount} received) will be deleted when you save.",
+      "other": "{count} paid or waived periods before the new join date ({amount} received) will be deleted when you save."
+    },
+    "joinedPh": "Plan start ({date})",
+    "notSet": "Not set",
+    "left": "Left",
+    "leftPh": "Still on the plan",
+    "feeGroup": "Fee",
+    "billMonths": "Interval",
+    "monthsUnit": "months",
+    "seg": {
+      "m1": "Monthly",
+      "m3": "Quarterly",
+      "m6": "6 months",
+      "m12": "Yearly"
+    },
+    "feeLabel": {
+      "m1": "Per month",
+      "m3": "Per quarter",
+      "m6": "Per 6 months",
+      "m12": "Per year",
+      "custom": {
+        "one": "Every {count} month",
+        "other": "Every {count} months"
+      },
+      "once": "One-time"
+    },
+    "feeCcyAria": "Currency",
+    "exempt": "Doesn't pay",
+    "source": "Source",
+    "sourcePh": "Which group / who referred them",
+    "payments": "Payments\n{count}",
+    "receivedTotal": "About {amount} received in total",
+    "paidUntil": "Paid through",
+    "payCover": "Received {date}\ncovers {from}–{until}",
+    "payCoverTo": "Received {date}\ncovers through {until}",
+    "copyAria": "Copy to other members",
+    "removePayAria": "Delete payment",
+    "dup": "Already recorded",
+    "paidUntilDate": "Paid through {date}",
+    "noPay": "No payments yet",
+    "copyN": "Copy to {count}",
+    "amount": "Amount",
+    "currency": "Currency",
+    "coverFrom": "Covers from",
+    "coverTo": "Covers until",
+    "coverAuto": {
+      "m1": "Set from the billing period; editable",
+      "m3": "Set from the billing period; editable",
+      "m6": "Set from the billing period; editable",
+      "m12": "Set from the billing period; editable",
+      "custom": "Set from the billing period; editable"
+    },
+    "receivedOn": "Received on",
+    "note": "Note",
+    "notePh": "Optional, e.g. USDT transfer",
+    "record": "Record",
+    "recordBtn": {
+      "m1": "Record payment ({fee}/mo)",
+      "m3": "Record payment ({fee}/quarter)",
+      "m6": "Record payment ({fee} every 6 months)",
+      "m12": "Record payment ({fee}/yr)",
+      "custom": {
+        "one": "Record payment ({fee} every {count} month)",
+        "other": "Record payment ({fee} every {count} months)"
+      }
+    },
+    "firstPeriod": "First period",
+    "firstAmount": "First-period amount",
+    "bridge": "Transition period",
+    "bridgeAmount": "Transition amount",
+    "firstMode": {
+      "prorate": "Prorated daily",
+      "full": "Full period",
+      "free": "Free first period"
+    },
+    "collectionSchedule": "Collection dates: every year {dates}",
+    "coverAligned": "Ends at the aligned period boundary",
+    "collectionAnchor": "Collection anchor",
+    "accountEmpty": "No account added",
+    "editAccount": "Edit member account",
+    "copyAccount": "Copy account",
+    "toastPayEdited": "Payment updated",
+    "editPayAria": "Edit this payment",
+    "seatGroup": "Join & leave",
+    "firstPayToggle": "Already received the first payment",
+    "pickPerson": "Pick from people",
+    "accountHere": "Account",
+    "accountPhShort": "Email / phone / username",
+    "unlinkPerson": "Unlink person",
+    "namePickPh": "Type a name, or pick someone",
+    "collectDay": "Collection day",
+    "collectDayCar": "Follow plan",
+    "collectDayOwn": "From join date",
+    "nextCollect": "Next collection {date}"
+  },
+  "pool": {
+    "seatsFree": "{count} open",
+    "seatsFull": "Full",
+    "filter": {
+      "all": "All",
+      "live": "Active",
+      "owe": "Owed",
+      "settled": "Settled",
+      "ended": "Ended",
+      "none": "No shared plans match"
+    },
+    "title": "Shared plans",
+    "netGain": "Shared plan profit per year",
+    "netCost": "Shared plan profit per year",
+    "yearIncome": "Members pay {amount}/yr",
+    "owed": "To collect",
+    "owedSub": {
+      "one": "{count} member unpaid",
+      "other": "{count} members unpaid"
+    },
+    "count": "Plans",
+    "countStarted": " organized\n",
+    "countJoined": " joined",
+    "countSub": "Organized\nJoined",
+    "emptyTitle": "No shared plans yet",
+    "emptyBody": "In a subscription’s editor, choose “I host” under “Who uses it”, then add members and their shares.",
+    "next": "next {date}",
+    "me": "Me",
+    "exemptTitle": "{name} (doesn't pay)",
+    "addMember": "Add member",
+    "owedN": {
+      "one": "{count} to collect",
+      "other": "{count} to collect"
+    },
+    "settled": "Settled",
+    "noMembers": "No members yet",
+    "addMemberSeats": {
+      "one": "Add member ({count} seat open)",
+      "other": "Add member ({count} seats open)"
+    },
+    "unnamed": "Unnamed",
+    "leftOn": "Left {date}",
+    "exemptNote": "Holds a seat, doesn't pay",
+    "noPay": "No payments yet",
+    "paymentsN": {
+      "one": "{count} payment",
+      "other": "{count} payments"
+    },
+    "from": "via {source}",
+    "exempt": "Doesn't pay",
+    "owedAmount": "{amount} due",
+    "perFee": {
+      "m1": "{fee}/mo",
+      "m3": "{fee}/quarter",
+      "m6": "{fee} every 6 months",
+      "m12": "{fee}/yr",
+      "custom": {
+        "one": "{fee} every {count} month",
+        "other": "{fee} every {count} months"
+      },
+      "once": "{fee} one-time"
+    },
+    "collect": "Collect",
+    "joinedGroup": "Plans I've joined",
+    "payTo": "Paid to {name}\n{amount}",
+    "ownerDefault": "organizer",
+    "maybeGroup": "Possibly shared",
+    "convert": "Make shared",
+    "dueOn": "Due {date}",
+    "nextDueOn": "Next due {date}",
+    "members": "Members",
+    "incomeShort": "Income {amount}",
+    "status": "Status",
+    "countNote": "Members {members}, open seats {free}",
+    "yearPnl": "This year P/L",
+    "totalPnl": "Total P/L"
+  },
+  "convert": {
+    "title": "Make “{name}” shared",
+    "cancel": "Cancel",
+    "submit": "Make shared",
+    "toastOwner": "Plan is now shared — add members next",
+    "toastMember": "Marked as joined",
+    "roleOwner": "I organize",
+    "roleMember": "I joined",
+    "footOwner": "Split {count} ways, about {amount} each per period. Adding members reduces your share automatically.",
+    "footMember": "Once joined, the price is what you pay the organizer each period.",
+    "seats": "Total seats (incl. you)",
+    "owner": "Organizer",
+    "ownerPh": "Who you pay",
+    "seatUnit": {
+      "one": "seat",
+      "other": "seats"
+    }
+  },
+  "facts": {
+    "cost": "Cost / yr",
+    "income": "Income / yr",
+    "loss": "Loss / yr",
+    "profit": "Profit per year",
+    "since": "Since {month}",
+    "actual": "Paid {paid}\nReceived {received}\n{result}",
+    "gain": "Up {amount}",
+    "lost": "Down {amount}",
+    "noRecords": "No payments yet",
+    "yearCost": "Yearly cost",
+    "yearIncome": "Yearly income"
+  },
+  "collect": {
+    "next": "Next collection {date}",
+    "editFee": "Edit fee",
+    "until": "Covers through",
+    "feeFrom": "Effective from",
+    "feeHelp": "The coverage start selects the rate for the whole period. Saved receipts stay unchanged.",
+    "viewSub": "View details",
+    "period": "Period",
+    "due": "Due this period",
+    "actual": "Amount received",
+    "nextPeriod": "Next period",
+    "adjustPaid": "Adjust",
+    "periodPaid": "Paid",
+    "periods": "Periods",
+    "periodUnit": {
+      "one": "period",
+      "other": "periods"
+    },
+    "owedTotal": "Owed in total",
+    "owedTotalValue": {
+      "one": "{count} period, {amount}",
+      "other": "{count} periods, {amount}"
+    },
+    "firstOwed": "Earliest unpaid"
+  },
+  "rule": {
+    "title": "Fee",
+    "mode": "Fee type",
+    "follow": "Follow plan",
+    "custom": "Custom",
+    "followValue": "{rule} (plan rule)",
+    "sheetTitle": "Fee and seats",
+    "applyNote": {
+      "one": "{count} member following the plan pays the new rate from the next collection; custom-fee members and recorded payments stay unchanged.",
+      "other": "{count} members following the plan pay the new rate from the next collection; custom-fee members and recorded payments stay unchanged."
+    },
+    "followNote": "Charged at the plan rate and updated when the plan rate changes."
+  },
+  "quick": {
+    "late": {
+      "one": "{count} day overdue",
+      "other": "{count} days overdue"
+    },
+    "owe": "{amount} due\nsince {date}",
+    "settled": "Settled\nnext due {date}",
+    "backCollect": "Record payment"
+  },
+  "strip": {
+    "yearNet": "Profit per year",
+    "costIncome": "Cost {cost}\nIncome {income}",
+    "noneOwed": "Nobody owes",
+    "since": "Since {date}",
+    "profit": "Profit / loss",
+    "paid": "Paid",
+    "received": "Received",
+    "thisYear": "This year {amount}"
+  },
+  "timeline": {
+    "paid": "Paid",
+    "due": "Due",
+    "future": "Next period",
+    "unused": "Paid, unused",
+    "waived": "Waived"
+  },
+  "refund": {
+    "title": "Leave refund",
+    "none": "No refund",
+    "unused": "Refund unused",
+    "date": "Refund date"
+  },
+  "sort": {
+    "owed": "Amount owed",
+    "received": "Total received",
+    "lastPaid": "Last payment"
+  },
+  "costChange": {
+    "title": "The cost changed. Adjust the fee?",
+    "price": "Subscription price",
+    "since": "From {date}",
+    "adjust": "Adjust fee"
+  }
+}

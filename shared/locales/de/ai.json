@@ -1,0 +1,99 @@
+{
+  "title": "KI-Zugriff",
+  "newToken": "Neues Token",
+  "mcpUrl": "MCP-URL",
+  "urlCopied": "URL kopiert",
+  "copy": "Kopieren",
+  "copied": "Kopiert",
+  "copyFailed": "Kopieren fehlgeschlagen",
+  "neverUsed": "Nie verwendet",
+  "tokenPlaceholder": "<dein-token>",
+  "tokens": {
+    "one": "Token\n{count}",
+    "other": "Tokens\n{count}"
+  },
+  "noTokens": "Noch keine Tokens. Erstelle eins und gib es dem KI-Assistenten, den du verbinden willst.",
+  "lastUsed": "Zuletzt verwendet {time}",
+  "confirmRevoke": "„{name}“ widerrufen? Jeder KI-Assistent, der es nutzt, verliert sofort den Zugriff.",
+  "revoke": "Widerrufen",
+  "revoked": "Widerrufen",
+  "setup": "Einrichtung",
+  "tools": {
+    "one": "Verfügbares Tool\n{count}",
+    "other": "Verfügbare Tools\n{count}"
+  },
+  "clientOther": "Andere",
+  "scope": {
+    "write": "Lesen & Schreiben",
+    "read": "Nur lesen",
+    "label": "Berechtigung",
+    "writeDesc": "Abos, Zahlungen, Wallets, Personen, Kategorien und Bucheinstellungen abfragen und verwalten.",
+    "readDesc": "Nur abfragen. Es kann nichts geändert werden."
+  },
+  "created": {
+    "title": "Token erstellt",
+    "saved": "Hab ich gespeichert",
+    "foot": "Dieses Token wird nur einmal angezeigt und ist nach dem Schließen nicht mehr sichtbar. Falls du es verlierst, widerrufe es und erstelle ein neues.",
+    "tokenCopied": "Token kopiert"
+  },
+  "cancel": "Abbrechen",
+  "generate": "Erstellen",
+  "name": "Name",
+  "namePlaceholder": "Für welche KI ist das?",
+  "pickClient": "Wähle deinen KI-Assistenten",
+  "tokensHint": "Gib jedem Assistenten ein eigenes Token, damit du es einzeln widerrufen kannst.",
+  "toolsHint": "Was Assistenten mit deinem Haushaltsbuch tun können. Nur-Lese-Tokens sehen nur die Lesewerkzeuge.",
+  "toolsRead": "Lesen",
+  "toolsWrite": "Schreiben",
+  "experimental": "Experimentell",
+  "copiedWithToken": "Kopiert, Token enthalten",
+  "installIn": "Zu {name} hinzufügen",
+  "createdAt": "Erstellt {time}",
+  "where": {
+    "terminal": "Führe das in deinem Terminal aus.",
+    "codex": "Führe das in deinem Terminal aus. Füge die export-Zeile deinem Shell-Profil hinzu, damit das Token Neustarts übersteht.",
+    "file": "Füge das zu {path} hinzu.",
+    "grokbot": "In Grok Bot unter Einstellungen → Plugins einen MCP-Server hinzufügen und Name, URL und Header wie unten eintragen. Grok Bot läuft in der Cloud, die Adresse muss öffentlich erreichbar sein.",
+    "http": "Jeder MCP-Client mit Streamable HTTP. Das ist eine kurze Testanfrage."
+  },
+  "via": {
+    "command": "Terminalbefehl",
+    "install": "Mit einem Klick",
+    "file": "Konfigurationsdatei",
+    "settings": "App-Einstellungen",
+    "http": "Jeder MCP-Client"
+  },
+  "step": {
+    "token": "Token",
+    "tokenReady": "Verwendet „{name}“, im Snippet unten enthalten",
+    "tokenNeeded": "Tokens werden nur einmal angezeigt.",
+    "createFor": "Token für {name} erstellen",
+    "send": "An {name} senden"
+  },
+  "status": {
+    "on": "KI-Zugriff ist aktiviert",
+    "off": "KI-Zugriff ist deaktiviert",
+    "onHint": "Mit einem gültigen Token kann ein KI-Assistent im Rahmen der zugewiesenen Berechtigungen auf das Buch zugreifen.",
+    "offHint": "Alle MCP-Anfragen werden abgelehnt, bis du ihn wieder aktivierst."
+  },
+  "promptLabel": "Prompt",
+  "copyConfigOnly": "Nur Konfiguration kopieren",
+  "configCopied": "Konfiguration kopiert",
+  "agentPrompt": "Verbinde mein Calends-Abo-Konto als MCP-Server namens „calends“. {where}\n\n{code}\n\nWenn alles eingerichtet ist, ruf das Tool {verify} auf, um es zu prüfen, und sag mir, wie viele aktive Abos ich habe.",
+  "col": {
+    "name": "Name",
+    "key": "Schlüssel",
+    "created": "Erstellt",
+    "lastUsed": "Zuletzt verwendet"
+  },
+  "domain": {
+    "overview": "Übersicht & Statistik",
+    "subs": "Abos & Tarife",
+    "charges": "Abbuchungen",
+    "wallet": "Wallet & Zahlungsmittel",
+    "people": "Geteilte Abos & Auslagen",
+    "categories": "Kategorien",
+    "settings": "Einstellungen",
+    "other": "Sonstiges"
+  }
+}

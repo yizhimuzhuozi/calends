@@ -1,0 +1,120 @@
+{
+  "previewEmpty": "Aucun rappel à envoyer aujourd’hui.",
+  "appName": "Calends",
+  "trial": {
+    "sub": "L’essai se termine {when} ({date}), puis {price}",
+    "headline": "L’essai de {name} se termine {when}"
+  },
+  "renew": {
+    "introEnds": "Fin du prix de lancement, retour au prix normal",
+    "headline": "{name} se renouvelle {when} pour {price}",
+    "billHeadline": "{name} facture {when} : {price}"
+  },
+  "ending": {
+    "sub": "Se termine {when}, sans renouvellement",
+    "headline": "{name} se termine {when}"
+  },
+  "carpool": {
+    "dueIn": "Échéance {when} ({date})",
+    "dueToday": "Échéance aujourd’hui",
+    "overdue": {
+      "one": "{count} jour de retard",
+      "other": "{count} jours de retard"
+    },
+    "sub": "{status}\nprochaine période : {bill}",
+    "headline": "C’est le moment d’encaisser {member} pour {name}"
+  },
+  "proxy": {
+    "someone": "Quelqu’un",
+    "chargedToday": "Prélevé pour son compte aujourd’hui",
+    "chargedAgo": {
+      "one": "Prélevé le {date}, il y a {count} jour",
+      "other": "Prélevé le {date}, il y a {count} jours"
+    },
+    "sub": "{status}, pas encore remboursé",
+    "headlineToday": "{sub} payé pour {name}",
+    "headlineUnpaid": "{name} n’a pas encore remboursé {sub}"
+  },
+  "balance": {
+    "sub": "Plus que {left} d'ici le {date}, insuffisant pour {sub} ({amount})",
+    "subSince": "Défini à {calibrated} le {asOf}, {spent} débités depuis. Plus que {left} d'ici le {date}, insuffisant pour {sub} ({amount})",
+    "subOver": "Le solde est déjà à {left}, insuffisant pour {sub} ({amount}) le {date}",
+    "subForfeit": "{forfeit} expirés le {expires} ; il ne restera que {left} le {date}, insuffisant pour {sub} ({amount})",
+    "headline": "Solde de {name} bientôt insuffisant",
+    "expiring": "Expire le {date} ; environ {amount} seront perdus",
+    "expiringHeadline": "Le solde {name} expire bientôt"
+  },
+  "section": {
+    "renew": "Prélèvements à venir",
+    "trials": "Essais qui se terminent",
+    "balance": "Solde faible",
+    "carpool": "Paiements des abonnements partagés",
+    "proxy": "À rembourser pour des paiements pour d’autres",
+    "ending": "Se termine bientôt",
+    "month": "Prélèvements du mois"
+  },
+  "daily": {
+    "subject": "Rappel d’abonnement : {title}",
+    "title": "{headline}",
+    "titleMore": "{headline} + {more} autres",
+    "intro": "Vous dépensez {mrr} par mois en abonnements, avec {count} actifs."
+  },
+  "monthly": {
+    "title": "Environ {sum} de prélèvements en {month}",
+    "subject": {
+      "one": "Relevé de {month} : environ {sum}, {count} prélèvement",
+      "other": "Relevé de {month} : environ {sum}, {count} prélèvements"
+    },
+    "intro": "Avec vos abonnements actuels, cela représente environ {arr} par an."
+  },
+  "email": {
+    "open": "Ouvrir Calends",
+    "footer": "Vous pouvez modifier l’heure des rappels et le délai d’anticipation dans les Réglages.",
+    "why": "Vous recevez cet e-mail car les rappels par e-mail sont activés dans {app}.",
+    "off": "Pour ne plus les recevoir, désactivez le canal e-mail dans Réglages → Canaux de notification.",
+    "settings": "Réglages des rappels",
+    "total": "Total du mois",
+    "testNote": "Ceci est un e-mail de test qui confirme que le canal e-mail fonctionne. Les vrais rappels listeront ici les prochains prélèvements.",
+    "noCharges": "Aucun prélèvement prévu ce mois-ci.",
+    "kind": {
+      "daily": "Rappel",
+      "monthly": "Facture mensuelle",
+      "test": "Test"
+    },
+    "stat": {
+      "sum": "Prévu",
+      "count": "Prélèvements",
+      "mrr": "Dépense mensuelle"
+    }
+  },
+  "text": {
+    "heading": "[{heading}]"
+  },
+  "send": {
+    "noChannel": "Canal introuvable",
+    "noneEnabled": "Aucun canal de notification n’est activé",
+    "alreadySent": "Déjà envoyé aujourd’hui",
+    "failure": "{channel} : {error}",
+    "failureSep": " ; "
+  },
+  "test": {
+    "subject": "[Test] {subject}",
+    "sampleSubject": "[Test] Les rappels d’abonnement sont prêts",
+    "sampleIntro": "Votre canal de notification fonctionne."
+  },
+  "channel": {
+    "missing": "Il manque {field} à « {channel} »",
+    "field": {
+      "to": "une adresse e-mail de destination",
+      "botToken": "un jeton de bot",
+      "chatId": "un ID de chat",
+      "webhook": "une URL de webhook",
+      "deviceKey": "une clé d’appareil",
+      "topic": "un sujet",
+      "sendKey": "une SendKey",
+      "url": "une URL"
+    },
+    "emailNotConfigured": "L’e-mail n’est pas configuré sur ce serveur (binding EMAIL et MAIL_FROM requis). Utilise un autre canal ou consulte le README."
+  },
+  "sender": "Calends"
+}

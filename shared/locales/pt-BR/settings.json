@@ -1,0 +1,519 @@
+{
+  "title": "Ajustes",
+  "days": {
+    "one": "{count} dia",
+    "other": "{count} dias"
+  },
+  "logout": "Sair",
+  "toast": {
+    "saved": "Salvo",
+    "deleted": "Apagado",
+    "csvEmpty": "Nenhuma assinatura para importar neste CSV",
+    "badBackup": "Arquivo de backup inválido"
+  },
+  "general": {
+    "title": "Geral",
+    "language": "Idioma",
+    "followSystem": "Padrão do sistema",
+    "name": "Nome",
+    "namePlaceholder": "Aparece nas imagens compartilhadas e na página pública",
+    "avatar": "Avatar",
+    "avatarDefault": "Ícone padrão",
+    "startPage": "Abrir em",
+    "startPageAria": "Página inicial",
+    "baseCurrency": "Moeda base",
+    "signedAmounts": "Sinais de entradas e saídas",
+    "gainColor": "Cores de ganho/perda",
+    "gainGreen": "Verde ganho, vermelho perda",
+    "gainRed": "Vermelho ganho, verde perda",
+    "timezone": "Fuso horário",
+    "weekStart": "Semana começa em",
+    "weekStartAria": "Primeiro dia da semana",
+    "monday": "Segunda-feira",
+    "sunday": "Domingo",
+    "telemetry": "Estatísticas de uso anônimas",
+    "telemetryForcedOff": "Desativadas nesta instalação",
+    "telemetryNote": "Conta apenas o uso e a versão. Suas assinaturas, valores e dados nunca são coletados."
+  },
+  "sidebar": {
+    "thisMonth": "Este mês",
+    "dragFoot": "Arraste as alças para reordenar; a barra lateral segue esta ordem.",
+    "title": "Barra lateral",
+    "upcoming": "Próximas cobranças",
+    "lookAhead": "Antecedência",
+    "lookAheadAria": "Janela de próximas cobranças"
+  },
+  "remind": {
+    "title": "Lembretes",
+    "lead": "Lembrar",
+    "sameDay": "No dia",
+    "never": "Nunca",
+    "hour": "Enviar às",
+    "monthly": "Prévia mensal no dia 1º",
+    "test": "Enviar lembrete de teste para todos os canais",
+    "testFailed": "Não foi possível enviar",
+    "channelError": "{channel}: {error}",
+    "errorSep": "; ",
+    "testSent": "Lembrete de teste enviado",
+    "preview": "Ver os lembretes de hoje",
+    "log": "Registro de envios"
+  },
+  "today": {
+    "recent": "Envios recentes",
+    "title": "Hoje ({day})",
+    "items": {
+      "one": "{count} item",
+      "other": "{count} itens"
+    }
+  },
+  "books": {
+    "title": "Contabilidade",
+    "defaultMethod": "Forma de pagamento padrão",
+    "unassigned": {
+      "one": "{count} assinatura está sem forma de pagamento",
+      "other": "{count} assinaturas estão sem forma de pagamento"
+    },
+    "assignAllDone": {
+      "one": "{count} assinatura definida com a forma de pagamento padrão",
+      "other": "{count} assinaturas definidas com a forma de pagamento padrão"
+    },
+    "assignAll": "Usar padrão em todas",
+    "collectCurrency": "Moeda dos planos compartilhados"
+  },
+  "fx": {
+    "title": "Câmbio",
+    "current": "Cotação atual",
+    "updatedAt": "Atualizado {time}",
+    "updated": "Câmbio atualizado",
+    "history": "Cotações históricas",
+    "earliest": "Desde {date}",
+    "coverage": {
+      "one": "{covered} / {count} dia",
+      "other": "{covered} / {count} dias"
+    },
+    "fill": "Completar cotações ausentes",
+    "historyUpdated": "Cotações históricas atualizadas"
+  },
+  "open": {
+    "publicSubs": "Assinaturas exibidas",
+    "publicSubsHint": "Assinaturas pagas para outras pessoas ficam privadas. Novas assinaturas são públicas por padrão.",
+    "publicShown": "Exibidas\n{count}",
+    "publicOff2": "Ocultas\n{count}",
+    "publicShowAll": "Exibir todas",
+    "publicHideAll": "Ocultar todas",
+    "publicHideOne": "Ocultar {name}",
+    "publicShowOne": "Exibir {name}",
+    "publicNone": "Nada exibido: a página pública ficará vazia",
+    "title": "Compartilhamento e acesso",
+    "ics": "Assinar no calendário do sistema",
+    "on": "Ativado",
+    "off": "Desativado",
+    "public": "Página pública",
+    "publicOn": "Página pública ativada",
+    "publicOff": "Página pública desativada",
+    "publicTitle": "Título da página",
+    "previewPublic": "Visualizar página pública",
+    "ai": "Acesso por IA (MCP)",
+    "aiOn": "Acesso por IA ativado",
+    "aiOff": "Acesso por IA desativado. Assistentes de IA não conseguem mais se conectar.",
+    "manageAi": "Gerenciar tokens e configuração"
+  },
+  "data": {
+    "title": "Dados",
+    "importCsv": "Importar dados",
+    "restore": "Restaurar backup",
+    "exportCsv": "Exportar CSV",
+    "backup": "Exportar backup completo"
+  },
+  "restore": {
+    "cancel": "Cancelar",
+    "replace": "Substituir dados atuais",
+    "done": "Restaurado",
+    "warning": "Seus dados atuais serão totalmente substituídos pelo backup. Não é possível desfazer — considere exportar um backup antes.",
+    "subs": "Assinaturas",
+    "methods": "Formas de pagamento",
+    "count": {
+      "one": "{count}",
+      "other": "{count}"
+    },
+    "time": "Backup feito em",
+    "format": "Formato",
+    "legacy": "Backup antigo: só assinaturas e formas de pagamento",
+    "unlock": "Desbloquear",
+    "wrongPassphrase": "Frase secreta incorreta"
+  },
+  "import": {
+    "title": {
+      "one": "Importar {count} assinatura",
+      "other": "Importar {count} assinaturas"
+    },
+    "confirmReplace": "Substituir vai apagar todas as assinaturas e formas de pagamento existentes. Continuar?",
+    "replaceDone": "Importado (substituído)",
+    "replaceAll": "Substituir tudo",
+    "mergeDone": "Importado (mesclado)",
+    "merge": "Adicionar aos existentes",
+    "newMethods": "Novas formas de pagamento serão criadas: {names}",
+    "sep": ", ",
+    "history": "Só são estimadas cobranças a partir da importação. O histórico anterior não é reconstruído.",
+    "owner": "Conta no backup",
+    "choose": "Escolher…",
+    "independent": "Assinaturas com o mesmo nome ficam separadas.",
+    "include": "Incluir",
+    "every": "A cada",
+    "next": "Próximo pagamento",
+    "paused": "Importada como pausada; confira antes de retomar.",
+    "reading": "Lendo arquivo…",
+    "formats": "CSV, backup ZIP ou banco SQLite"
+  },
+  "channels": {
+    "title": {
+      "one": "Canais de notificação\n{count} ativo",
+      "other": "Canais de notificação\n{count} ativos"
+    },
+    "empty": "Nenhum canal ainda — os lembretes não serão enviados.",
+    "test": "Testar",
+    "testFailed": "Não foi possível enviar",
+    "testSent": "Mensagem de teste enviada",
+    "add": "Adicionar canal",
+    "addKind": "Adicionar {name}",
+    "delete": "Apagar",
+    "save": "Salvar",
+    "fillField": "Preencha {field}",
+    "name": "Nome",
+    "optional": "Opcional",
+    "enabled": "Ativado",
+    "field": {
+      "to": "Endereço de e-mail",
+      "webhook": "URL do webhook",
+      "server": "Servidor",
+      "token": "Token de acesso"
+    },
+    "kind": {
+      "email": {
+        "name": "E-mail",
+        "help": "Enviado pelo Cloudflare Email Sending; seu domínio precisa estar verificado na Cloudflare"
+      },
+      "telegram": {
+        "chatIdPlaceholder": "Seu ID de usuário ou de grupo",
+        "help": "Crie um bot com o @BotFather para obter o token. Envie uma mensagem ao bot antes e use o @userinfobot para descobrir seu ID"
+      },
+      "lark": {
+        "name": "Lark (Feishu)",
+        "secret": "Segredo de assinatura",
+        "secretPlaceholder": "Obrigatório se a verificação de assinatura estiver ativada",
+        "help": "Ajustes do grupo → Bots → Adicionar bot personalizado"
+      },
+      "dingtalk": {
+        "name": "DingTalk",
+        "secret": "Segredo de assinatura",
+        "secretPlaceholder": "SEC…, obrigatório se a assinatura estiver ativada",
+        "help": "Ajustes do grupo → Bots → Bot personalizado"
+      },
+      "wecom": {
+        "name": "WeCom",
+        "help": "Chat em grupo → Adicionar bot ao grupo"
+      },
+      "bark": {
+        "keyPlaceholder": "Chave copiada do app",
+        "help": "Notificações push no iPhone — procure Bark na App Store"
+      },
+      "ntfy": {
+        "topicPlaceholder": "Escolha um nome difícil de adivinhar",
+        "help": "Instale o app ntfy no celular e assine o mesmo tópico"
+      },
+      "serverchan": {
+        "name": "ServerChan",
+        "keyPlaceholder": "SCT… ou sctp…",
+        "help": "Push para o WeChat (ServerChan Turbo / ³)"
+      },
+      "discord": {
+        "help": "Configurações do canal → Integrações → Webhooks"
+      },
+      "webhook": {
+        "name": "Webhook personalizado",
+        "header": "Cabeçalho extra",
+        "help": "POST JSON: subject, intro, sections, text, markdown, url"
+      }
+    }
+  },
+  "security": {
+    "title": "Segurança",
+    "unknownBrowser": "Navegador desconhecido",
+    "ago": {
+      "justNow": "Ativo agora mesmo",
+      "minutes": {
+        "one": "há {count} minuto",
+        "other": "há {count} minutos"
+      },
+      "hours": {
+        "one": "há {count} hora",
+        "other": "há {count} horas"
+      },
+      "days": {
+        "one": "há {count} dia",
+        "other": "há {count} dias"
+      }
+    },
+    "thisDevice": "Este dispositivo",
+    "signedInPasskey": "Entrou com chave de acesso em {time}",
+    "signedInPassword": "Entrou com senha em {time}",
+    "revoke": "Desconectar",
+    "revoked": "Desconectado",
+    "lastUsed": "Último uso {time}",
+    "addedAt": "Adicionada {time}",
+    "remove": "Remover",
+    "rename": "Renomear",
+    "removed": "Removida",
+    "addPasskey": "Adicionar chave de acesso",
+    "alreadyBound": "Este dispositivo já tem uma chave de acesso",
+    "changePassword": "Alterar senha",
+    "devices": "Dispositivos conectados",
+    "devicesCount": {
+      "one": "Dispositivos conectados\n{count}",
+      "other": "Dispositivos conectados\n{count}"
+    },
+    "maxSessions": "Máximo de dispositivos conectados",
+    "maxSessionsSaved": {
+      "one": "Até {count} dispositivo",
+      "other": "Até {count} dispositivos"
+    },
+    "deviceCount": {
+      "one": "{count} dispositivo",
+      "other": "{count} dispositivos"
+    },
+    "confirmLogoutOthers": "Desconectar todos os outros dispositivos?",
+    "loggedOutOthers": "Outros dispositivos desconectados",
+    "logoutOthers": "Desconectar todos os outros dispositivos",
+    "passwordChanged": "Senha alterada. Os outros dispositivos foram desconectados.",
+    "save": "Salvar",
+    "mismatch": "As senhas não coincidem",
+    "passwordFoot": "Mínimo de 8 caracteres. Ao alterar, todos os dispositivos exceto este serão desconectados.",
+    "currentPassword": "Senha atual",
+    "newPassword": "Nova senha",
+    "confirmPassword": "Confirmar nova senha"
+  },
+  "cat": {
+    "title": "Categorias",
+    "manage": "Gerenciar categorias",
+    "count": {
+      "one": "{count} categoria",
+      "other": "{count} categorias"
+    },
+    "subs": {
+      "one": "{count} assinatura",
+      "other": "{count} assinaturas"
+    },
+    "unused": "Sem uso",
+    "foot": "Arraste para reordenar. Renomear uma categoria atualiza todas as assinaturas dela.",
+    "add": "Nova categoria",
+    "edit": "Editar categoria",
+    "name": "Nome",
+    "namePlaceholder": "Nome da categoria",
+    "color": "Cor",
+    "icon": "Ícone",
+    "search": "Buscar ícones",
+    "noMatch": "Nenhum ícone encontrado",
+    "delete": "Excluir categoria",
+    "moveTo": {
+      "one": "Mover a {count} assinatura dela para",
+      "other": "Mover as {count} assinaturas dela para"
+    },
+    "dragHandle": "Arraste para reordenar",
+    "toast": {
+      "created": "Categoria adicionada",
+      "saved": "Categoria salva",
+      "renamed": {
+        "one": "Categoria salva\n{count} assinatura atualizada",
+        "other": "Categoria salva\n{count} assinaturas atualizadas"
+      },
+      "deleted": "Categoria excluída",
+      "order": "Ordem salva"
+    },
+    "error": {
+      "empty": "Digite um nome",
+      "duplicate": "Já existe uma categoria chamada “{name}”"
+    },
+    "group": {
+      "common": "Comuns",
+      "tech": "Tecnologia",
+      "media": "Entretenimento",
+      "work": "Trabalho",
+      "money": "Compras e dinheiro",
+      "life": "Casa e vida",
+      "food": "Comida e bebida",
+      "health": "Saúde e esporte",
+      "travel": "Viagem",
+      "people": "Pessoas e estudo"
+    }
+  },
+  "publicPage": {
+    "title": "Editar página pública",
+    "access": "Acesso público",
+    "back": "Voltar às configurações",
+    "reset": "Restaurar padrão",
+    "leave": "Há alterações não salvas. Sair mesmo assim?",
+    "leaveOk": "Sair",
+    "head": "Cabeçalho",
+    "browserTitle": "Título do navegador",
+    "avatarFollow": "Usar o avatar global",
+    "avatarLinkHint": "Os navegadores dos visitantes acessam este endereço diretamente, então o host dele pode ver o IP deles.",
+    "bio": "Texto",
+    "bioPlaceholder": "Aparece abaixo do título. Mantém as quebras de linha; não é traduzido.",
+    "sections": "Seções",
+    "remove": "Remover",
+    "emptyCard": "Ainda sem dados. Os visitantes não verão este cartão.",
+    "editTab": "Configurações",
+    "previewTab": "Prévia",
+    "desktop": "Computador",
+    "phone": "Celular",
+    "library": {
+      "metrics": "Números",
+      "charts": "Gráficos",
+      "lists": "Listas e tempo",
+      "bottom": "Fim da página"
+    },
+    "hintDrag": "Arraste um componente para a página ou clique para adicioná-lo ao final.",
+    "hintTap": "Toque para adicionar ao final da página.",
+    "backToLibrary": "Voltar aos componentes",
+    "headHint": "Clique no título, no texto ou no avatar da página para editar. Clique no botão de tema para ocultá-lo ou mostrá-lo.",
+    "autoSnap": "Encaixe automático",
+    "freePlace": "Posição livre",
+    "themeButton": "Botão de tema",
+    "themeHide": "Ocultar botão de tema",
+    "themeShow": "Mostrar botão de tema (oculto para visitantes)",
+    "metricCard": "Cartão de métrica",
+    "template": "Estilo",
+    "metricData": "Dados exibidos",
+    "addMetric": "Adicionar outro valor",
+    "widget": {
+      "stats": {
+        "name": "Visão geral",
+        "desc": "Gasto mensal e números principais"
+      },
+      "number": {
+        "name": "Número",
+        "desc": "Um número em destaque"
+      },
+      "trend": {
+        "name": "Tendência",
+        "desc": "Um número com minigráfico"
+      },
+      "compare": {
+        "name": "Comparar",
+        "desc": "Com o mesmo período do ano passado"
+      },
+      "share": {
+        "name": "Participação",
+        "desc": "Participação no gasto mensal"
+      },
+      "rows": {
+        "name": "Linhas",
+        "desc": "Até 4 números juntos"
+      },
+      "chart": {
+        "name": "Gráfico de barras",
+        "desc": "Cobranças mensais e tendência de gastos"
+      },
+      "composition": {
+        "name": "Composição",
+        "desc": "Gastos por categoria"
+      },
+      "treemap": {
+        "name": "Treemap",
+        "desc": "A área mostra quanto você gasta"
+      },
+      "waterfall": {
+        "name": "Variação mensal",
+        "desc": "O que foi adicionado, reajustado ou cancelado"
+      },
+      "fx": {
+        "name": "Moedas",
+        "desc": "Participação das moedas e variação das taxas"
+      },
+      "timeline": {
+        "name": "Linha do tempo",
+        "desc": "Cobranças dia a dia"
+      },
+      "calendar": {
+        "name": "Calendário",
+        "desc": "Quais dias têm cobrança"
+      },
+      "years": {
+        "name": "Linha do tempo de assinaturas",
+        "desc": "Quando cada assinatura esteve ativa"
+      },
+      "list": {
+        "name": "Lista de assinaturas",
+        "desc": "Tudo o que está em uso"
+      },
+      "tenure": {
+        "name": "Tempo de assinatura",
+        "desc": "Média e maior tempo mantido"
+      },
+      "changes": {
+        "name": "Alterações",
+        "desc": "Adicionadas, reajustadas e encerradas"
+      },
+      "ended": {
+        "name": "Canceladas",
+        "desc": "O que foi cancelado e o preço"
+      },
+      "lifetime": {
+        "name": "Compra única",
+        "desc": "Compras de pagamento único"
+      },
+      "footer": {
+        "name": "Rodapé",
+        "desc": "Nome do projeto e versão"
+      },
+      "pile": {
+        "name": "Pilha de ícones",
+        "desc": "Ícones caindo no fim da página"
+      },
+      "globe": {
+        "name": "Globo",
+        "desc": "Regiões das assinaturas ativas"
+      }
+    }
+  },
+  "update": {
+    "current": "Versão",
+    "available": "Atualização disponível",
+    "check": "Verificar atualizações",
+    "failed": "Falha na verificação",
+    "upToDate": "Atual",
+    "title": "Atualizar para v{version}",
+    "copy": "Copiar comando",
+    "copied": "Comando copiado",
+    "guide": "Guia de atualização",
+    "notes": "Notas da versão"
+  },
+  "autobackup": {
+    "title": "Backup automático",
+    "off": "Desativado",
+    "failed": "Falha no backup",
+    "last": "Último backup",
+    "never": "Nenhum backup ainda",
+    "runNow": "Fazer backup agora",
+    "storage": "Armazenamento",
+    "kind": "Fazer backup em",
+    "endpoint": "Endpoint",
+    "bucket": "Bucket",
+    "folder": "Pasta",
+    "kept": "Salvo",
+    "encryption": "Criptografia",
+    "passphrase": "Frase secreta",
+    "confirm": "Confirmar frase secreta",
+    "mismatch": "As frases não coincidem",
+    "keep": "Manter",
+    "copies": {
+      "one": "cópia",
+      "other": "cópias"
+    },
+    "save": "Salvar",
+    "switchTo": "Mudar para {kind}",
+    "remove": "Remover",
+    "removed": "Backup automático removido",
+    "done": "Backup feito"
+  }
+}

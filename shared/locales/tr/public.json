@@ -1,0 +1,138 @@
+{
+  "title": "{name}\nAbonelikler",
+  "loadFailed": "Yüklenemedi",
+  "theme": {
+    "title": "Tema: {mode} (değiştirmek için tıklayın)",
+    "aria": "Tema: {mode}, değiştirmek için tıklayın"
+  },
+  "currency": "Görüntüleme para birimi",
+  "hero": {
+    "monthly": "Aylık abonelik harcaması",
+    "flat": "Geçen yılın aynı ayıyla aynı",
+    "more": "Geçen yılın aynı ayından {amount} fazla",
+    "less": "Geçen yılın aynı ayından {amount} az",
+    "yearly": "Yıllık",
+    "paid": "{year} yılından beri ödenen"
+  },
+  "timeline": {
+    "title": "Zaman çizelgesi",
+    "upcoming": {
+      "one": "Önümüzdeki 30 günde {count} ödeme\n{amount}",
+      "other": "Önümüzdeki 30 günde {count} ödeme\n{amount}"
+    }
+  },
+  "chart": {
+    "title": "Aylık ödemeler",
+    "desc": "Son 12 ay ve sonraki 3 ay; taralı çubuklar tahmindir",
+    "paid": "Ödenen",
+    "mrr": "Aylık maliyet",
+    "charge": "Ödenen tutar",
+    "thisMonth": "Bu ay",
+    "projected": "{month}\nTahmini"
+  },
+  "ended": {
+    "title": "İptal edilenler"
+  },
+  "perMonth": "{amount}/ay",
+  "lifetime": {
+    "title": "Ömür boyu",
+    "desc": "Bir kez ödendi, başka ödeme yok"
+  },
+  "composition": {
+    "title": "Dağılım",
+    "desc": "Kategoriye göre aylık maliyet",
+    "other": "Diğer"
+  },
+  "count": "{count}",
+  "fx": {
+    "title": "Döviz kurları",
+    "flat": "Kurlar son bir yılda maliyetleri neredeyse hiç değiştirmedi",
+    "less": "Bugünkü kurlarla bir yıl öncesine göre ayda {amount} daha az ödüyorsunuz",
+    "more": "Bugünkü kurlarla bir yıl öncesine göre ayda {amount} daha fazla ödüyorsunuz",
+    "share": "%{pct}"
+  },
+  "list": {
+    "title": "Abonelikler",
+    "summary": {
+      "one": "{count}\n{amount}/ay",
+      "other": "{count}\n{amount}/ay"
+    },
+    "all": "Tümü"
+  },
+  "row": {
+    "ends": "\nBitiş {date}",
+    "renews": "\n{date} yenilenir",
+    "perMonthEq": "Aylık karşılığı"
+  },
+  "titleAnon": "Abonelikler",
+  "pile": {
+    "label": "Abonelik yığını: simge büyüdükçe aylık maliyet artar"
+  },
+  "calendar": {
+    "title": "Takvim"
+  },
+  "years": {
+    "title": "Abonelik zaman çizelgesi"
+  },
+  "tenure": {
+    "title": "Abonelik süresi",
+    "avg": "Etkin aboneliklerin ortalama süresi",
+    "longest": "En uzun süre"
+  },
+  "treemap": {
+    "title": "Harcama haritası",
+    "missing": {
+      "one": "{count} aboneliğin kuru olmadığı için dahil edilmedi",
+      "other": "{count} aboneliğin kuru olmadığı için dahil edilmedi"
+    }
+  },
+  "changes": {
+    "title": "Değişiklikler",
+    "more": "Tümünü göster ({n})",
+    "less": "Daha az göster",
+    "kind": {
+      "added": "Yeni",
+      "resumed": "Yeniden başladı",
+      "buy": "Tek seferlik alım",
+      "up": "Fiyat arttı",
+      "down": "Fiyat düştü",
+      "switch": "Bölge veya plan değişti",
+      "stopped": "Durduruldu",
+      "paused": "Duraklatıldı"
+    }
+  },
+  "waterfall": {
+    "title": "Aylık değişim",
+    "prev": "Önceki ay",
+    "next": "Sonraki ay",
+    "from": "Başlangıç",
+    "added": "Yeni",
+    "expansion": "Fiyat arttı",
+    "contraction": "Fiyat düştü",
+    "churned": "Durduruldu",
+    "fx": "Kur",
+    "to": "Şimdi",
+    "monthEnd": "Ay sonu",
+    "incomplete": "Döviz kurları eksik, grafik çizilemiyor"
+  },
+  "metric": {
+    "monthly": "Aylık harcama",
+    "yearly": "Yıllık",
+    "active": "Etkin abonelikler",
+    "avgPerSub": "Abonelik başına ortalama",
+    "paidTotal": "Toplam ödenen",
+    "paidYear": "Bu yıl ödenen",
+    "paidMonth": "Bu ay ödenen",
+    "next30": "Önümüzdeki 30 gün",
+    "topSub": "En pahalı",
+    "topCategory": "En büyük kategori",
+    "endedCount": "İptal edilenler",
+    "lifetimeCount": "Tek seferlik",
+    "fxEffect": "Kur etkisi (aylık)",
+    "vsPrev": "geçen yıla göre",
+    "shareOf": "Aylık harcamadaki pay"
+  },
+  "globe": {
+    "title": "Abonelik bölgeleri"
+  }
+}

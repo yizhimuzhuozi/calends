@@ -1,0 +1,73 @@
+{
+  "fxApiError": "Le service de taux de change a renvoyé une erreur",
+  "missingId": "id manquant",
+  "invalidItem": "{name} : {error}",
+  "notPublic": "Ce registre n’est pas public",
+  "idMismatch": "ID non concordant",
+  "invalidJson": "Le corps de la requête n’est pas un JSON valide.",
+  "invalidMethod": "Moyen de paiement non valide",
+  "invalidBackup": "Fichier de sauvegarde non valide",
+  "refreshFailed": "Échec de l’actualisation",
+  "backup": {
+    "notBackup": "Ce n’est pas un fichier de sauvegarde valide",
+    "unknownFormat": "Format de sauvegarde non reconnu : {format}",
+    "newerVersion": "Cette sauvegarde provient d’une version plus récente (v{version}). Mettez d’abord ce site à jour."
+  },
+  "auth": {
+    "tooMany": "Trop de tentatives. Réessayez dans 15 minutes.",
+    "alreadySetup": "Un mot de passe a déjà été défini",
+    "noSetupToken": "SETUP_TOKEN n’a pas été configuré lors du déploiement, la configuration ne peut donc pas continuer. Définissez d’abord ce secret (wrangler secret put SETUP_TOKEN).",
+    "badSetupToken": "Jeton de configuration incorrect",
+    "passwordTooShort": {
+      "one": "Le mot de passe doit contenir au moins {min} caractère",
+      "other": "Le mot de passe doit contenir au moins {min} caractères"
+    },
+    "wrongPassword": "Mot de passe incorrect",
+    "wrongCurrentPassword": "Le mot de passe actuel est incorrect",
+    "newPasswordTooShort": {
+      "one": "Le nouveau mot de passe doit contenir au moins {min} caractère",
+      "other": "Le nouveau mot de passe doit contenir au moins {min} caractères"
+    },
+    "invalidDevice": "Appareil non valide",
+    "nameRequired": "Le nom ne peut pas être vide",
+    "cannotRemoveCurrent": "Impossible de retirer cet appareil. Utilisez plutôt Se déconnecter.",
+    "expired": "La demande a expiré. Veuillez réessayer.",
+    "passkeyFailed": "Échec de la vérification de la clé d’accès. Connectez-vous avec votre mot de passe, puis ajoutez-la à nouveau dans Réglages → Sécurité",
+    "passkeyRegisterFailed": "Échec de la vérification de la clé d’accès",
+    "passkeyNotBound": "Cette clé d’accès n’est pas enregistrée sur ce site. Connectez-vous avec votre mot de passe, puis ajoutez-la à nouveau dans Réglages → Sécurité"
+  },
+  "ics": {
+    "calName": "Prélèvements d’abonnements",
+    "method": "Paiement : {name}",
+    "alarm": "{name} se renouvelle bientôt"
+  },
+  "invalidPerson": "Le nom est requis",
+  "personNotFound": "Personne introuvable",
+  "personInUse": {
+    "one": "Encore liée à {count} abonnement ou paiement. Fusionnez-la d’abord avec quelqu’un d’autre.",
+    "other": "Encore liée à {count} abonnements ou paiements. Fusionnez-la d’abord avec quelqu’un d’autre."
+  },
+  "category": {
+    "invalid": "Liste de catégories invalide",
+    "duplicate": "Catégorie en double : {name}"
+  },
+  "assistant": {
+    "noKey": "Aucune clé API DeepSeek configurée.",
+    "badTool": "Action non prise en charge."
+  },
+  "invalidAvatar": "Image non valide",
+  "avatarInvalid": "PNG/WebP carré sans métadonnées, jusqu’à 128×128 et 64 Ko. Envoi : PNG/JPEG/WebP jusqu’à 8 Mo et 40 mégapixels.",
+  "avatarRosterFull": "La liste des personnes est pleine. Supprimez d’abord un avatar.",
+  "methodInUse": "Ce moyen de paiement est encore utilisé. Déplacez d’abord ses références vers un autre moyen ou videz-les.",
+  "autobackup": {
+    "badEndpoint": "Point de terminaison invalide ; il doit commencer par https:// ou http://",
+    "badBucket": "Nom de bucket invalide",
+    "noCredentials": "Saisissez l’Access Key ID et la Secret Access Key",
+    "noLogin": "Saisissez le nom d’utilisateur et le mot de passe",
+    "noPassphrase": "Définissez une phrase secrète de chiffrement",
+    "badKeep": "Conserver doit être compris entre 1 et 365",
+    "notConfigured": "La sauvegarde automatique n’est pas configurée",
+    "interrupted": "La dernière sauvegarde n’a pas abouti",
+    "beforeRestoreFailed": "La sauvegarde avant restauration a échoué ; le registre n’a pas changé : {error}"
+  }
+}

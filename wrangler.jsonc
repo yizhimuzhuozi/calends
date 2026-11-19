@@ -1,0 +1,24 @@
+// Calends 的 Cloudflare 部署配置。
+// - 首次部署：npm run deploy 会自动创建 D1 数据库（无需填写 database_id）。
+// - 个人配置写在 CALENDS_LOCAL/wrangler.jsonc（默认 local/），存在时 npm 脚本会优先使用它。
+// - 密钥：wrangler secret put SETUP_TOKEN（首次设置密码用）。
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "calends",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": true,
+  },
+  "d1_databases": [{ "binding": "DB", "database_name": "calends", "migrations_dir": "worker/migrations","database_id": "746cdc3a-eb05-42da-8054-9aa900f16c42" }],
+  // 每 15 分钟检查本地提醒时刻；维护任务仍只在整点执行
+  "triggers": { "crons": ["*/15 * * * *"] },
+  // 可选：邮件提醒需要 Cloudflare Email Sending，取消注释并换成你在 Cloudflare 验证过的域名
+  // "send_email": [{ "name": "EMAIL", "allowed_sender_addresses": ["calends@example.com"] }],
+  // "vars": { "SITE_URL": "https://calends.example.com", "MAIL_FROM": "calends@example.com", "MAIL_FROM_NAME": "Calends" },
+  "observability": { "enabled": true },
+}

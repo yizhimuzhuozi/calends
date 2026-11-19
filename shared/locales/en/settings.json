@@ -1,0 +1,519 @@
+{
+  "title": "Settings",
+  "days": {
+    "one": "{count} day",
+    "other": "{count} days"
+  },
+  "logout": "Sign out",
+  "toast": {
+    "saved": "Saved",
+    "deleted": "Deleted",
+    "csvEmpty": "No subscriptions to import in this CSV",
+    "badBackup": "Not a valid backup file"
+  },
+  "general": {
+    "title": "General",
+    "language": "Language",
+    "followSystem": "System default",
+    "name": "Name",
+    "namePlaceholder": "Shown on share images and the public page",
+    "avatar": "Avatar",
+    "avatarDefault": "Default app icon",
+    "startPage": "Open to",
+    "startPageAria": "Start page",
+    "baseCurrency": "Base currency",
+    "signedAmounts": "Cash flow signs",
+    "gainColor": "Gain/loss colors",
+    "gainGreen": "Green gain, red loss",
+    "gainRed": "Red gain, green loss",
+    "timezone": "Time zone",
+    "weekStart": "Week starts on",
+    "weekStartAria": "First day of week",
+    "monday": "Monday",
+    "sunday": "Sunday",
+    "telemetry": "Anonymous usage stats",
+    "telemetryForcedOff": "Off for this deployment",
+    "telemetryNote": "Only usage and version info is counted. Your subscriptions, amounts and ledger data are never collected."
+  },
+  "sidebar": {
+    "thisMonth": "This month",
+    "dragFoot": "Drag the handles to reorder; the sidebar follows this order.",
+    "title": "Sidebar",
+    "upcoming": "Upcoming charges",
+    "lookAhead": "Look ahead",
+    "lookAheadAria": "Upcoming charges window"
+  },
+  "remind": {
+    "title": "Reminders",
+    "lead": "Remind me",
+    "sameDay": "On the day",
+    "never": "Never",
+    "hour": "Send at",
+    "monthly": "Monthly preview on the 1st",
+    "test": "Send a test reminder to all channels",
+    "testFailed": "Couldn't send",
+    "channelError": "{channel}: {error}",
+    "errorSep": "; ",
+    "testSent": "Test reminder sent",
+    "preview": "Preview today's reminders",
+    "log": "Send log"
+  },
+  "today": {
+    "recent": "Recently sent",
+    "title": "Today ({day})",
+    "items": {
+      "one": "{count} item",
+      "other": "{count} items"
+    }
+  },
+  "books": {
+    "title": "Bookkeeping",
+    "defaultMethod": "Default payment method",
+    "unassigned": {
+      "one": "{count} subscription has no payment method",
+      "other": "{count} subscriptions have no payment method"
+    },
+    "assignAllDone": {
+      "one": "Set {count} subscription to the default payment method",
+      "other": "Set {count} subscriptions to the default payment method"
+    },
+    "assignAll": "Use default for all",
+    "collectCurrency": "Shared plan currency"
+  },
+  "fx": {
+    "title": "Exchange rates",
+    "current": "Current rate",
+    "updatedAt": "Updated {time}",
+    "updated": "Exchange rates updated",
+    "history": "Historical rates",
+    "earliest": "From {date}",
+    "coverage": {
+      "one": "{covered} / {count} day",
+      "other": "{covered} / {count} days"
+    },
+    "fill": "Fill in missing rates",
+    "historyUpdated": "Historical rates updated"
+  },
+  "open": {
+    "publicSubs": "Shown subscriptions",
+    "publicSubsHint": "Payments made for others stay private. New subscriptions are public by default.",
+    "publicShown": "Shown\n{count}",
+    "publicOff2": "Hidden\n{count}",
+    "publicShowAll": "Show all",
+    "publicHideAll": "Hide all",
+    "publicHideOne": "Hide {name}",
+    "publicShowOne": "Show {name}",
+    "publicNone": "Nothing is shown — the public page will be empty",
+    "title": "Sharing & access",
+    "ics": "Subscribe in system calendar",
+    "on": "On",
+    "off": "Off",
+    "public": "Public page",
+    "publicOn": "Public page is on",
+    "publicOff": "Public page is off",
+    "publicTitle": "Page title",
+    "previewPublic": "Preview public page",
+    "ai": "AI access (MCP)",
+    "aiOn": "AI access is on",
+    "aiOff": "AI access is off. AI assistants can no longer connect.",
+    "manageAi": "Manage tokens and setup"
+  },
+  "data": {
+    "title": "Data",
+    "importCsv": "Import data",
+    "restore": "Restore from backup",
+    "exportCsv": "Export CSV",
+    "backup": "Export full backup"
+  },
+  "restore": {
+    "cancel": "Cancel",
+    "replace": "Replace current ledger",
+    "done": "Restored",
+    "warning": "Your current ledger will be completely replaced by the backup. This can't be undone — consider exporting a backup first.",
+    "subs": "Subscriptions",
+    "methods": "Payment methods",
+    "count": {
+      "one": "{count}",
+      "other": "{count}"
+    },
+    "time": "Backed up",
+    "format": "Format",
+    "legacy": "Legacy backup: subscriptions and payment methods only",
+    "unlock": "Unlock",
+    "wrongPassphrase": "Wrong passphrase"
+  },
+  "import": {
+    "title": {
+      "one": "Import {count} subscription",
+      "other": "Import {count} subscriptions"
+    },
+    "confirmReplace": "Replacing will erase all existing subscriptions and payment methods. Continue?",
+    "replaceDone": "Imported (replaced)",
+    "replaceAll": "Replace all",
+    "mergeDone": "Imported (merged)",
+    "merge": "Add to existing",
+    "newMethods": "New payment methods will be created: {names}",
+    "sep": ", ",
+    "history": "Only charges from the import date onward are estimated. Earlier payment history is not reconstructed.",
+    "owner": "Account in backup",
+    "choose": "Choose…",
+    "independent": "Same-name subscriptions stay separate.",
+    "include": "Include",
+    "every": "Every",
+    "next": "Next payment",
+    "paused": "Imported as paused; review before resuming.",
+    "reading": "Reading file…",
+    "formats": "CSV, ZIP backup or SQLite database"
+  },
+  "channels": {
+    "title": {
+      "one": "Notification channels\n{count} on",
+      "other": "Notification channels\n{count} on"
+    },
+    "empty": "No channels yet — reminders won't be sent.",
+    "test": "Test",
+    "testFailed": "Couldn't send",
+    "testSent": "Test message sent",
+    "add": "Add channel",
+    "addKind": "Add {name}",
+    "delete": "Delete",
+    "save": "Save",
+    "fillField": "Please enter {field}",
+    "name": "Name",
+    "optional": "Optional",
+    "enabled": "Enabled",
+    "field": {
+      "to": "Email address",
+      "webhook": "Webhook URL",
+      "server": "Server",
+      "token": "Access token"
+    },
+    "kind": {
+      "email": {
+        "name": "Email",
+        "help": "Sent via Cloudflare Email Sending; your domain must be verified on Cloudflare"
+      },
+      "telegram": {
+        "chatIdPlaceholder": "Your user ID or group ID",
+        "help": "Create a bot with @BotFather to get a token. Send your bot a message first, then use @userinfobot to find your ID"
+      },
+      "lark": {
+        "name": "Lark (Feishu)",
+        "secret": "Signing secret",
+        "secretPlaceholder": "Required if signature verification is on",
+        "help": "Group settings → Bots → Add custom bot"
+      },
+      "dingtalk": {
+        "name": "DingTalk",
+        "secret": "Signing secret",
+        "secretPlaceholder": "SEC…, required if signing is on",
+        "help": "Group settings → Bots → Custom bot"
+      },
+      "wecom": {
+        "name": "WeCom",
+        "help": "Group chat → Add group bot"
+      },
+      "bark": {
+        "keyPlaceholder": "Key copied from the app",
+        "help": "iPhone push notifications — search Bark on the App Store"
+      },
+      "ntfy": {
+        "topicPlaceholder": "Pick a name that's hard to guess",
+        "help": "Install the ntfy app on your phone and subscribe to the same topic"
+      },
+      "serverchan": {
+        "name": "ServerChan",
+        "keyPlaceholder": "SCT… or sctp…",
+        "help": "Push to WeChat (ServerChan Turbo / ³)"
+      },
+      "discord": {
+        "help": "Channel settings → Integrations → Webhooks"
+      },
+      "webhook": {
+        "name": "Custom webhook",
+        "header": "Extra header",
+        "help": "POST JSON: subject, intro, sections, text, markdown, url"
+      }
+    }
+  },
+  "security": {
+    "title": "Security",
+    "unknownBrowser": "Unknown browser",
+    "ago": {
+      "justNow": "Active just now",
+      "minutes": {
+        "one": "{count} minute ago",
+        "other": "{count} minutes ago"
+      },
+      "hours": {
+        "one": "{count} hour ago",
+        "other": "{count} hours ago"
+      },
+      "days": {
+        "one": "{count} day ago",
+        "other": "{count} days ago"
+      }
+    },
+    "thisDevice": "This device",
+    "signedInPasskey": "Signed in with passkey on {time}",
+    "signedInPassword": "Signed in with password on {time}",
+    "revoke": "Sign out",
+    "revoked": "Signed out",
+    "lastUsed": "Last used {time}",
+    "addedAt": "Added {time}",
+    "remove": "Remove",
+    "rename": "Rename",
+    "removed": "Removed",
+    "addPasskey": "Add passkey",
+    "alreadyBound": "This device already has a passkey",
+    "changePassword": "Change password",
+    "devices": "Signed-in devices",
+    "devicesCount": {
+      "one": "Signed-in devices\n{count}",
+      "other": "Signed-in devices\n{count}"
+    },
+    "maxSessions": "Max signed-in devices",
+    "maxSessionsSaved": {
+      "one": "Up to {count} device",
+      "other": "Up to {count} devices"
+    },
+    "deviceCount": {
+      "one": "{count} device",
+      "other": "{count} devices"
+    },
+    "confirmLogoutOthers": "Sign out all other devices?",
+    "loggedOutOthers": "Other devices signed out",
+    "logoutOthers": "Sign out all other devices",
+    "passwordChanged": "Password changed. Other devices have been signed out.",
+    "save": "Save",
+    "mismatch": "Passwords don't match",
+    "passwordFoot": "At least 8 characters. Changing it signs out all devices except this one.",
+    "currentPassword": "Current password",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm new password"
+  },
+  "cat": {
+    "title": "Categories",
+    "manage": "Manage categories",
+    "count": {
+      "one": "{count} category",
+      "other": "{count} categories"
+    },
+    "subs": {
+      "one": "{count} subscription",
+      "other": "{count} subscriptions"
+    },
+    "unused": "Not used",
+    "foot": "Drag to reorder. Renaming a category updates every subscription in it.",
+    "add": "New category",
+    "edit": "Edit category",
+    "name": "Name",
+    "namePlaceholder": "Category name",
+    "color": "Color",
+    "icon": "Icon",
+    "search": "Search icons",
+    "noMatch": "No matching icons",
+    "delete": "Delete category",
+    "moveTo": {
+      "one": "Move its {count} subscription to",
+      "other": "Move its {count} subscriptions to"
+    },
+    "dragHandle": "Drag to reorder",
+    "toast": {
+      "created": "Category added",
+      "saved": "Category saved",
+      "renamed": {
+        "one": "Category saved\n{count} subscription updated",
+        "other": "Category saved\n{count} subscriptions updated"
+      },
+      "deleted": "Category deleted",
+      "order": "Order saved"
+    },
+    "error": {
+      "empty": "Enter a name",
+      "duplicate": "A category named “{name}” already exists"
+    },
+    "group": {
+      "common": "Common",
+      "tech": "Tech",
+      "media": "Entertainment",
+      "work": "Work",
+      "money": "Shopping & money",
+      "life": "Home & life",
+      "food": "Food & drink",
+      "health": "Health & sport",
+      "travel": "Travel",
+      "people": "People & learning"
+    }
+  },
+  "publicPage": {
+    "title": "Edit public page",
+    "access": "Public access",
+    "back": "Back to settings",
+    "reset": "Restore defaults",
+    "leave": "You have unsaved changes. Leave anyway?",
+    "leaveOk": "Leave",
+    "head": "Header",
+    "browserTitle": "Browser title",
+    "avatarFollow": "Use the global avatar",
+    "avatarLinkHint": "Visitors' browsers request this address directly, so its host can see their IP.",
+    "bio": "Text",
+    "bioPlaceholder": "Shown below the title. Line breaks are kept; it isn't translated.",
+    "sections": "Sections",
+    "remove": "Remove",
+    "emptyCard": "No data yet. Visitors won't see this card.",
+    "editTab": "Settings",
+    "previewTab": "Preview",
+    "desktop": "Desktop",
+    "phone": "Phone",
+    "library": {
+      "metrics": "Numbers",
+      "charts": "Charts",
+      "lists": "Lists and time",
+      "bottom": "Page bottom"
+    },
+    "hintDrag": "Drag a component onto the page, or click to add it at the bottom.",
+    "hintTap": "Tap to add at the bottom of the page.",
+    "backToLibrary": "Back to components",
+    "headHint": "Click the title, text or avatar on the page to edit them. Click the theme button to hide or show it.",
+    "autoSnap": "Auto-snap",
+    "freePlace": "Free placement",
+    "themeButton": "Theme button",
+    "themeHide": "Hide theme button",
+    "themeShow": "Show theme button (hidden from visitors)",
+    "metricCard": "Metric card",
+    "template": "Style",
+    "metricData": "Data shown",
+    "addMetric": "Add another value",
+    "widget": {
+      "stats": {
+        "name": "Overview",
+        "desc": "Monthly spend and key numbers"
+      },
+      "number": {
+        "name": "Number",
+        "desc": "One number, shown large"
+      },
+      "trend": {
+        "name": "Trend",
+        "desc": "A number with a sparkline"
+      },
+      "compare": {
+        "name": "Compare",
+        "desc": "Against the same time last year"
+      },
+      "share": {
+        "name": "Share",
+        "desc": "Share of monthly spend"
+      },
+      "rows": {
+        "name": "Rows",
+        "desc": "Up to 4 numbers together"
+      },
+      "chart": {
+        "name": "Bar chart",
+        "desc": "Monthly charges and spend trend"
+      },
+      "composition": {
+        "name": "Composition",
+        "desc": "Spend by category"
+      },
+      "treemap": {
+        "name": "Treemap",
+        "desc": "Area shows how much you spend"
+      },
+      "waterfall": {
+        "name": "Monthly change",
+        "desc": "What was added, raised or cancelled"
+      },
+      "fx": {
+        "name": "Currencies",
+        "desc": "Currency share and rate moves"
+      },
+      "timeline": {
+        "name": "Timeline",
+        "desc": "Charges day by day"
+      },
+      "calendar": {
+        "name": "Calendar",
+        "desc": "Which days get charged"
+      },
+      "years": {
+        "name": "Subscription timeline",
+        "desc": "When each subscription ran"
+      },
+      "list": {
+        "name": "Subscription list",
+        "desc": "Everything in use"
+      },
+      "tenure": {
+        "name": "Time subscribed",
+        "desc": "Average and longest held"
+      },
+      "changes": {
+        "name": "Changes",
+        "desc": "Added, repriced and stopped"
+      },
+      "ended": {
+        "name": "Cancelled",
+        "desc": "What was cancelled and its price"
+      },
+      "lifetime": {
+        "name": "Lifetime",
+        "desc": "One-time purchases"
+      },
+      "footer": {
+        "name": "Footer",
+        "desc": "Project name and version"
+      },
+      "pile": {
+        "name": "Icon pile",
+        "desc": "Icons falling at the page bottom"
+      },
+      "globe": {
+        "name": "Globe",
+        "desc": "Regions of active subscriptions"
+      }
+    }
+  },
+  "update": {
+    "current": "Version",
+    "available": "Update available",
+    "check": "Check for updates",
+    "failed": "Check failed",
+    "upToDate": "Latest",
+    "title": "Upgrade to v{version}",
+    "copy": "Copy command",
+    "copied": "Command copied",
+    "guide": "Upgrade guide",
+    "notes": "Release notes"
+  },
+  "autobackup": {
+    "title": "Automatic backup",
+    "off": "Off",
+    "failed": "Backup failed",
+    "last": "Last backup",
+    "never": "No backup yet",
+    "runNow": "Back up now",
+    "storage": "Storage",
+    "kind": "Back up to",
+    "endpoint": "Endpoint",
+    "bucket": "Bucket",
+    "folder": "Folder",
+    "kept": "Saved",
+    "encryption": "Encryption",
+    "passphrase": "Passphrase",
+    "confirm": "Confirm passphrase",
+    "mismatch": "Passphrases do not match",
+    "keep": "Keep",
+    "copies": {
+      "one": "copy",
+      "other": "copies"
+    },
+    "save": "Save",
+    "switchTo": "Switch to {kind}",
+    "remove": "Remove",
+    "removed": "Automatic backup removed",
+    "done": "Backed up"
+  }
+}

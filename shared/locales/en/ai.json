@@ -1,0 +1,99 @@
+{
+  "title": "AI access",
+  "newToken": "New token",
+  "mcpUrl": "MCP URL",
+  "urlCopied": "URL copied",
+  "copy": "Copy",
+  "copied": "Copied",
+  "copyFailed": "Couldn't copy",
+  "neverUsed": "Never used",
+  "tokenPlaceholder": "<your-token>",
+  "tokens": {
+    "one": "Tokens\n{count}",
+    "other": "Tokens\n{count}"
+  },
+  "noTokens": "No tokens yet. Create one and give it to the AI assistant you want to connect.",
+  "lastUsed": "Last used {time}",
+  "confirmRevoke": "Revoke “{name}”? Any AI assistant using it will lose access immediately.",
+  "revoke": "Revoke",
+  "revoked": "Revoked",
+  "setup": "Setup",
+  "tools": {
+    "one": "Available tools\n{count}",
+    "other": "Available tools\n{count}"
+  },
+  "clientOther": "Other",
+  "scope": {
+    "write": "Read & write",
+    "read": "Read-only",
+    "label": "Permission",
+    "writeDesc": "Query and manage subscriptions, payments, wallets, people, categories and ledger settings.",
+    "readDesc": "Query only. Can't change anything."
+  },
+  "created": {
+    "title": "Token created",
+    "saved": "I've saved it",
+    "foot": "This token is shown only once and can't be viewed again after you close this. If you lose it, revoke it and create a new one.",
+    "tokenCopied": "Token copied"
+  },
+  "cancel": "Cancel",
+  "generate": "Create",
+  "name": "Name",
+  "namePlaceholder": "Which AI is this for?",
+  "pickClient": "Choose your AI assistant",
+  "tokensHint": "Each assistant should get its own token, so you can revoke it on its own.",
+  "toolsHint": "What assistants can do with your ledger. Read-only tokens only see the read tools.",
+  "toolsRead": "Read",
+  "toolsWrite": "Write",
+  "experimental": "Experimental",
+  "copiedWithToken": "Copied, token included",
+  "installIn": "Add to {name}",
+  "createdAt": "Created {time}",
+  "where": {
+    "terminal": "Run this in your terminal.",
+    "codex": "Run this in your terminal. Add the export line to your shell profile so the token survives restarts.",
+    "file": "Add this to {path}.",
+    "grokbot": "In Grok Bot, open Settings → Plugins, add an MCP server and fill in the name, URL and header below. Grok Bot runs in the cloud, so the address must be publicly reachable.",
+    "http": "Any MCP client that speaks Streamable HTTP. This is a quick test request."
+  },
+  "via": {
+    "command": "Terminal command",
+    "install": "One-click install",
+    "file": "Config file",
+    "settings": "In-app settings",
+    "http": "Any MCP client"
+  },
+  "step": {
+    "token": "Token",
+    "tokenReady": "Using “{name}”, included in the snippet below",
+    "tokenNeeded": "Tokens are shown only once.",
+    "createFor": "Create a token for {name}",
+    "send": "Send this to {name}"
+  },
+  "status": {
+    "on": "AI access is on",
+    "off": "AI access is off",
+    "onHint": "A valid token lets an AI assistant access the ledger within its assigned permissions.",
+    "offHint": "All MCP requests are rejected until you turn it back on."
+  },
+  "promptLabel": "Prompt",
+  "copyConfigOnly": "Copy config only",
+  "configCopied": "Config copied",
+  "agentPrompt": "Connect my Calends subscription ledger to you as an MCP server named \"calends\". {where}\n\n{code}\n\nOnce it's set up, call the {verify} tool to check it works, then tell me how many active subscriptions I have.",
+  "col": {
+    "name": "Name",
+    "key": "Key",
+    "created": "Created",
+    "lastUsed": "Last used"
+  },
+  "domain": {
+    "overview": "Overview & stats",
+    "subs": "Subscriptions & plans",
+    "charges": "Charges",
+    "wallet": "Wallet & payment methods",
+    "people": "Shared plans & paid for others",
+    "categories": "Categories",
+    "settings": "Settings",
+    "other": "Other"
+  }
+}

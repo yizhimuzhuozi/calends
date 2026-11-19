@@ -1,0 +1,195 @@
+{
+  "title": "리포트",
+  "shareReview": "{year}년 결산 공유",
+  "shareAll": "누적 리포트 공유",
+  "pick": {
+    "label": "연도 선택",
+    "all": "전체",
+    "year": "{year}년",
+    "prev": "이전",
+    "next": "다음"
+  },
+  "perMonth": "{amount}/월",
+  "per": {
+    "day": "일",
+    "week": "주",
+    "month": "월",
+    "year": "년",
+    "lifetime": "1회",
+    "quarter": "분기",
+    "halfYear": "6개월",
+    "twoYears": "2년",
+    "n": {
+      "day": "{count}일",
+      "week": "{count}주",
+      "month": "{count}개월",
+      "year": "{count}년"
+    }
+  },
+  "axis": {
+    "year": "{year}년"
+  },
+  "hero": {
+    "label": "연간 구독 지출",
+    "tip": "이번 달 {month}\n누적 {total}",
+    "tipNow": "이번 달 {month}, 결제 예정 {pending}\n누적 {total}",
+    "avg": "월평균",
+    "peak": "최고 월",
+    "peakAt": "최고 {when}"
+  },
+  "all": {
+    "label": "누적 구독 지출",
+    "since": "{date}부터",
+    "last12": "최근 12개월",
+    "avg": "연평균",
+    "peak": "최고 연도",
+    "subs": "구독 수",
+    "detail": "누적 내역"
+  },
+  "tenure": {
+    "title": "구독 유지 기간",
+    "active": "이용 중 평균 기간",
+    "stopped": "해지한 구독 평균 기간",
+    "quick": "바로 해지",
+    "peak": "동시 구독 최다",
+    "longest": "가장 오래 구독",
+    "count": "이용 중 구독 수"
+  },
+  "wf": {
+    "vsFrom": "지난달 말 {amount} 대비",
+    "flat": "변동 없음",
+    "title": "{month} 변동",
+    "prev": "이전 달",
+    "next": "다음 달",
+    "from": "지난달",
+    "fx": "환율",
+    "added": "신규",
+    "expansion": "가격 인상",
+    "contraction": "가격 인하",
+    "churned": "중단",
+    "now": "현재",
+    "monthEnd": "월말",
+    "empty": "이번 달에는 신규, 해지, 가격 변경된 구독이 없습니다.",
+    "emptyFx": "이번 달에는 신규, 해지, 가격 변경된 구독이 없으며, 변동은 모두 환율 때문입니다({amount})."
+  },
+  "checkup": {
+    "title": "점검",
+    "warn": {
+      "other": "확인이 필요한 항목 {count}개"
+    },
+    "fix": "해결",
+    "less": "접기",
+    "more": "{count}개 더 보기"
+  },
+  "cash": {
+    "title": "현금 지출 vs. 실제 비용",
+    "legendCash": "그달 결제 금액",
+    "legendAccrual": "월별로 나눈 비용",
+    "forecast": "\n예측",
+    "tip": "결제 {cash}\n비용 {cost}",
+    "open": "\n이 달을 캘린더에서 열기",
+    "openYear": "\n이 해를 캘린더에서 열기",
+    "prepaidItem": "{name}\n{amount}\n{until}까지",
+    "prepaid": "선결제 잔여 가치",
+    "prepaidSub": "{count}개 결제 완료, 아직 사용 중",
+    "next90": "다음 90일 결제 예정",
+    "fullPaidHint": "멤버 대신 낸 금액을 포함한 전체 결제액"
+  },
+  "comp": {
+    "title": "돈이 나가는 곳",
+    "back": "뒤로",
+    "cat": "카테고리",
+    "pay": "결제 수단",
+    "ccy": "통화",
+    "cycle": "주기",
+    "unassigned": "미지정",
+    "yearly": "연간",
+    "quarterly": "분기 / 반기",
+    "monthly": "월간",
+    "groupTip": {
+      "other": "{name}\n{count}개\n{amount}/월"
+    },
+    "groupTipAll": {
+      "other": "{name}\n{count}개\n{amount}"
+    }
+  },
+  "topup": {
+    "title": "충전 계획",
+    "range3": "3개월",
+    "range6": "6개월",
+    "range12": "1년",
+    "span3": "다음 3개월",
+    "span6": "다음 6개월",
+    "span12": "다음 1년",
+    "empty": "아직 잔액이 있는 계정이 없습니다.",
+    "emptyCta": "지갑에서 App Store 또는 통신사 잔액 추가",
+    "summary": "잔액 {balance}\n월 약 {monthly}",
+    "why": "{span}: 결제 {due}, 보유 {balance}, 부족 {need}",
+    "urgent": "; 가장 급함: {date}까지 최소 {min} 충전",
+    "cards": "추천 기프트 카드",
+    "anyAmount": "원하는 금액만큼 충전 가능, 카드 액면가에 맞출 필요 없음",
+    "enough3": "잔액으로 다음 3개월 충분",
+    "enough6": "잔액으로 다음 6개월 충분",
+    "enough12": "잔액으로 다음 1년 충분",
+    "by": "{date}까지"
+  },
+  "ev": {
+    "start": "시작",
+    "end": "해지",
+    "price": "가격 변경",
+    "introEnd": "프로모션 종료",
+    "buy": "일시불 구매",
+    "pause": "일시 정지",
+    "switch": "지역 / 플랜 변경",
+    "resume": "재개"
+  },
+  "log": {
+    "title": "변경 기록",
+    "decisions": {
+      "other": "결정 {count}건"
+    },
+    "more": "이전 기록"
+  },
+  "stops": {
+    "title": "해지 및 서비스 중단",
+    "loss": "미환불 손실",
+    "cancel": "자발적 조기 해지"
+  },
+  "year": {
+    "title": "연간 내역",
+    "vsLast": "작년 같은 기간 대비",
+    "vsPrev": "전년 대비",
+    "count": "{count}개",
+    "added": "신규",
+    "stopped": "중단",
+    "up": "증가",
+    "down": "감소",
+    "carpoolGain": "공유 플랜 수익",
+    "carpoolLoss": "공유 플랜 손실",
+    "carpoolEven": "공유 플랜 손익 없음",
+    "carpoolNet": "공유 플랜 손익",
+    "proxyGain": "대신 결제 수익",
+    "proxyLoss": "대신 결제 손실",
+    "proxyEven": "대신 결제 손익 없음",
+    "proxyNet": "대신 결제 손익",
+    "empty": "작년 같은 기간과 같습니다."
+  },
+  "daily": {
+    "title": "일별",
+    "flat": "평면",
+    "bars": "입체"
+  },
+  "region": {
+    "title": "구독 지역"
+  },
+  "flow": {
+    "title": "돈의 흐름",
+    "showPercent": "비율로 보기",
+    "showAmount": "금액으로 보기"
+  },
+  "profile": {
+    "title": "지출 구성 비교",
+    "recent": "최근 12개월",
+    "before": "이전 12개월"
+  }
+}

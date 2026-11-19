@@ -1,0 +1,73 @@
+{
+  "fxApiError": "The exchange rate service returned an error",
+  "missingId": "Missing id",
+  "invalidItem": "{name}: {error}",
+  "notPublic": "This ledger isn't public",
+  "idMismatch": "ID mismatch",
+  "invalidJson": "The request body is not valid JSON.",
+  "invalidMethod": "Invalid payment method",
+  "invalidBackup": "Invalid backup file",
+  "refreshFailed": "Refresh failed",
+  "backup": {
+    "notBackup": "This isn't a valid backup file",
+    "unknownFormat": "Unrecognized backup format: {format}",
+    "newerVersion": "This backup is from a newer version (v{version}). Update this site first."
+  },
+  "auth": {
+    "tooMany": "Too many attempts. Try again in 15 minutes.",
+    "alreadySetup": "A password has already been set",
+    "noSetupToken": "SETUP_TOKEN wasn't configured at deploy time, so setup can't continue. Set this secret first (wrangler secret put SETUP_TOKEN).",
+    "badSetupToken": "Incorrect setup token",
+    "passwordTooShort": {
+      "one": "Password must be at least {min} character",
+      "other": "Password must be at least {min} characters"
+    },
+    "wrongPassword": "Incorrect password",
+    "wrongCurrentPassword": "Current password is incorrect",
+    "newPasswordTooShort": {
+      "one": "New password must be at least {min} character",
+      "other": "New password must be at least {min} characters"
+    },
+    "invalidDevice": "Invalid device",
+    "nameRequired": "Name can’t be empty",
+    "cannotRemoveCurrent": "You can't remove this device. Use Log Out instead.",
+    "expired": "The request expired. Please try again.",
+    "passkeyFailed": "Passkey verification failed. Sign in with your password, then add it again in Settings → Security",
+    "passkeyRegisterFailed": "Passkey verification failed",
+    "passkeyNotBound": "This passkey isn't registered with this site. Sign in with your password, then add it again in Settings → Security"
+  },
+  "ics": {
+    "calName": "Subscription charges",
+    "method": "Payment: {name}",
+    "alarm": "{name} renews soon"
+  },
+  "invalidPerson": "Name is required",
+  "personNotFound": "Person not found",
+  "personInUse": {
+    "one": "Still linked to {count} shared plan or proxy payment. Merge them into someone else first.",
+    "other": "Still linked to {count} shared plans or proxy payments. Merge them into someone else first."
+  },
+  "category": {
+    "invalid": "Invalid category list",
+    "duplicate": "Duplicate category: {name}"
+  },
+  "assistant": {
+    "noKey": "No DeepSeek API key configured yet.",
+    "badTool": "Unsupported action."
+  },
+  "invalidAvatar": "Invalid image",
+  "avatarInvalid": "Use a square PNG/WebP avatar up to 128×128 and 64 KB, without metadata. Uploads accept PNG/JPEG/WebP up to 8 MB and 40 megapixels.",
+  "avatarRosterFull": "The people roster is full. Remove an avatar before adding another.",
+  "methodInUse": "This payment method is still in use. Move its references to another method or clear them first.",
+  "autobackup": {
+    "badEndpoint": "Invalid endpoint; it must start with https:// or http://",
+    "badBucket": "Invalid bucket name",
+    "noCredentials": "Enter the Access Key ID and Secret Access Key",
+    "noLogin": "Enter the username and password",
+    "noPassphrase": "Set an encryption passphrase",
+    "badKeep": "Keep must be between 1 and 365",
+    "notConfigured": "Automatic backup is not set up",
+    "interrupted": "The last backup did not finish",
+    "beforeRestoreFailed": "The backup before restoring failed; the ledger is unchanged: {error}"
+  }
+}

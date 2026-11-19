@@ -1,0 +1,126 @@
+{
+  "previewEmpty": "Сегодня нет напоминаний для отправки.",
+  "appName": "Calends",
+  "trial": {
+    "sub": "Пробный период закончится {when} ({date}), затем {price}",
+    "headline": "Пробный период {name} закончится {when}"
+  },
+  "renew": {
+    "introEnds": "Вводная цена заканчивается, далее обычная цена",
+    "headline": "{name} продлится {when} за {price}",
+    "billHeadline": "{name}: счёт {when} на {price}"
+  },
+  "ending": {
+    "sub": "Закончится {when}, без продления",
+    "headline": "{name} закончится {when}"
+  },
+  "carpool": {
+    "dueIn": "Срок оплаты {when} ({date})",
+    "dueToday": "Срок оплаты сегодня",
+    "overdue": {
+      "one": "Просрочено на {count} день",
+      "few": "Просрочено на {count} дня",
+      "many": "Просрочено на {count} дней",
+      "other": "Просрочено на {count} дня"
+    },
+    "sub": "{status}\nследующий период: {bill}",
+    "headline": "Пора получить оплату от {member} за {name}"
+  },
+  "proxy": {
+    "someone": "Кто-то",
+    "chargedToday": "Сегодня оплачено за другого",
+    "chargedAgo": {
+      "one": "Списано {date}, {count} день назад",
+      "few": "Списано {date}, {count} дня назад",
+      "many": "Списано {date}, {count} дней назад",
+      "other": "Списано {date}, {count} дня назад"
+    },
+    "sub": "{status}, деньги ещё не вернули",
+    "headlineToday": "Оплачено {sub} за {name}",
+    "headlineUnpaid": "{name} ещё не вернул(а) деньги за {sub}"
+  },
+  "balance": {
+    "sub": "К {date} останется только {left}, не хватит на {sub} ({amount})",
+    "subSince": "{asOf} установлено {calibrated}, с тех пор списано {spent}. К {date} останется только {left}, не хватит на {sub} ({amount})",
+    "subOver": "Баланс уже {left}, не хватит на {sub} ({amount}) {date}",
+    "subForfeit": "{forfeit} сгорело {expires}; к {date} останется {left}, не хватит на {sub} ({amount})",
+    "headline": "У {name} заканчивается баланс",
+    "expiring": "Истекает {date}; сгорит около {amount}",
+    "expiringHeadline": "Баланс {name} скоро сгорит"
+  },
+  "section": {
+    "renew": "Ближайшие списания",
+    "trials": "Пробные периоды заканчиваются",
+    "balance": "Низкий баланс",
+    "carpool": "Оплаты по совместным подпискам",
+    "proxy": "Долги за оплату за других",
+    "ending": "Скоро закончатся",
+    "month": "Списания в этом месяце"
+  },
+  "daily": {
+    "subject": "Напоминание о подписках: {title}",
+    "title": "{headline}",
+    "titleMore": "{headline} и ещё {more}",
+    "intro": "Вы тратите на подписки {mrr} в месяц, активных: {count}."
+  },
+  "monthly": {
+    "title": "{month}: около {sum} к списанию",
+    "subject": {
+      "one": "Счёт за {month}: около {sum}, {count} списание",
+      "few": "Счёт за {month}: около {sum}, {count} списания",
+      "many": "Счёт за {month}: около {sum}, {count} списаний",
+      "other": "Счёт за {month}: около {sum}, {count} списания"
+    },
+    "intro": "При текущих подписках это около {arr} в год."
+  },
+  "email": {
+    "open": "Открыть Calends",
+    "footer": "Время напоминаний и число дней заранее можно изменить в настройках.",
+    "why": "Вы получили это письмо, потому что в {app} включены напоминания по почте.",
+    "off": "Чтобы отключить их, выключите почтовый канал в разделе «Настройки → Каналы уведомлений».",
+    "settings": "Настройки напоминаний",
+    "total": "Итого за месяц",
+    "testNote": "Это тестовое письмо: почтовый канал работает. В настоящих напоминаниях здесь будут ближайшие списания.",
+    "noCharges": "В этом месяце списаний не ожидается.",
+    "kind": {
+      "daily": "Напоминание",
+      "monthly": "Счёт за месяц",
+      "test": "Тест"
+    },
+    "stat": {
+      "sum": "Ожидается",
+      "count": "Списаний",
+      "mrr": "В месяц"
+    }
+  },
+  "text": {
+    "heading": "[{heading}]"
+  },
+  "send": {
+    "noChannel": "Канал не найден",
+    "noneEnabled": "Ни один канал уведомлений не включён",
+    "alreadySent": "Сегодня уже отправлено",
+    "failure": "{channel}: {error}",
+    "failureSep": "; "
+  },
+  "test": {
+    "subject": "[Тест] {subject}",
+    "sampleSubject": "[Тест] Напоминания о подписках настроены",
+    "sampleIntro": "Канал уведомлений работает."
+  },
+  "channel": {
+    "missing": "В канале «{channel}» не указано: {field}",
+    "field": {
+      "to": "адрес получателя",
+      "botToken": "токен бота",
+      "chatId": "ID чата",
+      "webhook": "URL вебхука",
+      "deviceKey": "ключ устройства",
+      "topic": "тема",
+      "sendKey": "SendKey",
+      "url": "URL"
+    },
+    "emailNotConfigured": "На этом сервере не настроена отправка почты (нужны привязка EMAIL и MAIL_FROM). Используйте другой канал или см. README."
+  },
+  "sender": "Calends"
+}

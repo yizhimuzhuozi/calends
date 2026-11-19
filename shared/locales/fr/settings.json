@@ -1,0 +1,519 @@
+{
+  "title": "Réglages",
+  "days": {
+    "one": "{count} jour",
+    "other": "{count} jours"
+  },
+  "logout": "Se déconnecter",
+  "toast": {
+    "saved": "Enregistré",
+    "deleted": "Supprimé",
+    "csvEmpty": "Aucun abonnement à importer dans ce CSV",
+    "badBackup": "Fichier de sauvegarde non valide"
+  },
+  "general": {
+    "title": "Général",
+    "language": "Langue",
+    "followSystem": "Langue du système",
+    "name": "Nom",
+    "namePlaceholder": "Affiché sur les images partagées et la page publique",
+    "avatar": "Avatar",
+    "avatarDefault": "Icône par défaut",
+    "startPage": "Ouvrir sur",
+    "startPageAria": "Page d’accueil",
+    "baseCurrency": "Devise de référence",
+    "signedAmounts": "Signes des entrées et sorties",
+    "gainColor": "Couleurs gains/pertes",
+    "gainGreen": "Vert gain, rouge perte",
+    "gainRed": "Rouge gain, vert perte",
+    "timezone": "Fuseau horaire",
+    "weekStart": "Début de semaine",
+    "weekStartAria": "Premier jour de la semaine",
+    "monday": "Lundi",
+    "sunday": "Dimanche",
+    "telemetry": "Statistiques d’utilisation anonymes",
+    "telemetryForcedOff": "Désactivées pour cette installation",
+    "telemetryNote": "Seuls l’usage et la version sont comptés. Vos abonnements, montants et données du registre ne sont jamais collectés."
+  },
+  "sidebar": {
+    "thisMonth": "Ce mois-ci",
+    "dragFoot": "Faites glisser les poignées pour réordonner ; la barre latérale suit cet ordre.",
+    "title": "Barre latérale",
+    "upcoming": "Prélèvements à venir",
+    "lookAhead": "Horizon",
+    "lookAheadAria": "Période des prélèvements à venir"
+  },
+  "remind": {
+    "title": "Rappels",
+    "lead": "Me rappeler",
+    "sameDay": "Le jour même",
+    "never": "Jamais",
+    "hour": "Heure d’envoi",
+    "monthly": "Aperçu mensuel le 1er",
+    "test": "Envoyer un rappel de test à tous les canaux",
+    "testFailed": "Envoi impossible",
+    "channelError": "{channel} : {error}",
+    "errorSep": " ; ",
+    "testSent": "Rappel de test envoyé",
+    "preview": "Aperçu des rappels du jour",
+    "log": "Journal des envois"
+  },
+  "today": {
+    "recent": "Envois récents",
+    "title": "Aujourd’hui ({day})",
+    "items": {
+      "one": "{count} élément",
+      "other": "{count} éléments"
+    }
+  },
+  "books": {
+    "title": "Comptabilité",
+    "defaultMethod": "Moyen de paiement par défaut",
+    "unassigned": {
+      "one": "{count} abonnement n’a pas de moyen de paiement",
+      "other": "{count} abonnements n’ont pas de moyen de paiement"
+    },
+    "assignAllDone": {
+      "one": "{count} abonnement associé au moyen de paiement par défaut",
+      "other": "{count} abonnements associés au moyen de paiement par défaut"
+    },
+    "assignAll": "Utiliser le défaut pour tous",
+    "collectCurrency": "Devise des abonnements partagés"
+  },
+  "fx": {
+    "title": "Taux de change",
+    "current": "Taux actuel",
+    "updatedAt": "Mis à jour {time}",
+    "updated": "Taux de change mis à jour",
+    "history": "Taux historiques",
+    "earliest": "Depuis le {date}",
+    "coverage": {
+      "one": "{covered} / {count} jour",
+      "other": "{covered} / {count} jours"
+    },
+    "fill": "Compléter les taux manquants",
+    "historyUpdated": "Taux historiques mis à jour"
+  },
+  "open": {
+    "publicSubs": "Abonnements affichés",
+    "publicSubsHint": "Les abonnements payés pour autrui restent privés. Les nouveaux sont publics par défaut.",
+    "publicShown": "Affichés\n{count}",
+    "publicOff2": "Masqués\n{count}",
+    "publicShowAll": "Tout afficher",
+    "publicHideAll": "Tout masquer",
+    "publicHideOne": "Masquer {name}",
+    "publicShowOne": "Afficher {name}",
+    "publicNone": "Rien n’est affiché : la page publique sera vide",
+    "title": "Partage et accès",
+    "ics": "S’abonner dans le calendrier du système",
+    "on": "Activé",
+    "off": "Désactivé",
+    "public": "Page publique",
+    "publicOn": "La page publique est activée",
+    "publicOff": "La page publique est désactivée",
+    "publicTitle": "Titre de la page",
+    "previewPublic": "Aperçu de la page publique",
+    "ai": "Accès IA (MCP)",
+    "aiOn": "L’accès IA est activé",
+    "aiOff": "L’accès IA est désactivé. Les assistants IA ne peuvent plus se connecter.",
+    "manageAi": "Gérer les jetons et la configuration"
+  },
+  "data": {
+    "title": "Données",
+    "importCsv": "Importer des données",
+    "restore": "Restaurer une sauvegarde",
+    "exportCsv": "Exporter en CSV",
+    "backup": "Exporter une sauvegarde complète"
+  },
+  "restore": {
+    "cancel": "Annuler",
+    "replace": "Remplacer le registre actuel",
+    "done": "Restauré",
+    "warning": "Votre registre actuel sera entièrement remplacé par la sauvegarde. Cette action est irréversible : pensez à exporter une sauvegarde avant.",
+    "subs": "Abonnements",
+    "methods": "Moyens de paiement",
+    "count": {
+      "one": "{count}",
+      "other": "{count}"
+    },
+    "time": "Sauvegardé le",
+    "format": "Format",
+    "legacy": "Ancienne sauvegarde : abonnements et moyens de paiement uniquement",
+    "unlock": "Déverrouiller",
+    "wrongPassphrase": "Phrase secrète incorrecte"
+  },
+  "import": {
+    "title": {
+      "one": "Importer {count} abonnement",
+      "other": "Importer {count} abonnements"
+    },
+    "confirmReplace": "Le remplacement effacera tous les abonnements et moyens de paiement existants. Continuer ?",
+    "replaceDone": "Importé (remplacé)",
+    "replaceAll": "Tout remplacer",
+    "mergeDone": "Importé (fusionné)",
+    "merge": "Ajouter à l’existant",
+    "newMethods": "De nouveaux moyens de paiement seront créés : {names}",
+    "sep": ", ",
+    "history": "Les paiements sont estimés à partir de l’import. L’historique antérieur n’est pas reconstitué.",
+    "owner": "Compte dans la sauvegarde",
+    "choose": "Choisir…",
+    "independent": "Les abonnements homonymes restent séparés.",
+    "include": "Inclure",
+    "every": "Tous les",
+    "next": "Prochain paiement",
+    "paused": "Importé en pause ; vérifiez avant de reprendre.",
+    "reading": "Lecture du fichier…",
+    "formats": "CSV, sauvegarde ZIP ou base SQLite"
+  },
+  "channels": {
+    "title": {
+      "one": "Canaux de notification\n{count} activé",
+      "other": "Canaux de notification\n{count} activés"
+    },
+    "empty": "Aucun canal : les rappels ne seront pas envoyés.",
+    "test": "Tester",
+    "testFailed": "Envoi impossible",
+    "testSent": "Message de test envoyé",
+    "add": "Ajouter un canal",
+    "addKind": "Ajouter {name}",
+    "delete": "Supprimer",
+    "save": "Enregistrer",
+    "fillField": "Veuillez saisir {field}",
+    "name": "Nom",
+    "optional": "Facultatif",
+    "enabled": "Activé",
+    "field": {
+      "to": "Adresse e-mail",
+      "webhook": "URL du webhook",
+      "server": "Serveur",
+      "token": "Jeton d’accès"
+    },
+    "kind": {
+      "email": {
+        "name": "E-mail",
+        "help": "Envoyé via Cloudflare Email Sending ; votre domaine doit être vérifié sur Cloudflare"
+      },
+      "telegram": {
+        "chatIdPlaceholder": "Votre ID utilisateur ou de groupe",
+        "help": "Créez un bot avec @BotFather pour obtenir un jeton. Envoyez d’abord un message à votre bot, puis utilisez @userinfobot pour trouver votre ID"
+      },
+      "lark": {
+        "name": "Lark (Feishu)",
+        "secret": "Secret de signature",
+        "secretPlaceholder": "Obligatoire si la vérification de signature est activée",
+        "help": "Réglages du groupe → Bots → Ajouter un bot personnalisé"
+      },
+      "dingtalk": {
+        "name": "DingTalk",
+        "secret": "Secret de signature",
+        "secretPlaceholder": "SEC…, obligatoire si la signature est activée",
+        "help": "Réglages du groupe → Bots → Bot personnalisé"
+      },
+      "wecom": {
+        "name": "WeCom",
+        "help": "Discussion de groupe → Ajouter un bot de groupe"
+      },
+      "bark": {
+        "keyPlaceholder": "Clé copiée depuis l’app",
+        "help": "Notifications push sur iPhone : cherchez Bark sur l’App Store"
+      },
+      "ntfy": {
+        "topicPlaceholder": "Choisissez un nom difficile à deviner",
+        "help": "Installez l’app ntfy sur votre téléphone et abonnez-vous au même sujet"
+      },
+      "serverchan": {
+        "name": "ServerChan",
+        "keyPlaceholder": "SCT… ou sctp…",
+        "help": "Push vers WeChat (ServerChan Turbo / ³)"
+      },
+      "discord": {
+        "help": "Paramètres du salon → Intégrations → Webhooks"
+      },
+      "webhook": {
+        "name": "Webhook personnalisé",
+        "header": "En-tête supplémentaire",
+        "help": "POST JSON : subject, intro, sections, text, markdown, url"
+      }
+    }
+  },
+  "security": {
+    "title": "Sécurité",
+    "unknownBrowser": "Navigateur inconnu",
+    "ago": {
+      "justNow": "Actif à l’instant",
+      "minutes": {
+        "one": "Il y a {count} minute",
+        "other": "Il y a {count} minutes"
+      },
+      "hours": {
+        "one": "Il y a {count} heure",
+        "other": "Il y a {count} heures"
+      },
+      "days": {
+        "one": "Il y a {count} jour",
+        "other": "Il y a {count} jours"
+      }
+    },
+    "thisDevice": "Cet appareil",
+    "signedInPasskey": "Connecté avec une clé d’accès le {time}",
+    "signedInPassword": "Connecté avec un mot de passe le {time}",
+    "revoke": "Déconnecter",
+    "revoked": "Déconnecté",
+    "lastUsed": "Dernière utilisation {time}",
+    "addedAt": "Ajoutée {time}",
+    "remove": "Supprimer",
+    "rename": "Renommer",
+    "removed": "Supprimée",
+    "addPasskey": "Ajouter une clé d’accès",
+    "alreadyBound": "Cet appareil a déjà une clé d’accès",
+    "changePassword": "Changer le mot de passe",
+    "devices": "Appareils connectés",
+    "devicesCount": {
+      "one": "Appareil connecté\n{count}",
+      "other": "Appareils connectés\n{count}"
+    },
+    "maxSessions": "Appareils connectés max.",
+    "maxSessionsSaved": {
+      "one": "Jusqu’à {count} appareil",
+      "other": "Jusqu’à {count} appareils"
+    },
+    "deviceCount": {
+      "one": "{count} appareil",
+      "other": "{count} appareils"
+    },
+    "confirmLogoutOthers": "Déconnecter tous les autres appareils ?",
+    "loggedOutOthers": "Autres appareils déconnectés",
+    "logoutOthers": "Déconnecter tous les autres appareils",
+    "passwordChanged": "Mot de passe modifié. Les autres appareils ont été déconnectés.",
+    "save": "Enregistrer",
+    "mismatch": "Les mots de passe ne correspondent pas",
+    "passwordFoot": "8 caractères minimum. Le changer déconnecte tous les appareils sauf celui-ci.",
+    "currentPassword": "Mot de passe actuel",
+    "newPassword": "Nouveau mot de passe",
+    "confirmPassword": "Confirmer le nouveau mot de passe"
+  },
+  "cat": {
+    "title": "Catégories",
+    "manage": "Gérer les catégories",
+    "count": {
+      "one": "{count} catégorie",
+      "other": "{count} catégories"
+    },
+    "subs": {
+      "one": "{count} abonnement",
+      "other": "{count} abonnements"
+    },
+    "unused": "Inutilisée",
+    "foot": "Faites glisser pour réordonner. Renommer une catégorie met à jour tous ses abonnements.",
+    "add": "Nouvelle catégorie",
+    "edit": "Modifier la catégorie",
+    "name": "Nom",
+    "namePlaceholder": "Nom de la catégorie",
+    "color": "Couleur",
+    "icon": "Icône",
+    "search": "Rechercher une icône",
+    "noMatch": "Aucune icône correspondante",
+    "delete": "Supprimer la catégorie",
+    "moveTo": {
+      "one": "Déplacer son abonnement vers",
+      "other": "Déplacer ses {count} abonnements vers"
+    },
+    "dragHandle": "Faire glisser pour réordonner",
+    "toast": {
+      "created": "Catégorie ajoutée",
+      "saved": "Catégorie enregistrée",
+      "renamed": {
+        "one": "Catégorie enregistrée\n{count} abonnement mis à jour",
+        "other": "Catégorie enregistrée\n{count} abonnements mis à jour"
+      },
+      "deleted": "Catégorie supprimée",
+      "order": "Ordre enregistré"
+    },
+    "error": {
+      "empty": "Saisissez un nom",
+      "duplicate": "Une catégorie nommée « {name} » existe déjà"
+    },
+    "group": {
+      "common": "Courantes",
+      "tech": "Tech",
+      "media": "Divertissement",
+      "work": "Travail",
+      "money": "Achats et argent",
+      "life": "Maison et vie",
+      "food": "Cuisine et boissons",
+      "health": "Santé et sport",
+      "travel": "Voyage",
+      "people": "Personnes et études"
+    }
+  },
+  "publicPage": {
+    "title": "Modifier la page publique",
+    "access": "Accès public",
+    "back": "Retour aux réglages",
+    "reset": "Rétablir par défaut",
+    "leave": "Des modifications ne sont pas enregistrées. Quitter quand même ?",
+    "leaveOk": "Quitter",
+    "head": "En-tête",
+    "browserTitle": "Titre du navigateur",
+    "avatarFollow": "Utiliser l’avatar global",
+    "avatarLinkHint": "Les navigateurs des visiteurs demandent directement cette adresse : son hôte peut voir leur IP.",
+    "bio": "Texte",
+    "bioPlaceholder": "Affiché sous le titre. Les retours à la ligne sont conservés ; il n’est pas traduit.",
+    "sections": "Sections",
+    "remove": "Retirer",
+    "emptyCard": "Pas encore de données. Les visiteurs ne verront pas cette carte.",
+    "editTab": "Réglages",
+    "previewTab": "Aperçu",
+    "desktop": "Ordinateur",
+    "phone": "Téléphone",
+    "library": {
+      "metrics": "Chiffres",
+      "charts": "Graphiques",
+      "lists": "Listes et durée",
+      "bottom": "Bas de page"
+    },
+    "hintDrag": "Faites glisser un composant sur la page, ou cliquez pour l'ajouter en bas.",
+    "hintTap": "Touchez pour ajouter en bas de la page.",
+    "backToLibrary": "Retour aux composants",
+    "headHint": "Cliquez sur le titre, le texte ou l’avatar de la page pour les modifier. Cliquez sur le bouton de thème pour le masquer ou l’afficher.",
+    "autoSnap": "Alignement auto",
+    "freePlace": "Placement libre",
+    "themeButton": "Bouton de thème",
+    "themeHide": "Masquer le bouton de thème",
+    "themeShow": "Afficher le bouton de thème (masqué aux visiteurs)",
+    "metricCard": "Carte d'indicateur",
+    "template": "Style",
+    "metricData": "Données affichées",
+    "addMetric": "Ajouter une autre valeur",
+    "widget": {
+      "stats": {
+        "name": "Aperçu",
+        "desc": "Dépenses mensuelles et chiffres clés"
+      },
+      "number": {
+        "name": "Chiffre",
+        "desc": "Un chiffre en grand"
+      },
+      "trend": {
+        "name": "Tendance",
+        "desc": "Un chiffre avec mini-courbe"
+      },
+      "compare": {
+        "name": "Comparaison",
+        "desc": "Par rapport à la même période l'an dernier"
+      },
+      "share": {
+        "name": "Part",
+        "desc": "Part des dépenses mensuelles"
+      },
+      "rows": {
+        "name": "Lignes",
+        "desc": "Jusqu'à 4 chiffres ensemble"
+      },
+      "chart": {
+        "name": "Histogramme",
+        "desc": "Prélèvements mensuels et tendance des dépenses"
+      },
+      "composition": {
+        "name": "Répartition",
+        "desc": "Dépenses par catégorie"
+      },
+      "treemap": {
+        "name": "Treemap",
+        "desc": "La surface indique le montant dépensé"
+      },
+      "waterfall": {
+        "name": "Variation mensuelle",
+        "desc": "Ajouts, hausses et résiliations"
+      },
+      "fx": {
+        "name": "Devises",
+        "desc": "Part des devises et variations des taux"
+      },
+      "timeline": {
+        "name": "Frise",
+        "desc": "Prélèvements jour par jour"
+      },
+      "calendar": {
+        "name": "Calendrier",
+        "desc": "Les jours où l'on est prélevé"
+      },
+      "years": {
+        "name": "Frise des abonnements",
+        "desc": "Période d'activité de chaque abonnement"
+      },
+      "list": {
+        "name": "Liste des abonnements",
+        "desc": "Tout ce qui est utilisé"
+      },
+      "tenure": {
+        "name": "Durée d'abonnement",
+        "desc": "Moyenne et plus longue durée"
+      },
+      "changes": {
+        "name": "Modifications",
+        "desc": "Ajoutés, changements de prix et arrêtés"
+      },
+      "ended": {
+        "name": "Résiliés",
+        "desc": "Ce qui a été résilié et son prix"
+      },
+      "lifetime": {
+        "name": "Achat unique",
+        "desc": "Achats en une fois"
+      },
+      "footer": {
+        "name": "Pied de page",
+        "desc": "Nom du projet et version"
+      },
+      "pile": {
+        "name": "Pile d'icônes",
+        "desc": "Icônes qui tombent en bas de page"
+      },
+      "globe": {
+        "name": "Globe",
+        "desc": "Régions des abonnements actifs"
+      }
+    }
+  },
+  "update": {
+    "current": "Version",
+    "available": "Mise à jour disponible",
+    "check": "Rechercher des mises à jour",
+    "failed": "Échec de la vérification",
+    "upToDate": "À jour",
+    "title": "Mettre à jour vers v{version}",
+    "copy": "Copier la commande",
+    "copied": "Commande copiée",
+    "guide": "Guide de mise à jour",
+    "notes": "Notes de version"
+  },
+  "autobackup": {
+    "title": "Sauvegarde automatique",
+    "off": "Désactivée",
+    "failed": "Échec de la sauvegarde",
+    "last": "Dernière sauvegarde",
+    "never": "Aucune sauvegarde",
+    "runNow": "Sauvegarder maintenant",
+    "storage": "Stockage",
+    "kind": "Sauvegarder vers",
+    "endpoint": "Point de terminaison",
+    "bucket": "Bucket",
+    "folder": "Dossier",
+    "kept": "Enregistré",
+    "encryption": "Chiffrement",
+    "passphrase": "Phrase secrète",
+    "confirm": "Confirmer la phrase secrète",
+    "mismatch": "Les phrases secrètes ne correspondent pas",
+    "keep": "Conserver",
+    "copies": {
+      "one": "copie",
+      "other": "copies"
+    },
+    "save": "Enregistrer",
+    "switchTo": "Passer à {kind}",
+    "remove": "Supprimer",
+    "removed": "Sauvegarde automatique supprimée",
+    "done": "Sauvegardé"
+  }
+}

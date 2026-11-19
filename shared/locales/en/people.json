@@ -1,0 +1,89 @@
+{
+  "tab": {
+    "plans": "Plans",
+    "people": "People"
+  },
+  "stat": {
+    "owed": "Owed to me",
+    "owedSub": {
+      "one": "{count} person owes",
+      "other": "{count} people owe"
+    },
+    "allSettled": "Everyone's settled",
+    "received": "Total received",
+    "receivedSub": "Shared plans and paid-for, combined",
+    "count": "People",
+    "countSub": "Shared plans: {share}, Paid for: {proxy}"
+  },
+  "empty": {
+    "title": "No people yet",
+    "body": "Add members to a shared plan or set who a proxy payment is for — everyone shows up here with what they owe you."
+  },
+  "card": {
+    "noContact": "No contact",
+    "nothing": "Not in any plan",
+    "past": {
+      "one": "Plus {count} that has ended",
+      "other": "Plus {count} that have ended"
+    }
+  },
+  "kind": {
+    "share": "Shared plan",
+    "proxy": "Paid for"
+  },
+  "item": {
+    "noPay": "No payments yet",
+    "owedPeriods": {
+      "one": "{count} period owed",
+      "other": "{count} periods owed"
+    },
+    "left": "Left",
+    "ended": "Stopped"
+  },
+  "sheet": {
+    "owed": "Owed",
+    "received": "Total received",
+    "last": "Last payment",
+    "in": {
+      "one": "In {count} plan",
+      "other": "In {count} plans"
+    },
+    "inEmpty": "Not in any shared plan or proxy payment. You can delete this person.",
+    "profile": "Profile",
+    "notePh": "e.g. coworker, pays at month end",
+    "color": "Color",
+    "customColor": "Custom color",
+    "syncFoot": {
+      "one": "Name and contact changes apply everywhere this person appears ({count} place).",
+      "other": "Name and contact changes apply everywhere this person appears ({count} places)."
+    },
+    "merge": "Merge into",
+    "mergePick": "Choose…",
+    "mergeConfirm": "Merge “{from}” into “{into}”? All of {from}'s plans and payments move to {into}, keeping {into}'s name and contact.",
+    "merged": "Merged into {name}",
+    "accountMissing": "This membership no longer exists. Reopen the person to refresh."
+  },
+  "pick": {
+    "new": "New person",
+    "aria": "Choose a person"
+  },
+  "field": {
+    "person": "Person",
+    "editProfile": "Edit person",
+    "noContact": "No contact"
+  },
+  "avatar": {
+    "label": "Avatar",
+    "change": "Change avatar",
+    "help": "Click, drop or paste a PNG, JPEG or WebP image (up to 8 MB).",
+    "remove": "Remove avatar",
+    "fallbackColor": "Fallback color"
+  },
+  "list": {
+    "none": "No matching people"
+  },
+  "add": {
+    "saved": "Person added",
+    "exists": "“{name}” already exists in People"
+  }
+}

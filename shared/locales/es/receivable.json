@@ -1,0 +1,71 @@
+{
+  "periods": "Pagos que cubre",
+  "periodsSpan": {
+    "one": "{count} pago, {from} – {until}",
+    "other": "{count} pagos, {from} – {until}"
+  },
+  "periodsCount": {
+    "one": "{count} pago",
+    "other": "{count} pagos"
+  },
+  "unmatched": "Pago desde {date} (ya no está en el calendario)",
+  "unmatchedHint": "Cambió la fecha de ingreso o el ciclo de cobro. Desmárcalo y elige los pagos actuales.",
+  "unmatchedNote": {
+    "one": "{count} registro ya no coincide con el calendario. Ábrelo para elegir pagos.",
+    "other": "{count} registros ya no coinciden con el calendario. Ábrelos para elegir pagos."
+  },
+  "modeWaiver": "Condonar",
+  "record": "Registrar cobro",
+  "waive": "Condonar pagos",
+  "actual": "Importe recibido",
+  "waiverGroup": "Condonación",
+  "receivedOn": "Recibido el",
+  "waivedOn": "Acordado el",
+  "amount": "Importe",
+  "currency": "Moneda",
+  "note": "Nota",
+  "notePh": "Opcional, p. ej. forma de transferencia",
+  "splitFoot": "Si un cobro cubre varios pagos, se reparte en proporción a lo que debe cada uno.",
+  "waiverFoot": "Los pagos condonados ni se deben ni cuentan como dinero recibido.",
+  "dueFoot": "Estos pagos suman {amount}. Se registra el importe real.",
+  "allSettled": "Todo saldado",
+  "more": "Mostrar más pagos próximos",
+  "opening": "Saldado antes del registro",
+  "openingHint": "Los pagos hasta esta fecha sin cobro registrado se consideran saldados antes de empezar el registro (no cuentan como dinero recibido).",
+  "waived": "Condonado",
+  "toastReceived": "Cobro de {amount} registrado",
+  "toastWaived": {
+    "one": "{count} pago condonado",
+    "other": "{count} pagos condonados"
+  },
+  "toastRemoved": "Eliminado. Estos pagos vuelven a estar pendientes",
+  "chargedClear": "Precio del plan",
+  "action": "Acción",
+  "actions": {
+    "record": "Registrar cobro",
+    "waive": "Condonar",
+    "update": "Editar registro",
+    "delete": "Eliminar registro",
+    "charged": "Corregir cargo"
+  },
+  "status": {
+    "paid": "Pagado",
+    "waived": "Condonado",
+    "free": "Gratis",
+    "due": "Pendiente",
+    "upcoming": "Aún no vence",
+    "this": "Este cobro"
+  },
+  "grid": {
+    "year": "{year}",
+    "quarter": "{year} Q{quarter}",
+    "due": "Importe a cobrar"
+  },
+  "batch": {
+    "one": "{amount} para {count} pago",
+    "other": "{amount} repartido en {count} pagos"
+  },
+  "splitEdit": "Al guardar, este periodo se separa del pago original; los demás no cambian.",
+  "dueOverrideFoot": "Solo cambia este periodo. Guárdalo vacío para volver a la tarifa estándar.",
+  "dueSaved": "Importe adeudado de este periodo actualizado"
+}

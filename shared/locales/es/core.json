@@ -1,0 +1,252 @@
+{
+  "currency": {
+    "SLE": "leona sierraleonesa",
+    "XCG": "Florín caribeño",
+    "ZWG": "Oro de Zimbabue"
+  },
+  "bill": {
+    "m1": "Mensual",
+    "m3": "Trimestral",
+    "m6": "Semestral",
+    "m12": "Anual",
+    "custom": {
+      "one": "Cada {count} mes",
+      "other": "Cada {count} meses"
+    },
+    "once": "Único"
+  },
+  "cycle": {
+    "lifetime": "De por vida",
+    "once": "una vez",
+    "every": {
+      "day": "Diario",
+      "week": "Semanal",
+      "month": "Mensual",
+      "year": "Anual"
+    },
+    "quarterly": "Trimestral",
+    "halfYearly": "Semestral",
+    "biennial": "Cada 2 años",
+    "everyN": {
+      "day": {
+        "one": "Cada {count} día",
+        "other": "Cada {count} días"
+      },
+      "week": {
+        "one": "Cada {count} semana",
+        "other": "Cada {count} semanas"
+      },
+      "month": {
+        "one": "Cada {count} mes",
+        "other": "Cada {count} meses"
+      },
+      "year": {
+        "one": "Cada {count} año",
+        "other": "Cada {count} años"
+      }
+    }
+  },
+  "subError": {
+    "name": "El nombre es obligatorio",
+    "price": "Precio no válido",
+    "paymentCurrency": "La moneda del pago debe coincidir con la del plan",
+    "start": "Fecha de inicio no válida",
+    "cycle": "Ciclo de facturación no válido",
+    "refundAmount": "Introduce un importe positivo y una moneda válida",
+    "refundDate": "Indica la salida; el reembolso no puede ser anterior al ingreso",
+    "funding": "División de pago no válida: usa al menos dos métodos de pago distintos con importes distintos de cero y no asignes un único método al mismo cargo",
+    "fundingSum": "Los importes divididos deben sumar el importe del pago",
+    "transfer": "Traspaso no válido: se requieren tipo, fecha, importe positivo y moneda",
+    "meter": "Medidor no válido: necesita un id único y un nombre",
+    "reading": "Registro de uso no válido: necesita un id único, una fecha válida y valores numéricos",
+    "meterLink": "El medidor vinculado no existe o también es un vínculo a otro medidor",
+    "meterLinkUsed": "«{meter}» está vinculado desde «{name}»; elimina primero ese vínculo",
+    "readingMeter": "Un registro de uso hace referencia a un medidor no definido"
+  },
+  "phase": {
+    "switchTooEarly": "La fecha de entrada en vigor debe ser posterior al inicio de la fase actual",
+    "resumeNeedsStopDate": "Introduce la fecha real de baja y guarda antes de reanudar",
+    "resumeTooEarly": "La fecha de reanudación no puede ser anterior a la última fecha de fin",
+    "prependTooLate": "La fase anterior debe empezar antes del inicio de la suscripción",
+    "prependUntil": "La fase anterior debe terminar después de empezar y antes de la fecha de inicio original",
+    "priceOutOfRange": "La fecha del cambio de precio no está dentro de ninguna fase",
+    "keepTooEarly": "La fecha hasta la que se mantiene debe ser posterior a la del cambio",
+    "endTooEarly": "La fecha de fin debe ser posterior al inicio de esta fase",
+    "endOnNextStart": "La fecha de fin es el último día de servicio y no puede coincidir con el inicio de la siguiente fase; déjala vacía o usa el día anterior para continuar",
+    "startOrder": "El inicio debe ser posterior al de la fase anterior y anterior al de la siguiente.",
+    "priceDuplicate": "Ya existe un precio en esta fecha",
+    "priceInitial": "No se puede eliminar el precio inicial",
+    "upgradeUnavailable": "Este cambio no puede acreditar el plan anterior: debe estar ya en vigor, usar la misma moneda y pago por adelantado, y al plan anterior deben quedarle días sin usar. Mantener la fecha de cobro también requiere el mismo ciclo."
+  },
+  "event": {
+    "label": "{region}{price}/{per}",
+    "region": "{region} ",
+    "per": {
+      "year": "año",
+      "month": "mes",
+      "months": "{count} meses",
+      "week": "sem",
+      "day": "día"
+    }
+  },
+  "listSep": ", ",
+  "insight": {
+    "yearly": {
+      "title": {
+        "one": "{count} suscripción de largo plazo se renueva en los próximos 60 días",
+        "other": "{count} suscripciones de largo plazo se renuevan en los próximos 60 días"
+      },
+      "body": "Unos {sum} en total. Los cobros anuales son difíciles de reembolsar, así que es buen momento para decidir cuáles conservar."
+    },
+    "dup": {
+      "title": "{names} podrían estar duplicadas",
+      "body": {
+        "one": "Esta suscripción cuesta unos {sum} al mes. Comprueba si todavía la necesitas.",
+        "other": "Estas {count} suscripciones cuestan unos {sum} al mes en total. Comprueba si todavía las necesitas todas."
+      }
+    },
+    "hikes": {
+      "title": {
+        "one": "{count} suscripción subió de precio el último año",
+        "other": "{count} suscripciones subieron de precio el último año"
+      }
+    },
+    "intro": {
+      "title": {
+        "one": "La promoción de {name} termina en {count} día",
+        "other": "La promoción de {name} termina en {count} días"
+      },
+      "body": "Después, el precio pasará de {from} a {to}."
+    },
+    "balance": {
+      "title": "{name} no alcanzará hasta el {date}",
+      "body": "{sub} necesita {need} y para entonces solo quedarán {current}.",
+      "bodyOver": "{sub} necesita {need} y el saldo ya está en {current}.",
+      "bodyToday": "Tras el cobro de hoy de {sub} ({need}), el saldo es {current}."
+    },
+    "fx": {
+      "title": "El {pct}% del gasto es en monedas extranjeras",
+      "body": "La principal es {ccy} ({share}%). Esta parte se abarata cuando {ccy} se debilita y se encarece cuando se fortalece."
+    },
+    "noMethod": {
+      "title": {
+        "one": "{count} suscripción no tiene método de pago",
+        "other": "{count} suscripciones no tienen método de pago"
+      },
+      "body": "Añade uno para que las previsiones de saldo y las estadísticas por método estén completas."
+    },
+    "top": {
+      "title": "{name} es tu suscripción más cara",
+      "body": "Unos {perDay} al día, el {pct}% del gasto mensual."
+    }
+  },
+  "methodKind": {
+    "debit": "Tarjeta bancaria",
+    "credit": "Tarjeta de crédito",
+    "alipay": "Alipay",
+    "wechat": "WeChat Pay",
+    "paypal": "PayPal",
+    "appstore": "App Store",
+    "googleplay": "Google Play",
+    "giftcard": "Tarjeta regalo",
+    "prepaid": "Saldo de tienda",
+    "phone": "Saldo móvil",
+    "crypto": "Tarjeta cripto",
+    "other": "Otro"
+  },
+  "publicMethod": "{kind}\n{region}",
+  "channel": {
+    "email": "Correo electrónico"
+  },
+  "csv": {
+    "appStoreBalance": "Saldo de App Store {region}",
+    "otherCategory": "Otros"
+  },
+  "category": {
+    "ai": "IA",
+    "tools": "Herramientas",
+    "productivity": "Productividad",
+    "media": "Vídeo",
+    "music": "Música",
+    "games": "Juegos",
+    "cloud": "Nube y servidores",
+    "storage": "Almacenamiento",
+    "domains": "Dominios",
+    "vpn": "VPN y red",
+    "developer": "Desarrollo",
+    "design": "Diseño",
+    "education": "Educación",
+    "news": "Noticias y lectura",
+    "social": "Redes sociales",
+    "shopping": "Compras",
+    "finance": "Finanzas",
+    "insurance": "Seguros",
+    "health": "Salud y fitness",
+    "phone": "Telefonía",
+    "daily": "Estilo de vida"
+  },
+  "stop": {
+    "title": "Detener servicio",
+    "nonrenew": "No renovar",
+    "cancel": "Detener ahora",
+    "terminate": "Desactivado por el proveedor",
+    "date": "Fecha de cese",
+    "paidThrough": "Pagado hasta {date}",
+    "refundYes": "Con reembolso",
+    "refundNo": "Sin reembolso",
+    "refundAmount": "Importe reembolsado",
+    "refundDate": "Fecha de reembolso",
+    "reason": "Motivo (opcional)",
+    "refunded": "Reembolsado {money}",
+    "partial": "Reembolso parcial {money}",
+    "unrefunded": "Sin reembolso\nPérdida {money}",
+    "unused": "Pérdida no reembolsada: {money} ({days})",
+    "unusedTitle": "Sin reembolso",
+    "terminated": "Desactivado",
+    "restore": "Reactivar",
+    "fxMissing": "Algunas pérdidas no se pueden convertir porque faltan tipos de cambio. Los importes originales se conservan en el detalle.",
+    "lossTitle": "Pérdida no reembolsada",
+    "lossDays": {
+      "one": "{count} día",
+      "other": "{count} días"
+    },
+    "fullyRefunded": "Reembolso completo",
+    "chargeOnEnd": "Ese día aún se cobra la renovación. Elige el día anterior para evitarlo.",
+    "nonrenewDone": "No se renovará. Sin cargos después del {date}.",
+    "stoppedDone": "Servicio detenido",
+    "method": "Forma de baja",
+    "latestRefundHint": "Estos campos editan el último reembolso. Los anteriores se conservan en el historial de pagos."
+  },
+  "renewal": {
+    "title": "Reglas de renovación",
+    "chargeLeadDays": "Cobro anticipado",
+    "cancelLeadDays": "Cancelación anticipada",
+    "nextDue": "Próximo cobro",
+    "hint": "Cobro antes de renovar y cancelación antes de ese cobro. Indica los días; 0 significa ninguno. Los períodos no cambian.",
+    "cancelBy": "Fecha límite de cancelación",
+    "invalid": "Introduce un número entero de 0 a 3660 días.",
+    "tooLate": "El plazo de cancelación ha vencido. Se cobrará el siguiente período.",
+    "cancelReminder": "Cancela antes del {date} para evitar el próximo cobro.",
+    "none": "Ninguno"
+  },
+  "import": {
+    "invalid": "No se pudo leer este archivo como datos de suscripciones.",
+    "tooLarge": "Elige un archivo de hasta 32 MB.",
+    "pending": "Esta copia tiene cambios pendientes. Crea primero una copia coherente de la base de datos.",
+    "currency": "Elige la moneda; el símbolo es ambiguo o no compatible.",
+    "cycle": "Elige un ciclo de facturación válido.",
+    "price": "Introduce un importe válido no negativo.",
+    "date": "Introduce una fecha válida.",
+    "selectUser": "Elige una cuenta de esta copia.",
+    "payers": "Pagado por",
+    "unknownStart": "Se desconoce la fecha original; el registro empieza en la fecha seleccionada.",
+    "manual": "Renovación manual en el origen; se importa en pausa.",
+    "reviewRequired": "Abre el archivo mediante Importar datos para revisar los campos.",
+    "badDate": "{field} original «{value}» no reconocido; no se importó",
+    "nextDue": "fecha del próximo pago",
+    "end": "fecha de fin"
+  },
+  "fxIncomplete": "Algunos importes no se pueden convertir porque faltan tipos de cambio, así que el resultado está incompleto.",
+  "fxUnconverted": "Sin convertir: {amount}",
+  "fxOther": "y otras {count} monedas"
+}

@@ -1,0 +1,500 @@
+{
+  "title": "Pengaturan",
+  "days": {
+    "other": "{count} hari"
+  },
+  "logout": "Keluar",
+  "toast": {
+    "saved": "Disimpan",
+    "deleted": "Dihapus",
+    "csvEmpty": "Tidak ada langganan untuk diimpor di CSV ini",
+    "badBackup": "Bukan file cadangan yang valid"
+  },
+  "general": {
+    "title": "Umum",
+    "language": "Bahasa",
+    "followSystem": "Ikuti sistem",
+    "name": "Nama",
+    "namePlaceholder": "Ditampilkan di gambar bagikan dan halaman publik",
+    "avatar": "Avatar",
+    "avatarDefault": "Ikon bawaan",
+    "startPage": "Buka ke",
+    "startPageAria": "Halaman awal",
+    "baseCurrency": "Mata uang dasar",
+    "signedAmounts": "Tanda pemasukan dan pengeluaran",
+    "gainColor": "Warna untung/rugi",
+    "gainGreen": "Hijau untung, merah rugi",
+    "gainRed": "Merah untung, hijau rugi",
+    "timezone": "Zona waktu",
+    "weekStart": "Minggu dimulai pada",
+    "weekStartAria": "Hari pertama dalam minggu",
+    "monday": "Senin",
+    "sunday": "Minggu",
+    "telemetry": "Statistik penggunaan anonim",
+    "telemetryForcedOff": "Dinonaktifkan untuk instalasi ini",
+    "telemetryNote": "Hanya menghitung penggunaan dan info versi. Langganan, nominal, dan data buku catatan Anda tidak pernah dikumpulkan."
+  },
+  "sidebar": {
+    "thisMonth": "Bulan ini",
+    "dragFoot": "Seret pegangan untuk mengurutkan; bilah samping mengikuti urutan ini.",
+    "title": "Bilah samping",
+    "upcoming": "Tagihan mendatang",
+    "lookAhead": "Rentang ke depan",
+    "lookAheadAria": "Rentang tagihan mendatang"
+  },
+  "remind": {
+    "title": "Pengingat",
+    "lead": "Ingatkan saya",
+    "sameDay": "Pada hari itu",
+    "never": "Tidak pernah",
+    "hour": "Kirim pukul",
+    "monthly": "Pratinjau bulanan tiap tanggal 1",
+    "test": "Kirim pengingat uji ke semua saluran",
+    "testFailed": "Gagal mengirim",
+    "channelError": "{channel}: {error}",
+    "errorSep": "; ",
+    "testSent": "Pengingat uji terkirim",
+    "preview": "Pratinjau pengingat hari ini",
+    "log": "Log pengiriman"
+  },
+  "today": {
+    "recent": "Baru dikirim",
+    "title": "Hari ini ({day})",
+    "items": {
+      "other": "{count} item"
+    }
+  },
+  "books": {
+    "title": "Pembukuan",
+    "defaultMethod": "Metode pembayaran default",
+    "unassigned": {
+      "other": "{count} langganan belum punya metode pembayaran"
+    },
+    "assignAllDone": {
+      "other": "{count} langganan diatur ke metode pembayaran default"
+    },
+    "assignAll": "Pakai default untuk semua",
+    "collectCurrency": "Mata uang paket bersama"
+  },
+  "fx": {
+    "title": "Kurs",
+    "current": "Kurs saat ini",
+    "updatedAt": "Diperbarui {time}",
+    "updated": "Kurs diperbarui",
+    "history": "Kurs historis",
+    "earliest": "Sejak {date}",
+    "coverage": {
+      "other": "{covered} / {count} hari"
+    },
+    "fill": "Lengkapi kurs yang kosong",
+    "historyUpdated": "Kurs historis diperbarui"
+  },
+  "open": {
+    "publicSubs": "Langganan yang ditampilkan",
+    "publicSubsHint": "Langganan yang dibayarkan untuk orang lain tetap privat. Langganan baru ditampilkan secara publik secara default.",
+    "publicShown": "Ditampilkan\n{count}",
+    "publicOff2": "Disembunyikan\n{count}",
+    "publicShowAll": "Tampilkan semua",
+    "publicHideAll": "Sembunyikan semua",
+    "publicHideOne": "Sembunyikan {name}",
+    "publicShowOne": "Tampilkan {name}",
+    "publicNone": "Tidak ada yang ditampilkan, halaman publik akan kosong",
+    "title": "Berbagi & akses",
+    "ics": "Langganan di kalender sistem",
+    "on": "Aktif",
+    "off": "Mati",
+    "public": "Halaman publik",
+    "publicOn": "Halaman publik aktif",
+    "publicOff": "Halaman publik mati",
+    "publicTitle": "Judul halaman",
+    "previewPublic": "Pratinjau halaman publik",
+    "ai": "Akses AI (MCP)",
+    "aiOn": "Akses AI aktif",
+    "aiOff": "Akses AI mati. Asisten AI tidak bisa terhubung lagi.",
+    "manageAi": "Kelola token dan penyiapan"
+  },
+  "data": {
+    "title": "Data",
+    "importCsv": "Impor data",
+    "restore": "Pulihkan dari cadangan",
+    "exportCsv": "Ekspor CSV",
+    "backup": "Ekspor cadangan lengkap"
+  },
+  "restore": {
+    "cancel": "Batal",
+    "replace": "Ganti buku catatan saat ini",
+    "done": "Dipulihkan",
+    "warning": "Buku catatan Anda saat ini akan diganti sepenuhnya oleh cadangan. Tindakan ini tidak bisa diurungkan — sebaiknya ekspor cadangan dulu.",
+    "subs": "Langganan",
+    "methods": "Metode pembayaran",
+    "count": {
+      "other": "{count}"
+    },
+    "time": "Dicadangkan",
+    "format": "Format",
+    "legacy": "Cadangan lama: hanya langganan dan metode pembayaran",
+    "unlock": "Buka kunci",
+    "wrongPassphrase": "Frasa sandi salah"
+  },
+  "import": {
+    "title": {
+      "other": "Impor {count} langganan"
+    },
+    "confirmReplace": "Mengganti akan menghapus semua langganan dan metode pembayaran yang ada. Lanjutkan?",
+    "replaceDone": "Diimpor (diganti)",
+    "replaceAll": "Ganti semua",
+    "mergeDone": "Diimpor (digabung)",
+    "merge": "Tambahkan ke yang ada",
+    "newMethods": "Metode pembayaran baru akan dibuat: {names}",
+    "sep": ", ",
+    "history": "Tagihan hanya diperkirakan sejak tanggal impor. Riwayat sebelumnya tidak dibuat ulang.",
+    "owner": "Akun dalam cadangan",
+    "choose": "Pilih…",
+    "independent": "Langganan bernama sama tetap terpisah.",
+    "include": "Sertakan",
+    "every": "Setiap",
+    "next": "Pembayaran berikutnya",
+    "paused": "Diimpor sebagai dijeda; periksa sebelum melanjutkan.",
+    "reading": "Membaca file…",
+    "formats": "CSV, cadangan ZIP, atau basis data SQLite"
+  },
+  "channels": {
+    "title": {
+      "other": "Saluran notifikasi\n{count} aktif"
+    },
+    "empty": "Belum ada saluran — pengingat tidak akan dikirim.",
+    "test": "Uji",
+    "testFailed": "Gagal mengirim",
+    "testSent": "Pesan uji terkirim",
+    "add": "Tambah saluran",
+    "addKind": "Tambah {name}",
+    "delete": "Hapus",
+    "save": "Simpan",
+    "fillField": "Masukkan {field}",
+    "name": "Nama",
+    "optional": "Opsional",
+    "enabled": "Aktif",
+    "field": {
+      "to": "Alamat email",
+      "webhook": "URL webhook",
+      "server": "Server",
+      "token": "Token akses"
+    },
+    "kind": {
+      "email": {
+        "name": "Email",
+        "help": "Dikirim lewat Cloudflare Email Sending; domain Anda harus terverifikasi di Cloudflare"
+      },
+      "telegram": {
+        "chatIdPlaceholder": "ID pengguna atau ID grup Anda",
+        "help": "Buat bot dengan @BotFather untuk mendapatkan token. Kirim pesan ke bot Anda dulu, lalu gunakan @userinfobot untuk mengetahui ID Anda"
+      },
+      "lark": {
+        "name": "Lark (Feishu)",
+        "secret": "Secret penandatanganan",
+        "secretPlaceholder": "Wajib jika verifikasi tanda tangan aktif",
+        "help": "Pengaturan grup → Bot → Tambah bot kustom"
+      },
+      "dingtalk": {
+        "name": "DingTalk",
+        "secret": "Secret penandatanganan",
+        "secretPlaceholder": "SEC…, wajib jika penandatanganan aktif",
+        "help": "Pengaturan grup → Bot → Bot kustom"
+      },
+      "wecom": {
+        "name": "WeCom",
+        "help": "Chat grup → Tambah bot grup"
+      },
+      "bark": {
+        "keyPlaceholder": "Kunci yang disalin dari aplikasi",
+        "help": "Notifikasi push iPhone — cari Bark di App Store"
+      },
+      "ntfy": {
+        "topicPlaceholder": "Pilih nama yang sulit ditebak",
+        "help": "Pasang aplikasi ntfy di ponsel dan langgan topik yang sama"
+      },
+      "serverchan": {
+        "name": "ServerChan",
+        "keyPlaceholder": "SCT… atau sctp…",
+        "help": "Push ke WeChat (ServerChan Turbo / ³)"
+      },
+      "discord": {
+        "help": "Pengaturan saluran → Integrasi → Webhook"
+      },
+      "webhook": {
+        "name": "Webhook kustom",
+        "header": "Header tambahan",
+        "help": "POST JSON: subject, intro, sections, text, markdown, url"
+      }
+    }
+  },
+  "security": {
+    "title": "Keamanan",
+    "unknownBrowser": "Browser tidak dikenal",
+    "ago": {
+      "justNow": "Aktif baru saja",
+      "minutes": {
+        "other": "{count} menit lalu"
+      },
+      "hours": {
+        "other": "{count} jam lalu"
+      },
+      "days": {
+        "other": "{count} hari lalu"
+      }
+    },
+    "thisDevice": "Perangkat ini",
+    "signedInPasskey": "Masuk dengan passkey pada {time}",
+    "signedInPassword": "Masuk dengan kata sandi pada {time}",
+    "revoke": "Keluarkan",
+    "revoked": "Dikeluarkan",
+    "lastUsed": "Terakhir dipakai {time}",
+    "addedAt": "Ditambahkan {time}",
+    "remove": "Hapus",
+    "rename": "Ganti nama",
+    "removed": "Dihapus",
+    "addPasskey": "Tambah passkey",
+    "alreadyBound": "Perangkat ini sudah memiliki passkey",
+    "changePassword": "Ubah kata sandi",
+    "devices": "Perangkat yang masuk",
+    "devicesCount": {
+      "other": "Perangkat yang masuk\n{count}"
+    },
+    "maxSessions": "Maks. perangkat yang masuk",
+    "maxSessionsSaved": {
+      "other": "Hingga {count} perangkat"
+    },
+    "deviceCount": {
+      "other": "{count} perangkat"
+    },
+    "confirmLogoutOthers": "Keluarkan semua perangkat lain?",
+    "loggedOutOthers": "Perangkat lain telah dikeluarkan",
+    "logoutOthers": "Keluarkan semua perangkat lain",
+    "passwordChanged": "Kata sandi diubah. Perangkat lain telah dikeluarkan.",
+    "save": "Simpan",
+    "mismatch": "Kata sandi tidak cocok",
+    "passwordFoot": "Minimal 8 karakter. Mengubahnya akan mengeluarkan semua perangkat kecuali yang ini.",
+    "currentPassword": "Kata sandi saat ini",
+    "newPassword": "Kata sandi baru",
+    "confirmPassword": "Konfirmasi kata sandi baru"
+  },
+  "cat": {
+    "title": "Kategori",
+    "manage": "Kelola kategori",
+    "count": {
+      "other": "{count} kategori"
+    },
+    "subs": {
+      "other": "{count} langganan"
+    },
+    "unused": "Tidak dipakai",
+    "foot": "Seret untuk mengurutkan. Mengganti nama kategori akan memperbarui semua langganan di dalamnya.",
+    "add": "Kategori baru",
+    "edit": "Edit kategori",
+    "name": "Nama",
+    "namePlaceholder": "Nama kategori",
+    "color": "Warna",
+    "icon": "Ikon",
+    "search": "Cari ikon",
+    "noMatch": "Tidak ada ikon yang cocok",
+    "delete": "Hapus kategori",
+    "moveTo": {
+      "other": "Pindahkan {count} langganannya ke"
+    },
+    "dragHandle": "Seret untuk mengurutkan",
+    "toast": {
+      "created": "Kategori ditambahkan",
+      "saved": "Kategori disimpan",
+      "renamed": {
+        "other": "Kategori disimpan\n{count} langganan diperbarui"
+      },
+      "deleted": "Kategori dihapus",
+      "order": "Urutan disimpan"
+    },
+    "error": {
+      "empty": "Masukkan nama",
+      "duplicate": "Kategori bernama “{name}” sudah ada"
+    },
+    "group": {
+      "common": "Umum",
+      "tech": "Teknologi",
+      "media": "Hiburan",
+      "work": "Kerja",
+      "money": "Belanja & uang",
+      "life": "Rumah & hidup",
+      "food": "Makan & minum",
+      "health": "Kesehatan & olahraga",
+      "travel": "Perjalanan",
+      "people": "Orang & belajar"
+    }
+  },
+  "publicPage": {
+    "title": "Edit halaman publik",
+    "access": "Akses publik",
+    "back": "Kembali ke pengaturan",
+    "reset": "Pulihkan default",
+    "leave": "Ada perubahan yang belum disimpan. Tetap keluar?",
+    "leaveOk": "Keluar",
+    "head": "Header",
+    "browserTitle": "Judul browser",
+    "avatarFollow": "Gunakan avatar global",
+    "avatarLinkHint": "Browser pengunjung langsung meminta alamat ini, sehingga host-nya dapat melihat IP mereka.",
+    "bio": "Teks",
+    "bioPlaceholder": "Tampil di bawah judul. Baris baru dipertahankan; tidak diterjemahkan.",
+    "sections": "Bagian",
+    "remove": "Hapus",
+    "emptyCard": "Belum ada data. Pengunjung tidak akan melihat kartu ini.",
+    "editTab": "Pengaturan",
+    "previewTab": "Pratinjau",
+    "desktop": "Desktop",
+    "phone": "Ponsel",
+    "library": {
+      "metrics": "Angka",
+      "charts": "Grafik",
+      "lists": "Daftar dan waktu",
+      "bottom": "Bagian bawah halaman"
+    },
+    "hintDrag": "Seret komponen ke halaman, atau klik untuk menambahkannya di bawah.",
+    "hintTap": "Ketuk untuk menambahkan di bawah halaman.",
+    "backToLibrary": "Kembali ke komponen",
+    "headHint": "Klik judul, teks, atau avatar di halaman untuk mengeditnya. Klik tombol tema untuk menyembunyikan atau menampilkannya.",
+    "autoSnap": "Rapat otomatis",
+    "freePlace": "Bebas",
+    "themeButton": "Tombol tema",
+    "themeHide": "Sembunyikan tombol tema",
+    "themeShow": "Tampilkan tombol tema (tersembunyi dari pengunjung)",
+    "metricCard": "Kartu metrik",
+    "template": "Gaya",
+    "metricData": "Data yang ditampilkan",
+    "addMetric": "Tambah nilai lain",
+    "widget": {
+      "stats": {
+        "name": "Ringkasan",
+        "desc": "Pengeluaran bulanan dan angka utama"
+      },
+      "number": {
+        "name": "Angka",
+        "desc": "Satu angka, tampil besar"
+      },
+      "trend": {
+        "name": "Tren",
+        "desc": "Angka dengan sparkline"
+      },
+      "compare": {
+        "name": "Perbandingan",
+        "desc": "Dibanding periode yang sama tahun lalu"
+      },
+      "share": {
+        "name": "Porsi",
+        "desc": "Porsi dari pengeluaran bulanan"
+      },
+      "rows": {
+        "name": "Baris",
+        "desc": "Hingga 4 angka sekaligus"
+      },
+      "chart": {
+        "name": "Grafik batang",
+        "desc": "Tagihan bulanan dan tren pengeluaran"
+      },
+      "composition": {
+        "name": "Komposisi",
+        "desc": "Pengeluaran per kategori"
+      },
+      "treemap": {
+        "name": "Treemap",
+        "desc": "Luas menunjukkan besar pengeluaran"
+      },
+      "waterfall": {
+        "name": "Perubahan bulanan",
+        "desc": "Yang ditambah, naik harga, atau dibatalkan"
+      },
+      "fx": {
+        "name": "Mata uang",
+        "desc": "Porsi mata uang dan pergerakan kurs"
+      },
+      "timeline": {
+        "name": "Linimasa",
+        "desc": "Tagihan hari demi hari"
+      },
+      "calendar": {
+        "name": "Kalender",
+        "desc": "Hari-hari yang ditagih"
+      },
+      "years": {
+        "name": "Linimasa langganan",
+        "desc": "Kapan setiap langganan berjalan"
+      },
+      "list": {
+        "name": "Daftar langganan",
+        "desc": "Semua yang sedang dipakai"
+      },
+      "tenure": {
+        "name": "Lama berlangganan",
+        "desc": "Rata-rata dan terlama"
+      },
+      "changes": {
+        "name": "Perubahan",
+        "desc": "Ditambah, berubah harga, dan dihentikan"
+      },
+      "ended": {
+        "name": "Dibatalkan",
+        "desc": "Yang dibatalkan dan harganya"
+      },
+      "lifetime": {
+        "name": "Sekali bayar",
+        "desc": "Pembelian sekali bayar"
+      },
+      "footer": {
+        "name": "Footer",
+        "desc": "Nama proyek dan versi"
+      },
+      "pile": {
+        "name": "Tumpukan ikon",
+        "desc": "Ikon berjatuhan di bawah halaman"
+      },
+      "globe": {
+        "name": "Bola dunia",
+        "desc": "Wilayah langganan aktif"
+      }
+    }
+  },
+  "update": {
+    "current": "Versi",
+    "available": "Pembaruan tersedia",
+    "check": "Periksa pembaruan",
+    "failed": "Gagal memeriksa",
+    "upToDate": "Terbaru",
+    "title": "Perbarui ke v{version}",
+    "copy": "Salin perintah",
+    "copied": "Perintah disalin",
+    "guide": "Panduan pembaruan",
+    "notes": "Catatan rilis"
+  },
+  "autobackup": {
+    "title": "Cadangan otomatis",
+    "off": "Mati",
+    "failed": "Pencadangan gagal",
+    "last": "Cadangan terakhir",
+    "never": "Belum ada cadangan",
+    "runNow": "Cadangkan sekarang",
+    "storage": "Penyimpanan",
+    "kind": "Cadangkan ke",
+    "endpoint": "Endpoint",
+    "bucket": "Bucket",
+    "folder": "Folder",
+    "kept": "Tersimpan",
+    "encryption": "Enkripsi",
+    "passphrase": "Frasa sandi",
+    "confirm": "Konfirmasi frasa sandi",
+    "mismatch": "Frasa sandi tidak cocok",
+    "keep": "Jumlah disimpan",
+    "copies": {
+      "other": "salinan"
+    },
+    "save": "Simpan",
+    "switchTo": "Beralih ke {kind}",
+    "remove": "Hapus",
+    "removed": "Cadangan otomatis dihapus",
+    "done": "Dicadangkan"
+  }
+}

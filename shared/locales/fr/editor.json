@@ -1,0 +1,283 @@
+{
+  "ph": {
+    "account": "E-mail, téléphone ou identifiant",
+    "phone": "Numéro de téléphone"
+  },
+  "overlap": {
+    "keep": "Garder l’ancien encore un temps",
+    "keepHint": "Déjà prépayé et pas encore expiré : les deux tournent en parallèle et sont facturés normalement",
+    "keepUntil": "L’ancien continue jusqu’au",
+    "endAuto": "Au début de la suivante",
+    "planned": "Prévu",
+    "parallel": {
+      "one": "Chevauche {count} jour",
+      "other": "Chevauche {count} jours"
+    },
+    "payPhase": "Rattaché à"
+  },
+  "addTitle": "Ajouter un abonnement",
+  "editTitle": "Modifier « {name} »",
+  "clearForm": "Vider le formulaire",
+  "revert": "Annuler les modifications",
+  "draftRestored": "Brouillon non enregistré restauré",
+  "confirmDelete": "Supprimer « {name} » ? Son historique sera également supprimé. Si vous avez simplement arrêté le renouvellement, choisissez plutôt « Arrêter ».",
+  "toast": {
+    "added": "Ajouté",
+    "saved": "Enregistré",
+    "deleted": "Supprimé"
+  },
+  "cycle": {
+    "w1": "Hebdomadaire",
+    "m1": "Mensuel",
+    "m3": "Trimestriel",
+    "m6": "Semestriel",
+    "y1": "Annuel",
+    "y2": "Tous les 2 ans",
+    "lt": "À vie",
+    "custom": "Personnalisé…"
+  },
+  "unit": {
+    "label": "Unité",
+    "every": "Tous les",
+    "day": {
+      "one": "jour",
+      "other": "jours"
+    },
+    "week": {
+      "one": "semaine",
+      "other": "semaines"
+    },
+    "month": {
+      "one": "mois",
+      "other": "mois"
+    },
+    "year": {
+      "one": "an",
+      "other": "ans"
+    }
+  },
+  "status": {
+    "active": "Actif",
+    "trial": "Essai",
+    "paused": "Suspendu",
+    "cancelled": "Résilié",
+    "terminated": "Désactivé",
+    "stop": "Arrêter"
+  },
+  "category": {
+    "choose": "Choisir une catégorie",
+    "new": "Nouvelle catégorie…"
+  },
+  "group": {
+    "billing": "Facturation",
+    "status": "Statut",
+    "who": "Qui l’utilise",
+    "links": "Liens et apparence",
+    "tags": "Tags et notes"
+  },
+  "field": {
+    "account": "Compte",
+    "phone": "Numéro",
+    "category": "Catégorie",
+    "amount": "Montant",
+    "currency": "Devise",
+    "cycle": "Cycle de facturation",
+    "method": "Moyen de paiement",
+    "purchased": "Date d’achat",
+    "start": "Date de début",
+    "region": "Région",
+    "trialEnd": "Fin de l’essai",
+    "end": "Se termine le",
+    "notSet": "Non défini",
+    "notes": "Notes",
+    "optional": "Facultatif",
+    "url": "Site web",
+    "manageUrl": "Page de gestion",
+    "icon": "Icône",
+    "auto": "Automatique",
+    "showDomain": "Afficher le domaine sur la page publique",
+    "showDomainOn": "Les visiteurs voient le domaine complet",
+    "showDomainOff": "Masqué sur la page publique",
+    "tagsPlaceholder": "Séparés par des espaces",
+    "notesPlaceholder": "Notes (facultatif)",
+    "pausedAt": "Date de pause",
+    "plan": "Formule",
+    "iconImported": "URL ou emoji pour remplacer",
+    "iconImage": "Icône image",
+    "iconUpload": "Importer",
+    "iconChange": "Changer l'icône",
+    "iconUploadHelp": "Importez un PNG/JPEG/WebP (8 Mo max.), réduit à 128 px ; vous pouvez aussi glisser ou coller une image",
+    "iconClear": "Effacer",
+    "iconUploadInvalid": "Image inutilisable : choisissez un PNG/JPEG/WebP de 8 Mo maximum",
+    "iconUploadTooLarge": "L’image dépasse encore 64 Ko après compression : essayez une image plus simple, comme un logo sur fond transparent",
+    "billing": "Paiement",
+    "settlement": "Suivre factures et paiements séparément"
+  },
+  "share": {
+    "none": "Moi seul",
+    "owner": "J’organise",
+    "member": "J’ai rejoint",
+    "proxy": "Je paie pour",
+    "memberHint": "Saisissez uniquement votre part",
+    "perHead": "{amount} par personne",
+    "ownerName": "Organisateur",
+    "ownerPlaceholder": "La personne que vous payez",
+    "perPeriod": "Part par période",
+    "paidUntil": "Payé jusqu’au",
+    "manageHint": "Après l’enregistrement, ouvrez ce plan dans Abonnements partagés pour ajouter des membres et enregistrer les paiements."
+  },
+  "proxy": {
+    "for": "Je paie pour",
+    "forPlaceholder": "Son nom",
+    "contact": "Contact",
+    "notePlaceholder": "ex. Collègue, paie en fin de mois"
+  },
+  "more": {
+    "title": "Plus d’options",
+    "intro": "Offre de lancement",
+    "bonus": "Période gratuite",
+    "remind": "Rappel",
+    "links": "Liens",
+    "tags": "Tags",
+    "notes": "Notes",
+    "summary": "Offre de lancement, période gratuite, rappel, liens, tags, notes",
+    "summaryLt": "Liens, tags, notes"
+  },
+  "intro": {
+    "has": "Offre de lancement",
+    "price": "Prix de lancement",
+    "until": "Fin de l’offre"
+  },
+  "bonus": {
+    "has": "Période gratuite",
+    "from": "Gratuit à partir du",
+    "until": "Gratuit jusqu’au",
+    "resume": "Reprise de la facturation le {date}",
+    "quick": {
+      "d7": "+7 jours",
+      "m1": "+1 mois",
+      "m3": "+3 mois",
+      "m6": "+6 mois",
+      "y1": "+1 an"
+    }
+  },
+  "remind": {
+    "days": "Me rappeler",
+    "default": {
+      "one": "Par défaut ({count} jour avant)",
+      "other": "Par défaut ({count} jours avant)"
+    },
+    "defaultSameDay": "Par défaut (le jour de l’échéance)",
+    "defaultNever": "Par défaut (jamais)",
+    "sameDay": "Le jour de l’échéance",
+    "before": {
+      "one": "{count} jour avant",
+      "other": "{count} jours avant"
+    },
+    "never": "Jamais"
+  },
+  "name": {
+    "placeholder": "Nom, ou collez un lien App Store",
+    "catalog": "Services populaires\nremplit le logo, la catégorie et le site"
+  },
+  "change": {
+    "title": "Historique et changements",
+    "needPrice": "Saisissez un prix",
+    "toast": {
+      "price": "Changement de prix noté. Touchez « {done} » pour l’appliquer.",
+      "switch": "Nouvelle phase ajoutée. Touchez « {done} » pour l’appliquer.",
+      "resume": "Réabonné. Touchez « {done} » pour l’appliquer."
+    },
+    "price": "Noter un changement de prix",
+    "switch": "Changer de région, de formule ou de moyen de paiement",
+    "resume": "Se réabonner",
+    "undo": "Annuler la dernière phase",
+    "priceDate": "Début du nouveau prix",
+    "switchDate": "Date d’effet du changement",
+    "resumeDate": "Réabonné le",
+    "newPrice": "Nouveau prix ({currency})",
+    "priceLabel": "Prix",
+    "planned": "Pas définitif, simplement prévu",
+    "plannedHint": "Toujours pris en compte dans les prévisions et marqué « Prévu » dans les détails. Confirmez ou annulez-le plus tard en un geste.",
+    "credit": "Créditer {amount} non utilisés de l’ancienne formule",
+    "renewal": "Prochain prélèvement {date}",
+    "renewalReset": "Nouveau cycle",
+    "renewalKeep": "Garder la date",
+    "firstPay": "Premier paiement ({currency})",
+    "adjustPay": "Différence ({currency})"
+  },
+  "history": {
+    "gapMonths": {
+      "one": "Interrompu {count} mois",
+      "other": "Interrompu {count} mois"
+    },
+    "gapDays": {
+      "one": "Interrompu {count} jour",
+      "other": "Interrompu {count} jours"
+    },
+    "plannedRange": "{start} → {end} (prévu)",
+    "plannedFrom": "À partir du {start} (prévu)",
+    "range": "{start} → {end}",
+    "now": "aujourd’hui",
+    "initial": "Initial",
+    "priceChange": "Changement de prix {date}",
+    "outsidePayments": "{count} paiement(s) existant(s) seront hors de la période de service. Continuer en conservant leurs dates, montants et phase ?",
+    "editPrice": "Modifier le prix à compter du {date}",
+    "deletePrice": "Supprimer ce prix ? Le prix précédent sera appliqué jusqu’au prochain changement.",
+    "repriceCharges": "L’enregistrement recalculera {count} prélèvements passés estimés. Les paiements enregistrés resteront inchangés. Continuer ?"
+  },
+  "payment": {
+    "addTitle": "Ajouter un paiement",
+    "editTitle": "Modifier le paiement",
+    "toast": {
+      "added": "Paiement ajouté",
+      "edited": "Paiement mis à jour",
+      "deleted": "Paiement supprimé"
+    },
+    "date": "Date",
+    "kind": {
+      "label": "Type",
+      "charge": "Prélèvement",
+      "refund": "Remboursement",
+      "adjust": "Ajustement",
+      "failed": "Prélèvement échoué"
+    },
+    "amount": "Montant ({currency})",
+    "refundHint": "Saisissez le montant remboursé ; il est enregistré en négatif",
+    "settledCcy": "Devise de la carte",
+    "settledAmount": "Montant sur la carte",
+    "orderAmount": "Montant de la commande",
+    "usageFoot": "Enregistré pour la période de facturation {period}",
+    "earlyHint": "Compté comme un renouvellement anticipé : règle la période du {settles}, la suivante le {next}.",
+    "earlyExtra": "C’est un frais supplémentaire",
+    "freezeHint": "Les prélèvements de cette phase sont actuellement estimés à partir du cycle de facturation. L’enregistrement transformera d’abord les prélèvements estimés de {amount} jusqu’à aujourd’hui en opérations réelles ; ensuite, ce sont les opérations qui font foi. Les prélèvements futurs ne changent pas.",
+    "method": "Moyen de paiement",
+    "scopeOne": "Ce débit uniquement",
+    "scopePhase": "Cette formule ({count})",
+    "scope": "Appliquer à",
+    "split": "Répartir le paiement",
+    "unsplit": "Un seul moyen",
+    "sources": "Payé avec",
+    "addSource": "Ajouter une source",
+    "splitOk": "Total {amount}",
+    "splitLeft": "Reste à répartir : {amount}"
+  },
+  "timeline": {
+    "home": "Revenir à aujourd’hui (ou double-cliquez sur la frise)"
+  },
+  "ai": {
+    "title": "Remplir avec l’IA",
+    "hint": "Collez un reçu, une capture ou du texte, le reste se fait tout seul",
+    "go": "Coller"
+  },
+  "plan": {
+    "choose": {
+      "one": "{count} formule App Store",
+      "other": "{count} formules App Store"
+    }
+  },
+  "billing": {
+    "prepaid": "Prépayé",
+    "postpaid": "Postpayé"
+  }
+}

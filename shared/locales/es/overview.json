@@ -1,0 +1,86 @@
+{
+  "title": "Resumen",
+  "add": "Nueva suscripción",
+  "footer": {
+    "one": "{count} suscripción activa\n{amount}/mes\n",
+    "other": "{count} suscripciones activas\n{amount}/mes\n"
+  },
+  "fullReport": "Ver informe completo",
+  "listSep": ", ",
+  "n": {
+    "subs": {
+      "one": "{count} suscripción",
+      "other": "{count} suscripciones"
+    },
+    "charges": {
+      "one": "{count} cobro",
+      "other": "{count} cobros"
+    }
+  },
+  "axis": {
+    "yearMonth": "{mon} '{yy}"
+  },
+  "timeline": {
+    "title": "Cronología",
+    "sub": "{past} cobrados en los últimos 30 días\n{next} en los próximos 30",
+    "past": "Últimos 30 días\n{amount}"
+  },
+  "spending": {
+    "title": "Gasto mensual",
+    "sub": "Las barras claras son previsiones",
+    "month": "Mensual",
+    "yearly": "Anual",
+    "year": "{year}",
+    "projected": "\nPrevisto",
+    "inProgress": "\nEn curso",
+    "paid": "\n{amount} cobrado",
+    "empty": "No hay cobros en este periodo",
+    "range": "{from} – {to}",
+    "period": {
+      "label": "Periodo",
+      "extended": "18 meses",
+      "year": "Este año",
+      "past12": "Últimos 12 meses",
+      "next12": "Próximos 12 meses",
+      "lastYear": "Año pasado",
+      "nextYear": "Próximo año"
+    },
+    "view": {
+      "bars": "Gráfico de barras",
+      "stream": "Gráfico de flujo"
+    }
+  },
+  "due": {
+    "title": "Próximos cargos",
+    "empty": "No hay cobros en los próximos 30 días",
+    "thisWeek": "Esta semana",
+    "later": "Más adelante",
+    "noMethod": "Sin método de pago"
+  },
+  "wallet": {
+    "title": "Cartera",
+    "manage": "Gestionar",
+    "balance": "Saldo {amount}\n{status}",
+    "covered": {
+      "one": "cubre {count} cobro más, recarga antes del {date}",
+      "other": "cubre {count} cobros más, recarga antes del {date}"
+    },
+    "mustTopUp": "recarga antes del {date}",
+    "enough": "suficiente para más de 3 años",
+    "noBalance": "Añade un saldo para ver cuánto durará",
+    "others": "También: {list}"
+  },
+  "tips": {
+    "warn": "Atención",
+    "info": "Consejo",
+    "good": "Dato curioso"
+  },
+  "stmt": {
+    "kicker": "Gasto en suscripciones este mes",
+    "hint": "Cargos del día 1 al final de este mes, cobrados y próximos; comparado con todo el mes pasado.",
+    "perDay": "Al día",
+    "active": "Activas",
+    "share": "{amount}/mes\n{pct}%",
+    "aria": "{name}, {amount} al mes"
+  }
+}

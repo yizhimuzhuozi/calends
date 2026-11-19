@@ -1,0 +1,82 @@
+{
+  "title": "Ringkasan",
+  "add": "Langganan baru",
+  "footer": {
+    "other": "{count} langganan aktif\n{amount}/bln\n"
+  },
+  "fullReport": "Lihat laporan lengkap",
+  "listSep": ", ",
+  "n": {
+    "subs": {
+      "other": "{count} langganan"
+    },
+    "charges": {
+      "other": "{count} tagihan"
+    }
+  },
+  "axis": {
+    "yearMonth": "{mon} '{yy}"
+  },
+  "timeline": {
+    "title": "Linimasa",
+    "sub": "{past} ditagih dalam 30 hari terakhir\n{next} jatuh tempo dalam 30 hari ke depan",
+    "past": "30 hari terakhir\n{amount}"
+  },
+  "spending": {
+    "title": "Pengeluaran bulanan",
+    "sub": "Batang yang lebih terang adalah perkiraan",
+    "month": "Bulanan",
+    "yearly": "Tahunan",
+    "year": "{year}",
+    "projected": "\nPerkiraan",
+    "inProgress": "\nBerjalan",
+    "paid": "\n{amount} sudah ditagih",
+    "empty": "Tidak ada tagihan dalam periode ini",
+    "range": "{from} – {to}",
+    "period": {
+      "label": "Periode",
+      "extended": "18 bulan",
+      "year": "Tahun ini",
+      "past12": "12 bulan terakhir",
+      "next12": "12 bulan ke depan",
+      "lastYear": "Tahun lalu",
+      "nextYear": "Tahun depan"
+    },
+    "view": {
+      "bars": "Diagram batang",
+      "stream": "Diagram aliran"
+    }
+  },
+  "due": {
+    "title": "Tagihan mendatang",
+    "empty": "Tidak ada tagihan dalam 30 hari ke depan",
+    "thisWeek": "Minggu ini",
+    "later": "Nanti",
+    "noMethod": "Tanpa metode pembayaran"
+  },
+  "wallet": {
+    "title": "Dompet",
+    "manage": "Kelola",
+    "balance": "Saldo {amount}\n{status}",
+    "covered": {
+      "other": "cukup untuk {count} tagihan lagi, top up sebelum {date}"
+    },
+    "mustTopUp": "top up sebelum {date}",
+    "enough": "cukup untuk 3+ tahun",
+    "noBalance": "Tambahkan saldo untuk melihat berapa lama akan bertahan",
+    "others": "Juga: {list}"
+  },
+  "tips": {
+    "warn": "Perhatian",
+    "info": "Tips",
+    "good": "Fakta menarik"
+  },
+  "stmt": {
+    "kicker": "Pengeluaran langganan bulan ini",
+    "hint": "Tagihan dari tanggal 1 hingga akhir bulan ini, yang sudah dan akan ditagih; dibandingkan dengan seluruh bulan lalu.",
+    "perDay": "Per hari",
+    "active": "Aktif",
+    "share": "{amount}/bln\n{pct}%",
+    "aria": "{name}, {amount} per bulan"
+  }
+}

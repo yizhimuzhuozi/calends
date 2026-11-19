@@ -1,0 +1,25 @@
+{
+  "close": "Cerrar",
+  "error": {
+    "loginRequired": "Inicia sesión primero",
+    "requestFailed": "La solicitud falló ({status})",
+    "wholeCurrency": "Los importes en {currency} deben ser números enteros",
+    "deletedElsewhere": "Este elemento se eliminó en otro lugar, así que tus cambios no se guardaron."
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "method": {
+    "none": "Sin definir"
+  },
+  "toolbar": {
+    "add": "Añadir suscripción"
+  },
+  "working": "Procesando…",
+  "undo": "Deshacer",
+  "restored": "Restaurado",
+  "loadFailed": "No se pudo cargar",
+  "retry": "Reintentar"
+}

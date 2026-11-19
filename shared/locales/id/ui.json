@@ -1,0 +1,25 @@
+{
+  "close": "Tutup",
+  "error": {
+    "loginRequired": "Silakan masuk terlebih dahulu",
+    "requestFailed": "Permintaan gagal ({status})",
+    "wholeCurrency": "Jumlah {currency} harus berupa bilangan bulat",
+    "deletedElsewhere": "Item ini dihapus di tempat lain, jadi perubahan Anda tidak disimpan."
+  },
+  "theme": {
+    "light": "Terang",
+    "dark": "Gelap",
+    "system": "Sistem"
+  },
+  "method": {
+    "none": "Belum diatur"
+  },
+  "toolbar": {
+    "add": "Tambah langganan"
+  },
+  "working": "Memproses…",
+  "undo": "Urungkan",
+  "restored": "Dipulihkan",
+  "loadFailed": "Gagal memuat",
+  "retry": "Coba lagi"
+}

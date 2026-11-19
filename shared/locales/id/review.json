@@ -1,0 +1,82 @@
+{
+  "title": "Bagikan ringkasan tahunan",
+  "titleAll": "Bagikan ringkasan sepanjang waktu",
+  "fileName": "langganan-{year}-kilas-balik-{style}.png",
+  "fileNameAll": "langganan-sepanjang-waktu-{style}.png",
+  "style": {
+    "poster": "Poster",
+    "receipt": "Struk",
+    "card": "Kartu",
+    "stars": "Sebaran pengeluaran"
+  },
+  "unassigned": "Belum ditentukan",
+  "me": "Saya",
+  "whose": "{name}",
+  "whoseSelf": "saya",
+  "topSpend": "Pengeluaran terbesar",
+  "ofYear": "{pct} dari pengeluaran tahunan",
+  "ofAll": "{pct} dari total pengeluaran",
+  "n": {
+    "subs": {
+      "other": "{count} langganan"
+    },
+    "charges": {
+      "other": "{count} tagihan"
+    },
+    "currencies": {
+      "other": "{count} mata uang"
+    }
+  },
+  "receipt": {
+    "shop": "Catatan langganan {whose}",
+    "asOf": "Ringkasan tahunan\nHingga {date}",
+    "fullYear": "Ringkasan tahun {year}",
+    "all": "Laporan kumulatif\nPer {date}",
+    "no": "No. {no}",
+    "item": "Item",
+    "share": "Bagian",
+    "amount": "Jumlah",
+    "rest": "{count} lainnya",
+    "count": "Item {items} / Tagihan {charges}",
+    "total": "TOTAL"
+  },
+  "poster": {
+    "kicker": "Ringkasan langganan tahunan {whose}",
+    "kickerAll": "Ringkasan langganan {whose} sepanjang waktu",
+    "ongoing": "{subs}\n{charges}",
+    "ongoingHidden": "{charges}\n{currencies}",
+    "year": "{subs}\n{charges}",
+    "yearHidden": "{charges}\n{currencies}",
+    "newEnded": "{added} baru\n{ended} berakhir",
+    "perDay": "Rata-rata {amount}/hari"
+  },
+  "card": {
+    "head": "Langganan {whose}",
+    "intro": {
+      "ongoing": "Pengeluaran tahun berjalan",
+      "ongoingHidden": "Langganan tahun berjalan",
+      "year": "Pengeluaran tahunan",
+      "yearHidden": "Langganan tahun ini",
+      "all": "Pengeluaran hingga kini",
+      "allHidden": "Langganan hingga kini"
+    },
+    "perDay": "Rata-rata {amount}/hari",
+    "longest": "Langganan terlama",
+    "duration": "{y} thn {m} bln",
+    "busiest": "Bulan dengan pengeluaran tertinggi",
+    "month": "{month}",
+    "newEnded": "Baru / berakhir",
+    "ended": "{count} berakhir",
+    "noneEnded": "Tidak ada yang berakhir",
+    "currencies": "Mata uang yang digunakan",
+    "currencyCount": "{count}",
+    "nowMonthly": "Biaya bulanan saat ini {amount}"
+  },
+  "stars": {
+    "head": "{year}\nPengeluaran langganan {whose}",
+    "foot": "Ukuran lingkaran menunjukkan pengeluaran"
+  },
+  "spendBasis": "Kas bersih bagian saya, termasuk pengembalian dana",
+  "stopLoss": "Kerugian tanpa pengembalian dana tahun ini: {amount}",
+  "stopLossAll": "Kerugian belum direfund hingga kini: {amount}"
+}

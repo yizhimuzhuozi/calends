@@ -1,0 +1,202 @@
+{
+  "title": "Bericht",
+  "shareReview": "Rückblick {year} teilen",
+  "shareAll": "Gesamtrückblick teilen",
+  "pick": {
+    "label": "Jahr wählen",
+    "all": "Alle",
+    "year": "{year}",
+    "prev": "Zurück",
+    "next": "Weiter"
+  },
+  "perMonth": "{amount}/Mon.",
+  "per": {
+    "day": "Tag",
+    "week": "Wo.",
+    "month": "Mon.",
+    "year": "J.",
+    "lifetime": "einmalig",
+    "quarter": "Quartal",
+    "halfYear": "6 Mon.",
+    "twoYears": "2 J.",
+    "n": {
+      "day": "{count} Tage",
+      "week": "{count} Wo.",
+      "month": "{count} Mon.",
+      "year": "{count} J."
+    }
+  },
+  "axis": {
+    "year": "{year}"
+  },
+  "hero": {
+    "label": "Abo-Ausgaben im Jahr",
+    "tip": "Monat {month}\nKumuliert {total}",
+    "tipNow": "Monat {month}, Ausstehende Abbuchungen {pending}\nKumuliert {total}",
+    "avg": "Monatsschnitt",
+    "peak": "Spitzenmonat",
+    "peakAt": "Spitze {when}"
+  },
+  "all": {
+    "label": "Abo-Ausgaben insgesamt",
+    "since": "Seit {date}",
+    "last12": "Letzte 12 Monate",
+    "avg": "Jahresschnitt",
+    "peak": "Spitzenjahr",
+    "subs": "Abos",
+    "detail": "Gesamtübersicht"
+  },
+  "tenure": {
+    "title": "Wie lange Abos laufen",
+    "active": "Aktiv, Ø bisher",
+    "stopped": "Beendet, Ø Laufzeit",
+    "quick": "Schnell gekündigt",
+    "peak": "Höchstens gleichzeitig",
+    "longest": "Am längsten",
+    "count": "Aktive Abos"
+  },
+  "wf": {
+    "vsFrom": "ggü. {amount} Ende Vormonat",
+    "flat": "Unverändert",
+    "title": "Änderungen im {month}",
+    "prev": "Vorheriger Monat",
+    "next": "Nächster Monat",
+    "from": "Letzter Monat",
+    "fx": "Kurse",
+    "added": "Neu",
+    "expansion": "Teurer",
+    "contraction": "Günstiger",
+    "churned": "Beendet",
+    "now": "Jetzt",
+    "monthEnd": "Monatsende",
+    "empty": "Diesen Monat keine neuen, gekündigten oder im Preis geänderten Abos.",
+    "emptyFx": "Diesen Monat keine neuen, gekündigten oder im Preis geänderten Abos – die gesamte Änderung kommt von Wechselkursen ({amount})."
+  },
+  "checkup": {
+    "title": "Check-up",
+    "warn": {
+      "one": "{count} Punkt braucht Aufmerksamkeit",
+      "other": "{count} Punkte brauchen Aufmerksamkeit"
+    },
+    "fix": "Beheben",
+    "less": "Weniger anzeigen",
+    "more": "{count} weitere anzeigen"
+  },
+  "cash": {
+    "title": "Abbuchungen vs. echte Kosten",
+    "legendCash": "Im Monat abgebucht",
+    "legendAccrual": "Kosten pro Monat verteilt",
+    "forecast": "\nPrognose",
+    "tip": "Abgebucht {cash}\nKosten {cost}",
+    "open": "\nDiesen Monat im Kalender öffnen",
+    "openYear": "\nDieses Jahr im Kalender öffnen",
+    "prepaidItem": "{name}\n{amount}\nbis {until}",
+    "prepaid": "Vorausbezahlter Wert",
+    "prepaidSub": "{count} bezahlt, nicht aufgebraucht",
+    "next90": "Fällig in den nächsten 90 Tagen",
+    "fullPaidHint": "Vollständig gezahlter Betrag, einschließlich Auslagen für Mitglieder"
+  },
+  "comp": {
+    "title": "Wohin das Geld geht",
+    "back": "Zurück",
+    "cat": "Kategorie",
+    "pay": "Zahlung",
+    "ccy": "Währung",
+    "cycle": "Zeitraum",
+    "unassigned": "Nicht zugeordnet",
+    "yearly": "Jährlich",
+    "quarterly": "Vierteljährlich / halbjährlich",
+    "monthly": "Monatlich",
+    "groupTip": {
+      "one": "{name}\n{count} Eintrag\n{amount}/Mon.",
+      "other": "{name}\n{count} Einträge\n{amount}/Mon."
+    },
+    "groupTipAll": {
+      "one": "{name}\n{count} Eintrag\n{amount}",
+      "other": "{name}\n{count} Einträge\n{amount}"
+    }
+  },
+  "topup": {
+    "title": "Aufladeplan",
+    "range3": "3 Mon.",
+    "range6": "6 Mon.",
+    "range12": "1 J.",
+    "span3": "Nächste 3 Monate",
+    "span6": "Nächste 6 Monate",
+    "span12": "Nächstes Jahr",
+    "empty": "Noch keine Konten mit Guthaben.",
+    "emptyCta": "App Store- oder Mobilfunkguthaben im Wallet hinzufügen",
+    "summary": "Guthaben {balance}\netwa {monthly}/Mon.",
+    "why": "{span}: {due} fällig, {balance} vorhanden, {need} fehlen",
+    "urgent": "; am dringendsten: mind. {min} bis {date} aufladen",
+    "cards": "Empfohlene Geschenkkarten",
+    "anyAmount": "Beliebigen Betrag aufladen – Kartenwerte müssen nicht passen",
+    "enough3": "Guthaben reicht für die nächsten 3 Monate",
+    "enough6": "Guthaben reicht für die nächsten 6 Monate",
+    "enough12": "Guthaben reicht für das nächste Jahr",
+    "by": "Bis {date}"
+  },
+  "ev": {
+    "start": "Gestartet",
+    "end": "Gekündigt",
+    "price": "Preisänderung",
+    "introEnd": "Einführungsangebot beendet",
+    "buy": "Dauerhaft gekauft",
+    "pause": "Pausiert",
+    "switch": "Region / Tarif gewechselt",
+    "resume": "Fortgesetzt"
+  },
+  "log": {
+    "title": "Änderungsprotokoll",
+    "decisions": {
+      "one": "{count} Entscheidung",
+      "other": "{count} Entscheidungen"
+    },
+    "more": "Ältere Einträge"
+  },
+  "stops": {
+    "title": "Kündigungen & Abschaltungen",
+    "loss": "Nicht erstatteter Verlust",
+    "cancel": "Freiwillig vorzeitig gekündigt"
+  },
+  "year": {
+    "title": "Jahresübersicht",
+    "vsLast": "ggü. Vorjahreszeitraum",
+    "vsPrev": "ggü. Vorjahr",
+    "count": {
+      "one": "{count} Eintrag",
+      "other": "{count} Einträge"
+    },
+    "added": "Neu",
+    "stopped": "Beendet",
+    "up": "Mehr",
+    "down": "Weniger",
+    "carpoolGain": "Geteilte Abos: Gewinn",
+    "carpoolLoss": "Geteilte Abos: Verlust",
+    "carpoolEven": "Geteilte Abos: ausgeglichen",
+    "carpoolNet": "Geteilte Abos: Saldo",
+    "proxyGain": "Für andere: Gewinn",
+    "proxyLoss": "Für andere: Verlust",
+    "proxyEven": "Für andere: ausgeglichen",
+    "proxyNet": "Für andere: Saldo",
+    "empty": "Gleich wie im Vorjahreszeitraum."
+  },
+  "daily": {
+    "title": "Tag für Tag",
+    "flat": "Raster",
+    "bars": "3D"
+  },
+  "region": {
+    "title": "Abo-Regionen"
+  },
+  "flow": {
+    "title": "Geldfluss",
+    "showPercent": "Prozente anzeigen",
+    "showAmount": "Beträge anzeigen"
+  },
+  "profile": {
+    "title": "Ausgabenmix",
+    "recent": "Letzte 12 Monate",
+    "before": "Vorherige 12 Monate"
+  }
+}

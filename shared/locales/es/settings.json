@@ -1,0 +1,519 @@
+{
+  "title": "Ajustes",
+  "days": {
+    "one": "{count} día",
+    "other": "{count} días"
+  },
+  "logout": "Cerrar sesión",
+  "toast": {
+    "saved": "Guardado",
+    "deleted": "Eliminado",
+    "csvEmpty": "Este CSV no tiene suscripciones para importar",
+    "badBackup": "No es un archivo de copia de seguridad válido"
+  },
+  "general": {
+    "title": "General",
+    "language": "Idioma",
+    "followSystem": "Predeterminado del sistema",
+    "name": "Nombre",
+    "namePlaceholder": "Se muestra en las imágenes compartidas y en la página pública",
+    "avatar": "Avatar",
+    "avatarDefault": "Icono predeterminado",
+    "startPage": "Abrir en",
+    "startPageAria": "Página de inicio",
+    "baseCurrency": "Moneda base",
+    "signedAmounts": "Signos de ingresos y gastos",
+    "gainColor": "Colores de ganancia/pérdida",
+    "gainGreen": "Verde ganancia, rojo pérdida",
+    "gainRed": "Rojo ganancia, verde pérdida",
+    "timezone": "Zona horaria",
+    "weekStart": "La semana empieza el",
+    "weekStartAria": "Primer día de la semana",
+    "monday": "Lunes",
+    "sunday": "Domingo",
+    "telemetry": "Estadísticas de uso anónimas",
+    "telemetryForcedOff": "Desactivadas en esta instalación",
+    "telemetryNote": "Solo se cuentan el uso y la versión. Nunca se recopilan tus suscripciones, importes ni datos del registro."
+  },
+  "sidebar": {
+    "thisMonth": "Este mes",
+    "dragFoot": "Arrastra los controles para reordenar; la barra lateral sigue este orden.",
+    "title": "Barra lateral",
+    "upcoming": "Próximos cobros",
+    "lookAhead": "Anticipación",
+    "lookAheadAria": "Periodo de próximos cobros"
+  },
+  "remind": {
+    "title": "Recordatorios",
+    "lead": "Recordarme",
+    "sameDay": "El mismo día",
+    "never": "Nunca",
+    "hour": "Enviar a las",
+    "monthly": "Avance mensual el día 1",
+    "test": "Enviar un recordatorio de prueba a todos los canales",
+    "testFailed": "No se pudo enviar",
+    "channelError": "{channel}: {error}",
+    "errorSep": "; ",
+    "testSent": "Recordatorio de prueba enviado",
+    "preview": "Vista previa de los recordatorios de hoy",
+    "log": "Registro de envíos"
+  },
+  "today": {
+    "recent": "Envíos recientes",
+    "title": "Hoy ({day})",
+    "items": {
+      "one": "{count} elemento",
+      "other": "{count} elementos"
+    }
+  },
+  "books": {
+    "title": "Contabilidad",
+    "defaultMethod": "Método de pago predeterminado",
+    "unassigned": {
+      "one": "{count} suscripción no tiene método de pago",
+      "other": "{count} suscripciones no tienen método de pago"
+    },
+    "assignAllDone": {
+      "one": "Se asignó el método de pago predeterminado a {count} suscripción",
+      "other": "Se asignó el método de pago predeterminado a {count} suscripciones"
+    },
+    "assignAll": "Usar el predeterminado en todas",
+    "collectCurrency": "Moneda de los planes compartidos"
+  },
+  "fx": {
+    "title": "Tipos de cambio",
+    "current": "Tipo actual",
+    "updatedAt": "Actualizado {time}",
+    "updated": "Tipos de cambio actualizados",
+    "history": "Tipos históricos",
+    "earliest": "Desde {date}",
+    "coverage": {
+      "one": "{covered} / {count} día",
+      "other": "{covered} / {count} días"
+    },
+    "fill": "Completar los tipos que faltan",
+    "historyUpdated": "Tipos históricos actualizados"
+  },
+  "open": {
+    "publicSubs": "Suscripciones visibles",
+    "publicSubsHint": "Las suscripciones pagadas por otros no se publican. Las nuevas son públicas por defecto.",
+    "publicShown": "Visibles\n{count}",
+    "publicOff2": "Ocultas\n{count}",
+    "publicShowAll": "Mostrar todas",
+    "publicHideAll": "Ocultar todas",
+    "publicHideOne": "Ocultar {name}",
+    "publicShowOne": "Mostrar {name}",
+    "publicNone": "No se muestra nada: la página pública estará vacía",
+    "title": "Compartir y acceso",
+    "ics": "Suscribirse en el calendario del sistema",
+    "on": "Activado",
+    "off": "Desactivado",
+    "public": "Página pública",
+    "publicOn": "La página pública está activada",
+    "publicOff": "La página pública está desactivada",
+    "publicTitle": "Título de la página",
+    "previewPublic": "Vista previa de la página pública",
+    "ai": "Acceso de IA (MCP)",
+    "aiOn": "El acceso de IA está activado",
+    "aiOff": "El acceso de IA está desactivado. Los asistentes de IA ya no pueden conectarse.",
+    "manageAi": "Gestionar tokens y configuración"
+  },
+  "data": {
+    "title": "Datos",
+    "importCsv": "Importar datos",
+    "restore": "Restaurar desde copia de seguridad",
+    "exportCsv": "Exportar CSV",
+    "backup": "Exportar copia de seguridad completa"
+  },
+  "restore": {
+    "cancel": "Cancelar",
+    "replace": "Reemplazar el registro actual",
+    "done": "Restaurado",
+    "warning": "Tu registro actual se reemplazará por completo con la copia de seguridad. No se puede deshacer; te recomendamos exportar antes una copia.",
+    "subs": "Suscripciones",
+    "methods": "Métodos de pago",
+    "count": {
+      "one": "{count}",
+      "other": "{count}"
+    },
+    "time": "Copia realizada",
+    "format": "Formato",
+    "legacy": "Copia antigua: solo suscripciones y métodos de pago",
+    "unlock": "Desbloquear",
+    "wrongPassphrase": "Frase incorrecta"
+  },
+  "import": {
+    "title": {
+      "one": "Importar {count} suscripción",
+      "other": "Importar {count} suscripciones"
+    },
+    "confirmReplace": "Al reemplazar se borrarán todas las suscripciones y métodos de pago existentes. ¿Continuar?",
+    "replaceDone": "Importado (reemplazado)",
+    "replaceAll": "Reemplazar todo",
+    "mergeDone": "Importado (combinado)",
+    "merge": "Añadir a lo existente",
+    "newMethods": "Se crearán nuevos métodos de pago: {names}",
+    "sep": ", ",
+    "history": "Solo se estiman cobros desde la importación. No se reconstruye el historial anterior.",
+    "owner": "Cuenta en la copia",
+    "choose": "Elegir…",
+    "independent": "Las suscripciones con el mismo nombre se mantienen separadas.",
+    "include": "Incluir",
+    "every": "Cada",
+    "next": "Próximo pago",
+    "paused": "Se importa en pausa; revisa antes de reanudar.",
+    "reading": "Leyendo archivo…",
+    "formats": "CSV, copia ZIP o base SQLite"
+  },
+  "channels": {
+    "title": {
+      "one": "Canales de notificación\n{count} activo",
+      "other": "Canales de notificación\n{count} activos"
+    },
+    "empty": "Aún no hay canales: no se enviarán recordatorios.",
+    "test": "Probar",
+    "testFailed": "No se pudo enviar",
+    "testSent": "Mensaje de prueba enviado",
+    "add": "Añadir canal",
+    "addKind": "Añadir {name}",
+    "delete": "Eliminar",
+    "save": "Guardar",
+    "fillField": "Introduce {field}",
+    "name": "Nombre",
+    "optional": "Opcional",
+    "enabled": "Activado",
+    "field": {
+      "to": "Dirección de correo",
+      "webhook": "URL del webhook",
+      "server": "Servidor",
+      "token": "Token de acceso"
+    },
+    "kind": {
+      "email": {
+        "name": "Correo electrónico",
+        "help": "Se envía con Cloudflare Email Sending; tu dominio debe estar verificado en Cloudflare"
+      },
+      "telegram": {
+        "chatIdPlaceholder": "Tu ID de usuario o de grupo",
+        "help": "Crea un bot con @BotFather para obtener un token. Envía primero un mensaje a tu bot y luego usa @userinfobot para saber tu ID"
+      },
+      "lark": {
+        "name": "Lark (Feishu)",
+        "secret": "Secreto de firma",
+        "secretPlaceholder": "Obligatorio si la verificación de firma está activada",
+        "help": "Ajustes del grupo → Bots → Añadir bot personalizado"
+      },
+      "dingtalk": {
+        "name": "DingTalk",
+        "secret": "Secreto de firma",
+        "secretPlaceholder": "SEC…, obligatorio si la firma está activada",
+        "help": "Ajustes del grupo → Bots → Bot personalizado"
+      },
+      "wecom": {
+        "name": "WeCom",
+        "help": "Chat de grupo → Añadir bot de grupo"
+      },
+      "bark": {
+        "keyPlaceholder": "Clave copiada de la app",
+        "help": "Notificaciones push en iPhone: busca Bark en el App Store"
+      },
+      "ntfy": {
+        "topicPlaceholder": "Elige un nombre difícil de adivinar",
+        "help": "Instala la app ntfy en tu teléfono y suscríbete al mismo tema"
+      },
+      "serverchan": {
+        "name": "ServerChan",
+        "keyPlaceholder": "SCT… o sctp…",
+        "help": "Notificaciones en WeChat (ServerChan Turbo / ³)"
+      },
+      "discord": {
+        "help": "Ajustes del canal → Integraciones → Webhooks"
+      },
+      "webhook": {
+        "name": "Webhook personalizado",
+        "header": "Encabezado adicional",
+        "help": "POST JSON: subject, intro, sections, text, markdown, url"
+      }
+    }
+  },
+  "security": {
+    "title": "Seguridad",
+    "unknownBrowser": "Navegador desconocido",
+    "ago": {
+      "justNow": "Activo ahora mismo",
+      "minutes": {
+        "one": "Hace {count} minuto",
+        "other": "Hace {count} minutos"
+      },
+      "hours": {
+        "one": "Hace {count} hora",
+        "other": "Hace {count} horas"
+      },
+      "days": {
+        "one": "Hace {count} día",
+        "other": "Hace {count} días"
+      }
+    },
+    "thisDevice": "Este dispositivo",
+    "signedInPasskey": "Inició sesión con llave de acceso: {time}",
+    "signedInPassword": "Inició sesión con contraseña: {time}",
+    "revoke": "Cerrar sesión",
+    "revoked": "Sesión cerrada",
+    "lastUsed": "Último uso: {time}",
+    "addedAt": "Añadida: {time}",
+    "remove": "Quitar",
+    "rename": "Cambiar nombre",
+    "removed": "Quitada",
+    "addPasskey": "Añadir llave de acceso",
+    "alreadyBound": "Este dispositivo ya tiene una llave de acceso",
+    "changePassword": "Cambiar contraseña",
+    "devices": "Dispositivos con sesión iniciada",
+    "devicesCount": {
+      "one": "Dispositivos con sesión iniciada\n{count}",
+      "other": "Dispositivos con sesión iniciada\n{count}"
+    },
+    "maxSessions": "Máximo de dispositivos con sesión",
+    "maxSessionsSaved": {
+      "one": "Hasta {count} dispositivo",
+      "other": "Hasta {count} dispositivos"
+    },
+    "deviceCount": {
+      "one": "{count} dispositivo",
+      "other": "{count} dispositivos"
+    },
+    "confirmLogoutOthers": "¿Cerrar sesión en todos los demás dispositivos?",
+    "loggedOutOthers": "Sesión cerrada en los demás dispositivos",
+    "logoutOthers": "Cerrar sesión en los demás dispositivos",
+    "passwordChanged": "Contraseña cambiada. Se cerró la sesión en los demás dispositivos.",
+    "save": "Guardar",
+    "mismatch": "Las contraseñas no coinciden",
+    "passwordFoot": "Mínimo 8 caracteres. Al cambiarla se cierra la sesión en todos los dispositivos excepto en este.",
+    "currentPassword": "Contraseña actual",
+    "newPassword": "Nueva contraseña",
+    "confirmPassword": "Confirmar nueva contraseña"
+  },
+  "cat": {
+    "title": "Categorías",
+    "manage": "Gestionar categorías",
+    "count": {
+      "one": "{count} categoría",
+      "other": "{count} categorías"
+    },
+    "subs": {
+      "one": "{count} suscripción",
+      "other": "{count} suscripciones"
+    },
+    "unused": "Sin uso",
+    "foot": "Arrastra para reordenar. Al cambiar el nombre se actualizan todas las suscripciones de la categoría.",
+    "add": "Nueva categoría",
+    "edit": "Editar categoría",
+    "name": "Nombre",
+    "namePlaceholder": "Nombre de la categoría",
+    "color": "Color",
+    "icon": "Icono",
+    "search": "Buscar iconos",
+    "noMatch": "Ningún icono coincide",
+    "delete": "Eliminar categoría",
+    "moveTo": {
+      "one": "Mover su {count} suscripción a",
+      "other": "Mover sus {count} suscripciones a"
+    },
+    "dragHandle": "Arrastra para reordenar",
+    "toast": {
+      "created": "Categoría añadida",
+      "saved": "Categoría guardada",
+      "renamed": {
+        "one": "Categoría guardada\n{count} suscripción actualizada",
+        "other": "Categoría guardada\n{count} suscripciones actualizadas"
+      },
+      "deleted": "Categoría eliminada",
+      "order": "Orden guardado"
+    },
+    "error": {
+      "empty": "Escribe un nombre",
+      "duplicate": "Ya existe una categoría llamada «{name}»"
+    },
+    "group": {
+      "common": "Frecuentes",
+      "tech": "Tecnología",
+      "media": "Entretenimiento",
+      "work": "Trabajo",
+      "money": "Compras y dinero",
+      "life": "Hogar y vida",
+      "food": "Comida y bebida",
+      "health": "Salud y deporte",
+      "travel": "Viajes",
+      "people": "Personas y estudio"
+    }
+  },
+  "publicPage": {
+    "title": "Editar página pública",
+    "access": "Acceso público",
+    "back": "Volver a ajustes",
+    "reset": "Restaurar valores",
+    "leave": "Hay cambios sin guardar. ¿Salir de todos modos?",
+    "leaveOk": "Salir",
+    "head": "Encabezado",
+    "browserTitle": "Título del navegador",
+    "avatarFollow": "Usar el avatar global",
+    "avatarLinkHint": "Los navegadores de los visitantes solicitan esta dirección directamente, así que su servidor puede ver su IP.",
+    "bio": "Texto",
+    "bioPlaceholder": "Aparece bajo el título. Conserva los saltos de línea; no se traduce.",
+    "sections": "Secciones",
+    "remove": "Quitar",
+    "emptyCard": "Aún no hay datos. Los visitantes no verán esta tarjeta.",
+    "editTab": "Ajustes",
+    "previewTab": "Vista previa",
+    "desktop": "Escritorio",
+    "phone": "Móvil",
+    "library": {
+      "metrics": "Números",
+      "charts": "Gráficos",
+      "lists": "Listas y tiempo",
+      "bottom": "Final de la página"
+    },
+    "hintDrag": "Arrastra un componente a la página o haz clic para añadirlo al final.",
+    "hintTap": "Toca para añadirlo al final de la página.",
+    "backToLibrary": "Volver a los componentes",
+    "headHint": "Haz clic en el título, el texto o el avatar de la página para editarlos. Haz clic en el botón de tema para ocultarlo o mostrarlo.",
+    "autoSnap": "Ajuste automático",
+    "freePlace": "Colocación libre",
+    "themeButton": "Botón de tema",
+    "themeHide": "Ocultar botón de tema",
+    "themeShow": "Mostrar botón de tema (oculto para visitantes)",
+    "metricCard": "Tarjeta de métrica",
+    "template": "Estilo",
+    "metricData": "Datos mostrados",
+    "addMetric": "Añadir otro valor",
+    "widget": {
+      "stats": {
+        "name": "Resumen",
+        "desc": "Gasto mensual y cifras clave"
+      },
+      "number": {
+        "name": "Número",
+        "desc": "Un número en tamaño grande"
+      },
+      "trend": {
+        "name": "Tendencia",
+        "desc": "Un número con minigráfico"
+      },
+      "compare": {
+        "name": "Comparar",
+        "desc": "Frente al mismo periodo del año pasado"
+      },
+      "share": {
+        "name": "Proporción",
+        "desc": "Proporción del gasto mensual"
+      },
+      "rows": {
+        "name": "Filas",
+        "desc": "Hasta 4 números juntos"
+      },
+      "chart": {
+        "name": "Gráfico de barras",
+        "desc": "Cobros mensuales y tendencia del gasto"
+      },
+      "composition": {
+        "name": "Composición",
+        "desc": "Gasto por categoría"
+      },
+      "treemap": {
+        "name": "Mapa de árbol",
+        "desc": "El área muestra cuánto gastas"
+      },
+      "waterfall": {
+        "name": "Cambio mensual",
+        "desc": "Qué se añadió, subió o canceló"
+      },
+      "fx": {
+        "name": "Divisas",
+        "desc": "Peso de cada divisa y variación de tipos"
+      },
+      "timeline": {
+        "name": "Cronología",
+        "desc": "Cobros día a día"
+      },
+      "calendar": {
+        "name": "Calendario",
+        "desc": "Qué días se cobra"
+      },
+      "years": {
+        "name": "Cronología de suscripciones",
+        "desc": "Cuándo estuvo activa cada suscripción"
+      },
+      "list": {
+        "name": "Lista de suscripciones",
+        "desc": "Todo lo que está en uso"
+      },
+      "tenure": {
+        "name": "Tiempo suscrito",
+        "desc": "Promedio y suscripción más longeva"
+      },
+      "changes": {
+        "name": "Cambios",
+        "desc": "Altas, cambios de precio y bajas"
+      },
+      "ended": {
+        "name": "Canceladas",
+        "desc": "Qué se canceló y su precio"
+      },
+      "lifetime": {
+        "name": "Pago único",
+        "desc": "Compras de pago único"
+      },
+      "footer": {
+        "name": "Pie de página",
+        "desc": "Nombre del proyecto y versión"
+      },
+      "pile": {
+        "name": "Montón de iconos",
+        "desc": "Iconos que caen al final de la página"
+      },
+      "globe": {
+        "name": "Globo",
+        "desc": "Regiones de las suscripciones activas"
+      }
+    }
+  },
+  "update": {
+    "current": "Versión",
+    "available": "Actualización disponible",
+    "check": "Buscar actualizaciones",
+    "failed": "No se pudo comprobar",
+    "upToDate": "Última",
+    "title": "Actualizar a v{version}",
+    "copy": "Copiar comando",
+    "copied": "Comando copiado",
+    "guide": "Guía de actualización",
+    "notes": "Notas de la versión"
+  },
+  "autobackup": {
+    "title": "Copia automática",
+    "off": "Desactivada",
+    "failed": "Copia fallida",
+    "last": "Última copia",
+    "never": "Aún no hay copias",
+    "runNow": "Copiar ahora",
+    "storage": "Almacenamiento",
+    "kind": "Copiar en",
+    "endpoint": "Endpoint",
+    "bucket": "Bucket",
+    "folder": "Carpeta",
+    "kept": "Guardado",
+    "encryption": "Cifrado",
+    "passphrase": "Frase de contraseña",
+    "confirm": "Confirmar frase",
+    "mismatch": "Las frases no coinciden",
+    "keep": "Conservar",
+    "copies": {
+      "one": "copia",
+      "other": "copias"
+    },
+    "save": "Guardar",
+    "switchTo": "Cambiar a {kind}",
+    "remove": "Quitar",
+    "removed": "Copia automática quitada",
+    "done": "Copia hecha"
+  }
+}
